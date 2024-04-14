@@ -1,0 +1,16 @@
+openai 
+langchain
+langchain-openai
+docarray
+pydantic==1.10.8
+
+langchain_pinecone
+langchain[docarray]
+
+pydantic==1.10.8
+pytube 
+python-dotenv
+tiktoken 
+pinecone-client 
+scikit-learn
+ruff

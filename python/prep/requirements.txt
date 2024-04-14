@@ -1,0 +1,10 @@
+openai
+panadas
+matplotlib
+plotly
+python-dotenv
+scipy
+scikit-learn
+tiktoken
+google-api-python-client
+youtube-transcript-api 

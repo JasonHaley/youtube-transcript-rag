@@ -1,0 +1,7452 @@
+[
+    {
+        "text": "I'll share my screen and let me know if",
+        "start": 2.159,
+        "duration": 4.441
+    },
+    {
+        "text": "you can see it okay",
+        "start": 4.38,
+        "duration": 5.3
+    },
+    {
+        "text": "yeah I can see it",
+        "start": 6.6,
+        "duration": 3.08
+    },
+    {
+        "text": "um which one are you seeing",
+        "start": 10.5,
+        "duration": 5.94
+    },
+    {
+        "text": "I'm seeing you on the left and Olympia",
+        "start": 13.559,
+        "duration": 4.501
+    },
+    {
+        "text": "on the right",
+        "start": 16.44,
+        "duration": 5.82
+    },
+    {
+        "text": "so let me let me share my screen because",
+        "start": 18.06,
+        "duration": 7.08
+    },
+    {
+        "text": "I think that I'm having issues with that",
+        "start": 22.26,
+        "duration": 5.48
+    },
+    {
+        "text": "hold on",
+        "start": 25.14,
+        "duration": 2.6
+    },
+    {
+        "text": "permissions just to set it",
+        "start": 38.3,
+        "duration": 5.8
+    },
+    {
+        "text": "setting is flagging me",
+        "start": 41.64,
+        "duration": 4.2
+    },
+    {
+        "text": "to share",
+        "start": 44.1,
+        "duration": 3.959
+    },
+    {
+        "text": "hold on",
+        "start": 45.84,
+        "duration": 5.12
+    },
+    {
+        "text": "privacy",
+        "start": 48.059,
+        "duration": 2.901
+    },
+    {
+        "text": "sorry I didn't test that",
+        "start": 52.62,
+        "duration": 3.56
+    },
+    {
+        "text": "my mistake",
+        "start": 56.399,
+        "duration": 2.901
+    },
+    {
+        "text": "well a third person came up that was an",
+        "start": 73.68,
+        "duration": 3.13
+    },
+    {
+        "text": "l",
+        "start": 75.96,
+        "duration": 4.05
+    },
+    {
+        "text": "[Music]",
+        "start": 76.81,
+        "duration": 3.2
+    },
+    {
+        "text": "okay there we go there you go rock and",
+        "start": 84.479,
+        "duration": 4.941
+    },
+    {
+        "text": "roll",
+        "start": 87.299,
+        "duration": 2.121
+    },
+    {
+        "text": "your mic is cutting out now",
+        "start": 91.74,
+        "duration": 6.78
+    },
+    {
+        "text": "sorry I left there you go okay so it's",
+        "start": 95.4,
+        "duration": 5.219
+    },
+    {
+        "text": "nice to be here with you I am not going",
+        "start": 98.52,
+        "duration": 4.8
+    },
+    {
+        "text": "to delay it a little more so today we'll",
+        "start": 100.619,
+        "duration": 5.161
+    },
+    {
+        "text": "discuss a little bit about Azure devops",
+        "start": 103.32,
+        "duration": 5.82
+    },
+    {
+        "text": "for CI CD pipelines with Azure SQL I'm",
+        "start": 105.78,
+        "duration": 6.96
+    },
+    {
+        "text": "Carlos Lopez I'm cloud data engineer uh",
+        "start": 109.14,
+        "duration": 6.9
+    },
+    {
+        "text": "I'm Microsoft MBP data platforms so",
+        "start": 112.74,
+        "duration": 6.18
+    },
+    {
+        "text": "that's my credentials",
+        "start": 116.04,
+        "duration": 5.82
+    },
+    {
+        "text": "um this is me this is my site this is a",
+        "start": 118.92,
+        "duration": 6.239
+    },
+    {
+        "text": "little bit of uh me so I'm a blogger",
+        "start": 121.86,
+        "duration": 5.579
+    },
+    {
+        "text": "speaker a local community leader so for",
+        "start": 125.159,
+        "duration": 5.041
+    },
+    {
+        "text": "Guatemala so we chat a little bit about",
+        "start": 127.439,
+        "duration": 6.001
+    },
+    {
+        "text": "that you can find me later if you want",
+        "start": 130.2,
+        "duration": 6.78
+    },
+    {
+        "text": "we can discuss whatever you you you have",
+        "start": 133.44,
+        "duration": 5.159
+    },
+    {
+        "text": "if you have any questions please let me",
+        "start": 136.98,
+        "duration": 4.82
+    },
+    {
+        "text": "know ah I'm happy to answer so for today",
+        "start": 138.599,
+        "duration": 5.64
+    },
+    {
+        "text": "uh we can discuss a little bit about",
+        "start": 141.8,
+        "duration": 5.14
+    },
+    {
+        "text": "devops the perspective",
+        "start": 144.239,
+        "duration": 7.021
+    },
+    {
+        "text": "uh we will focus on the plan the develop",
+        "start": 146.94,
+        "duration": 7.799
+    },
+    {
+        "text": "deliver and operate but mostly on the",
+        "start": 151.26,
+        "duration": 7.26
+    },
+    {
+        "text": "develop and deliver faces because uh for",
+        "start": 154.739,
+        "duration": 8.941
+    },
+    {
+        "text": "us at data Engineers we focus more into",
+        "start": 158.52,
+        "duration": 9.06
+    },
+    {
+        "text": "Data so that's on the develop the script",
+        "start": 163.68,
+        "duration": 6.72
+    },
+    {
+        "text": "part and the deliver to infrastructures",
+        "start": 167.58,
+        "duration": 7.14
+    },
+    {
+        "text": "code for example so basically that's my",
+        "start": 170.4,
+        "duration": 7.88
+    },
+    {
+        "text": "main concerns for this uh",
+        "start": 174.72,
+        "duration": 7.32
+    },
+    {
+        "text": "for today so the other uh for the",
+        "start": 178.28,
+        "duration": 5.92
+    },
+    {
+        "text": "developed phases and the liver faces we",
+        "start": 182.04,
+        "duration": 5.64
+    },
+    {
+        "text": "will discuss it in a little bit of demo",
+        "start": 184.2,
+        "duration": 7.86
+    },
+    {
+        "text": "about describing the scenario of the",
+        "start": 187.68,
+        "duration": 6.02
+    },
+    {
+        "text": "devops for",
+        "start": 192.06,
+        "duration": 6.179
+    },
+    {
+        "text": "us as Azure SQL Engineers because what",
+        "start": 193.7,
+        "duration": 7.959
+    },
+    {
+        "text": "we'll work is for with Azure SQL right",
+        "start": 198.239,
+        "duration": 6.541
+    },
+    {
+        "text": "so let's talk a little bit of devil",
+        "start": 201.659,
+        "duration": 6.781
+    },
+    {
+        "text": "devops like a cycle for data that's not",
+        "start": 204.78,
+        "duration": 6.06
+    },
+    {
+        "text": "for data this is the classical Loop so",
+        "start": 208.44,
+        "duration": 5.519
+    },
+    {
+        "text": "this is for everyone so when we see the",
+        "start": 210.84,
+        "duration": 6.3
+    },
+    {
+        "text": "classical Loop we see devops cycle we",
+        "start": 213.959,
+        "duration": 5.101
+    },
+    {
+        "text": "think cicd process",
+        "start": 217.14,
+        "duration": 5.459
+    },
+    {
+        "text": "so right away something we already have",
+        "start": 219.06,
+        "duration": 6.84
+    },
+    {
+        "text": "we we take for granted that this is",
+        "start": 222.599,
+        "duration": 6.241
+    },
+    {
+        "text": "something cultural as well that is",
+        "start": 225.9,
+        "duration": 5.94
+    },
+    {
+        "text": "requiring to in our company so basically",
+        "start": 228.84,
+        "duration": 5.22
+    },
+    {
+        "text": "we this is cultural this is",
+        "start": 231.84,
+        "duration": 4.5
+    },
+    {
+        "text": "infrastructure this is this is software",
+        "start": 234.06,
+        "duration": 3.92
+    },
+    {
+        "text": "that that",
+        "start": 236.34,
+        "duration": 6.179
+    },
+    {
+        "text": "involves the company but uh we have to",
+        "start": 237.98,
+        "duration": 7.3
+    },
+    {
+        "text": "be uh",
+        "start": 242.519,
+        "duration": 5.761
+    },
+    {
+        "text": "with the understanding that we uh This",
+        "start": 245.28,
+        "duration": 7.5
+    },
+    {
+        "text": "concerns us all and for example we need",
+        "start": 248.28,
+        "duration": 8.16
+    },
+    {
+        "text": "to know uh for us",
+        "start": 252.78,
+        "duration": 7.739
+    },
+    {
+        "text": "a little bit of agile yeah",
+        "start": 256.44,
+        "duration": 7.08
+    },
+    {
+        "text": "um developer developing faces we need to",
+        "start": 260.519,
+        "duration": 6.421
+    },
+    {
+        "text": "use know about user stories uh to do",
+        "start": 263.52,
+        "duration": 7.86
+    },
+    {
+        "text": "categorization for example uh to do for",
+        "start": 266.94,
+        "duration": 6.3
+    },
+    {
+        "text": "for example we need to know a little bit",
+        "start": 271.38,
+        "duration": 5.78
+    },
+    {
+        "text": "of uh scrum uh",
+        "start": 273.24,
+        "duration": 6.72
+    },
+    {
+        "text": "estimation to do the story points for",
+        "start": 277.16,
+        "duration": 5.979
+    },
+    {
+        "text": "example for Fibonacci to to to",
+        "start": 279.96,
+        "duration": 6.799
+    },
+    {
+        "text": "uh to Mark the story points for example",
+        "start": 283.139,
+        "duration": 7.861
+    },
+    {
+        "text": "uh so basically that's not us to be like",
+        "start": 286.759,
+        "duration": 8.321
+    },
+    {
+        "text": "a scrum Master but we need to know so",
+        "start": 291.0,
+        "duration": 6.72
+    },
+    {
+        "text": "that's that's why I I put the the",
+        "start": 295.08,
+        "duration": 6.72
+    },
+    {
+        "text": "classical loop as part of uh us all so",
+        "start": 297.72,
+        "duration": 6.78
+    },
+    {
+        "text": "as being part of it we need to know the",
+        "start": 301.8,
+        "duration": 5.16
+    },
+    {
+        "text": "the Sprint planning the daily the",
+        "start": 304.5,
+        "duration": 4.68
+    },
+    {
+        "text": "standout the Sprint review and Sprint",
+        "start": 306.96,
+        "duration": 4.44
+    },
+    {
+        "text": "retrospective uh we need we need to be",
+        "start": 309.18,
+        "duration": 4.98
+    },
+    {
+        "text": "there in in all the process so for us to",
+        "start": 311.4,
+        "duration": 7.28
+    },
+    {
+        "text": "as data Engineers changing our our",
+        "start": 314.16,
+        "duration": 7.5
+    },
+    {
+        "text": "uh from Idol for example I come from",
+        "start": 318.68,
+        "duration": 6.459
+    },
+    {
+        "text": "from from knowing Idol changing to to",
+        "start": 321.66,
+        "duration": 6.24
+    },
+    {
+        "text": "devops that's a different culture so and",
+        "start": 325.139,
+        "duration": 7.741
+    },
+    {
+        "text": "how to uh Embrace that uh as the SQL",
+        "start": 327.9,
+        "duration": 7.739
+    },
+    {
+        "text": "developers but in we're not just SQL",
+        "start": 332.88,
+        "duration": 6.84
+    },
+    {
+        "text": "developers we have to do to be a DBA as",
+        "start": 335.639,
+        "duration": 7.981
+    },
+    {
+        "text": "well so everything is here but uh the",
+        "start": 339.72,
+        "duration": 6.0
+    },
+    {
+        "text": "the scope has been changed so the",
+        "start": 343.62,
+        "duration": 4.68
+    },
+    {
+        "text": "environment has changed so that is why",
+        "start": 345.72,
+        "duration": 7.44
+    },
+    {
+        "text": "this is important mentioning that uh the",
+        "start": 348.3,
+        "duration": 9.839
+    },
+    {
+        "text": "classical the the devops is um then we",
+        "start": 353.16,
+        "duration": 6.84
+    },
+    {
+        "text": "we have to understand the culture",
+        "start": 358.139,
+        "duration": 5.461
+    },
+    {
+        "text": "because it changes from how to",
+        "start": 360.0,
+        "duration": 6.02
+    },
+    {
+        "text": "to",
+        "start": 363.6,
+        "duration": 2.42
+    },
+    {
+        "text": "integrate and how to deliver right so",
+        "start": 366.259,
+        "duration": 6.701
+    },
+    {
+        "text": "basically that's uh that's what I wanted",
+        "start": 369.539,
+        "duration": 6.66
+    },
+    {
+        "text": "to show you with this picture and now if",
+        "start": 372.96,
+        "duration": 4.98
+    },
+    {
+        "text": "you see the difference I'm just going to",
+        "start": 376.199,
+        "duration": 3.84
+    },
+    {
+        "text": "return a little bit the difference is uh",
+        "start": 377.94,
+        "duration": 4.44
+    },
+    {
+        "text": "the loop changes uh this is the",
+        "start": 380.039,
+        "duration": 4.981
+    },
+    {
+        "text": "classical look for for for the books but",
+        "start": 382.38,
+        "duration": 6.659
+    },
+    {
+        "text": "this is how Azure devops cycle it is for",
+        "start": 385.02,
+        "duration": 5.64
+    },
+    {
+        "text": "for the product",
+        "start": 389.039,
+        "duration": 4.981
+    },
+    {
+        "text": "for the product we have uh four phases",
+        "start": 390.66,
+        "duration": 5.52
+    },
+    {
+        "text": "we have plan we have developed deliver",
+        "start": 394.02,
+        "duration": 4.92
+    },
+    {
+        "text": "and operate this is how how it works for",
+        "start": 396.18,
+        "duration": 6.72
+    },
+    {
+        "text": "for the design uh Azure devops cycle",
+        "start": 398.94,
+        "duration": 6.24
+    },
+    {
+        "text": "not that it's different but it's just uh",
+        "start": 402.9,
+        "duration": 5.16
+    },
+    {
+        "text": "the culture for for the Microsoft uh",
+        "start": 405.18,
+        "duration": 5.459
+    },
+    {
+        "text": "tool right for the infrastructure to",
+        "start": 408.06,
+        "duration": 6.3
+    },
+    {
+        "text": "work how the philosophy of the the tool",
+        "start": 410.639,
+        "duration": 5.701
+    },
+    {
+        "text": "works so",
+        "start": 414.36,
+        "duration": 6.0
+    },
+    {
+        "text": "and it provides a variety of services so",
+        "start": 416.34,
+        "duration": 6.419
+    },
+    {
+        "text": "that they can plan and we can work we",
+        "start": 420.36,
+        "duration": 6.059
+    },
+    {
+        "text": "can collaborate and we can code as a",
+        "start": 422.759,
+        "duration": 6.901
+    },
+    {
+        "text": "team right to build and deploy software",
+        "start": 426.419,
+        "duration": 5.461
+    },
+    {
+        "text": "and services that that's the main idea",
+        "start": 429.66,
+        "duration": 5.879
+    },
+    {
+        "text": "to develop and deploy Services right so",
+        "start": 431.88,
+        "duration": 7.319
+    },
+    {
+        "text": "most of the devops teams rely on several",
+        "start": 435.539,
+        "duration": 6.901
+    },
+    {
+        "text": "tools and build custom tool chains for",
+        "start": 439.199,
+        "duration": 6.421
+    },
+    {
+        "text": "each face and application life cycles so",
+        "start": 442.44,
+        "duration": 6.18
+    },
+    {
+        "text": "when we look at devops classical Loop we",
+        "start": 445.62,
+        "duration": 6.0
+    },
+    {
+        "text": "that we see before the diagram we",
+        "start": 448.62,
+        "duration": 5.94
+    },
+    {
+        "text": "imagine now that we are analyzing the",
+        "start": 451.62,
+        "duration": 6.12
+    },
+    {
+        "text": "devops uh followed by Microsoft the the",
+        "start": 454.56,
+        "duration": 5.88
+    },
+    {
+        "text": "product so a",
+        "start": 457.74,
+        "duration": 5.88
+    },
+    {
+        "text": "we will focus as I mentioned earlier",
+        "start": 460.44,
+        "duration": 5.28
+    },
+    {
+        "text": "that in the develop and deliver phases",
+        "start": 463.62,
+        "duration": 3.78
+    },
+    {
+        "text": "because that is where the the",
+        "start": 465.72,
+        "duration": 3.72
+    },
+    {
+        "text": "construction of the infrastructure as",
+        "start": 467.4,
+        "duration": 4.5
+    },
+    {
+        "text": "code that we will see to con to build",
+        "start": 469.44,
+        "duration": 5.34
+    },
+    {
+        "text": "the SQL server or the the server itself",
+        "start": 471.9,
+        "duration": 6.48
+    },
+    {
+        "text": "will uh will we will focus on that so",
+        "start": 474.78,
+        "duration": 6.359
+    },
+    {
+        "text": "basically that's that in that phases so",
+        "start": 478.38,
+        "duration": 5.7
+    },
+    {
+        "text": "that is just to to let you know that",
+        "start": 481.139,
+        "duration": 7.021
+    },
+    {
+        "text": "that is the the diagram so",
+        "start": 484.08,
+        "duration": 7.8
+    },
+    {
+        "text": "I'm not going to school you on on epics",
+        "start": 488.16,
+        "duration": 5.879
+    },
+    {
+        "text": "and user stories and all but this is",
+        "start": 491.88,
+        "duration": 6.3
+    },
+    {
+        "text": "like the the the the flow from the that",
+        "start": 494.039,
+        "duration": 7.681
+    },
+    {
+        "text": "we are used to uh to go from devops",
+        "start": 498.18,
+        "duration": 7.32
+    },
+    {
+        "text": "right from scrums using an epic and",
+        "start": 501.72,
+        "duration": 6.84
+    },
+    {
+        "text": "feature user stories and tasks issuing",
+        "start": 505.5,
+        "duration": 7.62
+    },
+    {
+        "text": "books uh for example uh and tasks but uh",
+        "start": 508.56,
+        "duration": 6.779
+    },
+    {
+        "text": "this is just to mention because in Azure",
+        "start": 513.12,
+        "duration": 4.74
+    },
+    {
+        "text": "devops you can do everything on that so",
+        "start": 515.339,
+        "duration": 4.44
+    },
+    {
+        "text": "basically that's just mentioning because",
+        "start": 517.86,
+        "duration": 6.119
+    },
+    {
+        "text": "that is part of the the tooling right so",
+        "start": 519.779,
+        "duration": 7.62
+    },
+    {
+        "text": "we are going to go to configuring the",
+        "start": 523.979,
+        "duration": 6.841
+    },
+    {
+        "text": "Azure devops itself so right now we will",
+        "start": 527.399,
+        "duration": 6.721
+    },
+    {
+        "text": "discuss a little bit about the agents in",
+        "start": 530.82,
+        "duration": 4.56
+    },
+    {
+        "text": "the Pipelines",
+        "start": 534.12,
+        "duration": 3.899
+    },
+    {
+        "text": "and the tool itself",
+        "start": 535.38,
+        "duration": 4.5
+    },
+    {
+        "text": "has um",
+        "start": 538.019,
+        "duration": 4.38
+    },
+    {
+        "text": "uh this um",
+        "start": 539.88,
+        "duration": 6.48
+    },
+    {
+        "text": "uh machines because they're they're if",
+        "start": 542.399,
+        "duration": 5.761
+    },
+    {
+        "text": "you see it like uh there are virtual",
+        "start": 546.36,
+        "duration": 5.28
+    },
+    {
+        "text": "machines that lets you run your your",
+        "start": 548.16,
+        "duration": 7.679
+    },
+    {
+        "text": "your agent which is the connection to",
+        "start": 551.64,
+        "duration": 8.04
+    },
+    {
+        "text": "the pipeline software that lets you to",
+        "start": 555.839,
+        "duration": 7.141
+    },
+    {
+        "text": "do whatever task you are asking them to",
+        "start": 559.68,
+        "duration": 6.12
+    },
+    {
+        "text": "do that's basically the agent so you",
+        "start": 562.98,
+        "duration": 6.299
+    },
+    {
+        "text": "have two two ways to do it you have uh",
+        "start": 565.8,
+        "duration": 6.96
+    },
+    {
+        "text": "Microsoft self-hosted agent uh I'm sorry",
+        "start": 569.279,
+        "duration": 6.421
+    },
+    {
+        "text": "a Microsoft hosted agent which runs in",
+        "start": 572.76,
+        "duration": 7.68
+    },
+    {
+        "text": "the Azure platform that's paid and you",
+        "start": 575.7,
+        "duration": 6.96
+    },
+    {
+        "text": "have this self-hosted agent",
+        "start": 580.44,
+        "duration": 5.519
+    },
+    {
+        "text": "that is uh that can be whatever machine",
+        "start": 582.66,
+        "duration": 6.66
+    },
+    {
+        "text": "you have on your on your house or or",
+        "start": 585.959,
+        "duration": 6.961
+    },
+    {
+        "text": "whatever you it it can be your laptop we",
+        "start": 589.32,
+        "duration": 6.54
+    },
+    {
+        "text": "will see it in I can show you that I'm",
+        "start": 592.92,
+        "duration": 4.979
+    },
+    {
+        "text": "already running a self-hosted agent just",
+        "start": 595.86,
+        "duration": 4.74
+    },
+    {
+        "text": "to to let you know it so you can see",
+        "start": 597.899,
+        "duration": 5.341
+    },
+    {
+        "text": "what it is and how it looks like",
+        "start": 600.6,
+        "duration": 5.52
+    },
+    {
+        "text": "so you can choose it from whatever you",
+        "start": 603.24,
+        "duration": 5.0
+    },
+    {
+        "text": "like Linux",
+        "start": 606.12,
+        "duration": 6.6
+    },
+    {
+        "text": "Windows Mac OS myself I'm running Mac OS",
+        "start": 608.24,
+        "duration": 8.08
+    },
+    {
+        "text": "so whatever you choose is fine so the",
+        "start": 612.72,
+        "duration": 5.4
+    },
+    {
+        "text": "only thing that it does is that it",
+        "start": 616.32,
+        "duration": 6.42
+    },
+    {
+        "text": "connects to the Azure devops and to your",
+        "start": 618.12,
+        "duration": 8.88
+    },
+    {
+        "text": "account and allows them to know what is",
+        "start": 622.74,
+        "duration": 6.599
+    },
+    {
+        "text": "the machine that is uh connecting to the",
+        "start": 627.0,
+        "duration": 4.019
+    },
+    {
+        "text": "service that is running so that's",
+        "start": 629.339,
+        "duration": 4.62
+    },
+    {
+        "text": "everything that it does and it is a pull",
+        "start": 631.019,
+        "duration": 5.721
+    },
+    {
+        "text": "uh a service that is continually running",
+        "start": 633.959,
+        "duration": 5.041
+    },
+    {
+        "text": "and as long as you keep the connection",
+        "start": 636.74,
+        "duration": 5.32
+    },
+    {
+        "text": "alive or the virtual machine alive it",
+        "start": 639.0,
+        "duration": 8.6
+    },
+    {
+        "text": "will run your pipeline so it is made to",
+        "start": 642.06,
+        "duration": 10.2
+    },
+    {
+        "text": "for you for to you to run your Pipelines",
+        "start": 647.6,
+        "duration": 7.479
+    },
+    {
+        "text": "so that's their purpose and here it is",
+        "start": 652.26,
+        "duration": 5.34
+    },
+    {
+        "text": "where you choose it and how do you and",
+        "start": 655.079,
+        "duration": 5.161
+    },
+    {
+        "text": "what you choose on it",
+        "start": 657.6,
+        "duration": 5.4
+    },
+    {
+        "text": "so here are some expects specs for the",
+        "start": 660.24,
+        "duration": 5.4
+    },
+    {
+        "text": "self-hosted agents this is the the",
+        "start": 663.0,
+        "duration": 5.579
+    },
+    {
+        "text": "images that you have uh these are the",
+        "start": 665.64,
+        "duration": 5.759
+    },
+    {
+        "text": "yaml files that you can VM images that",
+        "start": 668.579,
+        "duration": 5.661
+    },
+    {
+        "text": "you can choose from uh these are the",
+        "start": 671.399,
+        "duration": 6.901
+    },
+    {
+        "text": "specs and as you can see there are I I",
+        "start": 674.24,
+        "duration": 6.159
+    },
+    {
+        "text": "took this like eight months or something",
+        "start": 678.3,
+        "duration": 5.039
+    },
+    {
+        "text": "like that so that's a little bit old but",
+        "start": 680.399,
+        "duration": 5.341
+    },
+    {
+        "text": "you can choose whatever you like that",
+        "start": 683.339,
+        "duration": 5.521
+    },
+    {
+        "text": "are different OS versioning so that's",
+        "start": 685.74,
+        "duration": 5.039
+    },
+    {
+        "text": "good for you",
+        "start": 688.86,
+        "duration": 2.7
+    },
+    {
+        "text": "um",
+        "start": 690.779,
+        "duration": 4.881
+    },
+    {
+        "text": "so uh continuing on self-hosted agents",
+        "start": 691.56,
+        "duration": 7.74
+    },
+    {
+        "text": "the process is really simple",
+        "start": 695.66,
+        "duration": 7.359
+    },
+    {
+        "text": "you have to create a path which is",
+        "start": 699.3,
+        "duration": 6.659
+    },
+    {
+        "text": "personal access token where you can you",
+        "start": 703.019,
+        "duration": 4.26
+    },
+    {
+        "text": "have to",
+        "start": 705.959,
+        "duration": 5.221
+    },
+    {
+        "text": "um create a new token and then you will",
+        "start": 707.279,
+        "duration": 7.68
+    },
+    {
+        "text": "be asked we will you will have a URL uh",
+        "start": 711.18,
+        "duration": 6.839
+    },
+    {
+        "text": "in in a well I'm sorry you will generate",
+        "start": 714.959,
+        "duration": 5.94
+    },
+    {
+        "text": "a token that you will copy and you will",
+        "start": 718.019,
+        "duration": 5.161
+    },
+    {
+        "text": "be asked to put it when you are running",
+        "start": 720.899,
+        "duration": 6.06
+    },
+    {
+        "text": "your bash or your or your terminal all",
+        "start": 723.18,
+        "duration": 4.86
+    },
+    {
+        "text": "your",
+        "start": 726.959,
+        "duration": 3.541
+    },
+    {
+        "text": "Powershell",
+        "start": 728.04,
+        "duration": 5.34
+    },
+    {
+        "text": "um terminal and you will be asked to be",
+        "start": 730.5,
+        "duration": 6.48
+    },
+    {
+        "text": "to put the place the token so when you",
+        "start": 733.38,
+        "duration": 8.16
+    },
+    {
+        "text": "put your user account URL and the token",
+        "start": 736.98,
+        "duration": 7.7
+    },
+    {
+        "text": "you will activate your software and and",
+        "start": 741.54,
+        "duration": 5.64
+    },
+    {
+        "text": "this is the portal and you will see if",
+        "start": 744.68,
+        "duration": 5.5
+    },
+    {
+        "text": "it active like that like this",
+        "start": 747.18,
+        "duration": 6.48
+    },
+    {
+        "text": "so that is what I was saying this is",
+        "start": 750.18,
+        "duration": 5.399
+    },
+    {
+        "text": "your organization this is the name this",
+        "start": 753.66,
+        "duration": 4.44
+    },
+    {
+        "text": "is the how you configured if you wanted",
+        "start": 755.579,
+        "duration": 7.44
+    },
+    {
+        "text": "you you want that path token expires how",
+        "start": 758.1,
+        "duration": 8.1
+    },
+    {
+        "text": "many times you you want to to get them",
+        "start": 763.019,
+        "duration": 5.951
+    },
+    {
+        "text": "to live uh which",
+        "start": 766.2,
+        "duration": 2.939
+    },
+    {
+        "text": "[Music]",
+        "start": 768.97,
+        "duration": 1.429
+    },
+    {
+        "text": "um",
+        "start": 769.139,
+        "duration": 3.661
+    },
+    {
+        "text": "what what is the access roles that you",
+        "start": 770.399,
+        "duration": 4.44
+    },
+    {
+        "text": "want to give them the to the scope that",
+        "start": 772.8,
+        "duration": 6.659
+    },
+    {
+        "text": "you want to give to the to your path and",
+        "start": 774.839,
+        "duration": 7.68
+    },
+    {
+        "text": "then when that is created that uh token",
+        "start": 779.459,
+        "duration": 7.021
+    },
+    {
+        "text": "you you will generate that uh that",
+        "start": 782.519,
+        "duration": 6.481
+    },
+    {
+        "text": "script so with that you you can paste it",
+        "start": 786.48,
+        "duration": 5.46
+    },
+    {
+        "text": "right now so basically that's when you",
+        "start": 789.0,
+        "duration": 6.54
+    },
+    {
+        "text": "uh put your your login credentials you",
+        "start": 791.94,
+        "duration": 6.36
+    },
+    {
+        "text": "you will ask your token and then you can",
+        "start": 795.54,
+        "duration": 5.46
+    },
+    {
+        "text": "run it and then it will connect to the",
+        "start": 798.3,
+        "duration": 6.9
+    },
+    {
+        "text": "server and it will run so that I I took",
+        "start": 801.0,
+        "duration": 6.42
+    },
+    {
+        "text": "the liberty to take a little bit of time",
+        "start": 805.2,
+        "duration": 5.819
+    },
+    {
+        "text": "to explain you about this because that I",
+        "start": 807.42,
+        "duration": 6.539
+    },
+    {
+        "text": "think it's a good option for you if you",
+        "start": 811.019,
+        "duration": 5.581
+    },
+    {
+        "text": "are trying to test Azure devops for the",
+        "start": 813.959,
+        "duration": 5.521
+    },
+    {
+        "text": "first time so you can run self-hosted",
+        "start": 816.6,
+        "duration": 6.06
+    },
+    {
+        "text": "agent and so you are not",
+        "start": 819.48,
+        "duration": 8.4
+    },
+    {
+        "text": "um build with the uh hosted Agents from",
+        "start": 822.66,
+        "duration": 8.76
+    },
+    {
+        "text": "the Azure so that's a good notice on",
+        "start": 827.88,
+        "duration": 6.66
+    },
+    {
+        "text": "that so you can test that so basically",
+        "start": 831.42,
+        "duration": 5.94
+    },
+    {
+        "text": "that's how how it looks like and you you",
+        "start": 834.54,
+        "duration": 5.64
+    },
+    {
+        "text": "will see your your agent run running",
+        "start": 837.36,
+        "duration": 7.14
+    },
+    {
+        "text": "there okay so I don't know if there is",
+        "start": 840.18,
+        "duration": 6.3
+    },
+    {
+        "text": "if there are any questions please let me",
+        "start": 844.5,
+        "duration": 5.339
+    },
+    {
+        "text": "know or I can answer so they cannot I",
+        "start": 846.48,
+        "duration": 6.539
+    },
+    {
+        "text": "I'm not I don't have any issues if if",
+        "start": 849.839,
+        "duration": 4.921
+    },
+    {
+        "text": "there are",
+        "start": 853.019,
+        "duration": 6.361
+    },
+    {
+        "text": "so uh I'm sorry I jump a little bit so",
+        "start": 854.76,
+        "duration": 7.44
+    },
+    {
+        "text": "now we will overview uh the the",
+        "start": 859.38,
+        "duration": 4.5
+    },
+    {
+        "text": "Pipelines",
+        "start": 862.2,
+        "duration": 5.16
+    },
+    {
+        "text": "what they are and and what are their",
+        "start": 863.88,
+        "duration": 7.399
+    },
+    {
+        "text": "benefits right against uh the different",
+        "start": 867.36,
+        "duration": 7.62
+    },
+    {
+        "text": "we are talking about pipelines as part",
+        "start": 871.279,
+        "duration": 6.401
+    },
+    {
+        "text": "of the CI CD right because this is the",
+        "start": 874.98,
+        "duration": 4.919
+    },
+    {
+        "text": "process that uh this is this is the",
+        "start": 877.68,
+        "duration": 6.0
+    },
+    {
+        "text": "software that allows you to control the",
+        "start": 879.899,
+        "duration": 7.261
+    },
+    {
+        "text": "delivering the the shipping and the",
+        "start": 883.68,
+        "duration": 7.86
+    },
+    {
+        "text": "delivering uh faces so basically what",
+        "start": 887.16,
+        "duration": 6.119
+    },
+    {
+        "text": "you do is",
+        "start": 891.54,
+        "duration": 4.26
+    },
+    {
+        "text": "um you're changing methodologies right",
+        "start": 893.279,
+        "duration": 4.86
+    },
+    {
+        "text": "so you're changing the ways that you do",
+        "start": 895.8,
+        "duration": 5.039
+    },
+    {
+        "text": "your software so with that the overview",
+        "start": 898.139,
+        "duration": 6.361
+    },
+    {
+        "text": "of this is that uh the platform and the",
+        "start": 900.839,
+        "duration": 6.421
+    },
+    {
+        "text": "language are independent so with that is",
+        "start": 904.5,
+        "duration": 5.16
+    },
+    {
+        "text": "this is a plus because you are not",
+        "start": 907.26,
+        "duration": 5.04
+    },
+    {
+        "text": "language dependent or in",
+        "start": 909.66,
+        "duration": 6.239
+    },
+    {
+        "text": "interoperability you have different type",
+        "start": 912.3,
+        "duration": 6.0
+    },
+    {
+        "text": "of repositories you you can integrate it",
+        "start": 915.899,
+        "duration": 4.56
+    },
+    {
+        "text": "with different software that there is in",
+        "start": 918.3,
+        "duration": 5.52
+    },
+    {
+        "text": "the market with the the biggest one the",
+        "start": 920.459,
+        "duration": 7.38
+    },
+    {
+        "text": "name it jit GitHub or whatever you you",
+        "start": 923.82,
+        "duration": 6.42
+    },
+    {
+        "text": "like there is so basically",
+        "start": 927.839,
+        "duration": 5.521
+    },
+    {
+        "text": "um that's that's a good and the platform",
+        "start": 930.24,
+        "duration": 6.12
+    },
+    {
+        "text": "and language independent which means you",
+        "start": 933.36,
+        "duration": 5.76
+    },
+    {
+        "text": "can build code on every platform using",
+        "start": 936.36,
+        "duration": 5.46
+    },
+    {
+        "text": "Code based on what you want on your",
+        "start": 939.12,
+        "duration": 4.98
+    },
+    {
+        "text": "needs right on on the environment that",
+        "start": 941.82,
+        "duration": 3.18
+    },
+    {
+        "text": "you are",
+        "start": 944.1,
+        "duration": 3.12
+    },
+    {
+        "text": "it can be integrated with different",
+        "start": 945.0,
+        "duration": 5.399
+    },
+    {
+        "text": "repositories as I told you before uh",
+        "start": 947.22,
+        "duration": 6.419
+    },
+    {
+        "text": "report like GitHub uh Enterprise beat",
+        "start": 950.399,
+        "duration": 5.88
+    },
+    {
+        "text": "bucket and so on",
+        "start": 953.639,
+        "duration": 5.341
+    },
+    {
+        "text": "uh you have a lot of lots of extensions",
+        "start": 956.279,
+        "duration": 5.281
+    },
+    {
+        "text": "standards and Community Driven standards",
+        "start": 958.98,
+        "duration": 5.039
+    },
+    {
+        "text": "so they're available for you to build",
+        "start": 961.56,
+        "duration": 5.7
+    },
+    {
+        "text": "your code handling custom tasks so",
+        "start": 964.019,
+        "duration": 6.601
+    },
+    {
+        "text": "that's good and allows you to deploy",
+        "start": 967.26,
+        "duration": 5.579
+    },
+    {
+        "text": "your code into different Cloud vendors",
+        "start": 970.62,
+        "duration": 3.42
+    },
+    {
+        "text": "that's",
+        "start": 972.839,
+        "duration": 3.481
+    },
+    {
+        "text": "something good as well because not all",
+        "start": 974.04,
+        "duration": 4.979
+    },
+    {
+        "text": "we we think that everything is on",
+        "start": 976.32,
+        "duration": 5.22
+    },
+    {
+        "text": "Microsoft but there is not it allows you",
+        "start": 979.019,
+        "duration": 4.5
+    },
+    {
+        "text": "to connect to the different Cloud",
+        "start": 981.54,
+        "duration": 5.64
+    },
+    {
+        "text": "vendors but at the end uh you have to",
+        "start": 983.519,
+        "duration": 8.401
+    },
+    {
+        "text": "have your Azure devops so license so",
+        "start": 987.18,
+        "duration": 8.64
+    },
+    {
+        "text": "so there is a little bit of uh well you",
+        "start": 991.92,
+        "duration": 6.96
+    },
+    {
+        "text": "are part of the Azure devops and you you",
+        "start": 995.82,
+        "duration": 6.3
+    },
+    {
+        "text": "this is more if you want to integrate",
+        "start": 998.88,
+        "duration": 7.019
+    },
+    {
+        "text": "with other uh Cloud solutions that you",
+        "start": 1002.12,
+        "duration": 6.06
+    },
+    {
+        "text": "need to communicate so that's a good",
+        "start": 1005.899,
+        "duration": 5.221
+    },
+    {
+        "text": "solution to integrate clouds right not",
+        "start": 1008.18,
+        "duration": 3.899
+    },
+    {
+        "text": "just",
+        "start": 1011.12,
+        "duration": 3.24
+    },
+    {
+        "text": "the the Azure known",
+        "start": 1012.079,
+        "duration": 4.861
+    },
+    {
+        "text": "uh you can work with containerized",
+        "start": 1014.36,
+        "duration": 5.539
+    },
+    {
+        "text": "applications such as Docker you can",
+        "start": 1016.94,
+        "duration": 6.18
+    },
+    {
+        "text": "use all the the Azure infrastructure",
+        "start": 1019.899,
+        "duration": 5.92
+    },
+    {
+        "text": "with Azure container registry or",
+        "start": 1023.12,
+        "duration": 5.52
+    },
+    {
+        "text": "kubernetes if you like so basically",
+        "start": 1025.819,
+        "duration": 4.201
+    },
+    {
+        "text": "that's",
+        "start": 1028.64,
+        "duration": 2.0
+    },
+    {
+        "text": "um",
+        "start": 1030.02,
+        "duration": 5.1
+    },
+    {
+        "text": "integrating you a lot of solutions to to",
+        "start": 1030.64,
+        "duration": 7.419
+    },
+    {
+        "text": "deliver right so it allows you to to",
+        "start": 1035.12,
+        "duration": 4.679
+    },
+    {
+        "text": "create a lot",
+        "start": 1038.059,
+        "duration": 3.961
+    },
+    {
+        "text": "for infrastructure I mean",
+        "start": 1039.799,
+        "duration": 5.4
+    },
+    {
+        "text": "so let's return a little bit to",
+        "start": 1042.02,
+        "duration": 6.659
+    },
+    {
+        "text": "databases so",
+        "start": 1045.199,
+        "duration": 9.121
+    },
+    {
+        "text": "we talked that we needed to create code",
+        "start": 1048.679,
+        "duration": 7.86
+    },
+    {
+        "text": "now we're that we're not seeing that",
+        "start": 1054.32,
+        "duration": 3.84
+    },
+    {
+        "text": "databases as",
+        "start": 1056.539,
+        "duration": 4.681
+    },
+    {
+        "text": "as hard objects we are saying more like",
+        "start": 1058.16,
+        "duration": 6.48
+    },
+    {
+        "text": "the code of the databases so the assets",
+        "start": 1061.22,
+        "duration": 5.16
+    },
+    {
+        "text": "is the code",
+        "start": 1064.64,
+        "duration": 4.44
+    },
+    {
+        "text": "so in this um",
+        "start": 1066.38,
+        "duration": 5.7
+    },
+    {
+        "text": "in this methodology if you if you will",
+        "start": 1069.08,
+        "duration": 6.3
+    },
+    {
+        "text": "we think we need to think that we need",
+        "start": 1072.08,
+        "duration": 7.62
+    },
+    {
+        "text": "to uh be very careful with all the code",
+        "start": 1075.38,
+        "duration": 6.799
+    },
+    {
+        "text": "and the versioning because it is",
+        "start": 1079.7,
+        "duration": 4.5
+    },
+    {
+        "text": "delivering fast",
+        "start": 1082.179,
+        "duration": 6.641
+    },
+    {
+        "text": "but well but uh we have to control what",
+        "start": 1084.2,
+        "duration": 7.979
+    },
+    {
+        "text": "we have so basically this is the objects",
+        "start": 1088.82,
+        "duration": 5.82
+    },
+    {
+        "text": "to check on the database and why we have",
+        "start": 1092.179,
+        "duration": 5.161
+    },
+    {
+        "text": "to be very careful with the with this is",
+        "start": 1094.64,
+        "duration": 5.88
+    },
+    {
+        "text": "because of the the versioning because",
+        "start": 1097.34,
+        "duration": 6.12
+    },
+    {
+        "text": "every time we ship and deliver we are",
+        "start": 1100.52,
+        "duration": 5.159
+    },
+    {
+        "text": "every time that we are doing pushing",
+        "start": 1103.46,
+        "duration": 4.56
+    },
+    {
+        "text": "requests we are creating new versioning",
+        "start": 1105.679,
+        "duration": 5.941
+    },
+    {
+        "text": "we are creating every time that we",
+        "start": 1108.02,
+        "duration": 4.2
+    },
+    {
+        "text": "um",
+        "start": 1111.62,
+        "duration": 3.48
+    },
+    {
+        "text": "integrate and create new versioning of",
+        "start": 1112.22,
+        "duration": 5.4
+    },
+    {
+        "text": "the stabilizing applications we are",
+        "start": 1115.1,
+        "duration": 4.92
+    },
+    {
+        "text": "changing the database as well as part of",
+        "start": 1117.62,
+        "duration": 5.76
+    },
+    {
+        "text": "the objects so right now we have to",
+        "start": 1120.02,
+        "duration": 7.98
+    },
+    {
+        "text": "think of how we have to think that the",
+        "start": 1123.38,
+        "duration": 6.48
+    },
+    {
+        "text": "scripts are the most important things",
+        "start": 1128.0,
+        "duration": 4.5
+    },
+    {
+        "text": "that uh that database have",
+        "start": 1129.86,
+        "duration": 5.16
+    },
+    {
+        "text": "I know that the data is important but",
+        "start": 1132.5,
+        "duration": 5.64
+    },
+    {
+        "text": "the problem is that we're seeing uh not",
+        "start": 1135.02,
+        "duration": 5.519
+    },
+    {
+        "text": "the problem we are in this scope we're",
+        "start": 1138.14,
+        "duration": 5.88
+    },
+    {
+        "text": "seeing the database for migrations uh",
+        "start": 1140.539,
+        "duration": 5.461
+    },
+    {
+        "text": "and for migration",
+        "start": 1144.02,
+        "duration": 2.64
+    },
+    {
+        "text": "um",
+        "start": 1146.0,
+        "duration": 4.02
+    },
+    {
+        "text": "methodology so in the migration when you",
+        "start": 1146.66,
+        "duration": 6.48
+    },
+    {
+        "text": "are migrating a database you are always",
+        "start": 1150.02,
+        "duration": 7.26
+    },
+    {
+        "text": "doing some changes ddl changes or DML",
+        "start": 1153.14,
+        "duration": 6.96
+    },
+    {
+        "text": "changes to the database so every time",
+        "start": 1157.28,
+        "duration": 5.82
+    },
+    {
+        "text": "that we integrate a new version or doing",
+        "start": 1160.1,
+        "duration": 5.34
+    },
+    {
+        "text": "a PR we're doing something to the",
+        "start": 1163.1,
+        "duration": 3.959
+    },
+    {
+        "text": "database because it will run there",
+        "start": 1165.44,
+        "duration": 4.02
+    },
+    {
+        "text": "unless we you say that we're not going",
+        "start": 1167.059,
+        "duration": 4.801
+    },
+    {
+        "text": "to do it but we need to be very careful",
+        "start": 1169.46,
+        "duration": 5.7
+    },
+    {
+        "text": "that everything is on the latest version",
+        "start": 1171.86,
+        "duration": 6.6
+    },
+    {
+        "text": "so what we need to think is in the all",
+        "start": 1175.16,
+        "duration": 6.019
+    },
+    {
+        "text": "all these objects right list collection",
+        "start": 1178.46,
+        "duration": 6.719
+    },
+    {
+        "text": "data data sorry I I shortened the word",
+        "start": 1181.179,
+        "duration": 6.781
+    },
+    {
+        "text": "data dictionaries",
+        "start": 1185.179,
+        "duration": 6.421
+    },
+    {
+        "text": "ddl for all the definitions if this is",
+        "start": 1187.96,
+        "duration": 5.92
+    },
+    {
+        "text": "the latest version that we have and that",
+        "start": 1191.6,
+        "duration": 5.459
+    },
+    {
+        "text": "doesn't have any bugs in it that doesn't",
+        "start": 1193.88,
+        "duration": 6.9
+    },
+    {
+        "text": "create that we we might create some bugs",
+        "start": 1197.059,
+        "duration": 5.941
+    },
+    {
+        "text": "every time that we create that we create",
+        "start": 1200.78,
+        "duration": 4.32
+    },
+    {
+        "text": "integrate a new version right so we need",
+        "start": 1203.0,
+        "duration": 3.78
+    },
+    {
+        "text": "to be very careful that this is the",
+        "start": 1205.1,
+        "duration": 5.28
+    },
+    {
+        "text": "stable version as well as the DML that",
+        "start": 1206.78,
+        "duration": 7.62
+    },
+    {
+        "text": "creates all the yeah and the definitions",
+        "start": 1210.38,
+        "duration": 7.32
+    },
+    {
+        "text": "that we're introducing so when we're",
+        "start": 1214.4,
+        "duration": 5.639
+    },
+    {
+        "text": "seeing all these objects we're thinking",
+        "start": 1217.7,
+        "duration": 5.28
+    },
+    {
+        "text": "in infrastructure as a code model",
+        "start": 1220.039,
+        "duration": 6.721
+    },
+    {
+        "text": "so that is why we're thinking database",
+        "start": 1222.98,
+        "duration": 6.9
+    },
+    {
+        "text": "into this model and therefore we need a",
+        "start": 1226.76,
+        "duration": 5.22
+    },
+    {
+        "text": "language capable to manage or handle",
+        "start": 1229.88,
+        "duration": 4.28
+    },
+    {
+        "text": "this infrastructure so",
+        "start": 1231.98,
+        "duration": 6.72
+    },
+    {
+        "text": "this is the the database as uh database",
+        "start": 1234.16,
+        "duration": 7.899
+    },
+    {
+        "text": "developer every time that is running the",
+        "start": 1238.7,
+        "duration": 6.839
+    },
+    {
+        "text": "the the life cycle to integrate",
+        "start": 1242.059,
+        "duration": 5.701
+    },
+    {
+        "text": "something or to push something to the",
+        "start": 1245.539,
+        "duration": 4.861
+    },
+    {
+        "text": "repository for example but what about",
+        "start": 1247.76,
+        "duration": 5.58
+    },
+    {
+        "text": "when we are trying to create new servers",
+        "start": 1250.4,
+        "duration": 6.42
+    },
+    {
+        "text": "when we are trying to create uh to",
+        "start": 1253.34,
+        "duration": 6.42
+    },
+    {
+        "text": "deliver uh create new databases or clone",
+        "start": 1256.82,
+        "duration": 6.3
+    },
+    {
+        "text": "a server so that is when we need another",
+        "start": 1259.76,
+        "duration": 6.659
+    },
+    {
+        "text": "kind of language and that's that can be",
+        "start": 1263.12,
+        "duration": 5.939
+    },
+    {
+        "text": "because it is not the only one we can",
+        "start": 1266.419,
+        "duration": 5.041
+    },
+    {
+        "text": "use yamu and we can create",
+        "start": 1269.059,
+        "duration": 5.101
+    },
+    {
+        "text": "infrastructure as code and we can manage",
+        "start": 1271.46,
+        "duration": 4.68
+    },
+    {
+        "text": "that into our",
+        "start": 1274.16,
+        "duration": 6.54
+    },
+    {
+        "text": "our pipelines so what can we do with it",
+        "start": 1276.14,
+        "duration": 5.82
+    },
+    {
+        "text": "um",
+        "start": 1280.7,
+        "duration": 4.38
+    },
+    {
+        "text": "I think that I I lost you a little bit",
+        "start": 1281.96,
+        "duration": 5.88
+    },
+    {
+        "text": "bit um bear with me with a little bit",
+        "start": 1285.08,
+        "duration": 6.32
+    },
+    {
+        "text": "these are the tools that you can use",
+        "start": 1287.84,
+        "duration": 7.04
+    },
+    {
+        "text": "when when you're trying to",
+        "start": 1291.4,
+        "duration": 6.639
+    },
+    {
+        "text": "uh manage your databases you you can use",
+        "start": 1294.88,
+        "duration": 4.9
+    },
+    {
+        "text": "it everything from Visual Studio code",
+        "start": 1298.039,
+        "duration": 4.26
+    },
+    {
+        "text": "you can use it through Azure data Studio",
+        "start": 1299.78,
+        "duration": 5.519
+    },
+    {
+        "text": "you can use Powershell and to control",
+        "start": 1302.299,
+        "duration": 6.781
+    },
+    {
+        "text": "your Azure uh infrastructure right and",
+        "start": 1305.299,
+        "duration": 6.24
+    },
+    {
+        "text": "for and also you can use it for your",
+        "start": 1309.08,
+        "duration": 5.959
+    },
+    {
+        "text": "logical uh database tasks right",
+        "start": 1311.539,
+        "duration": 6.841
+    },
+    {
+        "text": "for red gay SQL search and SQL prompt to",
+        "start": 1315.039,
+        "duration": 5.5
+    },
+    {
+        "text": "see the differences in in the objects",
+        "start": 1318.38,
+        "duration": 5.039
+    },
+    {
+        "text": "that we were discussing a little bit uh",
+        "start": 1320.539,
+        "duration": 5.64
+    },
+    {
+        "text": "you can use everything right now right",
+        "start": 1323.419,
+        "duration": 5.581
+    },
+    {
+        "text": "here to to see The Logical work for the",
+        "start": 1326.179,
+        "duration": 7.801
+    },
+    {
+        "text": "PVA for the database sorry so",
+        "start": 1329.0,
+        "duration": 4.98
+    },
+    {
+        "text": "um I'm sorry about confusing you with",
+        "start": 1334.159,
+        "duration": 5.701
+    },
+    {
+        "text": "this part of the the yaml I think that",
+        "start": 1337.52,
+        "duration": 5.88
+    },
+    {
+        "text": "we'll see it in a few slides so bear",
+        "start": 1339.86,
+        "duration": 7.199
+    },
+    {
+        "text": "with me there so",
+        "start": 1343.4,
+        "duration": 5.82
+    },
+    {
+        "text": "um again",
+        "start": 1347.059,
+        "duration": 4.341
+    },
+    {
+        "text": "as I was saying",
+        "start": 1349.22,
+        "duration": 5.819
+    },
+    {
+        "text": "uh since you are seeing the database as",
+        "start": 1351.4,
+        "duration": 5.259
+    },
+    {
+        "text": "Scripts",
+        "start": 1355.039,
+        "duration": 4.741
+    },
+    {
+        "text": "that be that can affect the database",
+        "start": 1356.659,
+        "duration": 6.661
+    },
+    {
+        "text": "every time that uh uh pipeline is",
+        "start": 1359.78,
+        "duration": 6.12
+    },
+    {
+        "text": "implemented you have to have best",
+        "start": 1363.32,
+        "duration": 5.7
+    },
+    {
+        "text": "practices to to see what what you have",
+        "start": 1365.9,
+        "duration": 5.519
+    },
+    {
+        "text": "to control so basically your most",
+        "start": 1369.02,
+        "duration": 4.08
+    },
+    {
+        "text": "important task is to control your",
+        "start": 1371.419,
+        "duration": 4.5
+    },
+    {
+        "text": "versioning the code control versioning",
+        "start": 1373.1,
+        "duration": 5.1
+    },
+    {
+        "text": "you have to see the object level history",
+        "start": 1375.919,
+        "duration": 5.76
+    },
+    {
+        "text": "you have to control the inside of that",
+        "start": 1378.2,
+        "duration": 7.14
+    },
+    {
+        "text": "object that how they how they change and",
+        "start": 1381.679,
+        "duration": 6.541
+    },
+    {
+        "text": "to do a code analysis rule to implement",
+        "start": 1385.34,
+        "duration": 5.04
+    },
+    {
+        "text": "code analysis rules for example if",
+        "start": 1388.22,
+        "duration": 5.28
+    },
+    {
+        "text": "you're if you're having uh some team",
+        "start": 1390.38,
+        "duration": 5.46
+    },
+    {
+        "text": "members and and that happens to me this",
+        "start": 1393.5,
+        "duration": 7.02
+    },
+    {
+        "text": "week I I have I have a new SQL Dev",
+        "start": 1395.84,
+        "duration": 5.339
+    },
+    {
+        "text": "um",
+        "start": 1400.52,
+        "duration": 5.88
+    },
+    {
+        "text": "which is a junior Dev so how can I pass",
+        "start": 1401.179,
+        "duration": 10.681
+    },
+    {
+        "text": "all that I I the devs and I have have",
+        "start": 1406.4,
+        "duration": 8.82
+    },
+    {
+        "text": "um already know by because we are in the",
+        "start": 1411.86,
+        "duration": 5.4
+    },
+    {
+        "text": "company for more than one year for",
+        "start": 1415.22,
+        "duration": 4.02
+    },
+    {
+        "text": "example so",
+        "start": 1417.26,
+        "duration": 5.76
+    },
+    {
+        "text": "or we have a document for that but when",
+        "start": 1419.24,
+        "duration": 7.319
+    },
+    {
+        "text": "when you left uh I knew a new SQL Dev",
+        "start": 1423.02,
+        "duration": 6.539
+    },
+    {
+        "text": "alone and you could expect them hey to",
+        "start": 1426.559,
+        "duration": 5.041
+    },
+    {
+        "text": "this store procedure and give it to me",
+        "start": 1429.559,
+        "duration": 4.321
+    },
+    {
+        "text": "in a week when you see this the store",
+        "start": 1431.6,
+        "duration": 4.74
+    },
+    {
+        "text": "procedure he will implement the naming",
+        "start": 1433.88,
+        "duration": 5.7
+    },
+    {
+        "text": "differently because he he thinks",
+        "start": 1436.34,
+        "duration": 6.24
+    },
+    {
+        "text": "differently right so doing a code",
+        "start": 1439.58,
+        "duration": 4.979
+    },
+    {
+        "text": "analysis rules implementing a code",
+        "start": 1442.58,
+        "duration": 4.62
+    },
+    {
+        "text": "analysis rules into your pipeline that's",
+        "start": 1444.559,
+        "duration": 5.421
+    },
+    {
+        "text": "a good idea for example",
+        "start": 1447.2,
+        "duration": 6.479
+    },
+    {
+        "text": "and uh the naming the formatting the the",
+        "start": 1449.98,
+        "duration": 4.86
+    },
+    {
+        "text": "the",
+        "start": 1453.679,
+        "duration": 3.721
+    },
+    {
+        "text": "managing the versioning that's the",
+        "start": 1454.84,
+        "duration": 4.3
+    },
+    {
+        "text": "important thing that you have to do I",
+        "start": 1457.4,
+        "duration": 4.08
+    },
+    {
+        "text": "know that everything that I have uh",
+        "start": 1459.14,
+        "duration": 4.44
+    },
+    {
+        "text": "discussed right now is uh",
+        "start": 1461.48,
+        "duration": 5.64
+    },
+    {
+        "text": "a SQL Dev perspective or a database Dev",
+        "start": 1463.58,
+        "duration": 6.36
+    },
+    {
+        "text": "perspective but that's part of the job",
+        "start": 1467.12,
+        "duration": 5.7
+    },
+    {
+        "text": "right so we need to be sure that that",
+        "start": 1469.94,
+        "duration": 7.26
+    },
+    {
+        "text": "works fine so how can you do it you can",
+        "start": 1472.82,
+        "duration": 7.14
+    },
+    {
+        "text": "use for example I put two examples that",
+        "start": 1477.2,
+        "duration": 5.219
+    },
+    {
+        "text": "I'm trying to use right now I I'm using",
+        "start": 1479.96,
+        "duration": 5.94
+    },
+    {
+        "text": "Flyway Community version to to use the",
+        "start": 1482.419,
+        "duration": 6.301
+    },
+    {
+        "text": "the part of the code control versioning",
+        "start": 1485.9,
+        "duration": 5.519
+    },
+    {
+        "text": "for example or you can use the SQL fluff",
+        "start": 1488.72,
+        "duration": 5.22
+    },
+    {
+        "text": "which is on a personal open source tool",
+        "start": 1491.419,
+        "duration": 6.541
+    },
+    {
+        "text": "to run your code analysis rules that are",
+        "start": 1493.94,
+        "duration": 7.44
+    },
+    {
+        "text": "tools that may help you or assess you",
+        "start": 1497.96,
+        "duration": 8.64
+    },
+    {
+        "text": "while you are using another uh uh while",
+        "start": 1501.38,
+        "duration": 8.4
+    },
+    {
+        "text": "you're doing your daily job so that that",
+        "start": 1506.6,
+        "duration": 6.18
+    },
+    {
+        "text": "may help you so",
+        "start": 1509.78,
+        "duration": 5.519
+    },
+    {
+        "text": "that's just uh",
+        "start": 1512.78,
+        "duration": 6.12
+    },
+    {
+        "text": "uh suggestions so I know that we're",
+        "start": 1515.299,
+        "duration": 6.24
+    },
+    {
+        "text": "discussing a lot of data migrations but",
+        "start": 1518.9,
+        "duration": 4.86
+    },
+    {
+        "text": "this is because",
+        "start": 1521.539,
+        "duration": 4.38
+    },
+    {
+        "text": "um you know that's the one of the",
+        "start": 1523.76,
+        "duration": 4.799
+    },
+    {
+        "text": "approaches that can be done when you are",
+        "start": 1525.919,
+        "duration": 3.601
+    },
+    {
+        "text": "doing",
+        "start": 1528.559,
+        "duration": 3.72
+    },
+    {
+        "text": "when you're doing Azure pipelines that's",
+        "start": 1529.52,
+        "duration": 6.12
+    },
+    {
+        "text": "uh the a possibility or a way to do it",
+        "start": 1532.279,
+        "duration": 5.76
+    },
+    {
+        "text": "so you have to be",
+        "start": 1535.64,
+        "duration": 4.1
+    },
+    {
+        "text": "um at least",
+        "start": 1538.039,
+        "duration": 5.281
+    },
+    {
+        "text": "uh open to to know that this will happen",
+        "start": 1539.74,
+        "duration": 7.539
+    },
+    {
+        "text": "in some time that in some environments",
+        "start": 1543.32,
+        "duration": 6.0
+    },
+    {
+        "text": "they may change to use for example",
+        "start": 1547.279,
+        "duration": 4.461
+    },
+    {
+        "text": "Entity framework which is my case",
+        "start": 1549.32,
+        "duration": 6.5
+    },
+    {
+        "text": "they do everything on uh",
+        "start": 1551.74,
+        "duration": 7.299
+    },
+    {
+        "text": "in.net core and they Implement in in",
+        "start": 1555.82,
+        "duration": 6.58
+    },
+    {
+        "text": "Entity framework to do this shipping to",
+        "start": 1559.039,
+        "duration": 7.26
+    },
+    {
+        "text": "the pr and integrate into the uh Azure",
+        "start": 1562.4,
+        "duration": 5.94
+    },
+    {
+        "text": "devops for example and doing the",
+        "start": 1566.299,
+        "duration": 5.821
+    },
+    {
+        "text": "pipelines the other can be uh Flyway and",
+        "start": 1568.34,
+        "duration": 6.06
+    },
+    {
+        "text": "or you can do use another right now but",
+        "start": 1572.12,
+        "duration": 5.4
+    },
+    {
+        "text": "uh these are just examples or uh what",
+        "start": 1574.4,
+        "duration": 5.519
+    },
+    {
+        "text": "you can do right so what what is the",
+        "start": 1577.52,
+        "duration": 5.24
+    },
+    {
+        "text": "purpose of of this um",
+        "start": 1579.919,
+        "duration": 7.14
+    },
+    {
+        "text": "migrations on how this will be or can be",
+        "start": 1582.76,
+        "duration": 7.84
+    },
+    {
+        "text": "integrated with devops so at the end",
+        "start": 1587.059,
+        "duration": 7.74
+    },
+    {
+        "text": "Azure devops is the complete uh software",
+        "start": 1590.6,
+        "duration": 7.079
+    },
+    {
+        "text": "that allows you to to",
+        "start": 1594.799,
+        "duration": 6.12
+    },
+    {
+        "text": "execute whatever job you you put them",
+        "start": 1597.679,
+        "duration": 6.48
+    },
+    {
+        "text": "but at the end what you are trying to",
+        "start": 1600.919,
+        "duration": 6.721
+    },
+    {
+        "text": "see is that database as as a software",
+        "start": 1604.159,
+        "duration": 5.76
+    },
+    {
+        "text": "and instead of looking your virtual",
+        "start": 1607.64,
+        "duration": 4.74
+    },
+    {
+        "text": "machines uh actual",
+        "start": 1609.919,
+        "duration": 4.801
+    },
+    {
+        "text": "um how do you say this um",
+        "start": 1612.38,
+        "duration": 7.98
+    },
+    {
+        "text": "your um on-prem databases that may",
+        "start": 1614.72,
+        "duration": 9.42
+    },
+    {
+        "text": "change that um scope might change so I'm",
+        "start": 1620.36,
+        "duration": 6.059
+    },
+    {
+        "text": "just giving you a different scenario",
+        "start": 1624.14,
+        "duration": 7.62
+    },
+    {
+        "text": "that can uh imply to a different",
+        "start": 1626.419,
+        "duration": 8.76
+    },
+    {
+        "text": "methodology of using an orm or object",
+        "start": 1631.76,
+        "duration": 6.779
+    },
+    {
+        "text": "relay relay the relationship manager",
+        "start": 1635.179,
+        "duration": 5.941
+    },
+    {
+        "text": "right so I don't know if object",
+        "start": 1638.539,
+        "duration": 5.64
+    },
+    {
+        "text": "relational mapping sorry",
+        "start": 1641.12,
+        "duration": 6.059
+    },
+    {
+        "text": "um so I don't know if if you have a any",
+        "start": 1644.179,
+        "duration": 4.801
+    },
+    {
+        "text": "experience about that I don't know if",
+        "start": 1647.179,
+        "duration": 4.321
+    },
+    {
+        "text": "this is the the idea that you were",
+        "start": 1648.98,
+        "duration": 4.679
+    },
+    {
+        "text": "expecting on this session but I just",
+        "start": 1651.5,
+        "duration": 4.559
+    },
+    {
+        "text": "wanted to let you",
+        "start": 1653.659,
+        "duration": 5.701
+    },
+    {
+        "text": "um a little bit of you know a splash of",
+        "start": 1656.059,
+        "duration": 8.161
+    },
+    {
+        "text": "what can can be done with that so",
+        "start": 1659.36,
+        "duration": 7.62
+    },
+    {
+        "text": "um the deployment scenario now we are",
+        "start": 1664.22,
+        "duration": 5.64
+    },
+    {
+        "text": "returning to the infrastructure scone",
+        "start": 1666.98,
+        "duration": 4.199
+    },
+    {
+        "text": "right now",
+        "start": 1669.86,
+        "duration": 4.38
+    },
+    {
+        "text": "do we we change it from the data",
+        "start": 1671.179,
+        "duration": 5.181
+    },
+    {
+        "text": "definition layer and all the the",
+        "start": 1674.24,
+        "duration": 5.939
+    },
+    {
+        "text": "database code so right now we're uh",
+        "start": 1676.36,
+        "duration": 6.939
+    },
+    {
+        "text": "talking about infrastructures code and",
+        "start": 1680.179,
+        "duration": 5.701
+    },
+    {
+        "text": "thinking in creating the SQL Server",
+        "start": 1683.299,
+        "duration": 6.24
+    },
+    {
+        "text": "itself to the Azure Azure environment",
+        "start": 1685.88,
+        "duration": 6.12
+    },
+    {
+        "text": "you can have it in your repositories for",
+        "start": 1689.539,
+        "duration": 4.861
+    },
+    {
+        "text": "example you can uh",
+        "start": 1692.0,
+        "duration": 6.84
+    },
+    {
+        "text": "push it to the your yaml code which is",
+        "start": 1694.4,
+        "duration": 7.92
+    },
+    {
+        "text": "the language I told you before that is",
+        "start": 1698.84,
+        "duration": 6.839
+    },
+    {
+        "text": "the markup language used for",
+        "start": 1702.32,
+        "duration": 7.08
+    },
+    {
+        "text": "infrastructure as code this is a uh an",
+        "start": 1705.679,
+        "duration": 5.221
+    },
+    {
+        "text": "old uh",
+        "start": 1709.4,
+        "duration": 4.379
+    },
+    {
+        "text": "code but it is used to",
+        "start": 1710.9,
+        "duration": 6.18
+    },
+    {
+        "text": "implement it for the infrastructure as",
+        "start": 1713.779,
+        "duration": 6.9
+    },
+    {
+        "text": "code for declarative implementations",
+        "start": 1717.08,
+        "duration": 4.92
+    },
+    {
+        "text": "and",
+        "start": 1720.679,
+        "duration": 4.38
+    },
+    {
+        "text": "there you can trigger pipelines to",
+        "start": 1722.0,
+        "duration": 8.159
+    },
+    {
+        "text": "execute and deploy your uh Azure sqls or",
+        "start": 1725.059,
+        "duration": 7.62
+    },
+    {
+        "text": "in this case in this case for me Azure",
+        "start": 1730.159,
+        "duration": 4.5
+    },
+    {
+        "text": "sqls but you can Implement whatever you",
+        "start": 1732.679,
+        "duration": 5.88
+    },
+    {
+        "text": "like you can create uh Cosmos DB that's",
+        "start": 1734.659,
+        "duration": 6.601
+    },
+    {
+        "text": "that's the beauty of infrastructure as",
+        "start": 1738.559,
+        "duration": 5.1
+    },
+    {
+        "text": "code you can Implement whatever object",
+        "start": 1741.26,
+        "duration": 4.56
+    },
+    {
+        "text": "you have you you wanted to to build",
+        "start": 1743.659,
+        "duration": 4.201
+    },
+    {
+        "text": "right so for us right now it's that",
+        "start": 1745.82,
+        "duration": 3.56
+    },
+    {
+        "text": "databases",
+        "start": 1747.86,
+        "duration": 5.04
+    },
+    {
+        "text": "rmdbs right so",
+        "start": 1749.38,
+        "duration": 6.82
+    },
+    {
+        "text": "I hope that I I haven't uh lose you",
+        "start": 1752.9,
+        "duration": 5.639
+    },
+    {
+        "text": "there so if you have any questions",
+        "start": 1756.2,
+        "duration": 4.74
+    },
+    {
+        "text": "please let me know",
+        "start": 1758.539,
+        "duration": 5.581
+    },
+    {
+        "text": "this is a pipeline",
+        "start": 1760.94,
+        "duration": 5.7
+    },
+    {
+        "text": "this is yamo",
+        "start": 1764.12,
+        "duration": 4.439
+    },
+    {
+        "text": "and this is",
+        "start": 1766.64,
+        "duration": 5.7
+    },
+    {
+        "text": "um this is the code how you are putting",
+        "start": 1768.559,
+        "duration": 9.061
+    },
+    {
+        "text": "a little bits of code using uh yamo in",
+        "start": 1772.34,
+        "duration": 8.1
+    },
+    {
+        "text": "your pipeline when you are defining your",
+        "start": 1777.62,
+        "duration": 6.84
+    },
+    {
+        "text": "your structure here I'm using a bad",
+        "start": 1780.44,
+        "duration": 5.64
+    },
+    {
+        "text": "reference because I'm putting my",
+        "start": 1784.46,
+        "duration": 3.36
+    },
+    {
+        "text": "subscription here I'm trusting you here",
+        "start": 1786.08,
+        "duration": 3.06
+    },
+    {
+        "text": "so",
+        "start": 1787.82,
+        "duration": 5.579
+    },
+    {
+        "text": "um no worries it was already uh do it",
+        "start": 1789.14,
+        "duration": 6.96
+    },
+    {
+        "text": "doesn't work so no worries",
+        "start": 1793.399,
+        "duration": 5.9
+    },
+    {
+        "text": "um this is the the",
+        "start": 1796.1,
+        "duration": 8.939
+    },
+    {
+        "text": "Asher uh Azure CLI code to uh run your",
+        "start": 1799.299,
+        "duration": 8.86
+    },
+    {
+        "text": "creation for your machines",
+        "start": 1805.039,
+        "duration": 5.701
+    },
+    {
+        "text": "first the first line we will see it a",
+        "start": 1808.159,
+        "duration": 5.341
+    },
+    {
+        "text": "little bit later but first you have to",
+        "start": 1810.74,
+        "duration": 7.5
+    },
+    {
+        "text": "Define your uh Resource Group",
+        "start": 1813.5,
+        "duration": 6.899
+    },
+    {
+        "text": "so this is the line that creates the",
+        "start": 1818.24,
+        "duration": 5.1
+    },
+    {
+        "text": "resource Group this is the line that",
+        "start": 1820.399,
+        "duration": 5.16
+    },
+    {
+        "text": "creates the SQL Server",
+        "start": 1823.34,
+        "duration": 7.62
+    },
+    {
+        "text": "as uh SQL Azure SQL and here is when you",
+        "start": 1825.559,
+        "duration": 10.261
+    },
+    {
+        "text": "create your Azure DB SQL general purpose",
+        "start": 1830.96,
+        "duration": 8.939
+    },
+    {
+        "text": "with license and with uh service object",
+        "start": 1835.82,
+        "duration": 7.26
+    },
+    {
+        "text": "basic with all your capabilities that",
+        "start": 1839.899,
+        "duration": 7.5
+    },
+    {
+        "text": "you allowed it and and I I put the the",
+        "start": 1843.08,
+        "duration": 6.9
+    },
+    {
+        "text": "model as serverless so this is an Azure",
+        "start": 1847.399,
+        "duration": 5.341
+    },
+    {
+        "text": "SQL serverless SQL Server database sorry",
+        "start": 1849.98,
+        "duration": 7.079
+    },
+    {
+        "text": "okay in a in our SQL Server so this is",
+        "start": 1852.74,
+        "duration": 6.9
+    },
+    {
+        "text": "basically uh the yaml structure that you",
+        "start": 1857.059,
+        "duration": 4.801
+    },
+    {
+        "text": "can use and as you can see you can",
+        "start": 1859.64,
+        "duration": 5.22
+    },
+    {
+        "text": "Implement whatever task you like so this",
+        "start": 1861.86,
+        "duration": 5.1
+    },
+    {
+        "text": "is a this is a way to do infrastructure",
+        "start": 1864.86,
+        "duration": 5.819
+    },
+    {
+        "text": "as code to create and a SQL Server",
+        "start": 1866.96,
+        "duration": 7.62
+    },
+    {
+        "text": "so to configure the Azure DB into a",
+        "start": 1870.679,
+        "duration": 5.661
+    },
+    {
+        "text": "pipeline will",
+        "start": 1874.58,
+        "duration": 5.459
+    },
+    {
+        "text": "will try to do this kind of example to",
+        "start": 1876.34,
+        "duration": 7.0
+    },
+    {
+        "text": "develop build and publish the the",
+        "start": 1880.039,
+        "duration": 6.961
+    },
+    {
+        "text": "model to develop the the SQL database",
+        "start": 1883.34,
+        "duration": 5.88
+    },
+    {
+        "text": "right so basically",
+        "start": 1887.0,
+        "duration": 3.48
+    },
+    {
+        "text": "um this is when you are creating",
+        "start": 1889.22,
+        "duration": 4.02
+    },
+    {
+        "text": "something that you have you have your T",
+        "start": 1890.48,
+        "duration": 5.699
+    },
+    {
+        "text": "SQL you put it in your develop faces you",
+        "start": 1893.24,
+        "duration": 5.76
+    },
+    {
+        "text": "you have your DAC pack you build it into",
+        "start": 1896.179,
+        "duration": 5.761
+    },
+    {
+        "text": "your backpack the model if you have",
+        "start": 1899.0,
+        "duration": 7.08
+    },
+    {
+        "text": "your.net core or dotnet Visual Studio",
+        "start": 1901.94,
+        "duration": 6.359
+    },
+    {
+        "text": "you can build it there and you can",
+        "start": 1906.08,
+        "duration": 5.4
+    },
+    {
+        "text": "publish into your into your",
+        "start": 1908.299,
+        "duration": 3.721
+    },
+    {
+        "text": "um",
+        "start": 1911.48,
+        "duration": 3.38
+    },
+    {
+        "text": "environment",
+        "start": 1912.02,
+        "duration": 2.84
+    },
+    {
+        "text": "so basically uh we will do a little bit",
+        "start": 1914.96,
+        "duration": 8.28
+    },
+    {
+        "text": "of workflow to do the the creation of",
+        "start": 1919.399,
+        "duration": 6.361
+    },
+    {
+        "text": "the database into the plate upload the",
+        "start": 1923.24,
+        "duration": 4.74
+    },
+    {
+        "text": "changes to the SQL Server",
+        "start": 1925.76,
+        "duration": 5.279
+    },
+    {
+        "text": "so this is what we'll do",
+        "start": 1927.98,
+        "duration": 5.28
+    },
+    {
+        "text": "and I hope that",
+        "start": 1931.039,
+        "duration": 5.961
+    },
+    {
+        "text": "it works right now so um",
+        "start": 1933.26,
+        "duration": 3.74
+    },
+    {
+        "text": "I know that we're mixing a little bit",
+        "start": 1937.52,
+        "duration": 5.36
+    },
+    {
+        "text": "but since Azure",
+        "start": 1939.98,
+        "duration": 6.299
+    },
+    {
+        "text": "Azure devops has a lot of to offer",
+        "start": 1942.88,
+        "duration": 5.799
+    },
+    {
+        "text": "here are a little",
+        "start": 1946.279,
+        "duration": 3.921
+    },
+    {
+        "text": "um",
+        "start": 1948.679,
+        "duration": 5.521
+    },
+    {
+        "text": "some of samples to do for example code",
+        "start": 1950.2,
+        "duration": 7.44
+    },
+    {
+        "text": "analysis a code and testing and",
+        "start": 1954.2,
+        "duration": 5.94
+    },
+    {
+        "text": "this is some some tools that can help",
+        "start": 1957.64,
+        "duration": 5.38
+    },
+    {
+        "text": "you guidelines for when you're doing",
+        "start": 1960.14,
+        "duration": 6.48
+    },
+    {
+        "text": "some some part of the testing in your in",
+        "start": 1963.02,
+        "duration": 6.3
+    },
+    {
+        "text": "your SQL code in your normal normal SQL",
+        "start": 1966.62,
+        "duration": 6.539
+    },
+    {
+        "text": "code but I hope that this helps you if",
+        "start": 1969.32,
+        "duration": 6.06
+    },
+    {
+        "text": "not you can use Flyway as I mentioned",
+        "start": 1973.159,
+        "duration": 5.581
+    },
+    {
+        "text": "you can use SQL fluff and that's that's",
+        "start": 1975.38,
+        "duration": 7.32
+    },
+    {
+        "text": "another way to do it so uh here I leave",
+        "start": 1978.74,
+        "duration": 8.24
+    },
+    {
+        "text": "the materials to do it here I'll uh",
+        "start": 1982.7,
+        "duration": 4.28
+    },
+    {
+        "text": "this is a really good solution complete",
+        "start": 1987.399,
+        "duration": 6.221
+    },
+    {
+        "text": "solution that he did here uh I recommend",
+        "start": 1990.5,
+        "duration": 5.519
+    },
+    {
+        "text": "this to you for you uh here are some",
+        "start": 1993.62,
+        "duration": 4.919
+    },
+    {
+        "text": "Azure SQL documentation the the front",
+        "start": 1996.019,
+        "duration": 7.081
+    },
+    {
+        "text": "end page and where every concept is uh",
+        "start": 1998.539,
+        "duration": 7.321
+    },
+    {
+        "text": "supported here are the talks related to",
+        "start": 2003.1,
+        "duration": 5.16
+    },
+    {
+        "text": "the pipelines agents the yaml files and",
+        "start": 2005.86,
+        "duration": 4.5
+    },
+    {
+        "text": "the agent posts that we discussed how to",
+        "start": 2008.26,
+        "duration": 4.159
+    },
+    {
+        "text": "integrate it to the GitHub repository",
+        "start": 2010.36,
+        "duration": 6.72
+    },
+    {
+        "text": "and how to continue on the Azure",
+        "start": 2012.419,
+        "duration": 8.5
+    },
+    {
+        "text": "um SQL Ms docs learning path to do the",
+        "start": 2017.08,
+        "duration": 6.42
+    },
+    {
+        "text": "Azure SQL workshop for example that's a",
+        "start": 2020.919,
+        "duration": 5.88
+    },
+    {
+        "text": "really good way to start in your Azure",
+        "start": 2023.5,
+        "duration": 5.58
+    },
+    {
+        "text": "sequels if you if you haven't been able",
+        "start": 2026.799,
+        "duration": 4.201
+    },
+    {
+        "text": "to do",
+        "start": 2029.08,
+        "duration": 4.68
+    },
+    {
+        "text": "um Azure SQL serverless solutions for",
+        "start": 2031.0,
+        "duration": 5.64
+    },
+    {
+        "text": "example uh you can go from scratch and",
+        "start": 2033.76,
+        "duration": 5.58
+    },
+    {
+        "text": "do it everything there so this is the",
+        "start": 2036.64,
+        "duration": 5.879
+    },
+    {
+        "text": "code sample that I did for the for this",
+        "start": 2039.34,
+        "duration": 6.839
+    },
+    {
+        "text": "demo so I leave it in my GitHub so you",
+        "start": 2042.519,
+        "duration": 5.82
+    },
+    {
+        "text": "can if you want to I use it in another",
+        "start": 2046.179,
+        "duration": 4.92
+    },
+    {
+        "text": "session so I leave it the same name of",
+        "start": 2048.339,
+        "duration": 5.76
+    },
+    {
+        "text": "the folder so I can not mess up there so",
+        "start": 2051.099,
+        "duration": 5.58
+    },
+    {
+        "text": "let's go to the demo right now part of",
+        "start": 2054.099,
+        "duration": 4.621
+    },
+    {
+        "text": "the demo sorry because I had an issue",
+        "start": 2056.679,
+        "duration": 4.261
+    },
+    {
+        "text": "with my my credentials",
+        "start": 2058.72,
+        "duration": 3.0
+    },
+    {
+        "text": "um",
+        "start": 2060.94,
+        "duration": 3.719
+    },
+    {
+        "text": "yeah some hours ago I think that someone",
+        "start": 2061.72,
+        "duration": 6.3
+    },
+    {
+        "text": "reject my Recreation so I don't I think",
+        "start": 2064.659,
+        "duration": 5.581
+    },
+    {
+        "text": "that I I'm not going to be able to",
+        "start": 2068.02,
+        "duration": 5.639
+    },
+    {
+        "text": "execute the pipeline itself but I'm",
+        "start": 2070.24,
+        "duration": 6.179
+    },
+    {
+        "text": "going to give you all the roadmap to it",
+        "start": 2073.659,
+        "duration": 4.381
+    },
+    {
+        "text": "so",
+        "start": 2076.419,
+        "duration": 3.601
+    },
+    {
+        "text": "um I don't know if we're are we good",
+        "start": 2078.04,
+        "duration": 4.319
+    },
+    {
+        "text": "with the questions or can I can I",
+        "start": 2080.02,
+        "duration": 4.52
+    },
+    {
+        "text": "continue",
+        "start": 2082.359,
+        "duration": 2.181
+    },
+    {
+        "text": "I'd definitely like to see like the",
+        "start": 2086.679,
+        "duration": 4.74
+    },
+    {
+        "text": "actual pipelines like I'm curious to see",
+        "start": 2089.44,
+        "duration": 4.62
+    },
+    {
+        "text": "like like within the UI like your your",
+        "start": 2091.419,
+        "duration": 5.341
+    },
+    {
+        "text": "actual as CLI scripts and like how",
+        "start": 2094.06,
+        "duration": 4.559
+    },
+    {
+        "text": "you're running the migrations and how",
+        "start": 2096.76,
+        "duration": 4.94
+    },
+    {
+        "text": "you're actually preparing them",
+        "start": 2098.619,
+        "duration": 3.081
+    },
+    {
+        "text": "I guess",
+        "start": 2102.339,
+        "duration": 5.401
+    },
+    {
+        "text": "we'll go to the study yeah sure",
+        "start": 2104.56,
+        "duration": 7.74
+    },
+    {
+        "text": "okay okay I will I will continue then",
+        "start": 2107.74,
+        "duration": 7.44
+    },
+    {
+        "text": "um if there are any uh because I I",
+        "start": 2112.3,
+        "duration": 4.74
+    },
+    {
+        "text": "didn't have any the complete solution",
+        "start": 2115.18,
+        "duration": 4.62
+    },
+    {
+        "text": "because I just did some examples uh as",
+        "start": 2117.04,
+        "duration": 6.18
+    },
+    {
+        "text": "you're referring I I didn't have the",
+        "start": 2119.8,
+        "duration": 6.72
+    },
+    {
+        "text": "time to complete everything but uh I",
+        "start": 2123.22,
+        "duration": 6.6
+    },
+    {
+        "text": "give the roadmap so I'll go to the",
+        "start": 2126.52,
+        "duration": 5.819
+    },
+    {
+        "text": "um the edit the the pipeline",
+        "start": 2129.82,
+        "duration": 4.94
+    },
+    {
+        "text": "see all right",
+        "start": 2132.339,
+        "duration": 5.401
+    },
+    {
+        "text": "and explain a little bit because it was",
+        "start": 2134.76,
+        "duration": 7.66
+    },
+    {
+        "text": "just a explanate explanatory to do the",
+        "start": 2137.74,
+        "duration": 7.619
+    },
+    {
+        "text": "SQL creation so basically",
+        "start": 2142.42,
+        "duration": 6.48
+    },
+    {
+        "text": "this is the assistant to do the the yaml",
+        "start": 2145.359,
+        "duration": 5.101
+    },
+    {
+        "text": "there",
+        "start": 2148.9,
+        "duration": 5.699
+    },
+    {
+        "text": "uh here the test to execute sorry for",
+        "start": 2150.46,
+        "duration": 7.74
+    },
+    {
+        "text": "that uh oh this this can uh scare you a",
+        "start": 2154.599,
+        "duration": 6.0
+    },
+    {
+        "text": "little bit so this is the the VM to",
+        "start": 2158.2,
+        "duration": 5.04
+    },
+    {
+        "text": "execute the pull for the uh",
+        "start": 2160.599,
+        "duration": 6.48
+    },
+    {
+        "text": "the creation for the task and here here",
+        "start": 2163.24,
+        "duration": 6.72
+    },
+    {
+        "text": "is some some step to do the first",
+        "start": 2167.079,
+        "duration": 6.481
+    },
+    {
+        "text": "creation of The Logical server",
+        "start": 2169.96,
+        "duration": 7.08
+    },
+    {
+        "text": "I use variable instead here of using it",
+        "start": 2173.56,
+        "duration": 6.299
+    },
+    {
+        "text": "for to get my Azure subscription",
+        "start": 2177.04,
+        "duration": 5.4
+    },
+    {
+        "text": "uh this is the type of the script that",
+        "start": 2179.859,
+        "duration": 3.781
+    },
+    {
+        "text": "I'm running",
+        "start": 2182.44,
+        "duration": 3.48
+    },
+    {
+        "text": "and these are the the lines that I'm",
+        "start": 2183.64,
+        "duration": 6.18
+    },
+    {
+        "text": "executing first I'm doing the Azure SQL",
+        "start": 2185.92,
+        "duration": 7.919
+    },
+    {
+        "text": "command to create the resource resource",
+        "start": 2189.82,
+        "duration": 6.36
+    },
+    {
+        "text": "I'm explaining the resource Group",
+        "start": 2193.839,
+        "duration": 4.921
+    },
+    {
+        "text": "I'm creating the SQL Server here and I'm",
+        "start": 2196.18,
+        "duration": 5.159
+    },
+    {
+        "text": "putting the logical name as you can see",
+        "start": 2198.76,
+        "duration": 4.5
+    },
+    {
+        "text": "everything is the variable that I'm",
+        "start": 2201.339,
+        "duration": 6.301
+    },
+    {
+        "text": "using so I'm replacing instead of",
+        "start": 2203.26,
+        "duration": 7.74
+    },
+    {
+        "text": "leaving the hard code of every single",
+        "start": 2207.64,
+        "duration": 7.32
+    },
+    {
+        "text": "line that I'm using here okay so instead",
+        "start": 2211.0,
+        "duration": 4.92
+    },
+    {
+        "text": "of",
+        "start": 2214.96,
+        "duration": 1.68
+    },
+    {
+        "text": "um",
+        "start": 2215.92,
+        "duration": 3.8
+    },
+    {
+        "text": "using the resource Group name",
+        "start": 2216.64,
+        "duration": 7.74
+    },
+    {
+        "text": "like put right here I use a variable",
+        "start": 2219.72,
+        "duration": 8.26
+    },
+    {
+        "text": "instead of using the name of the SQL",
+        "start": 2224.38,
+        "duration": 5.88
+    },
+    {
+        "text": "Server itself I'm putting a variable",
+        "start": 2227.98,
+        "duration": 5.82
+    },
+    {
+        "text": "which is getting uh which is simply a",
+        "start": 2230.26,
+        "duration": 5.7
+    },
+    {
+        "text": "text that is getting my name right",
+        "start": 2233.8,
+        "duration": 4.92
+    },
+    {
+        "text": "whatever I I put there",
+        "start": 2235.96,
+        "duration": 6.84
+    },
+    {
+        "text": "so this is the same for the admin user",
+        "start": 2238.72,
+        "duration": 5.24
+    },
+    {
+        "text": "uh",
+        "start": 2242.8,
+        "duration": 2.88
+    },
+    {
+        "text": "[Music]",
+        "start": 2243.96,
+        "duration": 4.0
+    },
+    {
+        "text": "this is the essay password this is the",
+        "start": 2245.68,
+        "duration": 4.32
+    },
+    {
+        "text": "essay user that I'm giving and this is",
+        "start": 2247.96,
+        "duration": 3.24
+    },
+    {
+        "text": "the password",
+        "start": 2250.0,
+        "duration": 3.3
+    },
+    {
+        "text": "right so this is the essay",
+        "start": 2251.2,
+        "duration": 4.74
+    },
+    {
+        "text": "I'm creating the SQL Server here and",
+        "start": 2253.3,
+        "duration": 4.5
+    },
+    {
+        "text": "then",
+        "start": 2255.94,
+        "duration": 3.6
+    },
+    {
+        "text": "I'm adding",
+        "start": 2257.8,
+        "duration": 3.059
+    },
+    {
+        "text": "uh",
+        "start": 2259.54,
+        "duration": 2.88
+    },
+    {
+        "text": "and admin",
+        "start": 2260.859,
+        "duration": 6.441
+    },
+    {
+        "text": "to the group to the SQL Server right",
+        "start": 2262.42,
+        "duration": 4.88
+    },
+    {
+        "text": "this is the the instruction to give to",
+        "start": 2267.52,
+        "duration": 7.44
+    },
+    {
+        "text": "create that into the the SQL Server",
+        "start": 2270.64,
+        "duration": 8.4
+    },
+    {
+        "text": "and then I'm creating a firewall rule",
+        "start": 2274.96,
+        "duration": 6.3
+    },
+    {
+        "text": "this is the name of the firewall Rule",
+        "start": 2279.04,
+        "duration": 5.64
+    },
+    {
+        "text": "and these are the the IPS that I'm given",
+        "start": 2281.26,
+        "duration": 6.18
+    },
+    {
+        "text": "right now none",
+        "start": 2284.68,
+        "duration": 6.56
+    },
+    {
+        "text": "so that is the that is the actual inline",
+        "start": 2287.44,
+        "duration": 8.159
+    },
+    {
+        "text": "execution so if you want to add more you",
+        "start": 2291.24,
+        "duration": 7.18
+    },
+    {
+        "text": "can use this assistant",
+        "start": 2295.599,
+        "duration": 6.421
+    },
+    {
+        "text": "and you can specify that you want an",
+        "start": 2298.42,
+        "duration": 6.419
+    },
+    {
+        "text": "Azure CLI when you do that it will",
+        "start": 2302.02,
+        "duration": 6.36
+    },
+    {
+        "text": "create more yaml instructions to create",
+        "start": 2304.839,
+        "duration": 5.76
+    },
+    {
+        "text": "a new task",
+        "start": 2308.38,
+        "duration": 3.78
+    },
+    {
+        "text": "it will",
+        "start": 2310.599,
+        "duration": 4.921
+    },
+    {
+        "text": "um here you will specify the resource",
+        "start": 2312.16,
+        "duration": 5.22
+    },
+    {
+        "text": "management connection that you are using",
+        "start": 2315.52,
+        "duration": 4.62
+    },
+    {
+        "text": "so you can give your subscription that",
+        "start": 2317.38,
+        "duration": 5.04
+    },
+    {
+        "text": "you are authorized to use when I do that",
+        "start": 2320.14,
+        "duration": 6.36
+    },
+    {
+        "text": "it will fail because I have any uh issue",
+        "start": 2322.42,
+        "duration": 6.0
+    },
+    {
+        "text": "with my account",
+        "start": 2326.5,
+        "duration": 4.74
+    },
+    {
+        "text": "when you execute here when you do this",
+        "start": 2328.42,
+        "duration": 5.659
+    },
+    {
+        "text": "you can specify which one are you",
+        "start": 2331.24,
+        "duration": 5.099
+    },
+    {
+        "text": "selecting depending on the environment",
+        "start": 2334.079,
+        "duration": 4.961
+    },
+    {
+        "text": "that you're using from a case I will use",
+        "start": 2336.339,
+        "duration": 4.081
+    },
+    {
+        "text": "shell",
+        "start": 2339.04,
+        "duration": 5.1
+    },
+    {
+        "text": "and then in the script path you can use",
+        "start": 2340.42,
+        "duration": 6.0
+    },
+    {
+        "text": "whatever you like inline script or",
+        "start": 2344.14,
+        "duration": 4.439
+    },
+    {
+        "text": "script path if you use the script path",
+        "start": 2346.42,
+        "duration": 4.08
+    },
+    {
+        "text": "then you are attaching the the the the",
+        "start": 2348.579,
+        "duration": 5.581
+    },
+    {
+        "text": "the the script if not then you are",
+        "start": 2350.5,
+        "duration": 5.7
+    },
+    {
+        "text": "inlining the code that you are doing so",
+        "start": 2354.16,
+        "duration": 5.1
+    },
+    {
+        "text": "what what I did is copy and paste of the",
+        "start": 2356.2,
+        "duration": 5.46
+    },
+    {
+        "text": "code of the",
+        "start": 2359.26,
+        "duration": 3.28
+    },
+    {
+        "text": "the",
+        "start": 2361.66,
+        "duration": 1.199
+    },
+    {
+        "text": "[Music]",
+        "start": 2362.54,
+        "duration": 1.819
+    },
+    {
+        "text": "um",
+        "start": 2362.859,
+        "duration": 4.681
+    },
+    {
+        "text": "Azure CLI code directly to here and you",
+        "start": 2364.359,
+        "duration": 5.281
+    },
+    {
+        "text": "can code paste it here and it will",
+        "start": 2367.54,
+        "duration": 6.12
+    },
+    {
+        "text": "create your your new new lines so when",
+        "start": 2369.64,
+        "duration": 5.88
+    },
+    {
+        "text": "you do that",
+        "start": 2373.66,
+        "duration": 4.5
+    },
+    {
+        "text": "it will create the code here",
+        "start": 2375.52,
+        "duration": 4.8
+    },
+    {
+        "text": "right",
+        "start": 2378.16,
+        "duration": 5.1
+    },
+    {
+        "text": "since I didn't put anything then it is",
+        "start": 2380.32,
+        "duration": 5.16
+    },
+    {
+        "text": "blank but basically the inline script is",
+        "start": 2383.26,
+        "duration": 6.079
+    },
+    {
+        "text": "the part of where where I put it here",
+        "start": 2385.48,
+        "duration": 3.859
+    },
+    {
+        "text": "so let's continue the second part is",
+        "start": 2389.619,
+        "duration": 5.401
+    },
+    {
+        "text": "creating the the elastic pool for the",
+        "start": 2392.32,
+        "duration": 5.039
+    },
+    {
+        "text": "actual Azure SQL elastic pool and",
+        "start": 2395.02,
+        "duration": 3.48
+    },
+    {
+        "text": "database",
+        "start": 2397.359,
+        "duration": 3.801
+    },
+    {
+        "text": "so",
+        "start": 2398.5,
+        "duration": 2.66
+    },
+    {
+        "text": "the first line",
+        "start": 2401.56,
+        "duration": 5.58
+    },
+    {
+        "text": "um creates uh sends the command that",
+        "start": 2404.02,
+        "duration": 6.78
+    },
+    {
+        "text": "says Azure CLI SQL",
+        "start": 2407.14,
+        "duration": 6.24
+    },
+    {
+        "text": "elastic pool create with the resource",
+        "start": 2410.8,
+        "duration": 5.4
+    },
+    {
+        "text": "Group that we are specifying The Logical",
+        "start": 2413.38,
+        "duration": 5.76
+    },
+    {
+        "text": "SQL server name the elastic pool name",
+        "start": 2416.2,
+        "duration": 6.3
+    },
+    {
+        "text": "that we're putting a general purpose and",
+        "start": 2419.14,
+        "duration": 6.36
+    },
+    {
+        "text": "for example I'm using Gen 5 this can",
+        "start": 2422.5,
+        "duration": 7.02
+    },
+    {
+        "text": "also be put a variable instead of",
+        "start": 2425.5,
+        "duration": 6.859
+    },
+    {
+        "text": "putting there",
+        "start": 2429.52,
+        "duration": 7.02
+    },
+    {
+        "text": "and then now the number of CPUs that",
+        "start": 2432.359,
+        "duration": 6.881
+    },
+    {
+        "text": "you're using so I'm using one and that",
+        "start": 2436.54,
+        "duration": 6.42
+    },
+    {
+        "text": "is another variable you can choose",
+        "start": 2439.24,
+        "duration": 5.94
+    },
+    {
+        "text": "where you can see the variables you can",
+        "start": 2442.96,
+        "duration": 4.32
+    },
+    {
+        "text": "see it right here variables and you can",
+        "start": 2445.18,
+        "duration": 4.8
+    },
+    {
+        "text": "see who your variables are you can add",
+        "start": 2447.28,
+        "duration": 5.04
+    },
+    {
+        "text": "more and these are the names that you're",
+        "start": 2449.98,
+        "duration": 6.06
+    },
+    {
+        "text": "putting right so that's a way to to",
+        "start": 2452.32,
+        "duration": 7.38
+    },
+    {
+        "text": "manage your security there so",
+        "start": 2456.04,
+        "duration": 5.72
+    },
+    {
+        "text": "um",
+        "start": 2459.7,
+        "duration": 2.06
+    },
+    {
+        "text": "I think that I explained the resource",
+        "start": 2462.52,
+        "duration": 5.94
+    },
+    {
+        "text": "Group the elastic pool okay so then I",
+        "start": 2465.099,
+        "duration": 6.321
+    },
+    {
+        "text": "create another SQL DB",
+        "start": 2468.46,
+        "duration": 5.28
+    },
+    {
+        "text": "explaining the resource Group the SQL",
+        "start": 2471.42,
+        "duration": 4.54
+    },
+    {
+        "text": "Server the name and the elastic pool",
+        "start": 2473.74,
+        "duration": 5.48
+    },
+    {
+        "text": "that I just created in the uh bulb line",
+        "start": 2475.96,
+        "duration": 6.72
+    },
+    {
+        "text": "so basically that is what it does that",
+        "start": 2479.22,
+        "duration": 6.399
+    },
+    {
+        "text": "that is the the script there",
+        "start": 2482.68,
+        "duration": 4.8
+    },
+    {
+        "text": "and leave",
+        "start": 2485.619,
+        "duration": 5.641
+    },
+    {
+        "text": "that is the the one the the",
+        "start": 2487.48,
+        "duration": 6.54
+    },
+    {
+        "text": "that I wanted to show you let me see if",
+        "start": 2491.26,
+        "duration": 5.04
+    },
+    {
+        "text": "I have another a little bit more complex",
+        "start": 2494.02,
+        "duration": 4.88
+    },
+    {
+        "text": "to do",
+        "start": 2496.3,
+        "duration": 2.6
+    },
+    {
+        "text": "I think as it feels the same",
+        "start": 2499.78,
+        "duration": 7.1
+    },
+    {
+        "text": "let me see on the repo",
+        "start": 2503.38,
+        "duration": 3.5
+    },
+    {
+        "text": "okay SQL Server you point home",
+        "start": 2509.14,
+        "duration": 4.28
+    },
+    {
+        "text": "yeah I have the complete one here",
+        "start": 2515.92,
+        "duration": 5.34
+    },
+    {
+        "text": "which is the create The Logical file",
+        "start": 2519.04,
+        "duration": 5.16
+    },
+    {
+        "text": "then creates it",
+        "start": 2521.26,
+        "duration": 5.099
+    },
+    {
+        "text": "the idea I don't want you I really don't",
+        "start": 2524.2,
+        "duration": 4.68
+    },
+    {
+        "text": "want to bore you with all what it does",
+        "start": 2526.359,
+        "duration": 5.401
+    },
+    {
+        "text": "but this is what uh what it builds the",
+        "start": 2528.88,
+        "duration": 5.699
+    },
+    {
+        "text": "the deck pack for the SQL project so",
+        "start": 2531.76,
+        "duration": 4.8
+    },
+    {
+        "text": "this is the other yaml file that I have",
+        "start": 2534.579,
+        "duration": 7.141
+    },
+    {
+        "text": "that uh pulls up with the Articles from",
+        "start": 2536.56,
+        "duration": 7.98
+    },
+    {
+        "text": "the backpack in the SQL database project",
+        "start": 2541.72,
+        "duration": 3.96
+    },
+    {
+        "text": "that",
+        "start": 2544.54,
+        "duration": 5.1
+    },
+    {
+        "text": "um there is already on on to to generate",
+        "start": 2545.68,
+        "duration": 7.14
+    },
+    {
+        "text": "this deployment so basically these are",
+        "start": 2549.64,
+        "duration": 5.4
+    },
+    {
+        "text": "the tasks with the complete one so this",
+        "start": 2552.82,
+        "duration": 4.5
+    },
+    {
+        "text": "is the the the one I showed you this is",
+        "start": 2555.04,
+        "duration": 6.0
+    },
+    {
+        "text": "just uh explanatory uh which is just a",
+        "start": 2557.32,
+        "duration": 7.16
+    },
+    {
+        "text": "simple script and this is the complete",
+        "start": 2561.04,
+        "duration": 5.76
+    },
+    {
+        "text": "uh the whole",
+        "start": 2564.48,
+        "duration": 6.34
+    },
+    {
+        "text": "meat and potatoes so that's",
+        "start": 2566.8,
+        "duration": 4.92
+    },
+    {
+        "text": "um",
+        "start": 2570.82,
+        "duration": 4.92
+    },
+    {
+        "text": "the the part of the pipelines so",
+        "start": 2571.72,
+        "duration": 7.44
+    },
+    {
+        "text": "also here is the the solutions food that",
+        "start": 2575.74,
+        "duration": 5.78
+    },
+    {
+        "text": "I use I use the",
+        "start": 2579.16,
+        "duration": 5.939
+    },
+    {
+        "text": "data warehouse for example using the",
+        "start": 2581.52,
+        "duration": 6.579
+    },
+    {
+        "text": "worldwide importer solution to do the",
+        "start": 2585.099,
+        "duration": 5.281
+    },
+    {
+        "text": "the fact tables and know the script so I",
+        "start": 2588.099,
+        "duration": 4.921
+    },
+    {
+        "text": "put the the solution of the table so I",
+        "start": 2590.38,
+        "duration": 3.38
+    },
+    {
+        "text": "can",
+        "start": 2593.02,
+        "duration": 4.86
+    },
+    {
+        "text": "integrate that into the project so that",
+        "start": 2593.76,
+        "duration": 6.28
+    },
+    {
+        "text": "is the the idea",
+        "start": 2597.88,
+        "duration": 5.28
+    },
+    {
+        "text": "but the problem is since I cannot run it",
+        "start": 2600.04,
+        "duration": 6.0
+    },
+    {
+        "text": "I it will fail because when I do when",
+        "start": 2603.16,
+        "duration": 4.86
+    },
+    {
+        "text": "you go to the Pipelines",
+        "start": 2606.04,
+        "duration": 3.66
+    },
+    {
+        "text": "and you execute",
+        "start": 2608.02,
+        "duration": 6.44
+    },
+    {
+        "text": "let's see if I can show you the problem",
+        "start": 2609.7,
+        "duration": 4.76
+    },
+    {
+        "text": "um runs",
+        "start": 2615.46,
+        "duration": 3.119
+    },
+    {
+        "text": "I'll retain then I'll see it",
+        "start": 2619.14,
+        "duration": 4.5
+    },
+    {
+        "text": "when I run it manually",
+        "start": 2625.06,
+        "duration": 5.4
+    },
+    {
+        "text": "you'll see that it will fail because it",
+        "start": 2627.7,
+        "duration": 3.84
+    },
+    {
+        "text": "will take",
+        "start": 2630.46,
+        "duration": 2.7
+    },
+    {
+        "text": "whatever I have",
+        "start": 2631.54,
+        "duration": 5.4
+    },
+    {
+        "text": "and since my credential is is not",
+        "start": 2633.16,
+        "duration": 7.5
+    },
+    {
+        "text": "allowing me it will it will fail",
+        "start": 2636.94,
+        "duration": 5.28
+    },
+    {
+        "text": "so",
+        "start": 2640.66,
+        "duration": 4.14
+    },
+    {
+        "text": "sorry for that I'm sorry it's okay we",
+        "start": 2642.22,
+        "duration": 4.74
+    },
+    {
+        "text": "believe you",
+        "start": 2644.8,
+        "duration": 6.36
+    },
+    {
+        "text": "okay so I just wanted to show you the",
+        "start": 2646.96,
+        "duration": 6.659
+    },
+    {
+        "text": "settings the project settings then",
+        "start": 2651.16,
+        "duration": 5.04
+    },
+    {
+        "text": "so this is the part when you can",
+        "start": 2653.619,
+        "duration": 5.761
+    },
+    {
+        "text": "integrate your pro your project to your",
+        "start": 2656.2,
+        "duration": 6.3
+    },
+    {
+        "text": "GitHub for example you see I have you",
+        "start": 2659.38,
+        "duration": 6.12
+    },
+    {
+        "text": "can see you can use the get the normal",
+        "start": 2662.5,
+        "duration": 5.28
+    },
+    {
+        "text": "kit or you can use the GitHub so here's",
+        "start": 2665.5,
+        "duration": 5.28
+    },
+    {
+        "text": "the connection you you trust and you can",
+        "start": 2667.78,
+        "duration": 5.1
+    },
+    {
+        "text": "use your personal GitHub to connect",
+        "start": 2670.78,
+        "duration": 4.38
+    },
+    {
+        "text": "this is the project configuration this",
+        "start": 2672.88,
+        "duration": 4.26
+    },
+    {
+        "text": "is where you can set your it either",
+        "start": 2675.16,
+        "duration": 5.159
+    },
+    {
+        "text": "iterations uh Sprints you can see your",
+        "start": 2677.14,
+        "duration": 6.54
+    },
+    {
+        "text": "you can configure your uh all your",
+        "start": 2680.319,
+        "duration": 6.0
+    },
+    {
+        "text": "configuration for your team",
+        "start": 2683.68,
+        "duration": 3.899
+    },
+    {
+        "text": "um",
+        "start": 2686.319,
+        "duration": 3.421
+    },
+    {
+        "text": "all your security for the team how",
+        "start": 2687.579,
+        "duration": 5.361
+    },
+    {
+        "text": "you're you're going to manage your your",
+        "start": 2689.74,
+        "duration": 5.879
+    },
+    {
+        "text": "backlog how you're going to manage your",
+        "start": 2692.94,
+        "duration": 5.08
+    },
+    {
+        "text": "user story these are the boards this is",
+        "start": 2695.619,
+        "duration": 4.5
+    },
+    {
+        "text": "the part of the boards and as well as",
+        "start": 2698.02,
+        "duration": 3.72
+    },
+    {
+        "text": "the permission the themes and how you're",
+        "start": 2700.119,
+        "duration": 4.141
+    },
+    {
+        "text": "going to integrate it with that here is",
+        "start": 2701.74,
+        "duration": 4.619
+    },
+    {
+        "text": "the part with the the agent polls that",
+        "start": 2704.26,
+        "duration": 5.94
+    },
+    {
+        "text": "we were discussing here this is the cell",
+        "start": 2706.359,
+        "duration": 7.441
+    },
+    {
+        "text": "phone self-hosted agent and here is the",
+        "start": 2710.2,
+        "duration": 8.159
+    },
+    {
+        "text": "hosted agent in in azure so when you see",
+        "start": 2713.8,
+        "duration": 7.62
+    },
+    {
+        "text": "the self-hosted agent as I uh I think I",
+        "start": 2718.359,
+        "duration": 4.621
+    },
+    {
+        "text": "I don't have it right here I already",
+        "start": 2721.42,
+        "duration": 4.74
+    },
+    {
+        "text": "it's not running now let's see",
+        "start": 2722.98,
+        "duration": 5.58
+    },
+    {
+        "text": "um there is there is where you you run",
+        "start": 2726.16,
+        "duration": 5.4
+    },
+    {
+        "text": "your self-hosted agent and or your azure",
+        "start": 2728.56,
+        "duration": 7.62
+    },
+    {
+        "text": "uh hosted agent that run that fail",
+        "start": 2731.56,
+        "duration": 6.539
+    },
+    {
+        "text": "Okay so",
+        "start": 2736.18,
+        "duration": 5.639
+    },
+    {
+        "text": "the problem is that why do you need the",
+        "start": 2738.099,
+        "duration": 7.801
+    },
+    {
+        "text": "um uh self-hosted agent or or why do you",
+        "start": 2741.819,
+        "duration": 6.421
+    },
+    {
+        "text": "want a Microsoft hosted agent is because",
+        "start": 2745.9,
+        "duration": 3.48
+    },
+    {
+        "text": "of this",
+        "start": 2748.24,
+        "duration": 3.96
+    },
+    {
+        "text": "if you have a self-hosted you can do two",
+        "start": 2749.38,
+        "duration": 5.699
+    },
+    {
+        "text": "parallel jobs uh three one one free",
+        "start": 2752.2,
+        "duration": 6.24
+    },
+    {
+        "text": "parallel job and these are this you have",
+        "start": 2755.079,
+        "duration": 4.801
+    },
+    {
+        "text": "to",
+        "start": 2758.44,
+        "duration": 3.659
+    },
+    {
+        "text": "be very careful on what you need",
+        "start": 2759.88,
+        "duration": 5.1
+    },
+    {
+        "text": "depending on what is your solution this",
+        "start": 2762.099,
+        "duration": 7.081
+    },
+    {
+        "text": "is what you have and the minutes per",
+        "start": 2764.98,
+        "duration": 7.56
+    },
+    {
+        "text": "month that you have for one parallel job",
+        "start": 2769.18,
+        "duration": 4.8
+    },
+    {
+        "text": "for example",
+        "start": 2772.54,
+        "duration": 5.76
+    },
+    {
+        "text": "so that depends on how you want to go so",
+        "start": 2773.98,
+        "duration": 6.9
+    },
+    {
+        "text": "with self-hosted agent uh well you're",
+        "start": 2778.3,
+        "duration": 3.539
+    },
+    {
+        "text": "not",
+        "start": 2780.88,
+        "duration": 4.38
+    },
+    {
+        "text": "um you're not build so that's a good way",
+        "start": 2781.839,
+        "duration": 4.5
+    },
+    {
+        "text": "to start",
+        "start": 2785.26,
+        "duration": 2.22
+    },
+    {
+        "text": "right",
+        "start": 2786.339,
+        "duration": 3.541
+    },
+    {
+        "text": "so",
+        "start": 2787.48,
+        "duration": 4.32
+    },
+    {
+        "text": "that is what I wanted to show you I",
+        "start": 2789.88,
+        "duration": 3.18
+    },
+    {
+        "text": "think the other is the service",
+        "start": 2791.8,
+        "duration": 3.18
+    },
+    {
+        "text": "connection here",
+        "start": 2793.06,
+        "duration": 4.259
+    },
+    {
+        "text": "this is the the one when you connect",
+        "start": 2794.98,
+        "duration": 5.22
+    },
+    {
+        "text": "your service to your Azure resource",
+        "start": 2797.319,
+        "duration": 5.101
+    },
+    {
+        "text": "manager you know one you might want to",
+        "start": 2800.2,
+        "duration": 3.659
+    },
+    {
+        "text": "select that",
+        "start": 2802.42,
+        "duration": 4.02
+    },
+    {
+        "text": "so when you do that this is all the",
+        "start": 2803.859,
+        "duration": 4.621
+    },
+    {
+        "text": "options that you have you have a lot of",
+        "start": 2806.44,
+        "duration": 4.86
+    },
+    {
+        "text": "options where you can integrate it to",
+        "start": 2808.48,
+        "duration": 7.44
+    },
+    {
+        "text": "your infrastructure as code when you uh",
+        "start": 2811.3,
+        "duration": 6.779
+    },
+    {
+        "text": "connected to yourself to your",
+        "start": 2815.92,
+        "duration": 4.26
+    },
+    {
+        "text": "subscription it will get your details",
+        "start": 2818.079,
+        "duration": 4.621
+    },
+    {
+        "text": "from from your account",
+        "start": 2820.18,
+        "duration": 5.88
+    },
+    {
+        "text": "and you will specify the resource Group",
+        "start": 2822.7,
+        "duration": 5.879
+    },
+    {
+        "text": "that where you want to deploy your",
+        "start": 2826.06,
+        "duration": 3.84
+    },
+    {
+        "text": "objects",
+        "start": 2828.579,
+        "duration": 3.361
+    },
+    {
+        "text": "the service connection name that you",
+        "start": 2829.9,
+        "duration": 3.419
+    },
+    {
+        "text": "will put",
+        "start": 2831.94,
+        "duration": 3.419
+    },
+    {
+        "text": "for your tests",
+        "start": 2833.319,
+        "duration": 6.721
+    },
+    {
+        "text": "and the description of what it does and",
+        "start": 2835.359,
+        "duration": 7.561
+    },
+    {
+        "text": "granting permissions to the pipelines",
+        "start": 2840.04,
+        "duration": 5.64
+    },
+    {
+        "text": "and I'm doing this because every",
+        "start": 2842.92,
+        "duration": 5.22
+    },
+    {
+        "text": "pipeline I want to to have access to",
+        "start": 2845.68,
+        "duration": 4.86
+    },
+    {
+        "text": "when I do the same thing this is here",
+        "start": 2848.14,
+        "duration": 5.76
+    },
+    {
+        "text": "okay so in your in your case you are",
+        "start": 2850.54,
+        "duration": 5.7
+    },
+    {
+        "text": "good to go and this will save and you",
+        "start": 2853.9,
+        "duration": 4.439
+    },
+    {
+        "text": "will have a connection and all the",
+        "start": 2856.24,
+        "duration": 4.26
+    },
+    {
+        "text": "pipelines that you execute will execute",
+        "start": 2858.339,
+        "duration": 5.581
+    },
+    {
+        "text": "with the subscription that you specified",
+        "start": 2860.5,
+        "duration": 4.68
+    },
+    {
+        "text": "here",
+        "start": 2863.92,
+        "duration": 4.1
+    },
+    {
+        "text": "so",
+        "start": 2865.18,
+        "duration": 2.84
+    },
+    {
+        "text": "um okay so this is what I wanted to show",
+        "start": 2868.18,
+        "duration": 6.659
+    },
+    {
+        "text": "you I will return to the slides I think",
+        "start": 2870.339,
+        "duration": 7.621
+    },
+    {
+        "text": "I have another one no I think that's it",
+        "start": 2874.839,
+        "duration": 6.361
+    },
+    {
+        "text": "that's it for my side these are my",
+        "start": 2877.96,
+        "duration": 3.899
+    },
+    {
+        "text": "um",
+        "start": 2881.2,
+        "duration": 3.06
+    },
+    {
+        "text": "social network if you want to hang out",
+        "start": 2881.859,
+        "duration": 5.101
+    },
+    {
+        "text": "or you can discuss whatever you want I",
+        "start": 2884.26,
+        "duration": 6.18
+    },
+    {
+        "text": "can show show whatever example I have if",
+        "start": 2886.96,
+        "duration": 5.58
+    },
+    {
+        "text": "you if you want to test please ping me",
+        "start": 2890.44,
+        "duration": 3.3
+    },
+    {
+        "text": "don't worry",
+        "start": 2892.54,
+        "duration": 4.92
+    },
+    {
+        "text": "ah so glad to help I really I'm really",
+        "start": 2893.74,
+        "duration": 6.78
+    },
+    {
+        "text": "happy to be here with you and I don't",
+        "start": 2897.46,
+        "duration": 4.619
+    },
+    {
+        "text": "know if you have any questions or you",
+        "start": 2900.52,
+        "duration": 3.299
+    },
+    {
+        "text": "want to talk a little bit about",
+        "start": 2902.079,
+        "duration": 3.681
+    },
+    {
+        "text": "something or something wasn't clear",
+        "start": 2903.819,
+        "duration": 5.901
+    },
+    {
+        "text": "please let me know",
+        "start": 2905.76,
+        "duration": 3.96
+    },
+    {
+        "text": "I want to hear about uh bad things that",
+        "start": 2911.38,
+        "duration": 4.38
+    },
+    {
+        "text": "have happened to you because I'm",
+        "start": 2914.74,
+        "duration": 2.339
+    },
+    {
+        "text": "assuming you're doing this in production",
+        "start": 2915.76,
+        "duration": 3.66
+    },
+    {
+        "text": "right so like what kind of like Lessons",
+        "start": 2917.079,
+        "duration": 4.381
+    },
+    {
+        "text": "Learned did you take away from this like",
+        "start": 2919.42,
+        "duration": 5.64
+    },
+    {
+        "text": "for example I'm terrified of doing",
+        "start": 2921.46,
+        "duration": 5.46
+    },
+    {
+        "text": "database migrations through automation",
+        "start": 2925.06,
+        "duration": 4.019
+    },
+    {
+        "text": "like this because what if it drops a",
+        "start": 2926.92,
+        "duration": 4.679
+    },
+    {
+        "text": "column and oh crap I can't get that back",
+        "start": 2929.079,
+        "duration": 6.361
+    },
+    {
+        "text": "you know it happens it happens",
+        "start": 2931.599,
+        "duration": 8.161
+    },
+    {
+        "text": "and it already happened because the",
+        "start": 2935.44,
+        "duration": 6.78
+    },
+    {
+        "text": "problem is first",
+        "start": 2939.76,
+        "duration": 6.3
+    },
+    {
+        "text": "not everything that or my experience is",
+        "start": 2942.22,
+        "duration": 7.08
+    },
+    {
+        "text": "not everything that the software does is",
+        "start": 2946.06,
+        "duration": 5.759
+    },
+    {
+        "text": "automated you have to be very careful",
+        "start": 2949.3,
+        "duration": 4.68
+    },
+    {
+        "text": "with the tool for example for Entity",
+        "start": 2951.819,
+        "duration": 3.961
+    },
+    {
+        "text": "framework",
+        "start": 2953.98,
+        "duration": 3.619
+    },
+    {
+        "text": "um",
+        "start": 2955.78,
+        "duration": 6.839
+    },
+    {
+        "text": "if you don't import uh then it has uh",
+        "start": 2957.599,
+        "duration": 7.961
+    },
+    {
+        "text": "the Caps naming and there was an issue",
+        "start": 2962.619,
+        "duration": 6.24
+    },
+    {
+        "text": "with uh the naming of the file and it",
+        "start": 2965.56,
+        "duration": 7.559
+    },
+    {
+        "text": "was a some developer left a blank space",
+        "start": 2968.859,
+        "duration": 7.561
+    },
+    {
+        "text": "there it didn't import it when when the",
+        "start": 2973.119,
+        "duration": 5.101
+    },
+    {
+        "text": "the build was made",
+        "start": 2976.42,
+        "duration": 5.34
+    },
+    {
+        "text": "so for example when we did uh uh push to",
+        "start": 2978.22,
+        "duration": 6.359
+    },
+    {
+        "text": "PR and did a new versioning and when we",
+        "start": 2981.76,
+        "duration": 5.88
+    },
+    {
+        "text": "we integrated it was uh",
+        "start": 2984.579,
+        "duration": 6.24
+    },
+    {
+        "text": "a maintenance for to run all changing",
+        "start": 2987.64,
+        "duration": 4.74
+    },
+    {
+        "text": "the options for the indexes for example",
+        "start": 2990.819,
+        "duration": 4.861
+    },
+    {
+        "text": "that was the that that was the problem",
+        "start": 2992.38,
+        "duration": 7.38
+    },
+    {
+        "text": "so it didn't run all the scripts it just",
+        "start": 2995.68,
+        "duration": 6.78
+    },
+    {
+        "text": "run three or four because the fourth",
+        "start": 2999.76,
+        "duration": 6.96
+    },
+    {
+        "text": "line in the Entity framework had a a",
+        "start": 3002.46,
+        "duration": 8.22
+    },
+    {
+        "text": "small line in there so",
+        "start": 3006.72,
+        "duration": 7.02
+    },
+    {
+        "text": "even with all these uh tooling that we",
+        "start": 3010.68,
+        "duration": 5.939
+    },
+    {
+        "text": "have we need to have we need to have",
+        "start": 3013.74,
+        "duration": 6.06
+    },
+    {
+        "text": "documentation that's we we cannot live",
+        "start": 3016.619,
+        "duration": 5.641
+    },
+    {
+        "text": "without without it because we need to",
+        "start": 3019.8,
+        "duration": 5.16
+    },
+    {
+        "text": "know what what we're doing the other is",
+        "start": 3022.26,
+        "duration": 4.079
+    },
+    {
+        "text": "uh",
+        "start": 3024.96,
+        "duration": 4.5
+    },
+    {
+        "text": "since the other bad example that",
+        "start": 3026.339,
+        "duration": 5.76
+    },
+    {
+        "text": "happened to me a lot this I think that",
+        "start": 3029.46,
+        "duration": 5.06
+    },
+    {
+        "text": "it was on December or November November",
+        "start": 3032.099,
+        "duration": 6.541
+    },
+    {
+        "text": "was that we were executing uh new",
+        "start": 3034.52,
+        "duration": 7.12
+    },
+    {
+        "text": "scripts for uh store procedures to do",
+        "start": 3038.64,
+        "duration": 6.65
+    },
+    {
+        "text": "that does the report and which I changed",
+        "start": 3041.64,
+        "duration": 3.959
+    },
+    {
+        "text": "[Music]",
+        "start": 3045.29,
+        "duration": 1.23
+    },
+    {
+        "text": "um",
+        "start": 3045.599,
+        "duration": 4.441
+    },
+    {
+        "text": "uh date times or something like that in",
+        "start": 3046.52,
+        "duration": 5.559
+    },
+    {
+        "text": "the store procedures so when I when I",
+        "start": 3050.04,
+        "duration": 4.279
+    },
+    {
+        "text": "created this store procedure",
+        "start": 3052.079,
+        "duration": 6.721
+    },
+    {
+        "text": "uh these um changed",
+        "start": 3054.319,
+        "duration": 7.841
+    },
+    {
+        "text": "um the problem was that",
+        "start": 3058.8,
+        "duration": 4.819
+    },
+    {
+        "text": "the report",
+        "start": 3062.16,
+        "duration": 5.58
+    },
+    {
+        "text": "our reports are in um",
+        "start": 3063.619,
+        "duration": 6.641
+    },
+    {
+        "text": "in some",
+        "start": 3067.74,
+        "duration": 3.72
+    },
+    {
+        "text": "how do you",
+        "start": 3070.26,
+        "duration": 2.339
+    },
+    {
+        "text": "um",
+        "start": 3071.46,
+        "duration": 4.02
+    },
+    {
+        "text": "um how do you say this um it was",
+        "start": 3072.599,
+        "duration": 6.361
+    },
+    {
+        "text": "deployed into into our portal",
+        "start": 3075.48,
+        "duration": 5.28
+    },
+    {
+        "text": "but this is a container running",
+        "start": 3078.96,
+        "duration": 5.099
+    },
+    {
+        "text": "kubernetes so when we execute this new",
+        "start": 3080.76,
+        "duration": 6.18
+    },
+    {
+        "text": "version with the different uh uh date",
+        "start": 3084.059,
+        "duration": 4.081
+    },
+    {
+        "text": "formatting",
+        "start": 3086.94,
+        "duration": 4.5
+    },
+    {
+        "text": "it it wasn't accepted by the the portal",
+        "start": 3088.14,
+        "duration": 6.12
+    },
+    {
+        "text": "so it failed badly and it was because",
+        "start": 3091.44,
+        "duration": 6.54
+    },
+    {
+        "text": "like a local issue yeah yeah and the",
+        "start": 3094.26,
+        "duration": 6.96
+    },
+    {
+        "text": "problem is since we the problem is that",
+        "start": 3097.98,
+        "duration": 6.06
+    },
+    {
+        "text": "the the we shipped and the version of",
+        "start": 3101.22,
+        "duration": 6.42
+    },
+    {
+        "text": "the the container for the for the pot",
+        "start": 3104.04,
+        "duration": 6.48
+    },
+    {
+        "text": "for the kubernetes spot when they",
+        "start": 3107.64,
+        "duration": 5.04
+    },
+    {
+        "text": "created they created with the different",
+        "start": 3110.52,
+        "duration": 5.579
+    },
+    {
+        "text": "uh type format for the dates so it was",
+        "start": 3112.68,
+        "duration": 5.399
+    },
+    {
+        "text": "completely different and everything was",
+        "start": 3116.099,
+        "duration": 5.101
+    },
+    {
+        "text": "ugly and you know it was bad and it was",
+        "start": 3118.079,
+        "duration": 5.821
+    },
+    {
+        "text": "because the SQL Server uh store",
+        "start": 3121.2,
+        "duration": 6.54
+    },
+    {
+        "text": "procedure had daytime offset time of uh",
+        "start": 3123.9,
+        "duration": 10.56
+    },
+    {
+        "text": "uh data type and the the front end uh it",
+        "start": 3127.74,
+        "duration": 9.06
+    },
+    {
+        "text": "is it is in node.js with uh something",
+        "start": 3134.46,
+        "duration": 5.34
+    },
+    {
+        "text": "tool like I think",
+        "start": 3136.8,
+        "duration": 6.72
+    },
+    {
+        "text": "um that managed the the dates so it was",
+        "start": 3139.8,
+        "duration": 6.12
+    },
+    {
+        "text": "a different kind of date that it handled",
+        "start": 3143.52,
+        "duration": 6.96
+    },
+    {
+        "text": "so it it screwed all the dates so I uh",
+        "start": 3145.92,
+        "duration": 6.84
+    },
+    {
+        "text": "the problem there it was that I didn't",
+        "start": 3150.48,
+        "duration": 4.32
+    },
+    {
+        "text": "have a",
+        "start": 3152.76,
+        "duration": 5.4
+    },
+    {
+        "text": "code analysis rule that will help me to",
+        "start": 3154.8,
+        "duration": 5.94
+    },
+    {
+        "text": "say hey everything that goes from store",
+        "start": 3158.16,
+        "duration": 5.22
+    },
+    {
+        "text": "procedure to the front that need to be",
+        "start": 3160.74,
+        "duration": 5.879
+    },
+    {
+        "text": "date time only not daytime offset for",
+        "start": 3163.38,
+        "duration": 4.14
+    },
+    {
+        "text": "example",
+        "start": 3166.619,
+        "duration": 5.641
+    },
+    {
+        "text": "so that will help me so that is why I",
+        "start": 3167.52,
+        "duration": 6.839
+    },
+    {
+        "text": "started to use SQL fluff",
+        "start": 3172.26,
+        "duration": 6.12
+    },
+    {
+        "text": "uh to do the code analysis review and",
+        "start": 3174.359,
+        "duration": 7.081
+    },
+    {
+        "text": "also you need a peer review with a with",
+        "start": 3178.38,
+        "duration": 6.6
+    },
+    {
+        "text": "a teammate of yours that shows you hey",
+        "start": 3181.44,
+        "duration": 7.44
+    },
+    {
+        "text": "you you did it but there so that are",
+        "start": 3184.98,
+        "duration": 7.22
+    },
+    {
+        "text": "some of the uh",
+        "start": 3188.88,
+        "duration": 3.32
+    },
+    {
+        "text": "um I don't know how to say",
+        "start": 3192.54,
+        "duration": 3.539
+    },
+    {
+        "text": "um",
+        "start": 3194.7,
+        "duration": 4.5
+    },
+    {
+        "text": "um experiences that I have in a in some",
+        "start": 3196.079,
+        "duration": 6.78
+    },
+    {
+        "text": "uh quite a few months so that is why I",
+        "start": 3199.2,
+        "duration": 5.46
+    },
+    {
+        "text": "put you here that code control",
+        "start": 3202.859,
+        "duration": 3.661
+    },
+    {
+        "text": "versioning is the most important thing",
+        "start": 3204.66,
+        "duration": 3.419
+    },
+    {
+        "text": "that you need to have",
+        "start": 3206.52,
+        "duration": 4.86
+    },
+    {
+        "text": "for your asset because basically every",
+        "start": 3208.079,
+        "duration": 5.721
+    },
+    {
+        "text": "time that you do a new run you are",
+        "start": 3211.38,
+        "duration": 4.8
+    },
+    {
+        "text": "replacing objects or creating new",
+        "start": 3213.8,
+        "duration": 5.319
+    },
+    {
+        "text": "objects to the database and that will",
+        "start": 3216.18,
+        "duration": 6.24
+    },
+    {
+        "text": "affect it even if if it is you can say",
+        "start": 3219.119,
+        "duration": 6.421
+    },
+    {
+        "text": "well let's see uh we will have a",
+        "start": 3222.42,
+        "duration": 7.139
+    },
+    {
+        "text": "baseline of uh our SQL Server Azure SQL",
+        "start": 3225.54,
+        "duration": 6.18
+    },
+    {
+        "text": "Server we will destroy the that",
+        "start": 3229.559,
+        "duration": 4.56
+    },
+    {
+        "text": "container and we'll create a new Azure",
+        "start": 3231.72,
+        "duration": 4.98
+    },
+    {
+        "text": "SQL with with that Baseline and we'll",
+        "start": 3234.119,
+        "duration": 4.74
+    },
+    {
+        "text": "start from scratch yeah but you lose two",
+        "start": 3236.7,
+        "duration": 4.58
+    },
+    {
+        "text": "days so",
+        "start": 3238.859,
+        "duration": 5.101
+    },
+    {
+        "text": "instead of doing that if you have your",
+        "start": 3241.28,
+        "duration": 4.539
+    },
+    {
+        "text": "control versioning and you have your",
+        "start": 3243.96,
+        "duration": 4.619
+    },
+    {
+        "text": "your code analysis rules you have your",
+        "start": 3245.819,
+        "duration": 6.061
+    },
+    {
+        "text": "verification and everything you you will",
+        "start": 3248.579,
+        "duration": 5.881
+    },
+    {
+        "text": "you it will assess you the other is",
+        "start": 3251.88,
+        "duration": 6.78
+    },
+    {
+        "text": "Monitor uh you you have to monitor your",
+        "start": 3254.46,
+        "duration": 6.84
+    },
+    {
+        "text": "your changes right so that's very",
+        "start": 3258.66,
+        "duration": 6.12
+    },
+    {
+        "text": "important the after and the before and",
+        "start": 3261.3,
+        "duration": 6.059
+    },
+    {
+        "text": "after the year changes so that helps you",
+        "start": 3264.78,
+        "duration": 4.5
+    },
+    {
+        "text": "to understand your infrastructure how",
+        "start": 3267.359,
+        "duration": 3.661
+    },
+    {
+        "text": "you how you left it",
+        "start": 3269.28,
+        "duration": 5.4
+    },
+    {
+        "text": "ah do you wanna I I have another right",
+        "start": 3271.02,
+        "duration": 6.96
+    },
+    {
+        "text": "right now I have another story that I",
+        "start": 3274.68,
+        "duration": 4.04
+    },
+    {
+        "text": "had",
+        "start": 3277.98,
+        "duration": 1.139
+    },
+    {
+        "text": "[Music]",
+        "start": 3278.72,
+        "duration": 1.2
+    },
+    {
+        "text": "um",
+        "start": 3279.119,
+        "duration": 4.2
+    },
+    {
+        "text": "we uh we use Azure SQL serverless",
+        "start": 3279.92,
+        "duration": 5.74
+    },
+    {
+        "text": "database",
+        "start": 3283.319,
+        "duration": 4.441
+    },
+    {
+        "text": "and we have",
+        "start": 3285.66,
+        "duration": 3.06
+    },
+    {
+        "text": "um",
+        "start": 3287.76,
+        "duration": 2.7
+    },
+    {
+        "text": "I think is that is that the one that",
+        "start": 3288.72,
+        "duration": 4.44
+    },
+    {
+        "text": "turns off after inactivity right okay",
+        "start": 3290.46,
+        "duration": 6.72
+    },
+    {
+        "text": "that one that was puts in outer pause",
+        "start": 3293.16,
+        "duration": 7.5
+    },
+    {
+        "text": "so the problem is that the in the end",
+        "start": 3297.18,
+        "duration": 5.639
+    },
+    {
+        "text": "you're getting to the problem the",
+        "start": 3300.66,
+        "duration": 5.04
+    },
+    {
+        "text": "problem was that we we were implementing",
+        "start": 3302.819,
+        "duration": 6.061
+    },
+    {
+        "text": "in into production with Azure with",
+        "start": 3305.7,
+        "duration": 5.879
+    },
+    {
+        "text": "several Solutions and I told them no",
+        "start": 3308.88,
+        "duration": 5.28
+    },
+    {
+        "text": "that that is not a good idea we need to",
+        "start": 3311.579,
+        "duration": 5.401
+    },
+    {
+        "text": "have uh at least we we need to move to",
+        "start": 3314.16,
+        "duration": 6.419
+    },
+    {
+        "text": "another tier so they said no let's go",
+        "start": 3316.98,
+        "duration": 6.9
+    },
+    {
+        "text": "with what we have okay and we we went",
+        "start": 3320.579,
+        "duration": 6.181
+    },
+    {
+        "text": "and the problem is that that when you",
+        "start": 3323.88,
+        "duration": 6.0
+    },
+    {
+        "text": "put Auto pause you cannot put if you",
+        "start": 3326.76,
+        "duration": 5.339
+    },
+    {
+        "text": "don't want Autobots it will auto pass",
+        "start": 3329.88,
+        "duration": 6.66
+    },
+    {
+        "text": "because it's serverless and after",
+        "start": 3332.099,
+        "duration": 8.941
+    },
+    {
+        "text": "um two hours uh it put in in pause and",
+        "start": 3336.54,
+        "duration": 6.42
+    },
+    {
+        "text": "all the connections were lost and they",
+        "start": 3341.04,
+        "duration": 4.799
+    },
+    {
+        "text": "wanted to like connect again you know it",
+        "start": 3342.96,
+        "duration": 4.28
+    },
+    {
+        "text": "and it was the",
+        "start": 3345.839,
+        "duration": 3.74
+    },
+    {
+        "text": "transactional scenario",
+        "start": 3347.24,
+        "duration": 6.96
+    },
+    {
+        "text": "so all the all the typesetters were mad",
+        "start": 3349.579,
+        "duration": 6.581
+    },
+    {
+        "text": "and well",
+        "start": 3354.2,
+        "duration": 6.1
+    },
+    {
+        "text": "we need to we needed to change it to to",
+        "start": 3356.16,
+        "duration": 7.62
+    },
+    {
+        "text": "a different tier and and it was like a",
+        "start": 3360.3,
+        "duration": 6.72
+    },
+    {
+        "text": "cost solution because every everything",
+        "start": 3363.78,
+        "duration": 3.96
+    },
+    {
+        "text": "um",
+        "start": 3367.02,
+        "duration": 3.9
+    },
+    {
+        "text": "was better when we change it from to to",
+        "start": 3367.74,
+        "duration": 6.359
+    },
+    {
+        "text": "our um uh other other tier for SQL",
+        "start": 3370.92,
+        "duration": 6.419
+    },
+    {
+        "text": "server but that cost a little bit uh",
+        "start": 3374.099,
+        "duration": 6.24
+    },
+    {
+        "text": "more but you know that's the cost you",
+        "start": 3377.339,
+        "duration": 6.181
+    },
+    {
+        "text": "have to to to take care right so you",
+        "start": 3380.339,
+        "duration": 5.22
+    },
+    {
+        "text": "have to think that first before doing",
+        "start": 3383.52,
+        "duration": 4.46
+    },
+    {
+        "text": "anything so",
+        "start": 3385.559,
+        "duration": 6.121
+    },
+    {
+        "text": "that's one of the the problems I have",
+        "start": 3387.98,
+        "duration": 5.92
+    },
+    {
+        "text": "with the with this infrastructure but",
+        "start": 3391.68,
+        "duration": 4.379
+    },
+    {
+        "text": "you have to be very careful with the",
+        "start": 3393.9,
+        "duration": 3.84
+    },
+    {
+        "text": "architecture that you're trying to",
+        "start": 3396.059,
+        "duration": 6.181
+    },
+    {
+        "text": "implement every time in every uh",
+        "start": 3397.74,
+        "duration": 6.18
+    },
+    {
+        "text": "solution that you're trying to implement",
+        "start": 3402.24,
+        "duration": 5.359
+    },
+    {
+        "text": "right if if this fits to your scenario",
+        "start": 3403.92,
+        "duration": 7.74
+    },
+    {
+        "text": "this is more uh this this infrastructure",
+        "start": 3407.599,
+        "duration": 5.581
+    },
+    {
+        "text": "is is",
+        "start": 3411.66,
+        "duration": 4.62
+    },
+    {
+        "text": "designed for Loosely coupled Solutions",
+        "start": 3413.18,
+        "duration": 6.96
+    },
+    {
+        "text": "where you need to have containers and",
+        "start": 3416.28,
+        "duration": 7.38
+    },
+    {
+        "text": "and this architecture is good every",
+        "start": 3420.14,
+        "duration": 5.74
+    },
+    {
+        "text": "every architecture is good but depends",
+        "start": 3423.66,
+        "duration": 4.02
+    },
+    {
+        "text": "on the environment that you're trying to",
+        "start": 3425.88,
+        "duration": 4.86
+    },
+    {
+        "text": "implement right this is just a scope and",
+        "start": 3427.68,
+        "duration": 5.46
+    },
+    {
+        "text": "a glance and depends on what you need",
+        "start": 3430.74,
+        "duration": 5.22
+    },
+    {
+        "text": "and that is what you do right if the",
+        "start": 3433.14,
+        "duration": 5.78
+    },
+    {
+        "text": "virtual machines is yours and helps you",
+        "start": 3435.96,
+        "duration": 7.139
+    },
+    {
+        "text": "that is the the way to do it but um in a",
+        "start": 3438.92,
+        "duration": 6.58
+    },
+    {
+        "text": "way that you can decouple but",
+        "start": 3443.099,
+        "duration": 4.561
+    },
+    {
+        "text": "for a bit not",
+        "start": 3445.5,
+        "duration": 5.4
+    },
+    {
+        "text": "doing a hundred percent uh differently",
+        "start": 3447.66,
+        "duration": 5.28
+    },
+    {
+        "text": "right you have to test everything that",
+        "start": 3450.9,
+        "duration": 5.04
+    },
+    {
+        "text": "you do to decouple and try to implement",
+        "start": 3452.94,
+        "duration": 6.899
+    },
+    {
+        "text": "new architectures but not all at once I",
+        "start": 3455.94,
+        "duration": 6.6
+    },
+    {
+        "text": "think that's my experience",
+        "start": 3459.839,
+        "duration": 3.901
+    },
+    {
+        "text": "so",
+        "start": 3462.54,
+        "duration": 3.779
+    },
+    {
+        "text": "I don't know uh that's that's what I",
+        "start": 3463.74,
+        "duration": 6.0
+    },
+    {
+        "text": "have uh lived for uh that's my",
+        "start": 3466.319,
+        "duration": 6.0
+    },
+    {
+        "text": "experience from shifting from a DBA from",
+        "start": 3469.74,
+        "duration": 6.66
+    },
+    {
+        "text": "a traditional DBA doing uh from on-prem",
+        "start": 3472.319,
+        "duration": 7.74
+    },
+    {
+        "text": "to to the cloud databases but but it's",
+        "start": 3476.4,
+        "duration": 6.54
+    },
+    {
+        "text": "good you know right now I'm the the good",
+        "start": 3480.059,
+        "duration": 5.28
+    },
+    {
+        "text": "part though because in every everything",
+        "start": 3482.94,
+        "duration": 4.98
+    },
+    {
+        "text": "is good and there's some some bright",
+        "start": 3485.339,
+        "duration": 4.5
+    },
+    {
+        "text": "sides",
+        "start": 3487.92,
+        "duration": 3.899
+    },
+    {
+        "text": "um you get to see a lot of different",
+        "start": 3489.839,
+        "duration": 5.941
+    },
+    {
+        "text": "technology which is not being able to do",
+        "start": 3491.819,
+        "duration": 5.881
+    },
+    {
+        "text": "with other",
+        "start": 3495.78,
+        "duration": 3.0
+    },
+    {
+        "text": "um",
+        "start": 3497.7,
+        "duration": 4.32
+    },
+    {
+        "text": "uh with the with uh virtual machines for",
+        "start": 3498.78,
+        "duration": 5.52
+    },
+    {
+        "text": "example that it's a little hard to do",
+        "start": 3502.02,
+        "duration": 4.74
+    },
+    {
+        "text": "you know you have to implement",
+        "start": 3504.3,
+        "duration": 5.58
+    },
+    {
+        "text": "something differently yeah so this is",
+        "start": 3506.76,
+        "duration": 5.94
+    },
+    {
+        "text": "this is another way so this opens your",
+        "start": 3509.88,
+        "duration": 5.88
+    },
+    {
+        "text": "world to to a whole lot of possibilities",
+        "start": 3512.7,
+        "duration": 7.56
+    },
+    {
+        "text": "so this is really really good to do if",
+        "start": 3515.76,
+        "duration": 7.74
+    },
+    {
+        "text": "you want to shift to this Paradigm so",
+        "start": 3520.26,
+        "duration": 7.319
+    },
+    {
+        "text": "I really uh even if I I it hurts a",
+        "start": 3523.5,
+        "duration": 6.66
+    },
+    {
+        "text": "little bit to the start I I think it's",
+        "start": 3527.579,
+        "duration": 5.161
+    },
+    {
+        "text": "it's really good to to do the shifting",
+        "start": 3530.16,
+        "duration": 5.88
+    },
+    {
+        "text": "it's it gives you a glance of to a new",
+        "start": 3532.74,
+        "duration": 5.4
+    },
+    {
+        "text": "different world to do",
+        "start": 3536.04,
+        "duration": 4.019
+    },
+    {
+        "text": "in the data",
+        "start": 3538.14,
+        "duration": 5.219
+    },
+    {
+        "text": "right so you were saying that you had an",
+        "start": 3540.059,
+        "duration": 5.76
+    },
+    {
+        "text": "issue or you you are scared if you do",
+        "start": 3543.359,
+        "duration": 4.98
+    },
+    {
+        "text": "something in your yeah my co-workers",
+        "start": 3545.819,
+        "duration": 4.381
+    },
+    {
+        "text": "want me to shift to like EF core",
+        "start": 3548.339,
+        "duration": 4.621
+    },
+    {
+        "text": "migrations for example I still write",
+        "start": 3550.2,
+        "duration": 5.18
+    },
+    {
+        "text": "them by hand",
+        "start": 3552.96,
+        "duration": 5.04
+    },
+    {
+        "text": "we don't use Azure devops to run them we",
+        "start": 3555.38,
+        "duration": 5.32
+    },
+    {
+        "text": "just we but we do sort we do have it in",
+        "start": 3558.0,
+        "duration": 4.98
+    },
+    {
+        "text": "Source control and we run it through a",
+        "start": 3560.7,
+        "duration": 4.8
+    },
+    {
+        "text": "tool called DB up which is just a simple",
+        "start": 3562.98,
+        "duration": 5.04
+    },
+    {
+        "text": "right tool right just yeah there's",
+        "start": 3565.5,
+        "duration": 4.799
+    },
+    {
+        "text": "personal point for the code right the",
+        "start": 3568.02,
+        "duration": 4.26
+    },
+    {
+        "text": "the the the Paradigm that allows you",
+        "start": 3570.299,
+        "duration": 3.921
+    },
+    {
+        "text": "that's what you're getting at yeah",
+        "start": 3572.28,
+        "duration": 6.18
+    },
+    {
+        "text": "yeah exactly that is why I I wanted to",
+        "start": 3574.22,
+        "duration": 9.399
+    },
+    {
+        "text": "like say 50 50 scenario because the good",
+        "start": 3578.46,
+        "duration": 8.94
+    },
+    {
+        "text": "thing about what is tested for more than",
+        "start": 3583.619,
+        "duration": 7.141
+    },
+    {
+        "text": "10 years I think more than 15 I think uh",
+        "start": 3587.4,
+        "duration": 5.88
+    },
+    {
+        "text": "Source control versioning works right",
+        "start": 3590.76,
+        "duration": 5.46
+    },
+    {
+        "text": "having your object level history works",
+        "start": 3593.28,
+        "duration": 6.66
+    },
+    {
+        "text": "for your on-prem data database scenario",
+        "start": 3596.22,
+        "duration": 7.079
+    },
+    {
+        "text": "that we are used to do so",
+        "start": 3599.94,
+        "duration": 8.159
+    },
+    {
+        "text": "how the way is how to implement this uh",
+        "start": 3603.299,
+        "duration": 6.961
+    },
+    {
+        "text": "with this uh with this new technology so",
+        "start": 3608.099,
+        "duration": 4.5
+    },
+    {
+        "text": "I think that for example I'm trying to",
+        "start": 3610.26,
+        "duration": 4.44
+    },
+    {
+        "text": "this uh",
+        "start": 3612.599,
+        "duration": 5.52
+    },
+    {
+        "text": "um this Flyway because it has this kind",
+        "start": 3614.7,
+        "duration": 6.899
+    },
+    {
+        "text": "of uh solution so not that because I I",
+        "start": 3618.119,
+        "duration": 6.72
+    },
+    {
+        "text": "cannot move to MTT framework I cannot",
+        "start": 3621.599,
+        "duration": 5.941
+    },
+    {
+        "text": "move from my Entity framework to flyboy",
+        "start": 3624.839,
+        "duration": 5.401
+    },
+    {
+        "text": "but it allows me to use the monitor from",
+        "start": 3627.54,
+        "duration": 5.4
+    },
+    {
+        "text": "flyweight personally to see what what",
+        "start": 3630.24,
+        "duration": 5.099
+    },
+    {
+        "text": "are the the changes not to implement",
+        "start": 3632.94,
+        "duration": 6.0
+    },
+    {
+        "text": "just to see anyway in the same for SQL",
+        "start": 3635.339,
+        "duration": 7.621
+    },
+    {
+        "text": "floss I connect SQL fluff to see the the",
+        "start": 3638.94,
+        "duration": 6.84
+    },
+    {
+        "text": "different the code analysis rules so it",
+        "start": 3642.96,
+        "duration": 5.7
+    },
+    {
+        "text": "can help me to assess me before I",
+        "start": 3645.78,
+        "duration": 5.519
+    },
+    {
+        "text": "implement it in the in the Pipelines",
+        "start": 3648.66,
+        "duration": 6.06
+    },
+    {
+        "text": "right like disconnected not connected",
+        "start": 3651.299,
+        "duration": 5.28
+    },
+    {
+        "text": "right",
+        "start": 3654.72,
+        "duration": 5.22
+    },
+    {
+        "text": "so I know that a little step in a middle",
+        "start": 3656.579,
+        "duration": 7.561
+    },
+    {
+        "text": "step is not like integrated step but can",
+        "start": 3659.94,
+        "duration": 6.659
+    },
+    {
+        "text": "help you because you imagine that you",
+        "start": 3664.14,
+        "duration": 6.3
+    },
+    {
+        "text": "have like 20 scripts daily that you want",
+        "start": 3666.599,
+        "duration": 6.421
+    },
+    {
+        "text": "to that you want to see",
+        "start": 3670.44,
+        "duration": 6.119
+    },
+    {
+        "text": "each for each object I I really with",
+        "start": 3673.02,
+        "duration": 5.819
+    },
+    {
+        "text": "versioning I know that you you can go in",
+        "start": 3676.559,
+        "duration": 5.28
+    },
+    {
+        "text": "versioning each one but at the end",
+        "start": 3678.839,
+        "duration": 5.76
+    },
+    {
+        "text": "you're going to miss one so you need to",
+        "start": 3681.839,
+        "duration": 5.101
+    },
+    {
+        "text": "have something automated that at least",
+        "start": 3684.599,
+        "duration": 5.46
+    },
+    {
+        "text": "this SQL fluff gives you a report",
+        "start": 3686.94,
+        "duration": 5.639
+    },
+    {
+        "text": "so with that report you can see the",
+        "start": 3690.059,
+        "duration": 3.481
+    },
+    {
+        "text": "differences",
+        "start": 3692.579,
+        "duration": 4.561
+    },
+    {
+        "text": "faster so that helps me",
+        "start": 3693.54,
+        "duration": 7.92
+    },
+    {
+        "text": "I don't know I mean at least locally so",
+        "start": 3697.14,
+        "duration": 5.64
+    },
+    {
+        "text": "um",
+        "start": 3701.46,
+        "duration": 5.639
+    },
+    {
+        "text": "that's I what I think um it is a good",
+        "start": 3702.78,
+        "duration": 6.96
+    },
+    {
+        "text": "um way to do it the other is I put here",
+        "start": 3707.099,
+        "duration": 4.141
+    },
+    {
+        "text": "uh",
+        "start": 3709.74,
+        "duration": 5.099
+    },
+    {
+        "text": "this is a little bit older but it works",
+        "start": 3711.24,
+        "duration": 4.8
+    },
+    {
+        "text": "this",
+        "start": 3714.839,
+        "duration": 2.22
+    },
+    {
+        "text": "um",
+        "start": 3716.04,
+        "duration": 4.14
+    },
+    {
+        "text": "uh what was what was it the code",
+        "start": 3717.059,
+        "duration": 5.341
+    },
+    {
+        "text": "analysis example for the SQL Server",
+        "start": 3720.18,
+        "duration": 7.26
+    },
+    {
+        "text": "rules that that's old but it works",
+        "start": 3722.4,
+        "duration": 8.88
+    },
+    {
+        "text": "um an older other I had like it was",
+        "start": 3727.44,
+        "duration": 7.74
+    },
+    {
+        "text": "smell sickle smells something I had this",
+        "start": 3731.28,
+        "duration": 6.18
+    },
+    {
+        "text": "over here I think in the documentation",
+        "start": 3735.18,
+        "duration": 4.74
+    },
+    {
+        "text": "if not I can give it to you but this is",
+        "start": 3737.46,
+        "duration": 4.619
+    },
+    {
+        "text": "all all tools but it helps you to do",
+        "start": 3739.92,
+        "duration": 6.74
+    },
+    {
+        "text": "your your SQL checks before to",
+        "start": 3742.079,
+        "duration": 8.52
+    },
+    {
+        "text": "verifying this code that you're testing",
+        "start": 3746.66,
+        "duration": 6.34
+    },
+    {
+        "text": "soon",
+        "start": 3750.599,
+        "duration": 5.941
+    },
+    {
+        "text": "well that's my experience at the moment",
+        "start": 3753.0,
+        "duration": 5.7
+    },
+    {
+        "text": "I think uh I think Nate had a question",
+        "start": 3756.54,
+        "duration": 3.18
+    },
+    {
+        "text": "as well",
+        "start": 3758.7,
+        "duration": 4.5
+    },
+    {
+        "text": "okay yeah Carlos I was interested in",
+        "start": 3759.72,
+        "duration": 5.3
+    },
+    {
+        "text": "um what happened",
+        "start": 3763.2,
+        "duration": 5.04
+    },
+    {
+        "text": "does did this does this tooling uh help",
+        "start": 3765.02,
+        "duration": 5.98
+    },
+    {
+        "text": "you to be able to revert so if you're",
+        "start": 3768.24,
+        "duration": 6.3
+    },
+    {
+        "text": "doing a a release and you're uh",
+        "start": 3771.0,
+        "duration": 4.74
+    },
+    {
+        "text": "releasing code and you're releasing",
+        "start": 3774.54,
+        "duration": 3.24
+    },
+    {
+        "text": "database updates",
+        "start": 3775.74,
+        "duration": 3.18
+    },
+    {
+        "text": "um and you find out there's something",
+        "start": 3777.78,
+        "duration": 4.26
+    },
+    {
+        "text": "wrong that you have to revert",
+        "start": 3778.92,
+        "duration": 6.72
+    },
+    {
+        "text": "um uh yes does it give you the",
+        "start": 3782.04,
+        "duration": 5.34
+    },
+    {
+        "text": "um a good option to be able yeah that",
+        "start": 3785.64,
+        "duration": 4.56
+    },
+    {
+        "text": "option yes they do Entity framework no",
+        "start": 3787.38,
+        "duration": 7.82
+    },
+    {
+        "text": "Entity framework no but Flyway yes it it",
+        "start": 3790.2,
+        "duration": 8.399
+    },
+    {
+        "text": "for the paid version it has the option",
+        "start": 3795.2,
+        "duration": 6.46
+    },
+    {
+        "text": "to revert the changes and it advised you",
+        "start": 3798.599,
+        "duration": 5.76
+    },
+    {
+        "text": "so it lets you",
+        "start": 3801.66,
+        "duration": 5.639
+    },
+    {
+        "text": "okay all right so it'll change the",
+        "start": 3804.359,
+        "duration": 4.801
+    },
+    {
+        "text": "schema right is that whatever right",
+        "start": 3807.299,
+        "duration": 3.56
+    },
+    {
+        "text": "right right right right",
+        "start": 3809.16,
+        "duration": 4.439
+    },
+    {
+        "text": "reverted back to what it was before yeah",
+        "start": 3810.859,
+        "duration": 6.061
+    },
+    {
+        "text": "released and is that",
+        "start": 3813.599,
+        "duration": 6.48
+    },
+    {
+        "text": "kind of majority of what you use you",
+        "start": 3816.92,
+        "duration": 6.52
+    },
+    {
+        "text": "consider a database migration right is",
+        "start": 3820.079,
+        "duration": 5.941
+    },
+    {
+        "text": "a new release of",
+        "start": 3823.44,
+        "duration": 4.919
+    },
+    {
+        "text": "um software with the database changes",
+        "start": 3826.02,
+        "duration": 5.76
+    },
+    {
+        "text": "with it right yeah cool",
+        "start": 3828.359,
+        "duration": 8.881
+    },
+    {
+        "text": "cool yeah I hope that uh I know that uh",
+        "start": 3831.78,
+        "duration": 9.539
+    },
+    {
+        "text": "not everything on orms are like",
+        "start": 3837.24,
+        "duration": 6.72
+    },
+    {
+        "text": "you know in in the",
+        "start": 3841.319,
+        "duration": 5.701
+    },
+    {
+        "text": "there are not a like a lot of",
+        "start": 3843.96,
+        "duration": 5.399
+    },
+    {
+        "text": "documentation out there because this is",
+        "start": 3847.02,
+        "duration": 4.5
+    },
+    {
+        "text": "like I have like five years or something",
+        "start": 3849.359,
+        "duration": 5.821
+    },
+    {
+        "text": "like that it's not a long long time but",
+        "start": 3851.52,
+        "duration": 7.92
+    },
+    {
+        "text": "I think that at the end uh this will be",
+        "start": 3855.18,
+        "duration": 6.179
+    },
+    {
+        "text": "the scenario that we'll see in the next",
+        "start": 3859.44,
+        "duration": 5.94
+    },
+    {
+        "text": "five more more often so I think that at",
+        "start": 3861.359,
+        "duration": 5.521
+    },
+    {
+        "text": "least worth trying",
+        "start": 3865.38,
+        "duration": 4.86
+    },
+    {
+        "text": "right at the end I know it is stable",
+        "start": 3866.88,
+        "duration": 5.28
+    },
+    {
+        "text": "because it is not like something like",
+        "start": 3870.24,
+        "duration": 3.78
+    },
+    {
+        "text": "fails every time because it is not",
+        "start": 3872.16,
+        "duration": 4.98
+    },
+    {
+        "text": "Entity framework at least it works the",
+        "start": 3874.02,
+        "duration": 6.12
+    },
+    {
+        "text": "only thing is that it's a for example uh",
+        "start": 3877.14,
+        "duration": 5.1
+    },
+    {
+        "text": "for Entity framework it's a little bit",
+        "start": 3880.14,
+        "duration": 3.54
+    },
+    {
+        "text": "uh",
+        "start": 3882.24,
+        "duration": 4.98
+    },
+    {
+        "text": "slower I think that it it that is the",
+        "start": 3883.68,
+        "duration": 7.379
+    },
+    {
+        "text": "word it is slow but and it has a lot of",
+        "start": 3887.22,
+        "duration": 6.18
+    },
+    {
+        "text": "parameter options that you have to be",
+        "start": 3891.059,
+        "duration": 6.181
+    },
+    {
+        "text": "very careful and where you have to for",
+        "start": 3893.4,
+        "duration": 7.439
+    },
+    {
+        "text": "example when you shift something",
+        "start": 3897.24,
+        "duration": 6.54
+    },
+    {
+        "text": "um the output that it gives you you have",
+        "start": 3900.839,
+        "duration": 5.52
+    },
+    {
+        "text": "to like control the handle control the",
+        "start": 3903.78,
+        "duration": 4.88
+    },
+    {
+        "text": "the output the solution",
+        "start": 3906.359,
+        "duration": 5.161
+    },
+    {
+        "text": "interface with the database for example",
+        "start": 3908.66,
+        "duration": 5.439
+    },
+    {
+        "text": "the the error that for example is there",
+        "start": 3911.52,
+        "duration": 3.839
+    },
+    {
+        "text": "is a",
+        "start": 3914.099,
+        "duration": 3.121
+    },
+    {
+        "text": "some kind of error in the script that",
+        "start": 3915.359,
+        "duration": 3.661
+    },
+    {
+        "text": "you're putting in the Entity framework",
+        "start": 3917.22,
+        "duration": 5.879
+    },
+    {
+        "text": "and you have to detail then the you can",
+        "start": 3919.02,
+        "duration": 6.539
+    },
+    {
+        "text": "detail the number of codes the error",
+        "start": 3923.099,
+        "duration": 4.341
+    },
+    {
+        "text": "codes that you will display in your log",
+        "start": 3925.559,
+        "duration": 4.981
+    },
+    {
+        "text": "so you have to be like a tweak a little",
+        "start": 3927.44,
+        "duration": 5.44
+    },
+    {
+        "text": "bit there in the Entity framework plus",
+        "start": 3930.54,
+        "duration": 4.5
+    },
+    {
+        "text": "it is a little bit slow not that slower",
+        "start": 3932.88,
+        "duration": 5.64
+    },
+    {
+        "text": "but it's compared with Flyway I think",
+        "start": 3935.04,
+        "duration": 6.84
+    },
+    {
+        "text": "it's a little bit slower but um it works",
+        "start": 3938.52,
+        "duration": 6.42
+    },
+    {
+        "text": "it works and it's Microsoft so you are",
+        "start": 3941.88,
+        "duration": 5.1
+    },
+    {
+        "text": "fully Microsoft integrated there so",
+        "start": 3944.94,
+        "duration": 4.32
+    },
+    {
+        "text": "that's a good thing you have all the",
+        "start": 3946.98,
+        "duration": 5.16
+    },
+    {
+        "text": "tooling to use Visual Studio code visual",
+        "start": 3949.26,
+        "duration": 4.319
+    },
+    {
+        "text": "studio",
+        "start": 3952.14,
+        "duration": 2.939
+    },
+    {
+        "text": "um",
+        "start": 3953.579,
+        "duration": 3.841
+    },
+    {
+        "text": "2019 I use and",
+        "start": 3955.079,
+        "duration": 4.141
+    },
+    {
+        "text": "um so um",
+        "start": 3957.42,
+        "duration": 4.56
+    },
+    {
+        "text": "depending on on what you have uh it",
+        "start": 3959.22,
+        "duration": 4.68
+    },
+    {
+        "text": "gives you all the Microsoft tooling so",
+        "start": 3961.98,
+        "duration": 4.139
+    },
+    {
+        "text": "it it helps you",
+        "start": 3963.9,
+        "duration": 4.26
+    },
+    {
+        "text": "so",
+        "start": 3966.119,
+        "duration": 3.901
+    },
+    {
+        "text": "um when you when you talk about these",
+        "start": 3968.16,
+        "duration": 4.02
+    },
+    {
+        "text": "two tools you're talking about any using",
+        "start": 3970.02,
+        "duration": 3.96
+    },
+    {
+        "text": "any framework to do the migration is",
+        "start": 3972.18,
+        "duration": 4.74
+    },
+    {
+        "text": "that correct yeah to the immigration and",
+        "start": 3973.98,
+        "duration": 4.56
+    },
+    {
+        "text": "then fly away you can also do it and",
+        "start": 3976.92,
+        "duration": 3.659
+    },
+    {
+        "text": "imply why it looks like it has",
+        "start": 3978.54,
+        "duration": 4.079
+    },
+    {
+        "text": "versioning so you could go back to the",
+        "start": 3980.579,
+        "duration": 5.401
+    },
+    {
+        "text": "correct correct sorry sorry if I can",
+        "start": 3982.619,
+        "duration": 6.18
+    },
+    {
+        "text": "misguide you there yeah flyweight the",
+        "start": 3985.98,
+        "duration": 6.54
+    },
+    {
+        "text": "difference is that fly away not the",
+        "start": 3988.799,
+        "duration": 4.5
+    },
+    {
+        "text": "um",
+        "start": 3992.52,
+        "duration": 3.66
+    },
+    {
+        "text": "the paid version not the uh Community",
+        "start": 3993.299,
+        "duration": 6.54
+    },
+    {
+        "text": "version has the the possibility to",
+        "start": 3996.18,
+        "duration": 6.06
+    },
+    {
+        "text": "revert back the changes that you did in",
+        "start": 3999.839,
+        "duration": 4.621
+    },
+    {
+        "text": "do does the comparison of the changes",
+        "start": 4002.24,
+        "duration": 4.68
+    },
+    {
+        "text": "and advise you it each step that you're",
+        "start": 4004.46,
+        "duration": 5.159
+    },
+    {
+        "text": "doing in the integration so that is what",
+        "start": 4006.92,
+        "duration": 5.34
+    },
+    {
+        "text": "helps you that is I think that is a cool",
+        "start": 4009.619,
+        "duration": 5.821
+    },
+    {
+        "text": "thing that Flyway has and it is good",
+        "start": 4012.26,
+        "duration": 6.359
+    },
+    {
+        "text": "because I think not because I'm doing uh",
+        "start": 4015.44,
+        "duration": 5.639
+    },
+    {
+        "text": "promotion here but Redgate has a lot of",
+        "start": 4018.619,
+        "duration": 5.46
+    },
+    {
+        "text": "experience doing uh with SQL server in",
+        "start": 4021.079,
+        "duration": 6.24
+    },
+    {
+        "text": "so it has a lot of tooling so they",
+        "start": 4024.079,
+        "duration": 5.881
+    },
+    {
+        "text": "integrate those tools into that Flyway",
+        "start": 4027.319,
+        "duration": 5.641
+    },
+    {
+        "text": "solution so that is why it's a little",
+        "start": 4029.96,
+        "duration": 6.78
+    },
+    {
+        "text": "robust I think in that that way so that",
+        "start": 4032.96,
+        "duration": 7.92
+    },
+    {
+        "text": "is why they have all these advisors uh",
+        "start": 4036.74,
+        "duration": 7.44
+    },
+    {
+        "text": "um to to give you support when you're",
+        "start": 4040.88,
+        "duration": 6.26
+    },
+    {
+        "text": "into implementing",
+        "start": 4044.18,
+        "duration": 2.96
+    },
+    {
+        "text": "that is what I think",
+        "start": 4047.359,
+        "duration": 4.641
+    },
+    {
+        "text": "I was going to ask you Carlos which",
+        "start": 4049.52,
+        "duration": 4.88
+    },
+    {
+        "text": "databases were supported by Fly Away",
+        "start": 4052.0,
+        "duration": 5.559
+    },
+    {
+        "text": "Flyway but I I found it it's a SQL",
+        "start": 4054.4,
+        "duration": 6.82
+    },
+    {
+        "text": "Server Oracle postgres and it looks like",
+        "start": 4057.559,
+        "duration": 5.641
+    },
+    {
+        "text": "MySQL is in the works for at least some",
+        "start": 4061.22,
+        "duration": 4.74
+    },
+    {
+        "text": "features so that's a pretty uh that's a",
+        "start": 4063.2,
+        "duration": 5.28
+    },
+    {
+        "text": "very good uh set of uh DBS to cover yeah",
+        "start": 4065.96,
+        "duration": 4.68
+    },
+    {
+        "text": "and they are doing I think that they're",
+        "start": 4068.48,
+        "duration": 4.2
+    },
+    {
+        "text": "doing Cosmos something like that and",
+        "start": 4070.64,
+        "duration": 3.6
+    },
+    {
+        "text": "they're doing something else",
+        "start": 4072.68,
+        "duration": 4.02
+    },
+    {
+        "text": "but yeah the main ones are are there",
+        "start": 4074.24,
+        "duration": 5.42
+    },
+    {
+        "text": "they're doing uh Cosmos for postgres",
+        "start": 4076.7,
+        "duration": 6.96
+    },
+    {
+        "text": "which came out uh last year you know",
+        "start": 4079.66,
+        "duration": 5.439
+    },
+    {
+        "text": "so",
+        "start": 4083.66,
+        "duration": 3.72
+    },
+    {
+        "text": "they are integrating to that I don't",
+        "start": 4085.099,
+        "duration": 6.181
+    },
+    {
+        "text": "know how much if if they compare it to",
+        "start": 4087.38,
+        "duration": 7.739
+    },
+    {
+        "text": "Usher compared to SQL at least how much",
+        "start": 4091.28,
+        "duration": 7.2
+    },
+    {
+        "text": "they have integrated that but they say",
+        "start": 4095.119,
+        "duration": 6.421
+    },
+    {
+        "text": "that they have it so that's good to know",
+        "start": 4098.48,
+        "duration": 5.04
+    },
+    {
+        "text": "that's another option",
+        "start": 4101.54,
+        "duration": 3.299
+    },
+    {
+        "text": "cool",
+        "start": 4103.52,
+        "duration": 4.679
+    },
+    {
+        "text": "so um does anybody else have uh any",
+        "start": 4104.839,
+        "duration": 7.201
+    },
+    {
+        "text": "questions for Carlos before we uh let",
+        "start": 4108.199,
+        "duration": 7.461
+    },
+    {
+        "text": "him go back to Guatemala",
+        "start": 4112.04,
+        "duration": 3.62
+    },
+    {
+        "text": "because okay one quick one uh of like uh",
+        "start": 4117.5,
+        "duration": 6.9
+    },
+    {
+        "text": "so as far as",
+        "start": 4121.46,
+        "duration": 3.839
+    },
+    {
+        "text": "um",
+        "start": 4124.4,
+        "duration": 3.839
+    },
+    {
+        "text": "when you're starting a new project do",
+        "start": 4125.299,
+        "duration": 7.321
+    },
+    {
+        "text": "you export a a deck pack file to get",
+        "start": 4128.239,
+        "duration": 7.44
+    },
+    {
+        "text": "started and and create your your project",
+        "start": 4132.62,
+        "duration": 5.699
+    },
+    {
+        "text": "and then use either Flyway or anything",
+        "start": 4135.679,
+        "duration": 6.961
+    },
+    {
+        "text": "framework to uh do the pushing yeah I do",
+        "start": 4138.319,
+        "duration": 6.841
+    },
+    {
+        "text": "but uh first I do",
+        "start": 4142.64,
+        "duration": 4.92
+    },
+    {
+        "text": "uh let's see if I have it here",
+        "start": 4145.16,
+        "duration": 5.579
+    },
+    {
+        "text": "huh let's see uh it's not that but uh",
+        "start": 4147.56,
+        "duration": 5.82
+    },
+    {
+        "text": "what I do is I I get my DAC pack I",
+        "start": 4150.739,
+        "duration": 4.921
+    },
+    {
+        "text": "backpack sorry because backpack is for",
+        "start": 4153.38,
+        "duration": 3.839
+    },
+    {
+        "text": "for the code",
+        "start": 4155.66,
+        "duration": 4.86
+    },
+    {
+        "text": "um I do my backpack uh and I go with the",
+        "start": 4157.219,
+        "duration": 6.6
+    },
+    {
+        "text": "backpack and I put it into into my local",
+        "start": 4160.52,
+        "duration": 5.1
+    },
+    {
+        "text": "container in my machine",
+        "start": 4163.819,
+        "duration": 4.741
+    },
+    {
+        "text": "so what I do is I do all the coding in",
+        "start": 4165.62,
+        "duration": 4.86
+    },
+    {
+        "text": "my in my computer my like local sandbox",
+        "start": 4168.56,
+        "duration": 5.759
+    },
+    {
+        "text": "and then I I push it back into the into",
+        "start": 4170.48,
+        "duration": 5.52
+    },
+    {
+        "text": "the code to the",
+        "start": 4174.319,
+        "duration": 5.301
+    },
+    {
+        "text": "to do the testing in the in the sandbox",
+        "start": 4176.0,
+        "duration": 7.92
+    },
+    {
+        "text": "in the in the Enterprise sandbox",
+        "start": 4179.62,
+        "duration": 8.02
+    },
+    {
+        "text": "which is azure SQL serverless",
+        "start": 4183.92,
+        "duration": 6.839
+    },
+    {
+        "text": "so I go and get pushed to it and I test",
+        "start": 4187.64,
+        "duration": 7.02
+    },
+    {
+        "text": "it there so one it's but but this is a a",
+        "start": 4190.759,
+        "duration": 9.181
+    },
+    {
+        "text": "local git not the the the the main the",
+        "start": 4194.66,
+        "duration": 6.42
+    },
+    {
+        "text": "main git",
+        "start": 4199.94,
+        "duration": 3.66
+    },
+    {
+        "text": "this is just for the devs",
+        "start": 4201.08,
+        "duration": 6.3
+    },
+    {
+        "text": "and then I just then I go in when it's",
+        "start": 4203.6,
+        "duration": 6.42
+    },
+    {
+        "text": "ready well you can eat that you can",
+        "start": 4207.38,
+        "duration": 5.88
+    },
+    {
+        "text": "implement it to the solution but still I",
+        "start": 4210.02,
+        "duration": 5.96
+    },
+    {
+        "text": "need to test it with the with the",
+        "start": 4213.26,
+        "duration": 5.64
+    },
+    {
+        "text": "database developer team so when when",
+        "start": 4215.98,
+        "duration": 5.739
+    },
+    {
+        "text": "that's done then I can move it to",
+        "start": 4218.9,
+        "duration": 6.6
+    },
+    {
+        "text": "to the main solution which is other",
+        "start": 4221.719,
+        "duration": 5.281
+    },
+    {
+        "text": "other kid",
+        "start": 4225.5,
+        "duration": 3.54
+    },
+    {
+        "text": "right",
+        "start": 4227.0,
+        "duration": 4.38
+    },
+    {
+        "text": "well and that backpack processes just",
+        "start": 4229.04,
+        "duration": 4.56
+    },
+    {
+        "text": "wants to set it up and then you maintain",
+        "start": 4231.38,
+        "duration": 5.1
+    },
+    {
+        "text": "it within the project exactly awesome",
+        "start": 4233.6,
+        "duration": 5.3
+    },
+    {
+        "text": "cool",
+        "start": 4236.48,
+        "duration": 2.42
+    },
+    {
+        "text": "okay so I'll stop sharing so",
+        "start": 4240.56,
+        "duration": 5.099
+    },
+    {
+        "text": "um",
+        "start": 4244.699,
+        "duration": 2.881
+    },
+    {
+        "text": "well let me uh let me jump in here and",
+        "start": 4245.659,
+        "duration": 3.661
+    },
+    {
+        "text": "uh give you a real big uh thank you",
+        "start": 4247.58,
+        "duration": 4.32
+    },
+    {
+        "text": "Carlos I was uh enlightening and a lot",
+        "start": 4249.32,
+        "duration": 3.72
+    },
+    {
+        "text": "of good questions thank you everybody",
+        "start": 4251.9,
+        "duration": 3.36
+    },
+    {
+        "text": "who who joined in",
+        "start": 4253.04,
+        "duration": 5.76
+    },
+    {
+        "text": "and you can watch for the recording soon",
+        "start": 4255.26,
+        "duration": 5.28
+    },
+    {
+        "text": "usually it gets posted the next day and",
+        "start": 4258.8,
+        "duration": 5.939
+    },
+    {
+        "text": "it'll be at youtube.com Boston azure and",
+        "start": 4260.54,
+        "duration": 8.82
+    },
+    {
+        "text": "watch the usual spaces on Meetup for uh",
+        "start": 4264.739,
+        "duration": 8.041
+    },
+    {
+        "text": "the we have a bunch of I think we have",
+        "start": 4269.36,
+        "duration": 6.48
+    },
+    {
+        "text": "seven more virtual talks lined up we",
+        "start": 4272.78,
+        "duration": 5.34
+    },
+    {
+        "text": "just have to slot them in and as we",
+        "start": 4275.84,
+        "duration": 4.62
+    },
+    {
+        "text": "talked about up front uh before Carlos",
+        "start": 4278.12,
+        "duration": 5.16
+    },
+    {
+        "text": "started speaking we had the um we have",
+        "start": 4280.46,
+        "duration": 5.279
+    },
+    {
+        "text": "two in-person events that were we're",
+        "start": 4283.28,
+        "duration": 4.26
+    },
+    {
+        "text": "planning out right now one of them which",
+        "start": 4285.739,
+        "duration": 5.881
+    },
+    {
+        "text": "would be the uh Local Edition Boston",
+        "start": 4287.54,
+        "duration": 7.5
+    },
+    {
+        "text": "area edition of the global Azure boot",
+        "start": 4291.62,
+        "duration": 6.48
+    },
+    {
+        "text": "camp on Saturday May uh 13th so I hope",
+        "start": 4295.04,
+        "duration": 5.1
+    },
+    {
+        "text": "to see you all in person soon and uh",
+        "start": 4298.1,
+        "duration": 4.2
+    },
+    {
+        "text": "thank you big thank you again Carlos",
+        "start": 4300.14,
+        "duration": 5.16
+    },
+    {
+        "text": "and um until next time",
+        "start": 4302.3,
+        "duration": 5.34
+    },
+    {
+        "text": "thank you take care have a good day",
+        "start": 4305.3,
+        "duration": 5.16
+    },
+    {
+        "text": "thank you Carlos thank you Carlos",
+        "start": 4307.64,
+        "duration": 3.9
+    },
+    {
+        "text": "goodbye",
+        "start": 4310.46,
+        "duration": 3.96
+    },
+    {
+        "text": "bye thank you bye",
+        "start": 4311.54,
+        "duration": 5.84
+    },
+    {
+        "text": "foreign",
+        "start": 4314.42,
+        "duration": 2.96
+    }
+]

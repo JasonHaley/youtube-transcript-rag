@@ -1,0 +1,8102 @@
+[
+    {
+        "text": "uh good morning good afternoon",
+        "start": 3.179,
+        "duration": 4.92
+    },
+    {
+        "text": "good afternoon everyone or good evening",
+        "start": 5.72,
+        "duration": 4.12
+    },
+    {
+        "text": "at the",
+        "start": 8.099,
+        "duration": 5.941
+    },
+    {
+        "text": "uh my name is Ron dagdag and today I",
+        "start": 9.84,
+        "duration": 7.14
+    },
+    {
+        "text": "will be talking about managing iot",
+        "start": 14.04,
+        "duration": 5.28
+    },
+    {
+        "text": "devices in Azure and we're going to talk",
+        "start": 16.98,
+        "duration": 6.5
+    },
+    {
+        "text": "about the simpler way of doing it",
+        "start": 19.32,
+        "duration": 4.16
+    },
+    {
+        "text": "so this is a picture of my daughter",
+        "start": 23.58,
+        "duration": 5.34
+    },
+    {
+        "text": "and that day",
+        "start": 26.119,
+        "duration": 5.381
+    },
+    {
+        "text": "I had a great time there was a Lego",
+        "start": 28.92,
+        "duration": 6.12
+    },
+    {
+        "text": "convention here in town and we attended",
+        "start": 31.5,
+        "duration": 6.12
+    },
+    {
+        "text": "it and you know there's a bunch of Legos",
+        "start": 35.04,
+        "duration": 5.339
+    },
+    {
+        "text": "and we you know that that she loves",
+        "start": 37.62,
+        "duration": 4.8
+    },
+    {
+        "text": "Legos and learning all those different",
+        "start": 40.379,
+        "duration": 4.081
+    },
+    {
+        "text": "Legos and of course you know if you're a",
+        "start": 42.42,
+        "duration": 4.319
+    },
+    {
+        "text": "parent most likely you stepped on one of",
+        "start": 44.46,
+        "duration": 4.74
+    },
+    {
+        "text": "these Legos out in the living room and",
+        "start": 46.739,
+        "duration": 5.881
+    },
+    {
+        "text": "all that but so I I gave her uh you know",
+        "start": 49.2,
+        "duration": 6.24
+    },
+    {
+        "text": "a challenge that day and said can you",
+        "start": 52.62,
+        "duration": 4.56
+    },
+    {
+        "text": "build me a house because there's a bunch",
+        "start": 55.44,
+        "duration": 4.68
+    },
+    {
+        "text": "of you know a bunch of uh Lego pieces",
+        "start": 57.18,
+        "duration": 6.059
+    },
+    {
+        "text": "right there and yeah she did this one",
+        "start": 60.12,
+        "duration": 5.46
+    },
+    {
+        "text": "and I think it's it's been nice I mean",
+        "start": 63.239,
+        "duration": 4.92
+    },
+    {
+        "text": "it does look like house it does not have",
+        "start": 65.58,
+        "duration": 4.98
+    },
+    {
+        "text": "walls but there's a small kitchen over",
+        "start": 68.159,
+        "duration": 4.861
+    },
+    {
+        "text": "there and and I think it's it's it's",
+        "start": 70.56,
+        "duration": 4.739
+    },
+    {
+        "text": "cute uh",
+        "start": 73.02,
+        "duration": 6.9
+    },
+    {
+        "text": "and of course a few years later you know",
+        "start": 75.299,
+        "duration": 6.18
+    },
+    {
+        "text": "we are",
+        "start": 79.92,
+        "duration": 5.1
+    },
+    {
+        "text": "I bought her one of these Lego pieces or",
+        "start": 81.479,
+        "duration": 6.361
+    },
+    {
+        "text": "you know Lego kit uh I guess this one is",
+        "start": 85.02,
+        "duration": 5.7
+    },
+    {
+        "text": "Mega Blok uh and",
+        "start": 87.84,
+        "duration": 5.04
+    },
+    {
+        "text": "the same approach right you build me a",
+        "start": 90.72,
+        "duration": 4.56
+    },
+    {
+        "text": "house from these pieces and if you",
+        "start": 92.88,
+        "duration": 4.5
+    },
+    {
+        "text": "compare these",
+        "start": 95.28,
+        "duration": 4.56
+    },
+    {
+        "text": "versus that one",
+        "start": 97.38,
+        "duration": 5.4
+    },
+    {
+        "text": "I mean that one is a much better toy",
+        "start": 99.84,
+        "duration": 5.16
+    },
+    {
+        "text": "house or dollhouse as compared to the",
+        "start": 102.78,
+        "duration": 4.5
+    },
+    {
+        "text": "previous one uh",
+        "start": 105.0,
+        "duration": 4.5
+    },
+    {
+        "text": "but it's simpler for someone that's",
+        "start": 107.28,
+        "duration": 4.08
+    },
+    {
+        "text": "beginning and trying to understand so",
+        "start": 109.5,
+        "duration": 4.439
+    },
+    {
+        "text": "that's that's my point here in terms of",
+        "start": 111.36,
+        "duration": 6.0
+    },
+    {
+        "text": "you know having a guide of what would",
+        "start": 113.939,
+        "duration": 6.301
+    },
+    {
+        "text": "make it simpler to do in order to to",
+        "start": 117.36,
+        "duration": 5.64
+    },
+    {
+        "text": "accomplish some tasks",
+        "start": 120.24,
+        "duration": 6.0
+    },
+    {
+        "text": "and today our agenda we're going to talk",
+        "start": 123.0,
+        "duration": 6.239
+    },
+    {
+        "text": "about what is internet of things and",
+        "start": 126.24,
+        "duration": 4.32
+    },
+    {
+        "text": "then",
+        "start": 129.239,
+        "duration": 4.561
+    },
+    {
+        "text": "iot Central which is uh part of azure",
+        "start": 130.56,
+        "duration": 5.34
+    },
+    {
+        "text": "I'm going to focus on that one and what",
+        "start": 133.8,
+        "duration": 3.78
+    },
+    {
+        "text": "makes it simpler as compared to the",
+        "start": 135.9,
+        "duration": 3.78
+    },
+    {
+        "text": "other things that are that are available",
+        "start": 137.58,
+        "duration": 4.4
+    },
+    {
+        "text": "in Azure to do on Internet of Things",
+        "start": 139.68,
+        "duration": 6.18
+    },
+    {
+        "text": "what is the benefit of it we're going to",
+        "start": 141.98,
+        "duration": 6.64
+    },
+    {
+        "text": "talk about what is a device template iot",
+        "start": 145.86,
+        "duration": 6.0
+    },
+    {
+        "text": "Plug and Play how do you visualize data",
+        "start": 148.62,
+        "duration": 5.3
+    },
+    {
+        "text": "that you're receiving from iot devices",
+        "start": 151.86,
+        "duration": 7.14
+    },
+    {
+        "text": "and integration with other azures",
+        "start": 153.92,
+        "duration": 7.179
+    },
+    {
+        "text": "services",
+        "start": 159.0,
+        "duration": 4.26
+    },
+    {
+        "text": "let's get started",
+        "start": 161.099,
+        "duration": 2.881
+    },
+    {
+        "text": "um",
+        "start": 163.26,
+        "duration": 4.46
+    },
+    {
+        "text": "if you have questions feel free to",
+        "start": 163.98,
+        "duration": 7.38
+    },
+    {
+        "text": "unmute or raise your hand",
+        "start": 167.72,
+        "duration": 6.58
+    },
+    {
+        "text": "you know this this is a small group I",
+        "start": 171.36,
+        "duration": 6.48
+    },
+    {
+        "text": "can answer them as needed and also it",
+        "start": 174.3,
+        "duration": 6.18
+    },
+    {
+        "text": "helps everyone in the team to to",
+        "start": 177.84,
+        "duration": 6.42
+    },
+    {
+        "text": "understand more if you need details",
+        "start": 180.48,
+        "duration": 7.44
+    },
+    {
+        "text": "so what is iot iot the way it kind of",
+        "start": 184.26,
+        "duration": 7.44
+    },
+    {
+        "text": "look at is there's things you have",
+        "start": 187.92,
+        "duration": 6.0
+    },
+    {
+        "text": "things you know",
+        "start": 191.7,
+        "duration": 6.6
+    },
+    {
+        "text": "this is a thing right that you send data",
+        "start": 193.92,
+        "duration": 7.44
+    },
+    {
+        "text": "from this thing to the cloud and then",
+        "start": 198.3,
+        "duration": 7.4
+    },
+    {
+        "text": "you do some transformation of that data",
+        "start": 201.36,
+        "duration": 8.06
+    },
+    {
+        "text": "to improve your business",
+        "start": 205.7,
+        "duration": 3.72
+    },
+    {
+        "text": "so it's an internet thinks is a network",
+        "start": 209.76,
+        "duration": 6.839
+    },
+    {
+        "text": "of connected devices and objects allows",
+        "start": 212.7,
+        "duration": 6.3
+    },
+    {
+        "text": "you to send and receive data over the",
+        "start": 216.599,
+        "duration": 4.801
+    },
+    {
+        "text": "Internet typically it's connected to the",
+        "start": 219.0,
+        "duration": 6.84
+    },
+    {
+        "text": "internet uh or other device systems",
+        "start": 221.4,
+        "duration": 6.899
+    },
+    {
+        "text": "an iot device will have some sensors",
+        "start": 225.84,
+        "duration": 4.8
+    },
+    {
+        "text": "that can detect you know maybe various",
+        "start": 228.299,
+        "duration": 6.601
+    },
+    {
+        "text": "uh ambient condition temperature or or",
+        "start": 230.64,
+        "duration": 7.86
+    },
+    {
+        "text": "other things all these other uh sensors",
+        "start": 234.9,
+        "duration": 5.28
+    },
+    {
+        "text": "and then",
+        "start": 238.5,
+        "duration": 4.5
+    },
+    {
+        "text": "data is collected",
+        "start": 240.18,
+        "duration": 5.88
+    },
+    {
+        "text": "that is used for either live monitoring",
+        "start": 243.0,
+        "duration": 5.34
+    },
+    {
+        "text": "or some analysis at the end of the day",
+        "start": 246.06,
+        "duration": 5.459
+    },
+    {
+        "text": "it's business decision making",
+        "start": 248.34,
+        "duration": 4.979
+    },
+    {
+        "text": "there are two goals whenever you're",
+        "start": 251.519,
+        "duration": 3.901
+    },
+    {
+        "text": "working on Internet of Things device",
+        "start": 253.319,
+        "duration": 7.081
+    },
+    {
+        "text": "right one is remotely monitor uh your",
+        "start": 255.42,
+        "duration": 7.8
+    },
+    {
+        "text": "your devices right this is where you're",
+        "start": 260.4,
+        "duration": 5.46
+    },
+    {
+        "text": "Gathering data or",
+        "start": 263.22,
+        "duration": 5.28
+    },
+    {
+        "text": "you're doing some minimum minimal device",
+        "start": 265.86,
+        "duration": 4.74
+    },
+    {
+        "text": "processing knowing that status of that",
+        "start": 268.5,
+        "duration": 5.16
+    },
+    {
+        "text": "model of that device how how is it",
+        "start": 270.6,
+        "duration": 5.76
+    },
+    {
+        "text": "performing and then also controlling",
+        "start": 273.66,
+        "duration": 4.44
+    },
+    {
+        "text": "that device this is when you're trying",
+        "start": 276.36,
+        "duration": 5.1
+    },
+    {
+        "text": "to send commands to that device or some",
+        "start": 278.1,
+        "duration": 7.099
+    },
+    {
+        "text": "device properties so",
+        "start": 281.46,
+        "duration": 3.739
+    },
+    {
+        "text": "typically when you want to start",
+        "start": 286.62,
+        "duration": 3.66
+    },
+    {
+        "text": "learning about internet of things that's",
+        "start": 288.24,
+        "duration": 4.44
+    },
+    {
+        "text": "out there a lot of resources are",
+        "start": 290.28,
+        "duration": 3.66
+    },
+    {
+        "text": "available",
+        "start": 292.68,
+        "duration": 3.959
+    },
+    {
+        "text": "um a lot of you know if you've heard of",
+        "start": 293.94,
+        "duration": 5.64
+    },
+    {
+        "text": "Raspberry Pi's or arduinos that's",
+        "start": 296.639,
+        "duration": 4.801
+    },
+    {
+        "text": "typically the ones that people start",
+        "start": 299.58,
+        "duration": 3.96
+    },
+    {
+        "text": "with learning more of course the",
+        "start": 301.44,
+        "duration": 3.72
+    },
+    {
+        "text": "difference between the two is that",
+        "start": 303.54,
+        "duration": 5.18
+    },
+    {
+        "text": "Raspberry Pi has a you know it's a",
+        "start": 305.16,
+        "duration": 6.66
+    },
+    {
+        "text": "microprocessor it has a it's a it has an",
+        "start": 308.72,
+        "duration": 5.38
+    },
+    {
+        "text": "operating system",
+        "start": 311.82,
+        "duration": 4.379
+    },
+    {
+        "text": "um and it's using Linux or you can",
+        "start": 314.1,
+        "duration": 5.039
+    },
+    {
+        "text": "actually install Ubuntu or running on",
+        "start": 316.199,
+        "duration": 5.521
+    },
+    {
+        "text": "that machine and then of course Arduino",
+        "start": 319.139,
+        "duration": 6.84
+    },
+    {
+        "text": "is a microcontroller it's using uh you",
+        "start": 321.72,
+        "duration": 6.84
+    },
+    {
+        "text": "know Bartos real-time operating system",
+        "start": 325.979,
+        "duration": 6.601
+    },
+    {
+        "text": "it does not have the the usual Linux",
+        "start": 328.56,
+        "duration": 6.84
+    },
+    {
+        "text": "operating system that we're used to and",
+        "start": 332.58,
+        "duration": 4.8
+    },
+    {
+        "text": "they both have different ways on how you",
+        "start": 335.4,
+        "duration": 4.82
+    },
+    {
+        "text": "would program them",
+        "start": 337.38,
+        "duration": 2.84
+    },
+    {
+        "text": "and of course whenever you know you use",
+        "start": 340.86,
+        "duration": 6.54
+    },
+    {
+        "text": "you install these iot systems like let's",
+        "start": 343.259,
+        "duration": 7.261
+    },
+    {
+        "text": "say in a factory or in an in a retail",
+        "start": 347.4,
+        "duration": 6.06
+    },
+    {
+        "text": "store or different uh you know different",
+        "start": 350.52,
+        "duration": 5.04
+    },
+    {
+        "text": "uh",
+        "start": 353.46,
+        "duration": 4.739
+    },
+    {
+        "text": "in different areas right or weather",
+        "start": 355.56,
+        "duration": 4.859
+    },
+    {
+        "text": "stations and all these",
+        "start": 358.199,
+        "duration": 5.28
+    },
+    {
+        "text": "there you know there's issues that",
+        "start": 360.419,
+        "duration": 6.12
+    },
+    {
+        "text": "you'll see in the field in in scaling",
+        "start": 363.479,
+        "duration": 6.961
+    },
+    {
+        "text": "these devices right",
+        "start": 366.539,
+        "duration": 6.72
+    },
+    {
+        "text": "and so these are different attributes of",
+        "start": 370.44,
+        "duration": 4.44
+    },
+    {
+        "text": "what a successful",
+        "start": 373.259,
+        "duration": 4.081
+    },
+    {
+        "text": "Internet of Things Solutions",
+        "start": 374.88,
+        "duration": 4.92
+    },
+    {
+        "text": "are one is of course you whenever you're",
+        "start": 377.34,
+        "duration": 3.72
+    },
+    {
+        "text": "talking about this you have to think",
+        "start": 379.8,
+        "duration": 4.14
+    },
+    {
+        "text": "about scaling these you know scaling not",
+        "start": 381.06,
+        "duration": 5.34
+    },
+    {
+        "text": "just storage but you also have to scale",
+        "start": 383.94,
+        "duration": 4.319
+    },
+    {
+        "text": "compute networking and you may have",
+        "start": 386.4,
+        "duration": 4.38
+    },
+    {
+        "text": "multi-tenancy around your your system",
+        "start": 388.259,
+        "duration": 5.16
+    },
+    {
+        "text": "that you have to consider another one is",
+        "start": 390.78,
+        "duration": 4.68
+    },
+    {
+        "text": "device management you know there's a",
+        "start": 393.419,
+        "duration": 4.681
+    },
+    {
+        "text": "life cycle on one of these devices it",
+        "start": 395.46,
+        "duration": 4.44
+    },
+    {
+        "text": "could be you know you have to figure out",
+        "start": 398.1,
+        "duration": 3.659
+    },
+    {
+        "text": "how do you provision them how do you",
+        "start": 399.9,
+        "duration": 3.72
+    },
+    {
+        "text": "connect them to the internet the Wi-Fi",
+        "start": 401.759,
+        "duration": 3.901
+    },
+    {
+        "text": "credentials and those kind of things or",
+        "start": 403.62,
+        "duration": 5.4
+    },
+    {
+        "text": "even if they're not using Wi-Fi uh you",
+        "start": 405.66,
+        "duration": 6.12
+    },
+    {
+        "text": "know how do you update the software on",
+        "start": 409.02,
+        "duration": 6.08
+    },
+    {
+        "text": "these on these devices",
+        "start": 411.78,
+        "duration": 3.32
+    },
+    {
+        "text": "another way is is big data management",
+        "start": 416.639,
+        "duration": 5.761
+    },
+    {
+        "text": "you know so there's the data that you're",
+        "start": 419.699,
+        "duration": 4.5
+    },
+    {
+        "text": "collecting from these devices and you",
+        "start": 422.4,
+        "duration": 3.84
+    },
+    {
+        "text": "have to consider them do you need to",
+        "start": 424.199,
+        "duration": 4.201
+    },
+    {
+        "text": "store them in a hot path and you'll hear",
+        "start": 426.24,
+        "duration": 5.459
+    },
+    {
+        "text": "this a lot more hot path warm path or",
+        "start": 428.4,
+        "duration": 6.9
+    },
+    {
+        "text": "cold path it's how you uh you store",
+        "start": 431.699,
+        "duration": 6.301
+    },
+    {
+        "text": "these data that you collected and how",
+        "start": 435.3,
+        "duration": 5.82
+    },
+    {
+        "text": "fast you can access it after it writes",
+        "start": 438.0,
+        "duration": 6.3
+    },
+    {
+        "text": "it to to on disk and so there's",
+        "start": 441.12,
+        "duration": 5.82
+    },
+    {
+        "text": "different modes and how you would uh you",
+        "start": 444.3,
+        "duration": 5.42
+    },
+    {
+        "text": "would manage those that data",
+        "start": 446.94,
+        "duration": 6.08
+    },
+    {
+        "text": "and then once you start having analytics",
+        "start": 449.72,
+        "duration": 7.36
+    },
+    {
+        "text": "insights and extensibility you just also",
+        "start": 453.02,
+        "duration": 5.86
+    },
+    {
+        "text": "have to think about some of the",
+        "start": 457.08,
+        "duration": 5.0
+    },
+    {
+        "text": "different rules right uh and some",
+        "start": 458.88,
+        "duration": 5.759
+    },
+    {
+        "text": "automated actions and some Integrations",
+        "start": 462.08,
+        "duration": 5.459
+    },
+    {
+        "text": "to your alerting system so think about",
+        "start": 464.639,
+        "duration": 6.241
+    },
+    {
+        "text": "uh you know if one of the devices are",
+        "start": 467.539,
+        "duration": 5.861
+    },
+    {
+        "text": "off and it's it's not working or it's",
+        "start": 470.88,
+        "duration": 4.68
+    },
+    {
+        "text": "it's having some issue or calibration",
+        "start": 473.4,
+        "duration": 4.799
+    },
+    {
+        "text": "issues you want to know that in managing",
+        "start": 475.56,
+        "duration": 6.0
+    },
+    {
+        "text": "that and identifying those uh actions",
+        "start": 478.199,
+        "duration": 7.921
+    },
+    {
+        "text": "would uh would require you to uh to to",
+        "start": 481.56,
+        "duration": 5.82
+    },
+    {
+        "text": "consider",
+        "start": 486.12,
+        "duration": 4.26
+    },
+    {
+        "text": "and plan another one is high",
+        "start": 487.38,
+        "duration": 7.14
+    },
+    {
+        "text": "availability and Disaster Recovery some",
+        "start": 490.38,
+        "duration": 5.819
+    },
+    {
+        "text": "devices out there that you know",
+        "start": 494.52,
+        "duration": 4.799
+    },
+    {
+        "text": "especially iot devices that are deployed",
+        "start": 496.199,
+        "duration": 6.961
+    },
+    {
+        "text": "in a hospital or you know some some uh",
+        "start": 499.319,
+        "duration": 6.961
+    },
+    {
+        "text": "Mission critical uh",
+        "start": 503.16,
+        "duration": 6.3
+    },
+    {
+        "text": "location these",
+        "start": 506.28,
+        "duration": 6.42
+    },
+    {
+        "text": "devices have to have uh High",
+        "start": 509.46,
+        "duration": 5.639
+    },
+    {
+        "text": "availability and Disaster Recovery they",
+        "start": 512.7,
+        "duration": 5.82
+    },
+    {
+        "text": "have to be resilient to failures",
+        "start": 515.099,
+        "duration": 4.921
+    },
+    {
+        "text": "on the network",
+        "start": 518.52,
+        "duration": 4.439
+    },
+    {
+        "text": "or even disk right",
+        "start": 520.02,
+        "duration": 5.04
+    },
+    {
+        "text": "um and then security and compliance",
+        "start": 522.959,
+        "duration": 4.341
+    },
+    {
+        "text": "because these devices are deployed",
+        "start": 525.06,
+        "duration": 4.92
+    },
+    {
+        "text": "somewhere that may be remote that",
+        "start": 527.3,
+        "duration": 4.24
+    },
+    {
+        "text": "there's not a lot of people who think",
+        "start": 529.98,
+        "duration": 5.7
+    },
+    {
+        "text": "about uh oil uh oil oil fields where",
+        "start": 531.54,
+        "duration": 7.44
+    },
+    {
+        "text": "they're constantly monitoring uh the the",
+        "start": 535.68,
+        "duration": 4.8
+    },
+    {
+        "text": "well",
+        "start": 538.98,
+        "duration": 4.979
+    },
+    {
+        "text": "so security we got to make sure that and",
+        "start": 540.48,
+        "duration": 6.359
+    },
+    {
+        "text": "and also compliance as it transfer data",
+        "start": 543.959,
+        "duration": 5.221
+    },
+    {
+        "text": "from that device to the cloud so think",
+        "start": 546.839,
+        "duration": 4.981
+    },
+    {
+        "text": "about connectivity you know integrating",
+        "start": 549.18,
+        "duration": 5.94
+    },
+    {
+        "text": "your data and and data protection those",
+        "start": 551.82,
+        "duration": 7.5
+    },
+    {
+        "text": "are the considerations and managing iot",
+        "start": 555.12,
+        "duration": 7.38
+    },
+    {
+        "text": "Solutions with with devops when you're",
+        "start": 559.32,
+        "duration": 5.639
+    },
+    {
+        "text": "building or managing and provisioning",
+        "start": 562.5,
+        "duration": 5.04
+    },
+    {
+        "text": "and deploying code the the more we can",
+        "start": 564.959,
+        "duration": 5.641
+    },
+    {
+        "text": "automate uh some of these uh",
+        "start": 567.54,
+        "duration": 5.1
+    },
+    {
+        "text": "you know with the with the devops in",
+        "start": 570.6,
+        "duration": 4.44
+    },
+    {
+        "text": "mind the better we are in building a",
+        "start": 572.64,
+        "duration": 5.04
+    },
+    {
+        "text": "proper iot solution and then of course",
+        "start": 575.04,
+        "duration": 5.88
+    },
+    {
+        "text": "after all that you make sure it's within",
+        "start": 577.68,
+        "duration": 5.279
+    },
+    {
+        "text": "the budget right understanding the cost",
+        "start": 580.92,
+        "duration": 5.52
+    },
+    {
+        "text": "and the total cost of ownership of not",
+        "start": 582.959,
+        "duration": 5.641
+    },
+    {
+        "text": "just the device itself but storing that",
+        "start": 586.44,
+        "duration": 4.86
+    },
+    {
+        "text": "data and transferring that data uh to",
+        "start": 588.6,
+        "duration": 4.919
+    },
+    {
+        "text": "the cloud",
+        "start": 591.3,
+        "duration": 4.68
+    },
+    {
+        "text": "all right and then there's a lot uh to",
+        "start": 593.519,
+        "duration": 4.38
+    },
+    {
+        "text": "consider when you're creating an",
+        "start": 595.98,
+        "duration": 5.46
+    },
+    {
+        "text": "Internet of Things application uh",
+        "start": 597.899,
+        "duration": 6.541
+    },
+    {
+        "text": "and then of course you know we all live",
+        "start": 601.44,
+        "duration": 5.94
+    },
+    {
+        "text": "you know especially in Azure uh we all",
+        "start": 604.44,
+        "duration": 6.18
+    },
+    {
+        "text": "live in this as developers in the I.T",
+        "start": 607.38,
+        "duration": 6.0
+    },
+    {
+        "text": "right the information technology where",
+        "start": 610.62,
+        "duration": 4.68
+    },
+    {
+        "text": "you talk about the cloud the software as",
+        "start": 613.38,
+        "duration": 4.8
+    },
+    {
+        "text": "a service you know we typically whenever",
+        "start": 615.3,
+        "duration": 7.2
+    },
+    {
+        "text": "we talk about I.T uh it's it's",
+        "start": 618.18,
+        "duration": 6.779
+    },
+    {
+        "text": "um asset management and HTTP all these",
+        "start": 622.5,
+        "duration": 4.5
+    },
+    {
+        "text": "different things and and of course you",
+        "start": 624.959,
+        "duration": 4.621
+    },
+    {
+        "text": "know there's the world out there of",
+        "start": 627.0,
+        "duration": 4.5
+    },
+    {
+        "text": "operational technology if you're not",
+        "start": 629.58,
+        "duration": 4.259
+    },
+    {
+        "text": "familiar with that it's been you know",
+        "start": 631.5,
+        "duration": 4.86
+    },
+    {
+        "text": "that a lot of these old devices out",
+        "start": 633.839,
+        "duration": 4.5
+    },
+    {
+        "text": "there are not just all devices a lot of",
+        "start": 636.36,
+        "duration": 4.8
+    },
+    {
+        "text": "machineries out there they do have",
+        "start": 638.339,
+        "duration": 5.101
+    },
+    {
+        "text": "program running in them right they have",
+        "start": 641.16,
+        "duration": 5.1
+    },
+    {
+        "text": "these these controllers and PLC devices",
+        "start": 643.44,
+        "duration": 5.94
+    },
+    {
+        "text": "and they have sensors especially in an",
+        "start": 646.26,
+        "duration": 5.88
+    },
+    {
+        "text": "assembly line or a Machinery that",
+        "start": 649.38,
+        "duration": 5.699
+    },
+    {
+        "text": "someone is responsible of keeping track",
+        "start": 652.14,
+        "duration": 6.24
+    },
+    {
+        "text": "and making sure that is",
+        "start": 655.079,
+        "duration": 5.341
+    },
+    {
+        "text": "um operational right that everything's",
+        "start": 658.38,
+        "duration": 4.5
+    },
+    {
+        "text": "doing great in in the factory or doing",
+        "start": 660.42,
+        "duration": 4.14
+    },
+    {
+        "text": "the doing",
+        "start": 662.88,
+        "duration": 2.699
+    },
+    {
+        "text": "um",
+        "start": 664.56,
+        "duration": 3.54
+    },
+    {
+        "text": "the sensors are working great and all",
+        "start": 665.579,
+        "duration": 5.961
+    },
+    {
+        "text": "the things involved in that",
+        "start": 668.1,
+        "duration": 3.44
+    },
+    {
+        "text": "so",
+        "start": 671.82,
+        "duration": 5.88
+    },
+    {
+        "text": "I did talk about it and OT right and the",
+        "start": 673.68,
+        "duration": 5.52
+    },
+    {
+        "text": "difference and then there's of course",
+        "start": 677.7,
+        "duration": 3.66
+    },
+    {
+        "text": "the one in between now as we build",
+        "start": 679.2,
+        "duration": 5.16
+    },
+    {
+        "text": "Internet of Things devices we're talking",
+        "start": 681.36,
+        "duration": 6.419
+    },
+    {
+        "text": "about the combination of it and OT and",
+        "start": 684.36,
+        "duration": 6.8
+    },
+    {
+        "text": "this is the world of iot",
+        "start": 687.779,
+        "duration": 3.381
+    },
+    {
+        "text": "and",
+        "start": 692.459,
+        "duration": 4.701
+    },
+    {
+        "text": "the user roles in iot",
+        "start": 693.959,
+        "duration": 6.241
+    },
+    {
+        "text": "things you have to consider whenever you",
+        "start": 697.16,
+        "duration": 6.04
+    },
+    {
+        "text": "know a successful deployment one is the",
+        "start": 700.2,
+        "duration": 4.5
+    },
+    {
+        "text": "administrator they're the ones",
+        "start": 703.2,
+        "duration": 4.759
+    },
+    {
+        "text": "responsible for administrative tasks",
+        "start": 704.7,
+        "duration": 6.0
+    },
+    {
+        "text": "assigning different roles and permission",
+        "start": 707.959,
+        "duration": 5.62
+    },
+    {
+        "text": "to our users and then there's the role",
+        "start": 710.7,
+        "duration": 4.8
+    },
+    {
+        "text": "of a device developer they're the ones",
+        "start": 713.579,
+        "duration": 4.621
+    },
+    {
+        "text": "who would program some of these devices",
+        "start": 715.5,
+        "duration": 3.86
+    },
+    {
+        "text": "right",
+        "start": 718.2,
+        "duration": 3.96
+    },
+    {
+        "text": "for the some of these iot devices and",
+        "start": 719.36,
+        "duration": 6.34
+    },
+    {
+        "text": "then the operator we did talk about OT",
+        "start": 722.16,
+        "duration": 6.96
+    },
+    {
+        "text": "right they're the ones that are managing",
+        "start": 725.7,
+        "duration": 5.22
+    },
+    {
+        "text": "these devices",
+        "start": 729.12,
+        "duration": 6.0
+    },
+    {
+        "text": "as you deploy them as it so that it can",
+        "start": 730.92,
+        "duration": 7.5
+    },
+    {
+        "text": "connect to our iot Cloud application and",
+        "start": 735.12,
+        "duration": 6.12
+    },
+    {
+        "text": "of course us and Azure Developers",
+        "start": 738.42,
+        "duration": 5.4
+    },
+    {
+        "text": "we're the solution Builder and where the",
+        "start": 741.24,
+        "duration": 5.64
+    },
+    {
+        "text": "ones that builds iot Cloud solution that",
+        "start": 743.82,
+        "duration": 6.54
+    },
+    {
+        "text": "these device can connect to uh",
+        "start": 746.88,
+        "duration": 5.78
+    },
+    {
+        "text": "so those are the so today I'm gonna",
+        "start": 750.36,
+        "duration": 6.56
+    },
+    {
+        "text": "focus on the role of a solution Builder",
+        "start": 752.66,
+        "duration": 9.04
+    },
+    {
+        "text": "and how we can uh how it's being used in",
+        "start": 756.92,
+        "duration": 7.14
+    },
+    {
+        "text": "azure",
+        "start": 761.7,
+        "duration": 2.36
+    },
+    {
+        "text": "so what is iot Central",
+        "start": 764.82,
+        "duration": 5.699
+    },
+    {
+        "text": "um",
+        "start": 769.38,
+        "duration": 4.44
+    },
+    {
+        "text": "it's a way for connecting and monitoring",
+        "start": 770.519,
+        "duration": 7.021
+    },
+    {
+        "text": "and managing iot assets at scale this",
+        "start": 773.82,
+        "duration": 6.6
+    },
+    {
+        "text": "keyword the key word here is at scale",
+        "start": 777.54,
+        "duration": 6.78
+    },
+    {
+        "text": "and being able to to easily scale your",
+        "start": 780.42,
+        "duration": 6.84
+    },
+    {
+        "text": "iot application",
+        "start": 784.32,
+        "duration": 6.18
+    },
+    {
+        "text": "through of course quick connectivity uh",
+        "start": 787.26,
+        "duration": 5.759
+    },
+    {
+        "text": "already pre-built libraries that you can",
+        "start": 790.5,
+        "duration": 4.82
+    },
+    {
+        "text": "you can and samples out there",
+        "start": 793.019,
+        "duration": 6.06
+    },
+    {
+        "text": "centralized management so a place where",
+        "start": 795.32,
+        "duration": 5.199
+    },
+    {
+        "text": "you can",
+        "start": 799.079,
+        "duration": 3.541
+    },
+    {
+        "text": "look at all the devices that are",
+        "start": 800.519,
+        "duration": 3.12
+    },
+    {
+        "text": "connected",
+        "start": 802.62,
+        "duration": 4.62
+    },
+    {
+        "text": "and then visualization it's a it's it",
+        "start": 803.639,
+        "duration": 6.901
+    },
+    {
+        "text": "allows you to have these reports and",
+        "start": 807.24,
+        "duration": 6.659
+    },
+    {
+        "text": "charts for analysis and it is a bridge",
+        "start": 810.54,
+        "duration": 7.859
+    },
+    {
+        "text": "between applications and",
+        "start": 813.899,
+        "duration": 7.38
+    },
+    {
+        "text": "iot data",
+        "start": 818.399,
+        "duration": 5.841
+    },
+    {
+        "text": "do we have any questions so far",
+        "start": 821.279,
+        "duration": 5.101
+    },
+    {
+        "text": "in the chat",
+        "start": 824.24,
+        "duration": 5.039
+    },
+    {
+        "text": "or anything",
+        "start": 826.38,
+        "duration": 2.899
+    },
+    {
+        "text": "we're keeping an eye on the on the chat",
+        "start": 830.16,
+        "duration": 6.0
+    },
+    {
+        "text": "Ron and it looks dumb like nobody has",
+        "start": 832.68,
+        "duration": 8.36
+    },
+    {
+        "text": "questions thus far okay I will continue",
+        "start": 836.16,
+        "duration": 4.88
+    },
+    {
+        "text": "so",
+        "start": 841.74,
+        "duration": 4.92
+    },
+    {
+        "text": "I did talk about you know things right",
+        "start": 843.42,
+        "duration": 5.4
+    },
+    {
+        "text": "and then the cloud",
+        "start": 846.66,
+        "duration": 4.799
+    },
+    {
+        "text": "and then the transformation so devices",
+        "start": 848.82,
+        "duration": 5.16
+    },
+    {
+        "text": "you have all these devices that you can",
+        "start": 851.459,
+        "duration": 5.341
+    },
+    {
+        "text": "connect and iot Central manages devices",
+        "start": 853.98,
+        "duration": 5.46
+    },
+    {
+        "text": "and acquiring and connecting and",
+        "start": 856.8,
+        "duration": 5.039
+    },
+    {
+        "text": "securing it to the cloud so it central",
+        "start": 859.44,
+        "duration": 4.38
+    },
+    {
+        "text": "can do this right now",
+        "start": 861.839,
+        "duration": 5.341
+    },
+    {
+        "text": "as a solution Builder this is our side",
+        "start": 863.82,
+        "duration": 5.34
+    },
+    {
+        "text": "which is the transformation of these",
+        "start": 867.18,
+        "duration": 4.86
+    },
+    {
+        "text": "data and using what data that we can",
+        "start": 869.16,
+        "duration": 5.58
+    },
+    {
+        "text": "collect through these devices and",
+        "start": 872.04,
+        "duration": 4.979
+    },
+    {
+        "text": "bring business value",
+        "start": 874.74,
+        "duration": 4.94
+    },
+    {
+        "text": "from there",
+        "start": 877.019,
+        "duration": 2.661
+    },
+    {
+        "text": "so what are the benefits there's low",
+        "start": 880.98,
+        "duration": 6.24
+    },
+    {
+        "text": "code environment and I did talk a little",
+        "start": 883.38,
+        "duration": 6.6
+    },
+    {
+        "text": "bit about data analysis and later on I",
+        "start": 887.22,
+        "duration": 5.78
+    },
+    {
+        "text": "will demo what that looks like",
+        "start": 889.98,
+        "duration": 6.06
+    },
+    {
+        "text": "it's good at dealing with non-frequently",
+        "start": 893.0,
+        "duration": 7.42
+    },
+    {
+        "text": "changing data uh and it also has ready",
+        "start": 896.04,
+        "duration": 7.14
+    },
+    {
+        "text": "to use templates to start with uh",
+        "start": 900.42,
+        "duration": 5.94
+    },
+    {
+        "text": "depending on uh you know the the use",
+        "start": 903.18,
+        "duration": 5.64
+    },
+    {
+        "text": "case that you're You're Building uh",
+        "start": 906.36,
+        "duration": 4.74
+    },
+    {
+        "text": "there might be already a pre-built",
+        "start": 908.82,
+        "duration": 4.74
+    },
+    {
+        "text": "template available for that",
+        "start": 911.1,
+        "duration": 4.679
+    },
+    {
+        "text": "and then it does support different types",
+        "start": 913.56,
+        "duration": 6.0
+    },
+    {
+        "text": "of device measurement measurement so",
+        "start": 915.779,
+        "duration": 6.781
+    },
+    {
+        "text": "in terms of the the",
+        "start": 919.56,
+        "duration": 4.2
+    },
+    {
+        "text": "um",
+        "start": 922.56,
+        "duration": 5.1
+    },
+    {
+        "text": "unit of measure they they have that",
+        "start": 923.76,
+        "duration": 6.18
+    },
+    {
+        "text": "and then it's highly secured in",
+        "start": 927.66,
+        "duration": 4.56
+    },
+    {
+        "text": "authorization and authentication and",
+        "start": 929.94,
+        "duration": 5.459
+    },
+    {
+        "text": "we'll we'll do a demo on this one and",
+        "start": 932.22,
+        "duration": 6.299
+    },
+    {
+        "text": "and how to log in and all that",
+        "start": 935.399,
+        "duration": 5.341
+    },
+    {
+        "text": "so how you would leverage of course you",
+        "start": 938.519,
+        "duration": 4.741
+    },
+    {
+        "text": "know collecting information and then",
+        "start": 940.74,
+        "duration": 4.98
+    },
+    {
+        "text": "monitoring the devices and then you're",
+        "start": 943.26,
+        "duration": 4.5
+    },
+    {
+        "text": "analyzing what the data that you",
+        "start": 945.72,
+        "duration": 4.14
+    },
+    {
+        "text": "collected and then deciding what you",
+        "start": 947.76,
+        "duration": 4.379
+    },
+    {
+        "text": "want to do with that data",
+        "start": 949.86,
+        "duration": 5.339
+    },
+    {
+        "text": "so those are the four steps",
+        "start": 952.139,
+        "duration": 5.341
+    },
+    {
+        "text": "so we did I did talk about Legos and I'm",
+        "start": 955.199,
+        "duration": 4.981
+    },
+    {
+        "text": "going to connect you know what Lego",
+        "start": 957.48,
+        "duration": 5.159
+    },
+    {
+        "text": "means to to my",
+        "start": 960.18,
+        "duration": 5.399
+    },
+    {
+        "text": "to my uh presentation we are familiar",
+        "start": 962.639,
+        "duration": 6.06
+    },
+    {
+        "text": "with infrastructure as a service",
+        "start": 965.579,
+        "duration": 4.82
+    },
+    {
+        "text": "and",
+        "start": 968.699,
+        "duration": 4.341
+    },
+    {
+        "text": "you most likely you've heard also about",
+        "start": 970.399,
+        "duration": 4.62
+    },
+    {
+        "text": "platformer service which is",
+        "start": 973.04,
+        "duration": 4.0
+    },
+    {
+        "text": "infrastructure focused software",
+        "start": 975.019,
+        "duration": 4.801
+    },
+    {
+        "text": "development service",
+        "start": 977.04,
+        "duration": 2.78
+    },
+    {
+        "text": "and then you know there's a lot of SAS",
+        "start": 979.92,
+        "duration": 5.039
+    },
+    {
+        "text": "or software application as a service",
+        "start": 982.74,
+        "duration": 3.839
+    },
+    {
+        "text": "that's out there you know think about",
+        "start": 984.959,
+        "duration": 4.38
+    },
+    {
+        "text": "you know Office 365 that's a software",
+        "start": 986.579,
+        "duration": 5.161
+    },
+    {
+        "text": "application Service uh",
+        "start": 989.339,
+        "duration": 6.06
+    },
+    {
+        "text": "you know of course is more of like VMS",
+        "start": 991.74,
+        "duration": 6.48
+    },
+    {
+        "text": "in the cloud or kubernetes and those are",
+        "start": 995.399,
+        "duration": 5.701
+    },
+    {
+        "text": "more infrastructure as a service but",
+        "start": 998.22,
+        "duration": 5.359
+    },
+    {
+        "text": "there is one that's called a pass",
+        "start": 1001.1,
+        "duration": 6.359
+    },
+    {
+        "text": "application platform as a service so it",
+        "start": 1003.579,
+        "duration": 7.781
+    },
+    {
+        "text": "is closer to SAS but you can customize",
+        "start": 1007.459,
+        "duration": 7.5
+    },
+    {
+        "text": "it more but it is uh considered as a",
+        "start": 1011.36,
+        "duration": 6.419
+    },
+    {
+        "text": "software development focused",
+        "start": 1014.959,
+        "duration": 6.361
+    },
+    {
+        "text": "um software development services so so",
+        "start": 1017.779,
+        "duration": 6.0
+    },
+    {
+        "text": "in terms of the Lego itself right",
+        "start": 1021.32,
+        "duration": 6.239
+    },
+    {
+        "text": "um you know because IIT Central has like",
+        "start": 1023.779,
+        "duration": 6.241
+    },
+    {
+        "text": "ready to use templates has instructions",
+        "start": 1027.559,
+        "duration": 4.681
+    },
+    {
+        "text": "and how you would do this uh you know",
+        "start": 1030.02,
+        "duration": 5.159
+    },
+    {
+        "text": "IIT Central is considered a an apas or",
+        "start": 1032.24,
+        "duration": 6.8
+    },
+    {
+        "text": "application platform as a service",
+        "start": 1035.179,
+        "duration": 3.861
+    },
+    {
+        "text": "so because ID Central is",
+        "start": 1041.0,
+        "duration": 7.26
+    },
+    {
+        "text": "application platform of service it's",
+        "start": 1045.26,
+        "duration": 6.2
+    },
+    {
+        "text": "actually a collection of a bunch of",
+        "start": 1048.26,
+        "duration": 8.279
+    },
+    {
+        "text": "Azure services that is out there so not",
+        "start": 1051.46,
+        "duration": 8.8
+    },
+    {
+        "text": "just from The iot Hub it's actually",
+        "start": 1056.539,
+        "duration": 6.901
+    },
+    {
+        "text": "using iot Hub in the you know in the",
+        "start": 1060.26,
+        "duration": 7.08
+    },
+    {
+        "text": "back background right uh also using DPS",
+        "start": 1063.44,
+        "duration": 8.82
+    },
+    {
+        "text": "or uh the device provisioning Service uh",
+        "start": 1067.34,
+        "duration": 7.56
+    },
+    {
+        "text": "it's also as it receives data it uses",
+        "start": 1072.26,
+        "duration": 5.58
+    },
+    {
+        "text": "Azure stream analytics it's using data",
+        "start": 1074.9,
+        "duration": 6.12
+    },
+    {
+        "text": "Explorer for warm path uh to using SQL",
+        "start": 1077.84,
+        "duration": 6.54
+    },
+    {
+        "text": "DB for a cold path so it has all these",
+        "start": 1081.02,
+        "duration": 5.039
+    },
+    {
+        "text": "different services that it's using and",
+        "start": 1084.38,
+        "duration": 3.72
+    },
+    {
+        "text": "of course it can on the on the right",
+        "start": 1086.059,
+        "duration": 4.261
+    },
+    {
+        "text": "side on the business integration it can",
+        "start": 1088.1,
+        "duration": 4.319
+    },
+    {
+        "text": "export data trigger alerts and query",
+        "start": 1090.32,
+        "duration": 5.94
+    },
+    {
+        "text": "data uh through the management web",
+        "start": 1092.419,
+        "duration": 8.341
+    },
+    {
+        "text": "experience it's so on the device side on",
+        "start": 1096.26,
+        "duration": 6.9
+    },
+    {
+        "text": "this side right here it's using Azure",
+        "start": 1100.76,
+        "duration": 6.18
+    },
+    {
+        "text": "iot SDK or Azure rtos so depending on",
+        "start": 1103.16,
+        "duration": 6.42
+    },
+    {
+        "text": "the devices that you're using and then",
+        "start": 1106.94,
+        "duration": 6.239
+    },
+    {
+        "text": "also uh you know Azure sphere or Azure",
+        "start": 1109.58,
+        "duration": 6.06
+    },
+    {
+        "text": "iot Edge so there's different ways on",
+        "start": 1113.179,
+        "duration": 5.401
+    },
+    {
+        "text": "how you would you would connect to uh",
+        "start": 1115.64,
+        "duration": 5.6
+    },
+    {
+        "text": "the cloud",
+        "start": 1118.58,
+        "duration": 2.66
+    },
+    {
+        "text": "so when should you use iot Central when",
+        "start": 1121.82,
+        "duration": 5.34
+    },
+    {
+        "text": "should we use uh",
+        "start": 1124.34,
+        "duration": 4.92
+    },
+    {
+        "text": "this service",
+        "start": 1127.16,
+        "duration": 3.48
+    },
+    {
+        "text": "if",
+        "start": 1129.26,
+        "duration": 3.299
+    },
+    {
+        "text": "your team",
+        "start": 1130.64,
+        "duration": 5.58
+    },
+    {
+        "text": "does lack experience in building an iot",
+        "start": 1132.559,
+        "duration": 5.761
+    },
+    {
+        "text": "application and you know we did talk",
+        "start": 1136.22,
+        "duration": 5.22
+    },
+    {
+        "text": "about how complex building an iot",
+        "start": 1138.32,
+        "duration": 4.92
+    },
+    {
+        "text": "application is",
+        "start": 1141.44,
+        "duration": 5.88
+    },
+    {
+        "text": "consider using iot Central because it's",
+        "start": 1143.24,
+        "duration": 6.48
+    },
+    {
+        "text": "you know you look at the abilities of",
+        "start": 1147.32,
+        "duration": 4.38
+    },
+    {
+        "text": "your team like in my team or a workout",
+        "start": 1149.72,
+        "duration": 5.52
+    },
+    {
+        "text": "that we have a lot of net developers and",
+        "start": 1151.7,
+        "duration": 6.3
+    },
+    {
+        "text": "also uh JavaScript JavaScript developers",
+        "start": 1155.24,
+        "duration": 4.34
+    },
+    {
+        "text": "and node developers",
+        "start": 1158.0,
+        "duration": 5.039
+    },
+    {
+        "text": "and so that is the common skill set that",
+        "start": 1159.58,
+        "duration": 6.04
+    },
+    {
+        "text": "we have and then we can use our Azure",
+        "start": 1163.039,
+        "duration": 4.64
+    },
+    {
+        "text": "iot Central to",
+        "start": 1165.62,
+        "duration": 6.6
+    },
+    {
+        "text": "to help us customize that platform with",
+        "start": 1167.679,
+        "duration": 7.081
+    },
+    {
+        "text": "the ready to use application",
+        "start": 1172.22,
+        "duration": 6.24
+    },
+    {
+        "text": "so instead of building from scratch we",
+        "start": 1174.76,
+        "duration": 6.88
+    },
+    {
+        "text": "can use iot Central and start building",
+        "start": 1178.46,
+        "duration": 6.06
+    },
+    {
+        "text": "companion apps that is custom built",
+        "start": 1181.64,
+        "duration": 5.159
+    },
+    {
+        "text": "solution rather than custom built",
+        "start": 1184.52,
+        "duration": 4.86
+    },
+    {
+        "text": "solution from scratch",
+        "start": 1186.799,
+        "duration": 5.101
+    },
+    {
+        "text": "so when should you not use Azure iot",
+        "start": 1189.38,
+        "duration": 3.72
+    },
+    {
+        "text": "Central",
+        "start": 1191.9,
+        "duration": 3.54
+    },
+    {
+        "text": "maybe it might well worth using Azure",
+        "start": 1193.1,
+        "duration": 5.64
+    },
+    {
+        "text": "iot Hub as a better option for you",
+        "start": 1195.44,
+        "duration": 5.46
+    },
+    {
+        "text": "because in your team there's might be",
+        "start": 1198.74,
+        "duration": 4.38
+    },
+    {
+        "text": "experience professional that wants to",
+        "start": 1200.9,
+        "duration": 5.24
+    },
+    {
+        "text": "full control over the whole iut solution",
+        "start": 1203.12,
+        "duration": 5.58
+    },
+    {
+        "text": "so it depends on what of course at the",
+        "start": 1206.14,
+        "duration": 4.0
+    },
+    {
+        "text": "end of the day right it depends on what",
+        "start": 1208.7,
+        "duration": 4.8
+    },
+    {
+        "text": "you're trying to do and how much data",
+        "start": 1210.14,
+        "duration": 5.64
+    },
+    {
+        "text": "are you needing to",
+        "start": 1213.5,
+        "duration": 5.94
+    },
+    {
+        "text": "uh to process or you know how much",
+        "start": 1215.78,
+        "duration": 8.24
+    },
+    {
+        "text": "control you want over the iot solution",
+        "start": 1219.44,
+        "duration": 4.58
+    },
+    {
+        "text": "so here's a question for you",
+        "start": 1225.44,
+        "duration": 4.08
+    },
+    {
+        "text": "um you know a lot of us you know we've",
+        "start": 1227.48,
+        "duration": 3.96
+    },
+    {
+        "text": "seen Windows have used Windows most",
+        "start": 1229.52,
+        "duration": 4.08
+    },
+    {
+        "text": "likely what made",
+        "start": 1231.44,
+        "duration": 5.7
+    },
+    {
+        "text": "Windows successful you know it's a lot",
+        "start": 1233.6,
+        "duration": 5.699
+    },
+    {
+        "text": "of places where Windows says is",
+        "start": 1237.14,
+        "duration": 4.159
+    },
+    {
+        "text": "installed",
+        "start": 1239.299,
+        "duration": 4.981
+    },
+    {
+        "text": "what made it successful is because they",
+        "start": 1241.299,
+        "duration": 6.281
+    },
+    {
+        "text": "work with other device manufacturer to",
+        "start": 1244.28,
+        "duration": 5.1
+    },
+    {
+        "text": "have compatible device if you think",
+        "start": 1247.58,
+        "duration": 4.62
+    },
+    {
+        "text": "about it you know you plug something",
+        "start": 1249.38,
+        "duration": 7.86
+    },
+    {
+        "text": "like a camera in your in your laptop and",
+        "start": 1252.2,
+        "duration": 7.26
+    },
+    {
+        "text": "instinctively know what device driver",
+        "start": 1257.24,
+        "duration": 5.64
+    },
+    {
+        "text": "it's going to use in order to to display",
+        "start": 1259.46,
+        "duration": 7.62
+    },
+    {
+        "text": "it right so in order to to connect and",
+        "start": 1262.88,
+        "duration": 6.24
+    },
+    {
+        "text": "you know and it's a bunch of different",
+        "start": 1267.08,
+        "duration": 4.26
+    },
+    {
+        "text": "components that's working together you",
+        "start": 1269.12,
+        "duration": 3.78
+    },
+    {
+        "text": "know you may have a different hard drive",
+        "start": 1271.34,
+        "duration": 4.86
+    },
+    {
+        "text": "different uh Monitor and how they work",
+        "start": 1272.9,
+        "duration": 6.12
+    },
+    {
+        "text": "together to build the whole system",
+        "start": 1276.2,
+        "duration": 6.42
+    },
+    {
+        "text": "the same way as Alexa devices if you I",
+        "start": 1279.02,
+        "duration": 6.18
+    },
+    {
+        "text": "treat Alexa as my home operating system",
+        "start": 1282.62,
+        "duration": 5.16
+    },
+    {
+        "text": "because you have all these uh you know",
+        "start": 1285.2,
+        "duration": 4.62
+    },
+    {
+        "text": "Smart Homes right and you know you have",
+        "start": 1287.78,
+        "duration": 4.2
+    },
+    {
+        "text": "all these different lightning lighting",
+        "start": 1289.82,
+        "duration": 4.68
+    },
+    {
+        "text": "manufacturers different plugs you have",
+        "start": 1291.98,
+        "duration": 5.46
+    },
+    {
+        "text": "voice assistance different TV and how",
+        "start": 1294.5,
+        "duration": 6.059
+    },
+    {
+        "text": "seamlessly you can create rules to talk",
+        "start": 1297.44,
+        "duration": 6.239
+    },
+    {
+        "text": "to each other and you can create an",
+        "start": 1300.559,
+        "duration": 5.161
+    },
+    {
+        "text": "Alexa skill set because I used to do",
+        "start": 1303.679,
+        "duration": 4.321
+    },
+    {
+        "text": "that in that you know being able to to",
+        "start": 1305.72,
+        "duration": 4.38
+    },
+    {
+        "text": "control some of these",
+        "start": 1308.0,
+        "duration": 4.919
+    },
+    {
+        "text": "um iot devices or these smart home",
+        "start": 1310.1,
+        "duration": 4.74
+    },
+    {
+        "text": "devices",
+        "start": 1312.919,
+        "duration": 6.24
+    },
+    {
+        "text": "so Azure has this Azure iot pla Plug and",
+        "start": 1314.84,
+        "duration": 6.68
+    },
+    {
+        "text": "Play that integrates smart device",
+        "start": 1319.159,
+        "duration": 6.801
+    },
+    {
+        "text": "solution uh it the device itself",
+        "start": 1321.52,
+        "duration": 6.82
+    },
+    {
+        "text": "advertises its capabilities to iot",
+        "start": 1325.96,
+        "duration": 5.02
+    },
+    {
+        "text": "Central uh to reduce the hassle of",
+        "start": 1328.34,
+        "duration": 5.52
+    },
+    {
+        "text": "configuring uh as creating templates and",
+        "start": 1330.98,
+        "duration": 4.559
+    },
+    {
+        "text": "features and all the different things",
+        "start": 1333.86,
+        "duration": 3.54
+    },
+    {
+        "text": "and how you would communicate to this",
+        "start": 1335.539,
+        "duration": 4.041
+    },
+    {
+        "text": "device",
+        "start": 1337.4,
+        "duration": 2.18
+    },
+    {
+        "text": "there is an Azure device catalog that",
+        "start": 1341.299,
+        "duration": 5.941
+    },
+    {
+        "text": "you can look at what are available",
+        "start": 1344.24,
+        "duration": 6.54
+    },
+    {
+        "text": "devices out there that you can plug into",
+        "start": 1347.24,
+        "duration": 6.36
+    },
+    {
+        "text": "iot Central so I have one right here",
+        "start": 1350.78,
+        "duration": 7.86
+    },
+    {
+        "text": "which is an esp32 iot kit and this this",
+        "start": 1353.6,
+        "duration": 9.6
+    },
+    {
+        "text": "one right on on this screen so you can",
+        "start": 1358.64,
+        "duration": 8.279
+    },
+    {
+        "text": "connect that it and it simplifies that",
+        "start": 1363.2,
+        "duration": 5.7
+    },
+    {
+        "text": "process and of course you know there's",
+        "start": 1366.919,
+        "duration": 5.281
+    },
+    {
+        "text": "other other devices that are available",
+        "start": 1368.9,
+        "duration": 5.84
+    },
+    {
+        "text": "too",
+        "start": 1372.2,
+        "duration": 2.54
+    },
+    {
+        "text": "so there's three different device types",
+        "start": 1375.2,
+        "duration": 7.32
+    },
+    {
+        "text": "in iot central one is an iot device an",
+        "start": 1378.44,
+        "duration": 6.9
+    },
+    {
+        "text": "iot edge device and Gateway devices",
+        "start": 1382.52,
+        "duration": 5.46
+    },
+    {
+        "text": "let's look at each one of them",
+        "start": 1385.34,
+        "duration": 6.839
+    },
+    {
+        "text": "iot device is a free standing device you",
+        "start": 1387.98,
+        "duration": 5.939
+    },
+    {
+        "text": "know this is a free standing device it",
+        "start": 1392.179,
+        "duration": 5.701
+    },
+    {
+        "text": "connects to uh the the internet and then",
+        "start": 1393.919,
+        "duration": 6.481
+    },
+    {
+        "text": "it can send Telemetry data and you know",
+        "start": 1397.88,
+        "duration": 4.74
+    },
+    {
+        "text": "it can reports values and you can",
+        "start": 1400.4,
+        "duration": 5.22
+    },
+    {
+        "text": "receive property values in response to",
+        "start": 1402.62,
+        "duration": 4.86
+    },
+    {
+        "text": "command",
+        "start": 1405.62,
+        "duration": 6.179
+    },
+    {
+        "text": "another one is an iot edge device this",
+        "start": 1407.48,
+        "duration": 7.02
+    },
+    {
+        "text": "is this acts as a standalone device or a",
+        "start": 1411.799,
+        "duration": 5.281
+    },
+    {
+        "text": "middleman to if if a device another",
+        "start": 1414.5,
+        "duration": 5.039
+    },
+    {
+        "text": "device can't connect to the cloud",
+        "start": 1417.08,
+        "duration": 4.56
+    },
+    {
+        "text": "so",
+        "start": 1419.539,
+        "duration": 4.921
+    },
+    {
+        "text": "it has the ability to process data",
+        "start": 1421.64,
+        "duration": 4.08
+    },
+    {
+        "text": "locally",
+        "start": 1424.46,
+        "duration": 4.26
+    },
+    {
+        "text": "so you think about this it could be a a",
+        "start": 1425.72,
+        "duration": 6.78
+    },
+    {
+        "text": "Raspberry Pi that has Docker containers",
+        "start": 1428.72,
+        "duration": 6.48
+    },
+    {
+        "text": "running in it and so it can process",
+        "start": 1432.5,
+        "duration": 5.82
+    },
+    {
+        "text": "those Docker containers and then connect",
+        "start": 1435.2,
+        "duration": 6.719
+    },
+    {
+        "text": "to the cloud so that's how it runs an",
+        "start": 1438.32,
+        "duration": 7.5
+    },
+    {
+        "text": "iot edge device another one is a gateway",
+        "start": 1441.919,
+        "duration": 4.921
+    },
+    {
+        "text": "device",
+        "start": 1445.82,
+        "duration": 4.38
+    },
+    {
+        "text": "a Gateway device is the one one that",
+        "start": 1446.84,
+        "duration": 6.18
+    },
+    {
+        "text": "manages other devices that connects to",
+        "start": 1450.2,
+        "duration": 6.3
+    },
+    {
+        "text": "iot Central so you know there's some low",
+        "start": 1453.02,
+        "duration": 6.42
+    },
+    {
+        "text": "power device out there let's say you",
+        "start": 1456.5,
+        "duration": 5.88
+    },
+    {
+        "text": "know that that is using",
+        "start": 1459.44,
+        "duration": 5.46
+    },
+    {
+        "text": "um let's say a",
+        "start": 1462.38,
+        "duration": 4.32
+    },
+    {
+        "text": "you know a",
+        "start": 1464.9,
+        "duration": 3.899
+    },
+    {
+        "text": "a different protocol instead of directly",
+        "start": 1466.7,
+        "duration": 5.04
+    },
+    {
+        "text": "connecting to Wi-Fi right so a Gateway",
+        "start": 1468.799,
+        "duration": 6.661
+    },
+    {
+        "text": "device is like uh where these some of",
+        "start": 1471.74,
+        "duration": 6.179
+    },
+    {
+        "text": "these iot device would connect to and",
+        "start": 1475.46,
+        "duration": 7.02
+    },
+    {
+        "text": "can talk let's say you know uh Laura or",
+        "start": 1477.919,
+        "duration": 7.461
+    },
+    {
+        "text": "can talk some other protocol and then",
+        "start": 1482.48,
+        "duration": 4.98
+    },
+    {
+        "text": "forwards that message",
+        "start": 1485.38,
+        "duration": 6.6
+    },
+    {
+        "text": "then that connects to IUD Central",
+        "start": 1487.46,
+        "duration": 4.52
+    },
+    {
+        "text": "hey there question Ron yes sir yeah uh",
+        "start": 1493.76,
+        "duration": 6.6
+    },
+    {
+        "text": "you might have just answered it uh I was",
+        "start": 1497.24,
+        "duration": 4.319
+    },
+    {
+        "text": "thinking of the question when you're on",
+        "start": 1500.36,
+        "duration": 3.96
+    },
+    {
+        "text": "the iot edge device uh section",
+        "start": 1501.559,
+        "duration": 5.1
+    },
+    {
+        "text": "I you talked about that being uh",
+        "start": 1504.32,
+        "duration": 4.56
+    },
+    {
+        "text": "potentially a middleman for other",
+        "start": 1506.659,
+        "duration": 3.961
+    },
+    {
+        "text": "devices that can't connect directly to",
+        "start": 1508.88,
+        "duration": 2.82
+    },
+    {
+        "text": "the cloud",
+        "start": 1510.62,
+        "duration": 3.299
+    },
+    {
+        "text": "uh in that I guess you just explained",
+        "start": 1511.7,
+        "duration": 3.78
+    },
+    {
+        "text": "that like I said a Gateway sounds",
+        "start": 1513.919,
+        "duration": 5.401
+    },
+    {
+        "text": "similar to that too yes yeah I I have a",
+        "start": 1515.48,
+        "duration": 7.26
+    },
+    {
+        "text": "sensor in my uh house that um",
+        "start": 1519.32,
+        "duration": 5.76
+    },
+    {
+        "text": "that collects the temperature and",
+        "start": 1522.74,
+        "duration": 4.26
+    },
+    {
+        "text": "humidity and things like that and it",
+        "start": 1525.08,
+        "duration": 4.38
+    },
+    {
+        "text": "can't talk to the internet it talks to a",
+        "start": 1527.0,
+        "duration": 4.5
+    },
+    {
+        "text": "Gateway right then can talk to the",
+        "start": 1529.46,
+        "duration": 5.219
+    },
+    {
+        "text": "internet it can have multiple sensors",
+        "start": 1531.5,
+        "duration": 5.52
+    },
+    {
+        "text": "um is is that so so I get the concept of",
+        "start": 1534.679,
+        "duration": 4.141
+    },
+    {
+        "text": "the Gateway in that context is there",
+        "start": 1537.02,
+        "duration": 3.899
+    },
+    {
+        "text": "another context that I'm missing for",
+        "start": 1538.82,
+        "duration": 4.32
+    },
+    {
+        "text": "where a one Edge device",
+        "start": 1540.919,
+        "duration": 4.561
+    },
+    {
+        "text": "in the middle row could do work for",
+        "start": 1543.14,
+        "duration": 4.74
+    },
+    {
+        "text": "another or it could be it's you know um",
+        "start": 1545.48,
+        "duration": 3.96
+    },
+    {
+        "text": "Middleman",
+        "start": 1547.88,
+        "duration": 3.84
+    },
+    {
+        "text": "so if you think about",
+        "start": 1549.44,
+        "duration": 3.18
+    },
+    {
+        "text": "um",
+        "start": 1551.72,
+        "duration": 5.1
+    },
+    {
+        "text": "what is a good example of this is it",
+        "start": 1552.62,
+        "duration": 7.919
+    },
+    {
+        "text": "there's a there's service in Azure where",
+        "start": 1556.82,
+        "duration": 9.0
+    },
+    {
+        "text": "you can run it uh at the edge meaning uh",
+        "start": 1560.539,
+        "duration": 8.76
+    },
+    {
+        "text": "or trying to find that word so it can",
+        "start": 1565.82,
+        "duration": 5.4
+    },
+    {
+        "text": "process some of the images from the",
+        "start": 1569.299,
+        "duration": 4.201
+    },
+    {
+        "text": "camera in between",
+        "start": 1571.22,
+        "duration": 5.28
+    },
+    {
+        "text": "uh",
+        "start": 1573.5,
+        "duration": 3.0
+    },
+    {
+        "text": "okay it'll come back to me but but you",
+        "start": 1576.86,
+        "duration": 6.12
+    },
+    {
+        "text": "can have these uh devices this Edge",
+        "start": 1579.98,
+        "duration": 6.0
+    },
+    {
+        "text": "device that can that can do some",
+        "start": 1582.98,
+        "duration": 4.559
+    },
+    {
+        "text": "processing before you send it to the",
+        "start": 1585.98,
+        "duration": 4.679
+    },
+    {
+        "text": "cloud and typically you would run it in",
+        "start": 1587.539,
+        "duration": 6.181
+    },
+    {
+        "text": "like a kubernetes or you would run that",
+        "start": 1590.659,
+        "duration": 7.081
+    },
+    {
+        "text": "on that there's an Azure iot Edge that",
+        "start": 1593.72,
+        "duration": 6.6
+    },
+    {
+        "text": "runs containers",
+        "start": 1597.74,
+        "duration": 4.58
+    },
+    {
+        "text": "closer to you know",
+        "start": 1600.32,
+        "duration": 5.58
+    },
+    {
+        "text": "containers in in the in the same network",
+        "start": 1602.32,
+        "duration": 6.64
+    },
+    {
+        "text": "as your iot Edge devices",
+        "start": 1605.9,
+        "duration": 5.399
+    },
+    {
+        "text": "so it can do that processing or",
+        "start": 1608.96,
+        "duration": 4.56
+    },
+    {
+        "text": "pre-processing data locally instead of",
+        "start": 1611.299,
+        "duration": 4.26
+    },
+    {
+        "text": "sending directly to the cloud",
+        "start": 1613.52,
+        "duration": 4.44
+    },
+    {
+        "text": "so you can have to actually learn this",
+        "start": 1615.559,
+        "duration": 4.261
+    },
+    {
+        "text": "from Veronica she talked about the",
+        "start": 1617.96,
+        "duration": 3.959
+    },
+    {
+        "text": "cognitive Services that's right they",
+        "start": 1619.82,
+        "duration": 3.66
+    },
+    {
+        "text": "have containers that you can stick out",
+        "start": 1621.919,
+        "duration": 3.181
+    },
+    {
+        "text": "that's correct so and I hadn't thought",
+        "start": 1623.48,
+        "duration": 3.72
+    },
+    {
+        "text": "about those as doing work for other",
+        "start": 1625.1,
+        "duration": 4.079
+    },
+    {
+        "text": "devices before sending it centrally but",
+        "start": 1627.2,
+        "duration": 4.079
+    },
+    {
+        "text": "that that makes complete sense uh yes",
+        "start": 1629.179,
+        "duration": 4.561
+    },
+    {
+        "text": "now so you explain it wrong yes so",
+        "start": 1631.279,
+        "duration": 4.621
+    },
+    {
+        "text": "cognitive Services can run you can",
+        "start": 1633.74,
+        "duration": 5.16
+    },
+    {
+        "text": "actually have SQL device uh SQL Edge",
+        "start": 1635.9,
+        "duration": 6.54
+    },
+    {
+        "text": "running on there right so instead of you",
+        "start": 1638.9,
+        "duration": 5.399
+    },
+    {
+        "text": "know the SQL Server running in the cloud",
+        "start": 1642.44,
+        "duration": 4.68
+    },
+    {
+        "text": "you can have SQL Edge running on an iot",
+        "start": 1644.299,
+        "duration": 5.221
+    },
+    {
+        "text": "edge device and that's your IIT Edge",
+        "start": 1647.12,
+        "duration": 4.5
+    },
+    {
+        "text": "deal your your processing can happen",
+        "start": 1649.52,
+        "duration": 3.539
+    },
+    {
+        "text": "there",
+        "start": 1651.62,
+        "duration": 3.84
+    },
+    {
+        "text": "that's a good question",
+        "start": 1653.059,
+        "duration": 4.261
+    },
+    {
+        "text": "I appreciate the extra call everyone",
+        "start": 1655.46,
+        "duration": 4.88
+    },
+    {
+        "text": "thank you yes",
+        "start": 1657.32,
+        "duration": 3.02
+    },
+    {
+        "text": "there's multiple ways in how you would",
+        "start": 1661.34,
+        "duration": 5.699
+    },
+    {
+        "text": "connect to iot Central uh of course you",
+        "start": 1663.38,
+        "duration": 5.1
+    },
+    {
+        "text": "know this is the same underlying",
+        "start": 1667.039,
+        "duration": 4.02
+    },
+    {
+        "text": "structure as you would connect an iot to",
+        "start": 1668.48,
+        "duration": 5.64
+    },
+    {
+        "text": "iot HUB you can use either a shared",
+        "start": 1671.059,
+        "duration": 4.681
+    },
+    {
+        "text": "access key",
+        "start": 1674.12,
+        "duration": 5.539
+    },
+    {
+        "text": "signature you can use x 509 certificates",
+        "start": 1675.74,
+        "duration": 7.86
+    },
+    {
+        "text": "or The Trusted platform module",
+        "start": 1679.659,
+        "duration": 7.361
+    },
+    {
+        "text": "a lot of you know examples out there is",
+        "start": 1683.6,
+        "duration": 6.059
+    },
+    {
+        "text": "using the shared access signature which",
+        "start": 1687.02,
+        "duration": 5.039
+    },
+    {
+        "text": "is kind of like a connection string uh",
+        "start": 1689.659,
+        "duration": 4.861
+    },
+    {
+        "text": "how we would connect to",
+        "start": 1692.059,
+        "duration": 4.98
+    },
+    {
+        "text": "to it central that's typically the",
+        "start": 1694.52,
+        "duration": 4.139
+    },
+    {
+        "text": "easiest way",
+        "start": 1697.039,
+        "duration": 3.601
+    },
+    {
+        "text": "and then in terms of communication",
+        "start": 1698.659,
+        "duration": 4.981
+    },
+    {
+        "text": "protocols uh it could be it's possible",
+        "start": 1700.64,
+        "duration": 6.32
+    },
+    {
+        "text": "to send it through mqtt it's using mqtt",
+        "start": 1703.64,
+        "duration": 8.34
+    },
+    {
+        "text": "amqp or https so if you know depending",
+        "start": 1706.96,
+        "duration": 7.0
+    },
+    {
+        "text": "on the network if they block some of",
+        "start": 1711.98,
+        "duration": 5.28
+    },
+    {
+        "text": "these uh you know these protocols you",
+        "start": 1713.96,
+        "duration": 5.04
+    },
+    {
+        "text": "know you have choices and how to send",
+        "start": 1717.26,
+        "duration": 5.96
+    },
+    {
+        "text": "data to iot Central",
+        "start": 1719.0,
+        "duration": 4.22
+    },
+    {
+        "text": "device templates think about it as a",
+        "start": 1724.96,
+        "duration": 6.699
+    },
+    {
+        "text": "blueprint or definition of what the how",
+        "start": 1728.48,
+        "duration": 5.1
+    },
+    {
+        "text": "to talk to the device and typically",
+        "start": 1731.659,
+        "duration": 3.12
+    },
+    {
+        "text": "there's three",
+        "start": 1733.58,
+        "duration": 4.32
+    },
+    {
+        "text": "ways on how you would do this the three",
+        "start": 1734.779,
+        "duration": 5.461
+    },
+    {
+        "text": "components of a device template one is",
+        "start": 1737.9,
+        "duration": 5.759
+    },
+    {
+        "text": "what is the what's Telemetry that you'll",
+        "start": 1740.24,
+        "duration": 5.58
+    },
+    {
+        "text": "be receiving these are device the device",
+        "start": 1743.659,
+        "duration": 4.62
+    },
+    {
+        "text": "sends data to the cloud and sends",
+        "start": 1745.82,
+        "duration": 5.9
+    },
+    {
+        "text": "Telemetry data another one is sync uh",
+        "start": 1748.279,
+        "duration": 6.601
+    },
+    {
+        "text": "properties and these are",
+        "start": 1751.72,
+        "duration": 5.199
+    },
+    {
+        "text": "you know typically we call them device",
+        "start": 1754.88,
+        "duration": 5.34
+    },
+    {
+        "text": "twin but it synchronizes you know",
+        "start": 1756.919,
+        "duration": 7.681
+    },
+    {
+        "text": "between the the cloud and the device if",
+        "start": 1760.22,
+        "duration": 7.98
+    },
+    {
+        "text": "you if device changes the um",
+        "start": 1764.6,
+        "duration": 6.9
+    },
+    {
+        "text": "some of the properties eventually it",
+        "start": 1768.2,
+        "duration": 4.8
+    },
+    {
+        "text": "would reflect",
+        "start": 1771.5,
+        "duration": 3.84
+    },
+    {
+        "text": "you know that information the cloud or",
+        "start": 1773.0,
+        "duration": 4.74
+    },
+    {
+        "text": "vice versa right you change the number",
+        "start": 1775.34,
+        "duration": 5.64
+    },
+    {
+        "text": "or the the the property in the cloud",
+        "start": 1777.74,
+        "duration": 5.64
+    },
+    {
+        "text": "it knows how to synchronize itself to",
+        "start": 1780.98,
+        "duration": 5.16
+    },
+    {
+        "text": "the device that it that its goal is to",
+        "start": 1783.38,
+        "duration": 5.84
+    },
+    {
+        "text": "make sure that they're all the same",
+        "start": 1786.14,
+        "duration": 6.779
+    },
+    {
+        "text": "and then another one is commands these",
+        "start": 1789.22,
+        "duration": 5.92
+    },
+    {
+        "text": "are Cloud calls on device so the",
+        "start": 1792.919,
+        "duration": 3.541
+    },
+    {
+        "text": "difference between properties and",
+        "start": 1795.14,
+        "duration": 4.08
+    },
+    {
+        "text": "commands commands requires that the",
+        "start": 1796.46,
+        "duration": 5.819
+    },
+    {
+        "text": "device is on so that you can send",
+        "start": 1799.22,
+        "duration": 5.22
+    },
+    {
+        "text": "command to it properties even though",
+        "start": 1802.279,
+        "duration": 5.341
+    },
+    {
+        "text": "let's say the device is offline",
+        "start": 1804.44,
+        "duration": 5.04
+    },
+    {
+        "text": "and you know maybe not connected to the",
+        "start": 1807.62,
+        "duration": 4.32
+    },
+    {
+        "text": "internet you can change the property and",
+        "start": 1809.48,
+        "duration": 4.799
+    },
+    {
+        "text": "then eventually it would synchronize the",
+        "start": 1811.94,
+        "duration": 5.58
+    },
+    {
+        "text": "device once it it",
+        "start": 1814.279,
+        "duration": 5.341
+    },
+    {
+        "text": "you know it reboots itself once it's",
+        "start": 1817.52,
+        "duration": 6.259
+    },
+    {
+        "text": "connected back to IIT Central",
+        "start": 1819.62,
+        "duration": 4.159
+    },
+    {
+        "text": "so let's let's look at uh iot device uh",
+        "start": 1826.22,
+        "duration": 7.199
+    },
+    {
+        "text": "iot Central device provisioning how are",
+        "start": 1830.48,
+        "duration": 5.4
+    },
+    {
+        "text": "we on time now",
+        "start": 1833.419,
+        "duration": 3.181
+    },
+    {
+        "text": "um",
+        "start": 1835.88,
+        "duration": 3.12
+    },
+    {
+        "text": "how long do we usually have our our",
+        "start": 1836.6,
+        "duration": 6.24
+    },
+    {
+        "text": "presentation classes",
+        "start": 1839.0,
+        "duration": 3.84
+    },
+    {
+        "text": "another uh 90 minutes 90 minutes okay",
+        "start": 1842.86,
+        "duration": 7.539
+    },
+    {
+        "text": "now uh not another 90 minutes but",
+        "start": 1846.559,
+        "duration": 7.081
+    },
+    {
+        "text": "um what's what's the most natural uh",
+        "start": 1850.399,
+        "duration": 5.28
+    },
+    {
+        "text": "amount of time that would make sense to",
+        "start": 1853.64,
+        "duration": 5.039
+    },
+    {
+        "text": "wrap it up with okay I want to make sure",
+        "start": 1855.679,
+        "duration": 4.98
+    },
+    {
+        "text": "because I can talk about this all day I",
+        "start": 1858.679,
+        "duration": 3.24
+    },
+    {
+        "text": "want to make sure I don't waste",
+        "start": 1860.659,
+        "duration": 2.76
+    },
+    {
+        "text": "everyone's time",
+        "start": 1861.919,
+        "duration": 7.801
+    },
+    {
+        "text": "so yeah uh that let's let's do a demo of",
+        "start": 1863.419,
+        "duration": 8.76
+    },
+    {
+        "text": "what iot central would look like",
+        "start": 1869.72,
+        "duration": 5.579
+    },
+    {
+        "text": "okay so if you go to apps",
+        "start": 1872.179,
+        "duration": 6.661
+    },
+    {
+        "text": "that iotcentral.com",
+        "start": 1875.299,
+        "duration": 3.541
+    },
+    {
+        "text": "okay you can actually uh",
+        "start": 1879.2,
+        "duration": 7.56
+    },
+    {
+        "text": "build an app here",
+        "start": 1882.799,
+        "duration": 5.521
+    },
+    {
+        "text": "um",
+        "start": 1886.76,
+        "duration": 4.74
+    },
+    {
+        "text": "and it it's either you can create your",
+        "start": 1888.32,
+        "duration": 6.78
+    },
+    {
+        "text": "own custom app or you can select in one",
+        "start": 1891.5,
+        "duration": 5.539
+    },
+    {
+        "text": "of these if you just want to try it out",
+        "start": 1895.1,
+        "duration": 4.92
+    },
+    {
+        "text": "so you know these are the templates that",
+        "start": 1897.039,
+        "duration": 5.02
+    },
+    {
+        "text": "they have you know if you're if you want",
+        "start": 1900.02,
+        "duration": 5.519
+    },
+    {
+        "text": "to know more about Retail Energy",
+        "start": 1902.059,
+        "duration": 7.321
+    },
+    {
+        "text": "uh government health care so there's",
+        "start": 1905.539,
+        "duration": 6.661
+    },
+    {
+        "text": "some examples out there and some uh",
+        "start": 1909.38,
+        "duration": 5.88
+    },
+    {
+        "text": "documentation around it to understand to",
+        "start": 1912.2,
+        "duration": 5.88
+    },
+    {
+        "text": "understand what uh what data would you",
+        "start": 1915.26,
+        "duration": 4.86
+    },
+    {
+        "text": "be receiving so today I'm we're just",
+        "start": 1918.08,
+        "duration": 5.339
+    },
+    {
+        "text": "going to create our own custom app and",
+        "start": 1920.12,
+        "duration": 5.4
+    },
+    {
+        "text": "of course it will ask us for application",
+        "start": 1923.419,
+        "duration": 5.36
+    },
+    {
+        "text": "name and then the URL dot Azure",
+        "start": 1925.52,
+        "duration": 7.259
+    },
+    {
+        "text": "iotcentral.com you specify that it is a",
+        "start": 1928.779,
+        "duration": 6.4
+    },
+    {
+        "text": "custom template and then in terms of the",
+        "start": 1932.779,
+        "duration": 5.28
+    },
+    {
+        "text": "pricing plan each one of these have two",
+        "start": 1935.179,
+        "duration": 5.041
+    },
+    {
+        "text": "free devices and you have to select how",
+        "start": 1938.059,
+        "duration": 4.86
+    },
+    {
+        "text": "many messages you receive",
+        "start": 1940.22,
+        "duration": 5.1
+    },
+    {
+        "text": "from that device",
+        "start": 1942.919,
+        "duration": 6.961
+    },
+    {
+        "text": "and of course it cost I think the the",
+        "start": 1945.32,
+        "duration": 6.959
+    },
+    {
+        "text": "pricing model it's like maybe less than",
+        "start": 1949.88,
+        "duration": 6.0
+    },
+    {
+        "text": "a dollar per device per month uh in",
+        "start": 1952.279,
+        "duration": 5.221
+    },
+    {
+        "text": "order to connect to this and there's",
+        "start": 1955.88,
+        "duration": 3.659
+    },
+    {
+        "text": "there's different pricing models for",
+        "start": 1957.5,
+        "duration": 4.799
+    },
+    {
+        "text": "each one of these so it just depends on",
+        "start": 1959.539,
+        "duration": 4.681
+    },
+    {
+        "text": "how much how many messages can you",
+        "start": 1962.299,
+        "duration": 4.201
+    },
+    {
+        "text": "receive so we're going to select uh",
+        "start": 1964.22,
+        "duration": 3.72
+    },
+    {
+        "text": "standard two",
+        "start": 1966.5,
+        "duration": 3.539
+    },
+    {
+        "text": "and then of course you know you need",
+        "start": 1967.94,
+        "duration": 5.7
+    },
+    {
+        "text": "your uh your Azure subscription in order",
+        "start": 1970.039,
+        "duration": 5.88
+    },
+    {
+        "text": "to connect to it and then just click",
+        "start": 1973.64,
+        "duration": 3.48
+    },
+    {
+        "text": "create",
+        "start": 1975.919,
+        "duration": 5.401
+    },
+    {
+        "text": "so I created one already since uh let me",
+        "start": 1977.12,
+        "duration": 5.64
+    },
+    {
+        "text": "make sure I",
+        "start": 1981.32,
+        "duration": 5.66
+    },
+    {
+        "text": "and and this is what it looks like",
+        "start": 1982.76,
+        "duration": 4.22
+    },
+    {
+        "text": "so you know first set you you know",
+        "start": 1989.059,
+        "duration": 5.701
+    },
+    {
+        "text": "you'll have",
+        "start": 1992.899,
+        "duration": 4.801
+    },
+    {
+        "text": "um the application so you can do some",
+        "start": 1994.76,
+        "duration": 5.46
+    },
+    {
+        "text": "customization a little bit on this you",
+        "start": 1997.7,
+        "duration": 5.339
+    },
+    {
+        "text": "know change you know upload image and",
+        "start": 2000.22,
+        "duration": 5.88
+    },
+    {
+        "text": "icons those kind of things to make it uh",
+        "start": 2003.039,
+        "duration": 6.421
+    },
+    {
+        "text": "a little bit nicer right and then on the",
+        "start": 2006.1,
+        "duration": 5.64
+    },
+    {
+        "text": "application itself",
+        "start": 2009.46,
+        "duration": 6.48
+    },
+    {
+        "text": "um you can do some management for this",
+        "start": 2011.74,
+        "duration": 5.819
+    },
+    {
+        "text": "and what here you can change the",
+        "start": 2015.94,
+        "duration": 5.579
+    },
+    {
+        "text": "application name and application ID",
+        "start": 2017.559,
+        "duration": 6.061
+    },
+    {
+        "text": "those kind of things so we'll focus on",
+        "start": 2021.519,
+        "duration": 5.941
+    },
+    {
+        "text": "the connection part of it so let's go",
+        "start": 2023.62,
+        "duration": 5.52
+    },
+    {
+        "text": "back to",
+        "start": 2027.46,
+        "duration": 3.839
+    },
+    {
+        "text": "my other screen",
+        "start": 2029.14,
+        "duration": 5.18
+    },
+    {
+        "text": "to the presentation",
+        "start": 2031.299,
+        "duration": 3.021
+    },
+    {
+        "text": "we have a question in the chat okay",
+        "start": 2036.58,
+        "duration": 7.26
+    },
+    {
+        "text": "um if we have a Gateway the commands can",
+        "start": 2040.6,
+        "duration": 6.84
+    },
+    {
+        "text": "be routed from Cloud to Gateway to their",
+        "start": 2043.84,
+        "duration": 5.279
+    },
+    {
+        "text": "iot device",
+        "start": 2047.44,
+        "duration": 4.52
+    },
+    {
+        "text": "yes yes there's a way to do that",
+        "start": 2049.119,
+        "duration": 6.901
+    },
+    {
+        "text": "because you can register your gateway to",
+        "start": 2051.96,
+        "duration": 7.84
+    },
+    {
+        "text": "iot Central and you know each one of the",
+        "start": 2056.02,
+        "duration": 7.02
+    },
+    {
+        "text": "devices also iot device can route those",
+        "start": 2059.8,
+        "duration": 6.0
+    },
+    {
+        "text": "messages to the Gateway and then the",
+        "start": 2063.04,
+        "duration": 6.96
+    },
+    {
+        "text": "gateway to ID Central and vice versa",
+        "start": 2065.8,
+        "duration": 6.98
+    },
+    {
+        "text": "thank you",
+        "start": 2070.0,
+        "duration": 2.78
+    },
+    {
+        "text": "so IIT Central let's see where's",
+        "start": 2078.82,
+        "duration": 5.94
+    },
+    {
+        "text": "provisioning I thought I have my other",
+        "start": 2082.44,
+        "duration": 4.36
+    },
+    {
+        "text": "screen here okay",
+        "start": 2084.76,
+        "duration": 4.919
+    },
+    {
+        "text": "so on the provisioning side you know I'm",
+        "start": 2086.8,
+        "duration": 5.7
+    },
+    {
+        "text": "gonna click create new device and this",
+        "start": 2089.679,
+        "duration": 6.061
+    },
+    {
+        "text": "new device I specified sample device iot",
+        "start": 2092.5,
+        "duration": 6.42
+    },
+    {
+        "text": "or sample device zero one I'm not going",
+        "start": 2095.74,
+        "duration": 5.04
+    },
+    {
+        "text": "to assign a device template because I",
+        "start": 2098.92,
+        "duration": 3.48
+    },
+    {
+        "text": "haven't built one",
+        "start": 2100.78,
+        "duration": 4.2
+    },
+    {
+        "text": "and then it you know it would have these",
+        "start": 2102.4,
+        "duration": 5.16
+    },
+    {
+        "text": "it tells me the device name it's just",
+        "start": 2104.98,
+        "duration": 4.74
+    },
+    {
+        "text": "there's different device status right",
+        "start": 2107.56,
+        "duration": 5.34
+    },
+    {
+        "text": "now we just created this device and it",
+        "start": 2109.72,
+        "duration": 5.1
+    },
+    {
+        "text": "knows what organization it belongs to",
+        "start": 2112.9,
+        "duration": 4.92
+    },
+    {
+        "text": "which is uh you can have multi-tenancy",
+        "start": 2114.82,
+        "duration": 5.58
+    },
+    {
+        "text": "and multi-organization and this so you",
+        "start": 2117.82,
+        "duration": 4.98
+    },
+    {
+        "text": "think about organization is where you",
+        "start": 2120.4,
+        "duration": 5.699
+    },
+    {
+        "text": "can have uh you know Factory one versus",
+        "start": 2122.8,
+        "duration": 6.12
+    },
+    {
+        "text": "Factory two all devices on Factory One",
+        "start": 2126.099,
+        "duration": 6.0
+    },
+    {
+        "text": "belongs to one or sub organization and",
+        "start": 2128.92,
+        "duration": 5.159
+    },
+    {
+        "text": "then Factory two belongs to another sub",
+        "start": 2132.099,
+        "duration": 4.681
+    },
+    {
+        "text": "organization however you want to so you",
+        "start": 2134.079,
+        "duration": 6.721
+    },
+    {
+        "text": "can you can manage these devices and",
+        "start": 2136.78,
+        "duration": 5.94
+    },
+    {
+        "text": "then of course a device template uh",
+        "start": 2140.8,
+        "duration": 3.9
+    },
+    {
+        "text": "we'll talk more on that so once you have",
+        "start": 2142.72,
+        "duration": 4.139
+    },
+    {
+        "text": "your device it would tell you how you",
+        "start": 2144.7,
+        "duration": 5.159
+    },
+    {
+        "text": "would connect to it so it would have the",
+        "start": 2146.859,
+        "duration": 5.101
+    },
+    {
+        "text": "scope on how you would connect the",
+        "start": 2149.859,
+        "duration": 4.701
+    },
+    {
+        "text": "device ID",
+        "start": 2151.96,
+        "duration": 2.6
+    },
+    {
+        "text": "um you can and then it'll give you the",
+        "start": 2154.72,
+        "duration": 4.26
+    },
+    {
+        "text": "in a way connection string the primary",
+        "start": 2157.119,
+        "duration": 4.861
+    },
+    {
+        "text": "key and secondary key uh if you use this",
+        "start": 2158.98,
+        "duration": 6.78
+    },
+    {
+        "text": "shared access signature so once you have",
+        "start": 2161.98,
+        "duration": 5.16
+    },
+    {
+        "text": "that",
+        "start": 2165.76,
+        "duration": 3.44
+    },
+    {
+        "text": "um",
+        "start": 2167.14,
+        "duration": 2.06
+    },
+    {
+        "text": "I'll go back to I have these",
+        "start": 2169.3,
+        "duration": 5.819
+    },
+    {
+        "text": "uh sample code and I'll give you a link",
+        "start": 2172.18,
+        "duration": 6.439
+    },
+    {
+        "text": "on this one later on",
+        "start": 2175.119,
+        "duration": 6.661
+    },
+    {
+        "text": "in this sample code this is just a",
+        "start": 2178.619,
+        "duration": 6.401
+    },
+    {
+        "text": "c-sharp application and I want this one",
+        "start": 2181.78,
+        "duration": 5.52
+    },
+    {
+        "text": "to be to act like a",
+        "start": 2185.02,
+        "duration": 6.599
+    },
+    {
+        "text": "an iot device running on my laptop just",
+        "start": 2187.3,
+        "duration": 6.6
+    },
+    {
+        "text": "to simplify things and it knows how you",
+        "start": 2191.619,
+        "duration": 5.281
+    },
+    {
+        "text": "know and it knows how to connect to iot",
+        "start": 2193.9,
+        "duration": 4.62
+    },
+    {
+        "text": "Central already because we specified",
+        "start": 2196.9,
+        "duration": 3.42
+    },
+    {
+        "text": "some of the scope",
+        "start": 2198.52,
+        "duration": 3.78
+    },
+    {
+        "text": "and then",
+        "start": 2200.32,
+        "duration": 4.88
+    },
+    {
+        "text": "I'm going to run this",
+        "start": 2202.3,
+        "duration": 2.9
+    },
+    {
+        "text": "see am I in the right folder",
+        "start": 2208.66,
+        "duration": 5.88
+    },
+    {
+        "text": "uh temperature controller",
+        "start": 2211.18,
+        "duration": 5.64
+    },
+    {
+        "text": ".net run",
+        "start": 2214.54,
+        "duration": 4.74
+    },
+    {
+        "text": "so I'm going to run this and what this",
+        "start": 2216.82,
+        "duration": 5.64
+    },
+    {
+        "text": "um application does it acts kind of like",
+        "start": 2219.28,
+        "duration": 8.22
+    },
+    {
+        "text": "a you know an iot device like one of",
+        "start": 2222.46,
+        "duration": 7.92
+    },
+    {
+        "text": "those temperature monitoring uh",
+        "start": 2227.5,
+        "duration": 4.68
+    },
+    {
+        "text": "the device",
+        "start": 2230.38,
+        "duration": 3.18
+    },
+    {
+        "text": "um",
+        "start": 2232.18,
+        "duration": 4.74
+    },
+    {
+        "text": "to where you can you know monitor the",
+        "start": 2233.56,
+        "duration": 5.519
+    },
+    {
+        "text": "temperature send it to the cloud and",
+        "start": 2236.92,
+        "duration": 4.8
+    },
+    {
+        "text": "then also control and change the",
+        "start": 2239.079,
+        "duration": 4.321
+    },
+    {
+        "text": "thermostat you know so think about the",
+        "start": 2241.72,
+        "duration": 3.96
+    },
+    {
+        "text": "thermostat in your home and it's sending",
+        "start": 2243.4,
+        "duration": 5.12
+    },
+    {
+        "text": "the updates every few seconds",
+        "start": 2245.68,
+        "duration": 8.3
+    },
+    {
+        "text": "and it connects to iot Central that way",
+        "start": 2248.52,
+        "duration": 5.46
+    },
+    {
+        "text": "okay",
+        "start": 2254.14,
+        "duration": 3.18
+    },
+    {
+        "text": "let's go back to",
+        "start": 2255.28,
+        "duration": 6.5
+    },
+    {
+        "text": "the other screen we have here",
+        "start": 2257.32,
+        "duration": 4.46
+    },
+    {
+        "text": "I'm going to refresh this notice how it",
+        "start": 2263.32,
+        "duration": 7.5
+    },
+    {
+        "text": "created this device template",
+        "start": 2267.099,
+        "duration": 5.781
+    },
+    {
+        "text": "um",
+        "start": 2270.82,
+        "duration": 2.06
+    },
+    {
+        "text": "so the sample device you know that the",
+        "start": 2272.92,
+        "duration": 5.28
+    },
+    {
+        "text": "one running on my machine it connected",
+        "start": 2275.92,
+        "duration": 4.86
+    },
+    {
+        "text": "because it's using the uh",
+        "start": 2278.2,
+        "duration": 6.6
+    },
+    {
+        "text": "the the SAS the shared access key and is",
+        "start": 2280.78,
+        "duration": 6.78
+    },
+    {
+        "text": "able to connect and it has it it",
+        "start": 2284.8,
+        "duration": 5.46
+    },
+    {
+        "text": "reported a new device template and let",
+        "start": 2287.56,
+        "duration": 4.32
+    },
+    {
+        "text": "me tell you what this device template",
+        "start": 2290.26,
+        "duration": 5.12
+    },
+    {
+        "text": "would looks like this device template",
+        "start": 2291.88,
+        "duration": 6.6
+    },
+    {
+        "text": "gives you information about the device",
+        "start": 2295.38,
+        "duration": 5.02
+    },
+    {
+        "text": "itself",
+        "start": 2298.48,
+        "duration": 3.96
+    },
+    {
+        "text": "um remember I did talk to you about Plug",
+        "start": 2300.4,
+        "duration": 5.04
+    },
+    {
+        "text": "and Play This is where iot Azure iot",
+        "start": 2302.44,
+        "duration": 6.78
+    },
+    {
+        "text": "Plug and Play does is it it reports okay",
+        "start": 2305.44,
+        "duration": 5.94
+    },
+    {
+        "text": "this is how you're gonna talk to me so",
+        "start": 2309.22,
+        "duration": 4.619
+    },
+    {
+        "text": "this the device itself says this is how",
+        "start": 2311.38,
+        "duration": 5.1
+    },
+    {
+        "text": "you you know IIT Central can talk to me",
+        "start": 2313.839,
+        "duration": 4.801
+    },
+    {
+        "text": "and it has all these different",
+        "start": 2316.48,
+        "duration": 5.22
+    },
+    {
+        "text": "capabilities all the different uh",
+        "start": 2318.64,
+        "duration": 4.5
+    },
+    {
+        "text": "uh",
+        "start": 2321.7,
+        "duration": 4.139
+    },
+    {
+        "text": "you know values on how you would you",
+        "start": 2323.14,
+        "duration": 4.26
+    },
+    {
+        "text": "know you have the serial number the",
+        "start": 2325.839,
+        "duration": 3.961
+    },
+    {
+        "text": "working set you know and commands to",
+        "start": 2327.4,
+        "duration": 4.92
+    },
+    {
+        "text": "reboot some of the properties and all",
+        "start": 2329.8,
+        "duration": 4.2
+    },
+    {
+        "text": "that so let's look at this device going",
+        "start": 2332.32,
+        "duration": 5.46
+    },
+    {
+        "text": "back here and this device right there",
+        "start": 2334.0,
+        "duration": 6.14
+    },
+    {
+        "text": "foreign",
+        "start": 2337.78,
+        "duration": 2.36
+    },
+    {
+        "text": "template it knows how to communicate so",
+        "start": 2343.14,
+        "duration": 4.62
+    },
+    {
+        "text": "it has this temperature",
+        "start": 2345.76,
+        "duration": 4.859
+    },
+    {
+        "text": "uh values and what it's receiving from",
+        "start": 2347.76,
+        "duration": 5.38
+    },
+    {
+        "text": "that device uh commands if you want to",
+        "start": 2350.619,
+        "duration": 5.821
+    },
+    {
+        "text": "reboot that temperature controller uh to",
+        "start": 2353.14,
+        "duration": 6.24
+    },
+    {
+        "text": "get some of these values for get min and",
+        "start": 2356.44,
+        "duration": 8.04
+    },
+    {
+        "text": "Max report uh and then also the on on",
+        "start": 2359.38,
+        "duration": 7.32
+    },
+    {
+        "text": "night Central you can see what are the",
+        "start": 2364.48,
+        "duration": 4.859
+    },
+    {
+        "text": "data that you are receiving from from",
+        "start": 2366.7,
+        "duration": 6.659
+    },
+    {
+        "text": "the device to cloud and it Maps you know",
+        "start": 2369.339,
+        "duration": 6.24
+    },
+    {
+        "text": "some of these values you know thermostat",
+        "start": 2373.359,
+        "duration": 5.521
+    },
+    {
+        "text": "1 slash temperature thermostat 2 slash",
+        "start": 2375.579,
+        "duration": 6.301
+    },
+    {
+        "text": "temperature so each one is actually just",
+        "start": 2378.88,
+        "duration": 6.78
+    },
+    {
+        "text": "sending a Json payload of uh what the",
+        "start": 2381.88,
+        "duration": 6.54
+    },
+    {
+        "text": "current temperature is of each one of",
+        "start": 2385.66,
+        "duration": 4.8
+    },
+    {
+        "text": "this thermostat and then with the",
+        "start": 2388.42,
+        "duration": 3.48
+    },
+    {
+        "text": "timestamp",
+        "start": 2390.46,
+        "duration": 4.02
+    },
+    {
+        "text": "so there's Telemetry right there and",
+        "start": 2391.9,
+        "duration": 4.8
+    },
+    {
+        "text": "also this is when it wakes up and the",
+        "start": 2394.48,
+        "duration": 5.52
+    },
+    {
+        "text": "event type is device connected just time",
+        "start": 2396.7,
+        "duration": 5.58
+    },
+    {
+        "text": "step so that then right there it's it's",
+        "start": 2400.0,
+        "duration": 6.06
+    },
+    {
+        "text": "provision it woke up it connected to to",
+        "start": 2402.28,
+        "duration": 5.46
+    },
+    {
+        "text": "the you know from my machine that",
+        "start": 2406.06,
+        "duration": 4.2
+    },
+    {
+        "text": "connected to to the",
+        "start": 2407.74,
+        "duration": 4.859
+    },
+    {
+        "text": "the iot central instance",
+        "start": 2410.26,
+        "duration": 5.9
+    },
+    {
+        "text": "and it's communicating",
+        "start": 2412.599,
+        "duration": 3.561
+    },
+    {
+        "text": "okay let's go back to the presentation",
+        "start": 2417.46,
+        "duration": 3.74
+    },
+    {
+        "text": "so visualizing data I think I have a",
+        "start": 2422.2,
+        "duration": 7.139
+    },
+    {
+        "text": "slide that I have here so monitoring",
+        "start": 2425.079,
+        "duration": 6.54
+    },
+    {
+        "text": "there's two types of monitoring the",
+        "start": 2429.339,
+        "duration": 4.081
+    },
+    {
+        "text": "health of your application and then of",
+        "start": 2431.619,
+        "duration": 4.381
+    },
+    {
+        "text": "course the health of the iot device and",
+        "start": 2433.42,
+        "duration": 4.199
+    },
+    {
+        "text": "of course as you receive this data",
+        "start": 2436.0,
+        "duration": 3.96
+    },
+    {
+        "text": "there's a historical data that you",
+        "start": 2437.619,
+        "duration": 4.5
+    },
+    {
+        "text": "collected from your device so device",
+        "start": 2439.96,
+        "duration": 5.34
+    },
+    {
+        "text": "monitoring is identifying the issues",
+        "start": 2442.119,
+        "duration": 5.341
+    },
+    {
+        "text": "with them you know what's the status",
+        "start": 2445.3,
+        "duration": 4.799
+    },
+    {
+        "text": "device status and then of course the",
+        "start": 2447.46,
+        "duration": 5.659
+    },
+    {
+        "text": "application monitoring how is the",
+        "start": 2450.099,
+        "duration": 5.701
+    },
+    {
+        "text": "application platform as a service a pass",
+        "start": 2453.119,
+        "duration": 4.72
+    },
+    {
+        "text": "right how is iot Central performing",
+        "start": 2455.8,
+        "duration": 5.059
+    },
+    {
+        "text": "there's uh of course in Azure there's",
+        "start": 2457.839,
+        "duration": 6.301
+    },
+    {
+        "text": "metrics that can provide chart there's",
+        "start": 2460.859,
+        "duration": 5.081
+    },
+    {
+        "text": "also a way you can you know the rest",
+        "start": 2464.14,
+        "duration": 6.0
+    },
+    {
+        "text": "apis and uh and on the Azure portal to",
+        "start": 2465.94,
+        "duration": 9.24
+    },
+    {
+        "text": "know how iot's Central is performing so",
+        "start": 2470.14,
+        "duration": 6.959
+    },
+    {
+        "text": "let's let me show you what device",
+        "start": 2475.18,
+        "duration": 5.899
+    },
+    {
+        "text": "monitoring looks like",
+        "start": 2477.099,
+        "duration": 3.98
+    },
+    {
+        "text": "so here's an example uh you can actually",
+        "start": 2482.38,
+        "duration": 5.88
+    },
+    {
+        "text": "build a different dashboards on iot",
+        "start": 2484.96,
+        "duration": 5.52
+    },
+    {
+        "text": "Central monitoring each one of the",
+        "start": 2488.26,
+        "duration": 4.5
+    },
+    {
+        "text": "devices that you have in your let's say",
+        "start": 2490.48,
+        "duration": 6.3
+    },
+    {
+        "text": "Factory floor or you know the retail",
+        "start": 2492.76,
+        "duration": 6.26
+    },
+    {
+        "text": "store",
+        "start": 2496.78,
+        "duration": 2.24
+    },
+    {
+        "text": "so there's ways you can create some of",
+        "start": 2499.3,
+        "duration": 5.0
+    },
+    {
+        "text": "these graphs",
+        "start": 2501.579,
+        "duration": 2.721
+    },
+    {
+        "text": "so let's do that",
+        "start": 2506.079,
+        "duration": 7.321
+    },
+    {
+        "text": "let's try to go back here and",
+        "start": 2508.78,
+        "duration": 6.66
+    },
+    {
+        "text": "go to dashboards I did talk about",
+        "start": 2513.4,
+        "duration": 4.5
+    },
+    {
+        "text": "dashboard you can make your own",
+        "start": 2515.44,
+        "duration": 4.14
+    },
+    {
+        "text": "dashboard or you can",
+        "start": 2517.9,
+        "duration": 2.939
+    },
+    {
+        "text": "[Music]",
+        "start": 2519.58,
+        "duration": 3.66
+    },
+    {
+        "text": "you can",
+        "start": 2520.839,
+        "duration": 4.02
+    },
+    {
+        "text": "build one",
+        "start": 2523.24,
+        "duration": 5.16
+    },
+    {
+        "text": "and there's a way you can specify okay a",
+        "start": 2524.859,
+        "duration": 6.48
+    },
+    {
+        "text": "chart data that you're receiving you",
+        "start": 2528.4,
+        "duration": 5.58
+    },
+    {
+        "text": "know I want to create the line chart and",
+        "start": 2531.339,
+        "duration": 4.74
+    },
+    {
+        "text": "on here",
+        "start": 2533.98,
+        "duration": 3.96
+    },
+    {
+        "text": "um I guess it's complaining about",
+        "start": 2536.079,
+        "duration": 4.161
+    },
+    {
+        "text": "uh",
+        "start": 2537.94,
+        "duration": 2.3
+    },
+    {
+        "text": "you know for some reason the device",
+        "start": 2540.94,
+        "duration": 4.2
+    },
+    {
+        "text": "template associated",
+        "start": 2542.859,
+        "duration": 5.161
+    },
+    {
+        "text": "so let's try to cancel that let's create",
+        "start": 2545.14,
+        "duration": 6.9
+    },
+    {
+        "text": "a new one so you can create new",
+        "start": 2548.02,
+        "duration": 5.94
+    },
+    {
+        "text": "and let's say I just want the personal",
+        "start": 2552.04,
+        "duration": 3.539
+    },
+    {
+        "text": "dashboard or you can do it per",
+        "start": 2553.96,
+        "duration": 4.32
+    },
+    {
+        "text": "organization so let's say the whole",
+        "start": 2555.579,
+        "duration": 5.52
+    },
+    {
+        "text": "Factory for or you know the whole",
+        "start": 2558.28,
+        "duration": 4.799
+    },
+    {
+        "text": "organization can monitor some of these",
+        "start": 2561.099,
+        "duration": 4.381
+    },
+    {
+        "text": "device so let's go with personal",
+        "start": 2563.079,
+        "duration": 5.161
+    },
+    {
+        "text": "and then I can edit this dashboard I can",
+        "start": 2565.48,
+        "duration": 4.32
+    },
+    {
+        "text": "create a line chart",
+        "start": 2568.24,
+        "duration": 4.08
+    },
+    {
+        "text": "and then I can edit this line chart and",
+        "start": 2569.8,
+        "duration": 5.46
+    },
+    {
+        "text": "let's say okay for all devices that are",
+        "start": 2572.32,
+        "duration": 5.84
+    },
+    {
+        "text": "temperature controller I want to specify",
+        "start": 2575.26,
+        "duration": 6.12
+    },
+    {
+        "text": "this device and just give me a chart",
+        "start": 2578.16,
+        "duration": 5.02
+    },
+    {
+        "text": "on that",
+        "start": 2581.38,
+        "duration": 4.56
+    },
+    {
+        "text": "image Telemetry and which capability I",
+        "start": 2583.18,
+        "duration": 4.919
+    },
+    {
+        "text": "want to monitor I want to monitor the",
+        "start": 2585.94,
+        "duration": 6.54
+    },
+    {
+        "text": "first thermostat and click and then see",
+        "start": 2588.099,
+        "duration": 7.381
+    },
+    {
+        "text": "if we add again the other thermostat and",
+        "start": 2592.48,
+        "duration": 5.879
+    },
+    {
+        "text": "then click update notice how it builds",
+        "start": 2595.48,
+        "duration": 5.879
+    },
+    {
+        "text": "me a line chart that I can monitor for",
+        "start": 2598.359,
+        "duration": 5.521
+    },
+    {
+        "text": "for this so that's one way you can you",
+        "start": 2601.359,
+        "duration": 4.26
+    },
+    {
+        "text": "can see as you receive this data it's",
+        "start": 2603.88,
+        "duration": 3.719
+    },
+    {
+        "text": "building a chart for you",
+        "start": 2605.619,
+        "duration": 4.521
+    },
+    {
+        "text": "another one is through data Explorer",
+        "start": 2607.599,
+        "duration": 5.341
+    },
+    {
+        "text": "data Explorer can you can create some",
+        "start": 2610.14,
+        "duration": 4.719
+    },
+    {
+        "text": "queries",
+        "start": 2612.94,
+        "duration": 3.96
+    },
+    {
+        "text": "and",
+        "start": 2614.859,
+        "duration": 4.201
+    },
+    {
+        "text": "you know if you just want to analyze",
+        "start": 2616.9,
+        "duration": 4.5
+    },
+    {
+        "text": "what's going on with your devices you",
+        "start": 2619.06,
+        "duration": 4.559
+    },
+    {
+        "text": "can do it here and then let's say look",
+        "start": 2621.4,
+        "duration": 5.699
+    },
+    {
+        "text": "at you know historical values and then",
+        "start": 2623.619,
+        "duration": 5.881
+    },
+    {
+        "text": "visualize it from there and this one is",
+        "start": 2627.099,
+        "duration": 5.461
+    },
+    {
+        "text": "using Azure Time series",
+        "start": 2629.5,
+        "duration": 5.66
+    },
+    {
+        "text": "uh",
+        "start": 2632.56,
+        "duration": 2.6
+    },
+    {
+        "text": "to visualize",
+        "start": 2636.16,
+        "duration": 6.06
+    },
+    {
+        "text": "so there's different options",
+        "start": 2638.619,
+        "duration": 6.2
+    },
+    {
+        "text": "all right let's move forward",
+        "start": 2642.22,
+        "duration": 4.5
+    },
+    {
+        "text": "question Ron",
+        "start": 2644.819,
+        "duration": 3.101
+    },
+    {
+        "text": "yes sir",
+        "start": 2646.72,
+        "duration": 2.82
+    },
+    {
+        "text": "on the um",
+        "start": 2647.92,
+        "duration": 6.179
+    },
+    {
+        "text": "the data that the uh iot Central is as",
+        "start": 2649.54,
+        "duration": 7.44
+    },
+    {
+        "text": "uh collecting does it have",
+        "start": 2654.099,
+        "duration": 5.041
+    },
+    {
+        "text": "a limit on how much data it's going to",
+        "start": 2656.98,
+        "duration": 4.32
+    },
+    {
+        "text": "store do you get to tell it you know I",
+        "start": 2659.14,
+        "duration": 4.32
+    },
+    {
+        "text": "want to keep it forever it'll only keep",
+        "start": 2661.3,
+        "duration": 4.14
+    },
+    {
+        "text": "it for three months does anything like",
+        "start": 2663.46,
+        "duration": 2.76
+    },
+    {
+        "text": "that",
+        "start": 2665.44,
+        "duration": 3.899
+    },
+    {
+        "text": "yes there's a limit I believe it's 90",
+        "start": 2666.22,
+        "duration": 6.72
+    },
+    {
+        "text": "days uh on on you know what it would",
+        "start": 2669.339,
+        "duration": 6.061
+    },
+    {
+        "text": "store and then it falls off from there",
+        "start": 2672.94,
+        "duration": 5.7
+    },
+    {
+        "text": "that's why you have all these apis and",
+        "start": 2675.4,
+        "duration": 4.86
+    },
+    {
+        "text": "data export which I'm going to talk",
+        "start": 2678.64,
+        "duration": 4.86
+    },
+    {
+        "text": "about next and how to get the data out",
+        "start": 2680.26,
+        "duration": 5.52
+    },
+    {
+        "text": "for longer storage right",
+        "start": 2683.5,
+        "duration": 5.099
+    },
+    {
+        "text": "makes sense thanks they're all temporary",
+        "start": 2685.78,
+        "duration": 5.579
+    },
+    {
+        "text": "connected there you can build reports",
+        "start": 2688.599,
+        "duration": 5.041
+    },
+    {
+        "text": "you know mostly status of what's going",
+        "start": 2691.359,
+        "duration": 4.321
+    },
+    {
+        "text": "on with your device",
+        "start": 2693.64,
+        "duration": 2.76
+    },
+    {
+        "text": "um",
+        "start": 2695.68,
+        "duration": 4.5
+    },
+    {
+        "text": "so jobs uh jobs is a way you can manage",
+        "start": 2696.4,
+        "duration": 7.02
+    },
+    {
+        "text": "uh connected devices at scale you can do",
+        "start": 2700.18,
+        "duration": 5.34
+    },
+    {
+        "text": "bulk updates because you think about you",
+        "start": 2703.42,
+        "duration": 4.34
+    },
+    {
+        "text": "know this is actively built for scale",
+        "start": 2705.52,
+        "duration": 5.76
+    },
+    {
+        "text": "scale means thousands or hundreds you",
+        "start": 2707.76,
+        "duration": 5.68
+    },
+    {
+        "text": "know thousands or you know hundred",
+        "start": 2711.28,
+        "duration": 4.5
+    },
+    {
+        "text": "thousands or 200 you know a million",
+        "start": 2713.44,
+        "duration": 4.32
+    },
+    {
+        "text": "devices it can go up to million devices",
+        "start": 2715.78,
+        "duration": 4.92
+    },
+    {
+        "text": "that you could be managing out there and",
+        "start": 2717.76,
+        "duration": 5.88
+    },
+    {
+        "text": "you have to think about okay how do if I",
+        "start": 2720.7,
+        "duration": 6.119
+    },
+    {
+        "text": "want to run command on these devices",
+        "start": 2723.64,
+        "duration": 5.58
+    },
+    {
+        "text": "how do I do them in bulk because I'm not",
+        "start": 2726.819,
+        "duration": 4.861
+    },
+    {
+        "text": "going to do that for you know for each",
+        "start": 2729.22,
+        "duration": 4.5
+    },
+    {
+        "text": "one each one of these device you're",
+        "start": 2731.68,
+        "duration": 4.56
+    },
+    {
+        "text": "going to run it in in batch so that's",
+        "start": 2733.72,
+        "duration": 5.099
+    },
+    {
+        "text": "where you have jobs and you can have all",
+        "start": 2736.24,
+        "duration": 4.64
+    },
+    {
+        "text": "these you know these different devices",
+        "start": 2738.819,
+        "duration": 5.881
+    },
+    {
+        "text": "uh in having in CSV file and to Import",
+        "start": 2740.88,
+        "duration": 5.8
+    },
+    {
+        "text": "and Export so you can you can do the",
+        "start": 2744.7,
+        "duration": 4.399
+    },
+    {
+        "text": "batching",
+        "start": 2746.68,
+        "duration": 2.419
+    },
+    {
+        "text": "so let's let's do that let's let's try",
+        "start": 2750.04,
+        "duration": 6.72
+    },
+    {
+        "text": "to uh visualize what uh jobs would look",
+        "start": 2753.099,
+        "duration": 4.621
+    },
+    {
+        "text": "like",
+        "start": 2756.76,
+        "duration": 4.079
+    },
+    {
+        "text": "um so if I go back to IIT Central",
+        "start": 2757.72,
+        "duration": 6.66
+    },
+    {
+        "text": "there is manage and there's jobs right",
+        "start": 2760.839,
+        "duration": 6.0
+    },
+    {
+        "text": "here and of course you can schedule and",
+        "start": 2764.38,
+        "duration": 4.62
+    },
+    {
+        "text": "create a job and that's what I'm doing",
+        "start": 2766.839,
+        "duration": 5.101
+    },
+    {
+        "text": "on the screen so like in this case",
+        "start": 2769.0,
+        "duration": 6.42
+    },
+    {
+        "text": "configure a job you specify it",
+        "start": 2771.94,
+        "duration": 6.72
+    },
+    {
+        "text": "sorry about that I have an alarm going",
+        "start": 2775.42,
+        "duration": 5.419
+    },
+    {
+        "text": "on",
+        "start": 2778.66,
+        "duration": 2.179
+    },
+    {
+        "text": "okay I'm back",
+        "start": 2795.94,
+        "duration": 5.82
+    },
+    {
+        "text": "wasn't expecting this alarm yeah",
+        "start": 2798.64,
+        "duration": 7.32
+    },
+    {
+        "text": "okay so I configured a job I specified",
+        "start": 2801.76,
+        "duration": 7.14
+    },
+    {
+        "text": "okay what type of devices am I going to",
+        "start": 2805.96,
+        "duration": 5.399
+    },
+    {
+        "text": "control or Gonna Change in this case I",
+        "start": 2808.9,
+        "duration": 4.98
+    },
+    {
+        "text": "want my temperature controller uh I want",
+        "start": 2811.359,
+        "duration": 5.281
+    },
+    {
+        "text": "to change the property uh you know",
+        "start": 2813.88,
+        "duration": 5.4
+    },
+    {
+        "text": "thermostat Target temperature I want to",
+        "start": 2816.64,
+        "duration": 5.4
+    },
+    {
+        "text": "specify so this one is changing changing",
+        "start": 2819.28,
+        "duration": 6.48
+    },
+    {
+        "text": "properties and I wanted to say okay now",
+        "start": 2822.04,
+        "duration": 5.819
+    },
+    {
+        "text": "thermostat one your target temperature",
+        "start": 2825.76,
+        "duration": 6.18
+    },
+    {
+        "text": "has to be 25. degrees so then that's how",
+        "start": 2827.859,
+        "duration": 5.821
+    },
+    {
+        "text": "it's going to send it and what it's",
+        "start": 2831.94,
+        "duration": 4.32
+    },
+    {
+        "text": "going to do is it will look for all the",
+        "start": 2833.68,
+        "duration": 5.159
+    },
+    {
+        "text": "devices under that device group",
+        "start": 2836.26,
+        "duration": 5.359
+    },
+    {
+        "text": "right that works on that device template",
+        "start": 2838.839,
+        "duration": 7.201
+    },
+    {
+        "text": "under that organization and then uh",
+        "start": 2841.619,
+        "duration": 7.061
+    },
+    {
+        "text": "start calling them each one of these",
+        "start": 2846.04,
+        "duration": 5.579
+    },
+    {
+        "text": "device and then uh changing the the",
+        "start": 2848.68,
+        "duration": 5.659
+    },
+    {
+        "text": "target temperature",
+        "start": 2851.619,
+        "duration": 2.72
+    },
+    {
+        "text": "and then once it's done once it executes",
+        "start": 2856.9,
+        "duration": 5.04
+    },
+    {
+        "text": "you know there's you know it would tell",
+        "start": 2859.78,
+        "duration": 3.9
+    },
+    {
+        "text": "you how many failed how many got",
+        "start": 2861.94,
+        "duration": 4.26
+    },
+    {
+        "text": "completed how many is in the process how",
+        "start": 2863.68,
+        "duration": 4.62
+    },
+    {
+        "text": "long did it take and which one of the",
+        "start": 2866.2,
+        "duration": 5.159
+    },
+    {
+        "text": "devices that it went through and an",
+        "start": 2868.3,
+        "duration": 5.279
+    },
+    {
+        "text": "update",
+        "start": 2871.359,
+        "duration": 5.521
+    },
+    {
+        "text": "so that's that's jobs right and so the",
+        "start": 2873.579,
+        "duration": 5.161
+    },
+    {
+        "text": "advantage of this one is there's",
+        "start": 2876.88,
+        "duration": 3.78
+    },
+    {
+        "text": "different rules where you you would",
+        "start": 2878.74,
+        "duration": 4.859
+    },
+    {
+        "text": "batch them so you can there's also",
+        "start": 2880.66,
+        "duration": 4.98
+    },
+    {
+        "text": "cancellation threshold or you know",
+        "start": 2883.599,
+        "duration": 5.461
+    },
+    {
+        "text": "different uh rules that says hey you",
+        "start": 2885.64,
+        "duration": 5.16
+    },
+    {
+        "text": "know you have thousands of devices",
+        "start": 2889.06,
+        "duration": 5.64
+    },
+    {
+        "text": "you're updating and the first 10 failed",
+        "start": 2890.8,
+        "duration": 6.12
+    },
+    {
+        "text": "should I continue with the 10 you know",
+        "start": 2894.7,
+        "duration": 4.379
+    },
+    {
+        "text": "thousands of devices so you can have",
+        "start": 2896.92,
+        "duration": 4.8
+    },
+    {
+        "text": "these cancellation threshold that if you",
+        "start": 2899.079,
+        "duration": 4.561
+    },
+    {
+        "text": "know five or ten devices in the first",
+        "start": 2901.72,
+        "duration": 4.5
+    },
+    {
+        "text": "run failed already yeah just canceled",
+        "start": 2903.64,
+        "duration": 4.26
+    },
+    {
+        "text": "the whole job and don't run it because",
+        "start": 2906.22,
+        "duration": 4.2
+    },
+    {
+        "text": "we don't want to destroy some of the",
+        "start": 2907.9,
+        "duration": 4.98
+    },
+    {
+        "text": "devices out there especially if it's if",
+        "start": 2910.42,
+        "duration": 4.5
+    },
+    {
+        "text": "it's Mission critical device so those",
+        "start": 2912.88,
+        "duration": 3.84
+    },
+    {
+        "text": "one way you can you can start batching",
+        "start": 2914.92,
+        "duration": 3.919
+    },
+    {
+        "text": "them",
+        "start": 2916.72,
+        "duration": 2.119
+    },
+    {
+        "text": "all right so let's that's jobs let's",
+        "start": 2920.38,
+        "duration": 5.34
+    },
+    {
+        "text": "start extending and what are the",
+        "start": 2923.74,
+        "duration": 4.56
+    },
+    {
+        "text": "different ways and how you can extend",
+        "start": 2925.72,
+        "duration": 6.0
+    },
+    {
+        "text": "iot Central like I said you can have a",
+        "start": 2928.3,
+        "duration": 6.66
+    },
+    {
+        "text": "companion app in iot central so that you",
+        "start": 2931.72,
+        "duration": 5.22
+    },
+    {
+        "text": "can you know start using some of these",
+        "start": 2934.96,
+        "duration": 4.619
+    },
+    {
+        "text": "data that it's receiving when it's",
+        "start": 2936.94,
+        "duration": 4.44
+    },
+    {
+        "text": "exporting the data",
+        "start": 2939.579,
+        "duration": 3.361
+    },
+    {
+        "text": "rules",
+        "start": 2941.38,
+        "duration": 5.04
+    },
+    {
+        "text": "and then rest API let's go through each",
+        "start": 2942.94,
+        "duration": 4.76
+    },
+    {
+        "text": "one",
+        "start": 2946.42,
+        "duration": 3.899
+    },
+    {
+        "text": "exporting uh you know this is how you",
+        "start": 2947.7,
+        "duration": 5.32
+    },
+    {
+        "text": "would integrate so you can export it",
+        "start": 2950.319,
+        "duration": 4.561
+    },
+    {
+        "text": "through",
+        "start": 2953.02,
+        "duration": 6.0
+    },
+    {
+        "text": "um you know event Hub service bus blob",
+        "start": 2954.88,
+        "duration": 7.8
+    },
+    {
+        "text": "storage some of the this information",
+        "start": 2959.02,
+        "duration": 4.799
+    },
+    {
+        "text": "um",
+        "start": 2962.68,
+        "duration": 3.419
+    },
+    {
+        "text": "and let's go through each one so on the",
+        "start": 2963.819,
+        "duration": 4.741
+    },
+    {
+        "text": "data export you can either go through",
+        "start": 2966.099,
+        "duration": 5.701
+    },
+    {
+        "text": "Azure event Hub where you can of course",
+        "start": 2968.56,
+        "duration": 5.279
+    },
+    {
+        "text": "if you're not familiar with can process",
+        "start": 2971.8,
+        "duration": 4.58
+    },
+    {
+        "text": "events",
+        "start": 2973.839,
+        "duration": 2.541
+    },
+    {
+        "text": "um with speed and precision service bus",
+        "start": 2977.02,
+        "duration": 6.42
+    },
+    {
+        "text": "if you wanted to make sure they are in",
+        "start": 2979.78,
+        "duration": 7.92
+    },
+    {
+        "text": "order you can export data to Azure",
+        "start": 2983.44,
+        "duration": 6.3
+    },
+    {
+        "text": "service bus",
+        "start": 2987.7,
+        "duration": 5.28
+    },
+    {
+        "text": "and then blob storage for unstructured",
+        "start": 2989.74,
+        "duration": 5.94
+    },
+    {
+        "text": "data so this is for long term you can",
+        "start": 2992.98,
+        "duration": 5.16
+    },
+    {
+        "text": "export uh data that you're receiving",
+        "start": 2995.68,
+        "duration": 6.179
+    },
+    {
+        "text": "from iot Central to from device to iot",
+        "start": 2998.14,
+        "duration": 6.36
+    },
+    {
+        "text": "Central and then to blob storage another",
+        "start": 3001.859,
+        "duration": 4.681
+    },
+    {
+        "text": "one is through data Lake where you can",
+        "start": 3004.5,
+        "duration": 4.68
+    },
+    {
+        "text": "process large amount of data the easiest",
+        "start": 3006.54,
+        "duration": 4.62
+    },
+    {
+        "text": "way that I you know especially if you",
+        "start": 3009.18,
+        "duration": 3.84
+    },
+    {
+        "text": "have API you can connect a web hook",
+        "start": 3011.16,
+        "duration": 6.48
+    },
+    {
+        "text": "endpoint and then you can you know have",
+        "start": 3013.02,
+        "duration": 6.599
+    },
+    {
+        "text": "rules against that",
+        "start": 3017.64,
+        "duration": 5.28
+    },
+    {
+        "text": "or rules defined for that",
+        "start": 3019.619,
+        "duration": 5.641
+    },
+    {
+        "text": "so here's a good example and how you",
+        "start": 3022.92,
+        "duration": 4.62
+    },
+    {
+        "text": "would do this in this case I'm selecting",
+        "start": 3025.26,
+        "duration": 5.88
+    },
+    {
+        "text": "webhook as part of destination so how I",
+        "start": 3027.54,
+        "duration": 7.02
+    },
+    {
+        "text": "got there to this page is I would go to",
+        "start": 3031.14,
+        "duration": 5.04
+    },
+    {
+        "text": "data",
+        "start": 3034.56,
+        "duration": 3.96
+    },
+    {
+        "text": "data export in this case I'm going to go",
+        "start": 3036.18,
+        "duration": 4.8
+    },
+    {
+        "text": "to destination I'm going to create a new",
+        "start": 3038.52,
+        "duration": 5.46
+    },
+    {
+        "text": "destination and I'm going to specify web",
+        "start": 3040.98,
+        "duration": 4.74
+    },
+    {
+        "text": "hook because that's the simplest way but",
+        "start": 3043.98,
+        "duration": 3.599
+    },
+    {
+        "text": "you can actually experiment to try",
+        "start": 3045.72,
+        "duration": 5.04
+    },
+    {
+        "text": "different ones and then you specify the",
+        "start": 3047.579,
+        "duration": 5.701
+    },
+    {
+        "text": "Callback URL authentication and some of",
+        "start": 3050.76,
+        "duration": 4.079
+    },
+    {
+        "text": "the headers",
+        "start": 3053.28,
+        "duration": 4.26
+    },
+    {
+        "text": "and that's what I'm doing here so in",
+        "start": 3054.839,
+        "duration": 4.441
+    },
+    {
+        "text": "this case there's no authorization I'm",
+        "start": 3057.54,
+        "duration": 5.64
+    },
+    {
+        "text": "just pushing it to that callback URL",
+        "start": 3059.28,
+        "duration": 5.64
+    },
+    {
+        "text": "and then",
+        "start": 3063.18,
+        "duration": 3.419
+    },
+    {
+        "text": "and then that's it",
+        "start": 3064.92,
+        "duration": 4.62
+    },
+    {
+        "text": "and then on the data export side or the",
+        "start": 3066.599,
+        "duration": 5.041
+    },
+    {
+        "text": "so once you have",
+        "start": 3069.54,
+        "duration": 4.559
+    },
+    {
+        "text": "a destination a destination is a place",
+        "start": 3071.64,
+        "duration": 5.58
+    },
+    {
+        "text": "where you can you can send the data the",
+        "start": 3074.099,
+        "duration": 6.24
+    },
+    {
+        "text": "export is where you specify",
+        "start": 3077.22,
+        "duration": 6.06
+    },
+    {
+        "text": "what data are you going to send to to",
+        "start": 3080.339,
+        "duration": 7.561
+    },
+    {
+        "text": "that uh to that destination so in here I",
+        "start": 3083.28,
+        "duration": 6.6
+    },
+    {
+        "text": "can have multiple destinations for the",
+        "start": 3087.9,
+        "duration": 5.06
+    },
+    {
+        "text": "same data that I'm exporting",
+        "start": 3089.88,
+        "duration": 7.86
+    },
+    {
+        "text": "from iot Central so in the screen where",
+        "start": 3092.96,
+        "duration": 7.72
+    },
+    {
+        "text": "we specify okay the device that I'm",
+        "start": 3097.74,
+        "duration": 4.98
+    },
+    {
+        "text": "going to do data export it has to have",
+        "start": 3100.68,
+        "duration": 5.639
+    },
+    {
+        "text": "the word sample in it so I can filter",
+        "start": 3102.72,
+        "duration": 5.7
+    },
+    {
+        "text": "you know because I think about thousands",
+        "start": 3106.319,
+        "duration": 4.861
+    },
+    {
+        "text": "or hundreds of thousands of devices and",
+        "start": 3108.42,
+        "duration": 5.76
+    },
+    {
+        "text": "I just want a certain location so you",
+        "start": 3111.18,
+        "duration": 5.22
+    },
+    {
+        "text": "can have filter or certain type of",
+        "start": 3114.18,
+        "duration": 3.32
+    },
+    {
+        "text": "devices",
+        "start": 3116.4,
+        "duration": 4.26
+    },
+    {
+        "text": "you can do that and then of course if I",
+        "start": 3117.5,
+        "duration": 6.7
+    },
+    {
+        "text": "want to add a metadata I can so in this",
+        "start": 3120.66,
+        "duration": 6.24
+    },
+    {
+        "text": "case is sample I specify is true so",
+        "start": 3124.2,
+        "duration": 5.22
+    },
+    {
+        "text": "anytime it exports data it will have",
+        "start": 3126.9,
+        "duration": 5.4
+    },
+    {
+        "text": "that metadata information but we call",
+        "start": 3129.42,
+        "duration": 5.699
+    },
+    {
+        "text": "enrichments and also you can export",
+        "start": 3132.3,
+        "duration": 5.4
+    },
+    {
+        "text": "organization it belongs to",
+        "start": 3135.119,
+        "duration": 4.98
+    },
+    {
+        "text": "and then on the destination side in this",
+        "start": 3137.7,
+        "duration": 3.48
+    },
+    {
+        "text": "case",
+        "start": 3140.099,
+        "duration": 3.901
+    },
+    {
+        "text": "um I'm specifying that it's going to go",
+        "start": 3141.18,
+        "duration": 4.139
+    },
+    {
+        "text": "to",
+        "start": 3144.0,
+        "duration": 1.92
+    },
+    {
+        "text": "um",
+        "start": 3145.319,
+        "duration": 5.701
+    },
+    {
+        "text": "to my uh HTTP or my web hook",
+        "start": 3145.92,
+        "duration": 7.139
+    },
+    {
+        "text": "there notice how there's data",
+        "start": 3151.02,
+        "duration": 4.079
+    },
+    {
+        "text": "transformation here",
+        "start": 3153.059,
+        "duration": 5.341
+    },
+    {
+        "text": "and the data transformation allows you",
+        "start": 3155.099,
+        "duration": 7.201
+    },
+    {
+        "text": "to restructure the date and payload as",
+        "start": 3158.4,
+        "duration": 6.74
+    },
+    {
+        "text": "you're exporting data out of I2 Central",
+        "start": 3162.3,
+        "duration": 6.42
+    },
+    {
+        "text": "to uh to where it needs to be you can",
+        "start": 3165.14,
+        "duration": 5.679
+    },
+    {
+        "text": "rename the fields filter out the fields",
+        "start": 3168.72,
+        "duration": 4.02
+    },
+    {
+        "text": "this would be good if you have existing",
+        "start": 3170.819,
+        "duration": 4.74
+    },
+    {
+        "text": "application out there that already have",
+        "start": 3172.74,
+        "duration": 4.859
+    },
+    {
+        "text": "some you know process the data or",
+        "start": 3175.559,
+        "duration": 3.421
+    },
+    {
+        "text": "sometimes you just want some",
+        "start": 3177.599,
+        "duration": 3.901
+    },
+    {
+        "text": "calculations or conversions before you",
+        "start": 3178.98,
+        "duration": 5.46
+    },
+    {
+        "text": "store it to your so this runs something",
+        "start": 3181.5,
+        "duration": 6.96
+    },
+    {
+        "text": "in between your data transfer",
+        "start": 3184.44,
+        "duration": 6.119
+    },
+    {
+        "text": "you know the data transformation so it",
+        "start": 3188.46,
+        "duration": 3.379
+    },
+    {
+        "text": "looks something like this right",
+        "start": 3190.559,
+        "duration": 4.26
+    },
+    {
+        "text": "typically uh you know on the data",
+        "start": 3191.839,
+        "duration": 5.081
+    },
+    {
+        "text": "transformation you would create these",
+        "start": 3194.819,
+        "duration": 5.581
+    },
+    {
+        "text": "and this is kind of this using a JQ",
+        "start": 3196.92,
+        "duration": 6.84
+    },
+    {
+        "text": "which is kind of like a a language for",
+        "start": 3200.4,
+        "duration": 7.98
+    },
+    {
+        "text": "manipulating a Json payload and",
+        "start": 3203.76,
+        "duration": 8.099
+    },
+    {
+        "text": "and this one it you specify what the",
+        "start": 3208.38,
+        "duration": 5.64
+    },
+    {
+        "text": "device template would look like and then",
+        "start": 3211.859,
+        "duration": 4.441
+    },
+    {
+        "text": "the output would look something like",
+        "start": 3214.02,
+        "duration": 5.64
+    },
+    {
+        "text": "this right so let me go back to that",
+        "start": 3216.3,
+        "duration": 6.24
+    },
+    {
+        "text": "screen and maybe it'll make sense to to",
+        "start": 3219.66,
+        "duration": 5.04
+    },
+    {
+        "text": "show you so typically the data that you",
+        "start": 3222.54,
+        "duration": 5.22
+    },
+    {
+        "text": "would receive from from data export",
+        "start": 3224.7,
+        "duration": 5.22
+    },
+    {
+        "text": "would look something like this right so",
+        "start": 3227.76,
+        "duration": 5.52
+    },
+    {
+        "text": "Json payload did all the properties that",
+        "start": 3229.92,
+        "duration": 6.0
+    },
+    {
+        "text": "is uh reported on that on all",
+        "start": 3233.28,
+        "duration": 5.819
+    },
+    {
+        "text": "Organization for that and what it's the",
+        "start": 3235.92,
+        "duration": 5.82
+    },
+    {
+        "text": "build transformation query would look at",
+        "start": 3239.099,
+        "duration": 6.901
+    },
+    {
+        "text": "this Json payload and",
+        "start": 3241.74,
+        "duration": 7.44
+    },
+    {
+        "text": "you know convert it or transform it to",
+        "start": 3246.0,
+        "duration": 4.74
+    },
+    {
+        "text": "look something like this so it kind of",
+        "start": 3249.18,
+        "duration": 5.28
+    },
+    {
+        "text": "flattens and it's it kind of simplify uh",
+        "start": 3250.74,
+        "duration": 5.879
+    },
+    {
+        "text": "what what data would get stored so let's",
+        "start": 3254.46,
+        "duration": 3.54
+    },
+    {
+        "text": "say if you're going to send this to blob",
+        "start": 3256.619,
+        "duration": 4.5
+    },
+    {
+        "text": "storage it's better to parse this later",
+        "start": 3258.0,
+        "duration": 6.599
+    },
+    {
+        "text": "on than than this all this massive ones",
+        "start": 3261.119,
+        "duration": 5.7
+    },
+    {
+        "text": "so that's that's what it's for",
+        "start": 3264.599,
+        "duration": 5.101
+    },
+    {
+        "text": "so it has that customization piece that",
+        "start": 3266.819,
+        "duration": 6.601
+    },
+    {
+        "text": "you can do to to enrich or transform",
+        "start": 3269.7,
+        "duration": 6.379
+    },
+    {
+        "text": "your data",
+        "start": 3273.42,
+        "duration": 2.659
+    },
+    {
+        "text": "okay any questions so far",
+        "start": 3276.3,
+        "duration": 6.48
+    },
+    {
+        "text": "I know I'm going through it fast and you",
+        "start": 3279.119,
+        "duration": 5.341
+    },
+    {
+        "text": "know if you really want to delve deeper",
+        "start": 3282.78,
+        "duration": 4.14
+    },
+    {
+        "text": "on this uh topic there's a lot of",
+        "start": 3284.46,
+        "duration": 5.22
+    },
+    {
+        "text": "tutorials out there uh on especially on",
+        "start": 3286.92,
+        "duration": 5.46
+    },
+    {
+        "text": "Microsoft learn to to understand more",
+        "start": 3289.68,
+        "duration": 5.639
+    },
+    {
+        "text": "about this and there's also uh on GitHub",
+        "start": 3292.38,
+        "duration": 5.82
+    },
+    {
+        "text": "there's uh there's some uh",
+        "start": 3295.319,
+        "duration": 4.76
+    },
+    {
+        "text": "tutorials",
+        "start": 3298.2,
+        "duration": 4.379
+    },
+    {
+        "text": "I got a small question I apologize",
+        "start": 3300.079,
+        "duration": 4.301
+    },
+    {
+        "text": "because my laptop rebooted I just",
+        "start": 3302.579,
+        "duration": 3.301
+    },
+    {
+        "text": "thought of the presentation so you might",
+        "start": 3304.38,
+        "duration": 3.12
+    },
+    {
+        "text": "have already talked about this but all",
+        "start": 3305.88,
+        "duration": 3.479
+    },
+    {
+        "text": "right I'm kind of curious so let's just",
+        "start": 3307.5,
+        "duration": 3.9
+    },
+    {
+        "text": "assume you have that factory you got all",
+        "start": 3309.359,
+        "duration": 4.74
+    },
+    {
+        "text": "those iot devices spread out all of your",
+        "start": 3311.4,
+        "duration": 5.4
+    },
+    {
+        "text": "factory those devices are actually",
+        "start": 3314.099,
+        "duration": 6.48
+    },
+    {
+        "text": "making a call into iot Central directly",
+        "start": 3316.8,
+        "duration": 6.059
+    },
+    {
+        "text": "into azure",
+        "start": 3320.579,
+        "duration": 4.74
+    },
+    {
+        "text": "you know that's one type of device right",
+        "start": 3322.859,
+        "duration": 5.161
+    },
+    {
+        "text": "that's an iot device that is connected",
+        "start": 3325.319,
+        "duration": 5.28
+    },
+    {
+        "text": "so if let's say your iot device has a",
+        "start": 3328.02,
+        "duration": 5.4
+    },
+    {
+        "text": "Wi-Fi connection directly to Azure uh",
+        "start": 3330.599,
+        "duration": 4.561
+    },
+    {
+        "text": "iot Central then it can start sending",
+        "start": 3333.42,
+        "duration": 6.0
+    },
+    {
+        "text": "that if if it you know there's use cases",
+        "start": 3335.16,
+        "duration": 7.919
+    },
+    {
+        "text": "where the device does not have uh direct",
+        "start": 3339.42,
+        "duration": 6.12
+    },
+    {
+        "text": "internet connection but in order to send",
+        "start": 3343.079,
+        "duration": 5.581
+    },
+    {
+        "text": "to IH Central you need Wi-Fi you need uh",
+        "start": 3345.54,
+        "duration": 5.34
+    },
+    {
+        "text": "internet connection so you in that case",
+        "start": 3348.66,
+        "duration": 4.8
+    },
+    {
+        "text": "that use case you need a a Gateway",
+        "start": 3350.88,
+        "duration": 4.979
+    },
+    {
+        "text": "device that would that be like a",
+        "start": 3353.46,
+        "duration": 4.32
+    },
+    {
+        "text": "scenario of like an Arduino or something",
+        "start": 3355.859,
+        "duration": 3.5
+    },
+    {
+        "text": "where you might be just getting some",
+        "start": 3357.78,
+        "duration": 4.74
+    },
+    {
+        "text": "sensor sense data like temperature data",
+        "start": 3359.359,
+        "duration": 4.781
+    },
+    {
+        "text": "but it doesn't doesn't know enough about",
+        "start": 3362.52,
+        "duration": 4.26
+    },
+    {
+        "text": "Wi-Fi that's the Gateway scenario right",
+        "start": 3364.14,
+        "duration": 5.58
+    },
+    {
+        "text": "right right so Raspberry Pi can act as a",
+        "start": 3366.78,
+        "duration": 6.12
+    },
+    {
+        "text": "Gateway right okay so like given those",
+        "start": 3369.72,
+        "duration": 6.18
+    },
+    {
+        "text": "scenarios how do you let's go with the",
+        "start": 3372.9,
+        "duration": 4.76
+    },
+    {
+        "text": "simple one if you have the Raspberry Pi",
+        "start": 3375.9,
+        "duration": 5.52
+    },
+    {
+        "text": "how do you how do you authorize the",
+        "start": 3377.66,
+        "duration": 6.58
+    },
+    {
+        "text": "request from the device into iot Central",
+        "start": 3381.42,
+        "duration": 5.399
+    },
+    {
+        "text": "so just keep a simple case I mean what",
+        "start": 3384.24,
+        "duration": 5.099
+    },
+    {
+        "text": "gives it the access to it to generate",
+        "start": 3386.819,
+        "duration": 5.881
+    },
+    {
+        "text": "did you generate a a SAS key or yes yes",
+        "start": 3389.339,
+        "duration": 6.181
+    },
+    {
+        "text": "so it's like a connection string and",
+        "start": 3392.7,
+        "duration": 4.74
+    },
+    {
+        "text": "each device have their own connection",
+        "start": 3395.52,
+        "duration": 4.14
+    },
+    {
+        "text": "string so that's what makes it more",
+        "start": 3397.44,
+        "duration": 5.639
+    },
+    {
+        "text": "secure right so so since you each device",
+        "start": 3399.66,
+        "duration": 5.459
+    },
+    {
+        "text": "have their own connection string you can",
+        "start": 3403.079,
+        "duration": 4.5
+    },
+    {
+        "text": "just delete that device or block that",
+        "start": 3405.119,
+        "duration": 5.581
+    },
+    {
+        "text": "device from connecting to to iot Central",
+        "start": 3407.579,
+        "duration": 5.161
+    },
+    {
+        "text": "and then you know if let's say that",
+        "start": 3410.7,
+        "duration": 5.119
+    },
+    {
+        "text": "device gets compromised uh you know",
+        "start": 3412.74,
+        "duration": 5.72
+    },
+    {
+        "text": "none of your other systems are",
+        "start": 3415.819,
+        "duration": 5.561
+    },
+    {
+        "text": "compromised because of that okay and you",
+        "start": 3418.46,
+        "duration": 5.619
+    },
+    {
+        "text": "can revoke yes awesome thank you yeah no",
+        "start": 3421.38,
+        "duration": 3.479
+    },
+    {
+        "text": "problem",
+        "start": 3424.079,
+        "duration": 4.02
+    },
+    {
+        "text": "so rules uh rules is you know where you",
+        "start": 3424.859,
+        "duration": 5.821
+    },
+    {
+        "text": "can notify operators in other systems",
+        "start": 3428.099,
+        "duration": 4.74
+    },
+    {
+        "text": "right this is all more of the business",
+        "start": 3430.68,
+        "duration": 5.76
+    },
+    {
+        "text": "process flows and and alerts on the",
+        "start": 3432.839,
+        "duration": 5.701
+    },
+    {
+        "text": "custom dashboards",
+        "start": 3436.44,
+        "duration": 5.639
+    },
+    {
+        "text": "so it would look something like this",
+        "start": 3438.54,
+        "duration": 5.46
+    },
+    {
+        "text": "um let's go back to that screen where I",
+        "start": 3442.079,
+        "duration": 2.881
+    },
+    {
+        "text": "was",
+        "start": 3444.0,
+        "duration": 4.319
+    },
+    {
+        "text": "so this is on iot Central you can have",
+        "start": 3444.96,
+        "duration": 5.82
+    },
+    {
+        "text": "rules and then on these rules I can",
+        "start": 3448.319,
+        "duration": 3.841
+    },
+    {
+        "text": "create a rule",
+        "start": 3450.78,
+        "duration": 2.52
+    },
+    {
+        "text": "okay",
+        "start": 3452.16,
+        "duration": 2.399
+    },
+    {
+        "text": "and then I'll go back to the",
+        "start": 3453.3,
+        "duration": 4.559
+    },
+    {
+        "text": "presentation so this rule in this case I",
+        "start": 3454.559,
+        "duration": 5.701
+    },
+    {
+        "text": "want to say if the temperature hits a",
+        "start": 3457.859,
+        "duration": 4.561
+    },
+    {
+        "text": "certain number of degrees in five",
+        "start": 3460.26,
+        "duration": 4.92
+    },
+    {
+        "text": "minutes span let me know because it",
+        "start": 3462.42,
+        "duration": 4.98
+    },
+    {
+        "text": "might be something important so in this",
+        "start": 3465.18,
+        "duration": 4.86
+    },
+    {
+        "text": "case I'm looking at these devices that",
+        "start": 3467.4,
+        "duration": 4.62
+    },
+    {
+        "text": "have this serial number that starts with",
+        "start": 3470.04,
+        "duration": 5.46
+    },
+    {
+        "text": "Sr so a property of that device so if",
+        "start": 3472.02,
+        "duration": 5.22
+    },
+    {
+        "text": "you go if I go back to this device right",
+        "start": 3475.5,
+        "duration": 4.44
+    },
+    {
+        "text": "here each one of the device can reports",
+        "start": 3477.24,
+        "duration": 4.079
+    },
+    {
+        "text": "its properties",
+        "start": 3479.94,
+        "duration": 4.02
+    },
+    {
+        "text": "uh so if I click about see how it says",
+        "start": 3481.319,
+        "duration": 4.8
+    },
+    {
+        "text": "serial number so these are properties we",
+        "start": 3483.96,
+        "duration": 4.32
+    },
+    {
+        "text": "did talk about uh a little bit about",
+        "start": 3486.119,
+        "duration": 4.261
+    },
+    {
+        "text": "properties",
+        "start": 3488.28,
+        "duration": 3.72
+    },
+    {
+        "text": "um and then these ones also is another",
+        "start": 3490.38,
+        "duration": 3.06
+    },
+    {
+        "text": "property",
+        "start": 3492.0,
+        "duration": 4.02
+    },
+    {
+        "text": "where you can uh you know like a device",
+        "start": 3493.44,
+        "duration": 3.919
+    },
+    {
+        "text": "twin",
+        "start": 3496.02,
+        "duration": 3.66
+    },
+    {
+        "text": "so this is the one that we're talking",
+        "start": 3497.359,
+        "duration": 4.421
+    },
+    {
+        "text": "about here if the serial number starts",
+        "start": 3499.68,
+        "duration": 5.939
+    },
+    {
+        "text": "with Sr use that device uh as part of",
+        "start": 3501.78,
+        "duration": 4.86
+    },
+    {
+        "text": "this rule",
+        "start": 3505.619,
+        "duration": 3.061
+    },
+    {
+        "text": "you can also have multiple filters",
+        "start": 3506.64,
+        "duration": 4.32
+    },
+    {
+        "text": "against that and then on the condition",
+        "start": 3508.68,
+        "duration": 5.879
+    },
+    {
+        "text": "it says you do a Time aggregation every",
+        "start": 3510.96,
+        "duration": 5.94
+    },
+    {
+        "text": "five minutes if the temperature of",
+        "start": 3514.559,
+        "duration": 5.821
+    },
+    {
+        "text": "certain uh you know maximum in this case",
+        "start": 3516.9,
+        "duration": 5.159
+    },
+    {
+        "text": "35 degrees",
+        "start": 3520.38,
+        "duration": 4.26
+    },
+    {
+        "text": "then you can",
+        "start": 3522.059,
+        "duration": 6.121
+    },
+    {
+        "text": "call a web hook you can do Azure",
+        "start": 3524.64,
+        "duration": 6.78
+    },
+    {
+        "text": "function logic apps however you need to",
+        "start": 3528.18,
+        "duration": 5.7
+    },
+    {
+        "text": "or you can have other actions too you",
+        "start": 3531.42,
+        "duration": 3.659
+    },
+    {
+        "text": "can send an email",
+        "start": 3533.88,
+        "duration": 4.679
+    },
+    {
+        "text": "you can uh you know Azure monitor action",
+        "start": 3535.079,
+        "duration": 6.54
+    },
+    {
+        "text": "groups you can send it to power power",
+        "start": 3538.559,
+        "duration": 5.641
+    },
+    {
+        "text": "automate or a logic app",
+        "start": 3541.619,
+        "duration": 5.101
+    },
+    {
+        "text": "to do this so you can have all these",
+        "start": 3544.2,
+        "duration": 4.56
+    },
+    {
+        "text": "different rules that trigger something",
+        "start": 3546.72,
+        "duration": 5.339
+    },
+    {
+        "text": "else in in Azure uh so that you can get",
+        "start": 3548.76,
+        "duration": 5.22
+    },
+    {
+        "text": "alerted",
+        "start": 3552.059,
+        "duration": 6.321
+    },
+    {
+        "text": "or on the workflow that needs to happen",
+        "start": 3553.98,
+        "duration": 4.4
+    },
+    {
+        "text": "so you know you can send email maybe you",
+        "start": 3559.02,
+        "duration": 6.48
+    },
+    {
+        "text": "can call you know as SMS or text message",
+        "start": 3562.5,
+        "duration": 6.0
+    },
+    {
+        "text": "you can do voice or web hook so just",
+        "start": 3565.5,
+        "duration": 6.48
+    },
+    {
+        "text": "different options that you can do to to",
+        "start": 3568.5,
+        "duration": 5.64
+    },
+    {
+        "text": "uh",
+        "start": 3571.98,
+        "duration": 6.02
+    },
+    {
+        "text": "to send and to to send messages",
+        "start": 3574.14,
+        "duration": 3.86
+    },
+    {
+        "text": "okay moving to rest API uh rest API",
+        "start": 3579.0,
+        "duration": 8.28
+    },
+    {
+        "text": "allows us to do App Management device",
+        "start": 3583.859,
+        "duration": 4.74
+    },
+    {
+        "text": "modeling",
+        "start": 3587.28,
+        "duration": 4.44
+    },
+    {
+        "text": "device onboarding",
+        "start": 3588.599,
+        "duration": 5.281
+    },
+    {
+        "text": "I did talk about oh it's the difference",
+        "start": 3591.72,
+        "duration": 3.72
+    },
+    {
+        "text": "between app management and device",
+        "start": 3593.88,
+        "duration": 4.14
+    },
+    {
+        "text": "management and Data Insights App",
+        "start": 3595.44,
+        "duration": 7.5
+    },
+    {
+        "text": "Management so you know if you want to uh",
+        "start": 3598.02,
+        "duration": 6.66
+    },
+    {
+        "text": "you know there's you know we want to",
+        "start": 3602.94,
+        "duration": 3.96
+    },
+    {
+        "text": "create rules or if you want to you know",
+        "start": 3604.68,
+        "duration": 4.26
+    },
+    {
+        "text": "there's there's a rest API to create",
+        "start": 3606.9,
+        "duration": 4.74
+    },
+    {
+        "text": "some of the uh options that is on here",
+        "start": 3608.94,
+        "duration": 4.8
+    },
+    {
+        "text": "if you want to create a job you know",
+        "start": 3611.64,
+        "duration": 4.56
+    },
+    {
+        "text": "that's you can there's an API to create",
+        "start": 3613.74,
+        "duration": 4.079
+    },
+    {
+        "text": "the job without going through these",
+        "start": 3616.2,
+        "duration": 2.7
+    },
+    {
+        "text": "screens",
+        "start": 3617.819,
+        "duration": 3.661
+    },
+    {
+        "text": "uh device modeling you can upload a",
+        "start": 3618.9,
+        "duration": 5.82
+    },
+    {
+        "text": "device template a device onboarding it's",
+        "start": 3621.48,
+        "duration": 6.18
+    },
+    {
+        "text": "more uh you know provisioning a device",
+        "start": 3624.72,
+        "duration": 9.079
+    },
+    {
+        "text": "creating the SAS key right or the the",
+        "start": 3627.66,
+        "duration": 6.139
+    },
+    {
+        "text": "um you know the connection string and",
+        "start": 3634.14,
+        "duration": 5.459
+    },
+    {
+        "text": "then the device management of course you",
+        "start": 3636.72,
+        "duration": 4.98
+    },
+    {
+        "text": "know managing that device you know",
+        "start": 3639.599,
+        "duration": 4.141
+    },
+    {
+        "text": "making sure that changing the properties",
+        "start": 3641.7,
+        "duration": 4.919
+    },
+    {
+        "text": "on that device you know all that and",
+        "start": 3643.74,
+        "duration": 4.92
+    },
+    {
+        "text": "then the data inside today I'm going to",
+        "start": 3646.619,
+        "duration": 4.621
+    },
+    {
+        "text": "focus on device management and I'll show",
+        "start": 3648.66,
+        "duration": 5.22
+    },
+    {
+        "text": "you how that flows",
+        "start": 3651.24,
+        "duration": 5.7
+    },
+    {
+        "text": "so before you can call the API you know",
+        "start": 3653.88,
+        "duration": 5.699
+    },
+    {
+        "text": "iot Central API you have to have a token",
+        "start": 3656.94,
+        "duration": 4.639
+    },
+    {
+        "text": "uh you know",
+        "start": 3659.579,
+        "duration": 5.401
+    },
+    {
+        "text": "and then you have to specify the role of",
+        "start": 3661.579,
+        "duration": 5.681
+    },
+    {
+        "text": "that token like in this case I named it",
+        "start": 3664.98,
+        "duration": 5.16
+    },
+    {
+        "text": "test token and it's an app operator role",
+        "start": 3667.26,
+        "duration": 5.76
+    },
+    {
+        "text": "and it would generate the token for you",
+        "start": 3670.14,
+        "duration": 5.34
+    },
+    {
+        "text": "it only generated once you have to store",
+        "start": 3673.02,
+        "duration": 7.5
+    },
+    {
+        "text": "that uh key the API key to to be able to",
+        "start": 3675.48,
+        "duration": 7.26
+    },
+    {
+        "text": "call",
+        "start": 3680.52,
+        "duration": 3.72
+    },
+    {
+        "text": "and then",
+        "start": 3682.74,
+        "duration": 4.859
+    },
+    {
+        "text": "in this case I I can send a patch",
+        "start": 3684.24,
+        "duration": 5.819
+    },
+    {
+        "text": "request and dispatch request it tells",
+        "start": 3687.599,
+        "duration": 5.22
+    },
+    {
+        "text": "you know connect to your iot central API",
+        "start": 3690.059,
+        "duration": 5.821
+    },
+    {
+        "text": "you specify the name of that device or",
+        "start": 3692.819,
+        "duration": 5.76
+    },
+    {
+        "text": "the device key and then I'm changing the",
+        "start": 3695.88,
+        "duration": 4.86
+    },
+    {
+        "text": "property of that device and then of",
+        "start": 3698.579,
+        "duration": 4.681
+    },
+    {
+        "text": "course there's different API versions so",
+        "start": 3700.74,
+        "duration": 6.059
+    },
+    {
+        "text": "that you can identify which API API that",
+        "start": 3703.26,
+        "duration": 6.059
+    },
+    {
+        "text": "you know which version that you're using",
+        "start": 3706.799,
+        "duration": 4.141
+    },
+    {
+        "text": "and then",
+        "start": 3709.319,
+        "duration": 3.961
+    },
+    {
+        "text": "in this case I'm changing the target",
+        "start": 3710.94,
+        "duration": 4.98
+    },
+    {
+        "text": "temperature which is the target",
+        "start": 3713.28,
+        "duration": 5.16
+    },
+    {
+        "text": "temperature if I go here",
+        "start": 3715.92,
+        "duration": 5.04
+    },
+    {
+        "text": "I'm changing this I mean I can change it",
+        "start": 3718.44,
+        "duration": 5.76
+    },
+    {
+        "text": "manually right I can change this uh this",
+        "start": 3720.96,
+        "duration": 6.0
+    },
+    {
+        "text": "is the desired uh what what I want it to",
+        "start": 3724.2,
+        "duration": 4.919
+    },
+    {
+        "text": "be and this is what the device is",
+        "start": 3726.96,
+        "duration": 5.04
+    },
+    {
+        "text": "reporting right now",
+        "start": 3729.119,
+        "duration": 6.841
+    },
+    {
+        "text": "so let's try to do that in an API",
+        "start": 3732.0,
+        "duration": 5.7
+    },
+    {
+        "text": "and then of course once you run it it",
+        "start": 3735.96,
+        "duration": 4.32
+    },
+    {
+        "text": "would give you a 202.",
+        "start": 3737.7,
+        "duration": 5.879
+    },
+    {
+        "text": "so let's do that so I have the same one",
+        "start": 3740.28,
+        "duration": 6.319
+    },
+    {
+        "text": "right here",
+        "start": 3743.579,
+        "duration": 3.02
+    },
+    {
+        "text": "so this is a call a patch call to my API",
+        "start": 3748.079,
+        "duration": 7.081
+    },
+    {
+        "text": "I have to send the authorization the",
+        "start": 3751.74,
+        "duration": 6.119
+    },
+    {
+        "text": "shared access signature uh which is my",
+        "start": 3755.16,
+        "duration": 6.78
+    },
+    {
+        "text": "API token and then call these and then",
+        "start": 3757.859,
+        "duration": 6.661
+    },
+    {
+        "text": "I'm going to send that request",
+        "start": 3761.94,
+        "duration": 4.2
+    },
+    {
+        "text": "foreign",
+        "start": 3764.52,
+        "duration": 3.96
+    },
+    {
+        "text": "so once I send that request I would",
+        "start": 3766.14,
+        "duration": 4.979
+    },
+    {
+        "text": "receive a callback right I'm calling",
+        "start": 3768.48,
+        "duration": 6.06
+    },
+    {
+        "text": "that uh hatch request and it would give",
+        "start": 3771.119,
+        "duration": 6.061
+    },
+    {
+        "text": "me if it was successful or not and it",
+        "start": 3774.54,
+        "duration": 4.86
+    },
+    {
+        "text": "would give me display load and change it",
+        "start": 3777.18,
+        "duration": 6.06
+    },
+    {
+        "text": "to the desired temperature to 20.",
+        "start": 3779.4,
+        "duration": 7.08
+    },
+    {
+        "text": "so notice how this is my you know the",
+        "start": 3783.24,
+        "duration": 5.579
+    },
+    {
+        "text": "the device that I provisioned a while",
+        "start": 3786.48,
+        "duration": 5.579
+    },
+    {
+        "text": "ago and it received that message already",
+        "start": 3788.819,
+        "duration": 7.161
+    },
+    {
+        "text": "since it's connected to the internet",
+        "start": 3792.059,
+        "duration": 3.921
+    },
+    {
+        "text": "and on here notice how this one changed",
+        "start": 3796.26,
+        "duration": 5.52
+    },
+    {
+        "text": "it was zero a while ago now the target",
+        "start": 3799.5,
+        "duration": 5.94
+    },
+    {
+        "text": "temperature is 20 and then if I go to",
+        "start": 3801.78,
+        "duration": 4.86
+    },
+    {
+        "text": "overview",
+        "start": 3805.44,
+        "duration": 2.82
+    },
+    {
+        "text": "it start",
+        "start": 3806.64,
+        "duration": 3.84
+    },
+    {
+        "text": "changing the temperature",
+        "start": 3808.26,
+        "duration": 5.4
+    },
+    {
+        "text": "uh to to reach 20.",
+        "start": 3810.48,
+        "duration": 5.76
+    },
+    {
+        "text": "now it was 22 and now it's it's going",
+        "start": 3813.66,
+        "duration": 4.679
+    },
+    {
+        "text": "down so that's that's what it's doing",
+        "start": 3816.24,
+        "duration": 4.44
+    },
+    {
+        "text": "right now so we changed the property and",
+        "start": 3818.339,
+        "duration": 4.74
+    },
+    {
+        "text": "of course it did something to to change",
+        "start": 3820.68,
+        "duration": 4.56
+    },
+    {
+        "text": "and this is the current temperature that",
+        "start": 3823.079,
+        "duration": 5.24
+    },
+    {
+        "text": "it's reporting",
+        "start": 3825.24,
+        "duration": 3.079
+    },
+    {
+        "text": "okay so there's rest API calls that you",
+        "start": 3829.26,
+        "duration": 6.96
+    },
+    {
+        "text": "can to you know to think about it if you",
+        "start": 3832.98,
+        "duration": 5.4
+    },
+    {
+        "text": "have a companion app not necessarily",
+        "start": 3836.22,
+        "duration": 3.48
+    },
+    {
+        "text": "they don't have you know their users",
+        "start": 3838.38,
+        "duration": 4.02
+    },
+    {
+        "text": "doesn't have to log into iot Central in",
+        "start": 3839.7,
+        "duration": 4.74
+    },
+    {
+        "text": "order to do this the companion app can",
+        "start": 3842.4,
+        "duration": 5.159
+    },
+    {
+        "text": "be responsible to managing some of these",
+        "start": 3844.44,
+        "duration": 6.26
+    },
+    {
+        "text": "iot devices",
+        "start": 3847.559,
+        "duration": 3.141
+    },
+    {
+        "text": "wait there's more of course if you're",
+        "start": 3852.72,
+        "duration": 5.52
+    },
+    {
+        "text": "into uh industrial iot uh we did talk a",
+        "start": 3854.76,
+        "duration": 4.74
+    },
+    {
+        "text": "little bit about gateways because",
+        "start": 3858.24,
+        "duration": 3.9
+    },
+    {
+        "text": "especially on some of the",
+        "start": 3859.5,
+        "duration": 4.74
+    },
+    {
+        "text": "OT devices out there you know if you",
+        "start": 3862.14,
+        "duration": 5.159
+    },
+    {
+        "text": "have a PLC some existing Machinery that",
+        "start": 3864.24,
+        "duration": 5.64
+    },
+    {
+        "text": "has controllers and you there's ways",
+        "start": 3867.299,
+        "duration": 4.881
+    },
+    {
+        "text": "that you can connect it to a Gateway",
+        "start": 3869.88,
+        "duration": 4.8
+    },
+    {
+        "text": "which connects that Gateway connects to",
+        "start": 3872.18,
+        "duration": 4.06
+    },
+    {
+        "text": "iot Central and then you can do your",
+        "start": 3874.68,
+        "duration": 5.36
+    },
+    {
+        "text": "processing after that",
+        "start": 3876.24,
+        "duration": 3.8
+    },
+    {
+        "text": "okay in summary",
+        "start": 3880.26,
+        "duration": 3.839
+    },
+    {
+        "text": "Internet of Things",
+        "start": 3882.42,
+        "duration": 3.419
+    },
+    {
+        "text": "to",
+        "start": 3884.099,
+        "duration": 2.581
+    },
+    {
+        "text": "um",
+        "start": 3885.839,
+        "duration": 3.96
+    },
+    {
+        "text": "goals either you're remotely monitoring",
+        "start": 3886.68,
+        "duration": 6.06
+    },
+    {
+        "text": "or controlling the device",
+        "start": 3889.799,
+        "duration": 5.76
+    },
+    {
+        "text": "iut Central what is iot Central it",
+        "start": 3892.74,
+        "duration": 5.66
+    },
+    {
+        "text": "simplifies the creation of iot solutions",
+        "start": 3895.559,
+        "duration": 5.881
+    },
+    {
+        "text": "uh what are the benefits a lot of is low",
+        "start": 3898.4,
+        "duration": 5.02
+    },
+    {
+        "text": "code environment there's a lot of",
+        "start": 3901.44,
+        "duration": 4.8
+    },
+    {
+        "text": "flexibility on how you can customize it",
+        "start": 3903.42,
+        "duration": 6.679
+    },
+    {
+        "text": "and uh and able to",
+        "start": 3906.24,
+        "duration": 6.54
+    },
+    {
+        "text": "manage that iot Central application",
+        "start": 3910.099,
+        "duration": 5.861
+    },
+    {
+        "text": "there's device template where we talked",
+        "start": 3912.78,
+        "duration": 4.68
+    },
+    {
+        "text": "about what is a telemetic difference",
+        "start": 3915.96,
+        "duration": 3.119
+    },
+    {
+        "text": "between telemetry",
+        "start": 3917.46,
+        "duration": 4.379
+    },
+    {
+        "text": "properties and commands",
+        "start": 3919.079,
+        "duration": 6.72
+    },
+    {
+        "text": "and then talk about iot plug-and-play",
+        "start": 3921.839,
+        "duration": 6.661
+    },
+    {
+        "text": "which is a device catalog that device",
+        "start": 3925.799,
+        "duration": 5.28
+    },
+    {
+        "text": "itself that you're using reports what",
+        "start": 3928.5,
+        "duration": 6.839
+    },
+    {
+        "text": "how it how it can talk to uh from I just",
+        "start": 3931.079,
+        "duration": 7.381
+    },
+    {
+        "text": "how IIT Central can talk to that device",
+        "start": 3935.339,
+        "duration": 6.541
+    },
+    {
+        "text": "I did kind of did a quick demo on what",
+        "start": 3938.46,
+        "duration": 5.159
+    },
+    {
+        "text": "the dashboards would look like some",
+        "start": 3941.88,
+        "duration": 4.5
+    },
+    {
+        "text": "integration between the rules data",
+        "start": 3943.619,
+        "duration": 6.0
+    },
+    {
+        "text": "export and API",
+        "start": 3946.38,
+        "duration": 7.86
+    },
+    {
+        "text": "if you're interested in uh getting the",
+        "start": 3949.619,
+        "duration": 6.661
+    },
+    {
+        "text": "demo that I",
+        "start": 3954.24,
+        "duration": 5.22
+    },
+    {
+        "text": "um did today or that application you can",
+        "start": 3956.28,
+        "duration": 4.74
+    },
+    {
+        "text": "um",
+        "start": 3959.46,
+        "duration": 4.379
+    },
+    {
+        "text": "take a picture of this or you know get",
+        "start": 3961.02,
+        "duration": 5.66
+    },
+    {
+        "text": "the GitHub link",
+        "start": 3963.839,
+        "duration": 2.841
+    },
+    {
+        "text": "and I will I can paste that on the chat",
+        "start": 3967.2,
+        "duration": 5.04
+    },
+    {
+        "text": "later on and I'm open to questions if",
+        "start": 3969.24,
+        "duration": 5.76
+    },
+    {
+        "text": "you have I know there's a lot of things",
+        "start": 3972.24,
+        "duration": 5.04
+    },
+    {
+        "text": "that I did and I went through really",
+        "start": 3975.0,
+        "duration": 5.22
+    },
+    {
+        "text": "fast but my goal here is not you know",
+        "start": 3977.28,
+        "duration": 6.18
+    },
+    {
+        "text": "not to you know overrun you my goal here",
+        "start": 3980.22,
+        "duration": 6.72
+    },
+    {
+        "text": "is to kind of show you like hey these",
+        "start": 3983.46,
+        "duration": 6.24
+    },
+    {
+        "text": "These are possibilities on how you would",
+        "start": 3986.94,
+        "duration": 6.0
+    },
+    {
+        "text": "use iot Central and if in case there's a",
+        "start": 3989.7,
+        "duration": 6.0
+    },
+    {
+        "text": "use case or not something that you",
+        "start": 3992.94,
+        "duration": 4.56
+    },
+    {
+        "text": "you know that there's a need for you",
+        "start": 3995.7,
+        "duration": 4.5
+    },
+    {
+        "text": "you're already familiar with with some",
+        "start": 3997.5,
+        "duration": 5.9
+    },
+    {
+        "text": "of the things it can do",
+        "start": 4000.2,
+        "duration": 3.2
+    },
+    {
+        "text": "if you want to learn more there's call",
+        "start": 4005.059,
+        "duration": 5.28
+    },
+    {
+        "text": "to action you on Microsoft learn you can",
+        "start": 4007.099,
+        "duration": 5.341
+    },
+    {
+        "text": "learn more about iot Central there's",
+        "start": 4010.339,
+        "duration": 5.341
+    },
+    {
+        "text": "documentation for the rest API",
+        "start": 4012.44,
+        "duration": 5.879
+    },
+    {
+        "text": "um also there's some resources on GitHub",
+        "start": 4015.68,
+        "duration": 7.2
+    },
+    {
+        "text": "about IIT Central and how to manage",
+        "start": 4018.319,
+        "duration": 9.681
+    },
+    {
+        "text": "applications using the rest API",
+        "start": 4022.88,
+        "duration": 5.12
+    },
+    {
+        "text": "with that if you're interested in",
+        "start": 4029.02,
+        "duration": 4.539
+    },
+    {
+        "text": "learning more about me I'm Ron dagdag",
+        "start": 4031.22,
+        "duration": 4.26
+    },
+    {
+        "text": "director of software engineering at",
+        "start": 4033.559,
+        "duration": 4.74
+    },
+    {
+        "text": "Spacey I'm a sixth year Microsoft MVP",
+        "start": 4035.48,
+        "duration": 7.26
+    },
+    {
+        "text": "awardee uh the best way to contact me is",
+        "start": 4038.299,
+        "duration": 8.401
+    },
+    {
+        "text": "through uh Twitter and Linkedin at Ron",
+        "start": 4042.74,
+        "duration": 8.579
+    },
+    {
+        "text": "dagdag or in LinkedIn Ron dagdag",
+        "start": 4046.7,
+        "duration": 5.28
+    },
+    {
+        "text": "um",
+        "start": 4051.319,
+        "duration": 3.841
+    },
+    {
+        "text": "I appreciate any feedback I want to",
+        "start": 4051.98,
+        "duration": 7.02
+    },
+    {
+        "text": "improve my skill for sending and also if",
+        "start": 4055.16,
+        "duration": 6.24
+    },
+    {
+        "text": "you learn something new or at some point",
+        "start": 4059.0,
+        "duration": 5.099
+    },
+    {
+        "text": "in time that's why I wanted us to",
+        "start": 4061.4,
+        "duration": 4.38
+    },
+    {
+        "text": "connect through Linkedin at some point",
+        "start": 4064.099,
+        "duration": 5.46
+    },
+    {
+        "text": "in time if there's anything that um",
+        "start": 4065.78,
+        "duration": 6.6
+    },
+    {
+        "text": "one of the presentations I did or I did",
+        "start": 4069.559,
+        "duration": 5.881
+    },
+    {
+        "text": "talk about something that you're able to",
+        "start": 4072.38,
+        "duration": 6.239
+    },
+    {
+        "text": "use sometime in the future I appreciate",
+        "start": 4075.44,
+        "duration": 6.06
+    },
+    {
+        "text": "hearing back from you because it you",
+        "start": 4078.619,
+        "duration": 6.841
+    },
+    {
+        "text": "know it validates uh the stuff that I'm",
+        "start": 4081.5,
+        "duration": 5.64
+    },
+    {
+        "text": "doing the reason why I'm doing this is",
+        "start": 4085.46,
+        "duration": 5.099
+    },
+    {
+        "text": "because I know as a developer there's a",
+        "start": 4087.14,
+        "duration": 5.76
+    },
+    {
+        "text": "lot of Technologies out there and",
+        "start": 4090.559,
+        "duration": 4.8
+    },
+    {
+        "text": "sometimes a little bit of introduction",
+        "start": 4092.9,
+        "duration": 6.12
+    },
+    {
+        "text": "or a little bit of something uh goes a",
+        "start": 4095.359,
+        "duration": 5.761
+    },
+    {
+        "text": "long way in understanding all the",
+        "start": 4099.02,
+        "duration": 4.5
+    },
+    {
+        "text": "different uh Technologies",
+        "start": 4101.12,
+        "duration": 5.159
+    },
+    {
+        "text": "and so I appreciate your time uh feel",
+        "start": 4103.52,
+        "duration": 5.4
+    },
+    {
+        "text": "free if you have any questions uh this",
+        "start": 4106.279,
+        "duration": 5.361
+    },
+    {
+        "text": "would be the best time",
+        "start": 4108.92,
+        "duration": 2.72
+    },
+    {
+        "text": "yeah I'll just Echo uh Ron's Point uh if",
+        "start": 4112.46,
+        "duration": 4.259
+    },
+    {
+        "text": "you have questions feel free to come off",
+        "start": 4115.339,
+        "duration": 4.44
+    },
+    {
+        "text": "from you and um pose the question I do",
+        "start": 4116.719,
+        "duration": 6.06
+    },
+    {
+        "text": "have one question for you Ron uh if uh",
+        "start": 4119.779,
+        "duration": 6.301
+    },
+    {
+        "text": "in your in your demo uh you you gave an",
+        "start": 4122.779,
+        "duration": 5.58
+    },
+    {
+        "text": "example of using um",
+        "start": 4126.08,
+        "duration": 4.679
+    },
+    {
+        "text": "would it be called a digital twin what",
+        "start": 4128.359,
+        "duration": 5.94
+    },
+    {
+        "text": "was the property is that okay so we we",
+        "start": 4130.759,
+        "duration": 5.701
+    },
+    {
+        "text": "used a basically a fake device right",
+        "start": 4134.299,
+        "duration": 4.681
+    },
+    {
+        "text": "that didn't exist in the real world to",
+        "start": 4136.46,
+        "duration": 4.5
+    },
+    {
+        "text": "you know to have a conversation with it",
+        "start": 4138.98,
+        "duration": 3.719
+    },
+    {
+        "text": "and it sent you you know temperature",
+        "start": 4140.96,
+        "duration": 4.319
+    },
+    {
+        "text": "updates and such I'm curious if you have",
+        "start": 4142.699,
+        "duration": 4.261
+    },
+    {
+        "text": "any advice for somebody who wants to get",
+        "start": 4145.279,
+        "duration": 3.321
+    },
+    {
+        "text": "started",
+        "start": 4146.96,
+        "duration": 5.16
+    },
+    {
+        "text": "with a physical iot device I know you",
+        "start": 4148.6,
+        "duration": 6.639
+    },
+    {
+        "text": "showed in the marketplace earlier the uh",
+        "start": 4152.12,
+        "duration": 4.559
+    },
+    {
+        "text": "I guess um",
+        "start": 4155.239,
+        "duration": 3.361
+    },
+    {
+        "text": "I know certified devices or something it",
+        "start": 4156.679,
+        "duration": 3.901
+    },
+    {
+        "text": "was a it was a special list yeah what",
+        "start": 4158.6,
+        "duration": 3.48
+    },
+    {
+        "text": "would you what would you start with um",
+        "start": 4160.58,
+        "duration": 3.719
+    },
+    {
+        "text": "if you looking to just kick the tires on",
+        "start": 4162.08,
+        "duration": 3.599
+    },
+    {
+        "text": "this didn't want to spend a ton of money",
+        "start": 4164.299,
+        "duration": 3.42
+    },
+    {
+        "text": "but wanted to do something uh in the",
+        "start": 4165.679,
+        "duration": 3.721
+    },
+    {
+        "text": "real world",
+        "start": 4167.719,
+        "duration": 5.1
+    },
+    {
+        "text": "I mean the the easiest well not the",
+        "start": 4169.4,
+        "duration": 5.339
+    },
+    {
+        "text": "easiest way I mean we're application",
+        "start": 4172.819,
+        "duration": 4.561
+    },
+    {
+        "text": "developers you know if you have you you",
+        "start": 4174.739,
+        "duration": 6.12
+    },
+    {
+        "text": "can run this you know.net runs on a",
+        "start": 4177.38,
+        "duration": 6.299
+    },
+    {
+        "text": "Raspberry Pi and you can build this you",
+        "start": 4180.859,
+        "duration": 4.92
+    },
+    {
+        "text": "know your device through Raspberry Pi",
+        "start": 4183.679,
+        "duration": 5.341
+    },
+    {
+        "text": "there's also you know JavaScript you",
+        "start": 4185.779,
+        "duration": 5.641
+    },
+    {
+        "text": "know you know there's a way you can",
+        "start": 4189.02,
+        "duration": 5.46
+    },
+    {
+        "text": "connect node application and read sensor",
+        "start": 4191.42,
+        "duration": 5.84
+    },
+    {
+        "text": "data that for me that's the simplest way",
+        "start": 4194.48,
+        "duration": 5.4
+    },
+    {
+        "text": "uh since we're you know in our world",
+        "start": 4197.26,
+        "duration": 5.62
+    },
+    {
+        "text": "we're already familiar with with uh you",
+        "start": 4199.88,
+        "duration": 4.799
+    },
+    {
+        "text": "know some of these languages that are",
+        "start": 4202.88,
+        "duration": 4.14
+    },
+    {
+        "text": "available out there and you know it's",
+        "start": 4204.679,
+        "duration": 4.56
+    },
+    {
+        "text": "cheap enough if you wanted to introduce",
+        "start": 4207.02,
+        "duration": 5.88
+    },
+    {
+        "text": "if there's already existing applications",
+        "start": 4209.239,
+        "duration": 5.581
+    },
+    {
+        "text": "um or sensors out there that is",
+        "start": 4212.9,
+        "duration": 4.38
+    },
+    {
+        "text": "available so like this one they have a",
+        "start": 4214.82,
+        "duration": 4.8
+    },
+    {
+        "text": "tutorial on how you would do this",
+        "start": 4217.28,
+        "duration": 4.5
+    },
+    {
+        "text": "um then step by step it got a little bit",
+        "start": 4219.62,
+        "duration": 3.72
+    },
+    {
+        "text": "of complex I tell you why because",
+        "start": 4221.78,
+        "duration": 3.66
+    },
+    {
+        "text": "there's different kinds of programmers",
+        "start": 4223.34,
+        "duration": 4.8
+    },
+    {
+        "text": "right we there's there's developers that",
+        "start": 4225.44,
+        "duration": 5.219
+    },
+    {
+        "text": "actually you know they're world is not",
+        "start": 4228.14,
+        "duration": 4.98
+    },
+    {
+        "text": "in Azure in Azure we live in the world",
+        "start": 4230.659,
+        "duration": 5.761
+    },
+    {
+        "text": "of gigabytes and megabytes right and",
+        "start": 4233.12,
+        "duration": 5.22
+    },
+    {
+        "text": "there are some developers that live in",
+        "start": 4236.42,
+        "duration": 4.62
+    },
+    {
+        "text": "the kilobyte world that the memory on",
+        "start": 4238.34,
+        "duration": 4.56
+    },
+    {
+        "text": "you know the usage and so there's a",
+        "start": 4241.04,
+        "duration": 3.84
+    },
+    {
+        "text": "different construct and how you would do",
+        "start": 4242.9,
+        "duration": 6.54
+    },
+    {
+        "text": "programming on it and so you know",
+        "start": 4244.88,
+        "duration": 7.74
+    },
+    {
+        "text": "for us the developers you know we can",
+        "start": 4249.44,
+        "duration": 7.38
+    },
+    {
+        "text": "use Python JavaScript go you know and",
+        "start": 4252.62,
+        "duration": 6.599
+    },
+    {
+        "text": "have these and that's that's what I one",
+        "start": 4256.82,
+        "duration": 4.919
+    },
+    {
+        "text": "of the demos I have here is just a this",
+        "start": 4259.219,
+        "duration": 5.641
+    },
+    {
+        "text": "is just a you know a c-sharp application",
+        "start": 4261.739,
+        "duration": 4.92
+    },
+    {
+        "text": "that connects to the cloud and we can",
+        "start": 4264.86,
+        "duration": 4.14
+    },
+    {
+        "text": "start from there and then you can go in",
+        "start": 4266.659,
+        "duration": 4.5
+    },
+    {
+        "text": "and understand more of the",
+        "start": 4269.0,
+        "duration": 4.44
+    },
+    {
+        "text": "microcontrollers and if you really want",
+        "start": 4271.159,
+        "duration": 6.121
+    },
+    {
+        "text": "to really run it on a uh devices that",
+        "start": 4273.44,
+        "duration": 6.06
+    },
+    {
+        "text": "are constrained right the memory",
+        "start": 4277.28,
+        "duration": 4.919
+    },
+    {
+        "text": "constraint and low power so it just",
+        "start": 4279.5,
+        "duration": 5.4
+    },
+    {
+        "text": "depends on how you know the battery life",
+        "start": 4282.199,
+        "duration": 4.5
+    },
+    {
+        "text": "how you're going to run this where",
+        "start": 4284.9,
+        "duration": 3.12
+    },
+    {
+        "text": "you're going to install it so that's",
+        "start": 4286.699,
+        "duration": 4.921
+    },
+    {
+        "text": "that would entail uh how much processing",
+        "start": 4288.02,
+        "duration": 6.74
+    },
+    {
+        "text": "power that you would need",
+        "start": 4291.62,
+        "duration": 3.14
+    },
+    {
+        "text": "got it thank you yeah uh so so a pie a",
+        "start": 4295.159,
+        "duration": 6.301
+    },
+    {
+        "text": "Raspberry Pi is a um",
+        "start": 4299.0,
+        "duration": 4.8
+    },
+    {
+        "text": "is a pretty easy way to get started at",
+        "start": 4301.46,
+        "duration": 3.56
+    },
+    {
+        "text": "something",
+        "start": 4303.8,
+        "duration": 3.899
+    },
+    {
+        "text": "exposure to that yes because we have a",
+        "start": 4305.02,
+        "duration": 4.6
+    },
+    {
+        "text": "lot of exposure on the languages that",
+        "start": 4307.699,
+        "duration": 4.081
+    },
+    {
+        "text": "can run on the pie so of course of",
+        "start": 4309.62,
+        "duration": 4.5
+    },
+    {
+        "text": "course if you're a seed developer or C",
+        "start": 4311.78,
+        "duration": 5.64
+    },
+    {
+        "text": "plus developer it might make sense to uh",
+        "start": 4314.12,
+        "duration": 6.96
+    },
+    {
+        "text": "have a microcontroller uh running uh an",
+        "start": 4317.42,
+        "duration": 6.42
+    },
+    {
+        "text": "esp32 actually has a Wi-Fi connection",
+        "start": 4321.08,
+        "duration": 5.4
+    },
+    {
+        "text": "already so you can program the Wi-Fi",
+        "start": 4323.84,
+        "duration": 4.56
+    },
+    {
+        "text": "here and",
+        "start": 4326.48,
+        "duration": 4.8
+    },
+    {
+        "text": "and I did try that I did try and I was",
+        "start": 4328.4,
+        "duration": 4.44
+    },
+    {
+        "text": "looking at how does it connect to the",
+        "start": 4331.28,
+        "duration": 4.14
+    },
+    {
+        "text": "Wi-Fi I'm surprised how many lines of",
+        "start": 4332.84,
+        "duration": 6.06
+    },
+    {
+        "text": "code C code just to connect a device to",
+        "start": 4335.42,
+        "duration": 4.739
+    },
+    {
+        "text": "a Wi-Fi",
+        "start": 4338.9,
+        "duration": 3.9
+    },
+    {
+        "text": "and you know you appreciate is learn to",
+        "start": 4340.159,
+        "duration": 5.401
+    },
+    {
+        "text": "appreciate that the the abstraction",
+        "start": 4342.8,
+        "duration": 5.54
+    },
+    {
+        "text": "layer that came",
+        "start": 4345.56,
+        "duration": 5.82
+    },
+    {
+        "text": "you know that that helped us just",
+        "start": 4348.34,
+        "duration": 5.26
+    },
+    {
+        "text": "just simplify a lot of these things",
+        "start": 4351.38,
+        "duration": 6.859
+    },
+    {
+        "text": "because uh you know it can get complex",
+        "start": 4353.6,
+        "duration": 4.639
+    },
+    {
+        "text": "right on well thanks for that Ron uh and",
+        "start": 4358.82,
+        "duration": 4.379
+    },
+    {
+        "text": "anybody else want to come off mute and",
+        "start": 4361.76,
+        "duration": 4.459
+    },
+    {
+        "text": "ask a final question here",
+        "start": 4363.199,
+        "duration": 3.02
+    },
+    {
+        "text": "um you can um interrupt me if you do um",
+        "start": 4366.38,
+        "duration": 5.339
+    },
+    {
+        "text": "I'm gonna proceed I'm going to thank Ron",
+        "start": 4368.719,
+        "duration": 6.301
+    },
+    {
+        "text": "dagdag for uh for joining us and giving",
+        "start": 4371.719,
+        "duration": 7.201
+    },
+    {
+        "text": "the talk from uh Fort Worth Texas",
+        "start": 4375.02,
+        "duration": 5.34
+    },
+    {
+        "text": "I",
+        "start": 4378.92,
+        "duration": 2.36
+    },
+    {
+        "text": "um",
+        "start": 4380.36,
+        "duration": 5.28
+    },
+    {
+        "text": "uh I I did capture some screenshots and",
+        "start": 4381.28,
+        "duration": 5.8
+    },
+    {
+        "text": "various things so you can see them in",
+        "start": 4385.64,
+        "duration": 4.32
+    },
+    {
+        "text": "the photos in Meetup and I did capture",
+        "start": 4387.08,
+        "duration": 6.0
+    },
+    {
+        "text": "the demo QR code and the link so if",
+        "start": 4389.96,
+        "duration": 4.62
+    },
+    {
+        "text": "people are trying to track that down you",
+        "start": 4393.08,
+        "duration": 2.82
+    },
+    {
+        "text": "can find that in there",
+        "start": 4394.58,
+        "duration": 4.56
+    },
+    {
+        "text": "uh awesome so again thanks very much uh",
+        "start": 4395.9,
+        "duration": 6.0
+    },
+    {
+        "text": "Ron and uh for the rest of you all um",
+        "start": 4399.14,
+        "duration": 5.16
+    },
+    {
+        "text": "Ron's presentation will show up in",
+        "start": 4401.9,
+        "duration": 6.18
+    },
+    {
+        "text": "youtube.com Boston Azure usually within",
+        "start": 4404.3,
+        "duration": 4.8
+    },
+    {
+        "text": "a day",
+        "start": 4408.08,
+        "duration": 3.96
+    },
+    {
+        "text": "and um again you can find us on Twitter",
+        "start": 4409.1,
+        "duration": 6.84
+    },
+    {
+        "text": "uh at Boston azure and we",
+        "start": 4412.04,
+        "duration": 6.42
+    },
+    {
+        "text": "um we do not expect",
+        "start": 4415.94,
+        "duration": 4.739
+    },
+    {
+        "text": "um any more uh attempts at in-person",
+        "start": 4418.46,
+        "duration": 4.38
+    },
+    {
+        "text": "events in 2022 we'll get back to you for",
+        "start": 4420.679,
+        "duration": 5.341
+    },
+    {
+        "text": "2023. we have we're still planning but",
+        "start": 4422.84,
+        "duration": 5.52
+    },
+    {
+        "text": "we have one more virtual event",
+        "start": 4426.02,
+        "duration": 5.04
+    },
+    {
+        "text": "um that we're touring with uh or trying",
+        "start": 4428.36,
+        "duration": 4.62
+    },
+    {
+        "text": "to get set up and that's for uh December",
+        "start": 4431.06,
+        "duration": 4.5
+    },
+    {
+        "text": "I think it's sixth seventh or 8th but",
+        "start": 4432.98,
+        "duration": 4.8
+    },
+    {
+        "text": "follow the usual spaces for updates on",
+        "start": 4435.56,
+        "duration": 5.4
+    },
+    {
+        "text": "that and to the new uh the new members",
+        "start": 4437.78,
+        "duration": 4.74
+    },
+    {
+        "text": "here who who joined us for the first",
+        "start": 4440.96,
+        "duration": 3.66
+    },
+    {
+        "text": "time welcome and hope to see you see you",
+        "start": 4442.52,
+        "duration": 3.84
+    },
+    {
+        "text": "back hope to see you all back everybody",
+        "start": 4444.62,
+        "duration": 4.5
+    },
+    {
+        "text": "have a good uh safe uh",
+        "start": 4446.36,
+        "duration": 6.18
+    },
+    {
+        "text": "safe uh evening and uh see you see",
+        "start": 4449.12,
+        "duration": 5.9
+    },
+    {
+        "text": "another time",
+        "start": 4452.54,
+        "duration": 2.48
+    },
+    {
+        "text": "awesome thanks again Ron thanks everyone",
+        "start": 4455.54,
+        "duration": 4.58
+    }
+]
