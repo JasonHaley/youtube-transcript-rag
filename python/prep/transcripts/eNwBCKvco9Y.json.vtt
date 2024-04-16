@@ -1,0 +1,7367 @@
+[
+    {
+        "text": "okay",
+        "start": 2.04,
+        "duration": 2.119
+    },
+    {
+        "text": "did it come up there we go cool we're",
+        "start": 6.6,
+        "duration": 4.8
+    },
+    {
+        "text": "good",
+        "start": 9.72,
+        "duration": 5.22
+    },
+    {
+        "text": "all right thanks Jason hey everyone uh",
+        "start": 11.4,
+        "duration": 7.16
+    },
+    {
+        "text": "my audio is coming okay right",
+        "start": 14.94,
+        "duration": 3.62
+    },
+    {
+        "text": "loud and clear",
+        "start": 18.9,
+        "duration": 2.76
+    },
+    {
+        "text": "okay",
+        "start": 20.4,
+        "duration": 3.18
+    },
+    {
+        "text": "um Jason just give me a heads up if you",
+        "start": 21.66,
+        "duration": 4.32
+    },
+    {
+        "text": "lose my audio because in the in some of",
+        "start": 23.58,
+        "duration": 4.98
+    },
+    {
+        "text": "the other meetings I have been lately uh",
+        "start": 25.98,
+        "duration": 4.619
+    },
+    {
+        "text": "my audio has been dropping but I hope it",
+        "start": 28.56,
+        "duration": 4.86
+    },
+    {
+        "text": "won't drop today and hey everyone I",
+        "start": 30.599,
+        "duration": 5.161
+    },
+    {
+        "text": "welcome you all to today's session for",
+        "start": 33.42,
+        "duration": 5.04
+    },
+    {
+        "text": "Boston Azure User Group uh I would like",
+        "start": 35.76,
+        "duration": 5.459
+    },
+    {
+        "text": "to thank uh the organizers of the group",
+        "start": 38.46,
+        "duration": 5.22
+    },
+    {
+        "text": "who have given me this opportunity to",
+        "start": 41.219,
+        "duration": 5.641
+    },
+    {
+        "text": "present uh once again in front of you",
+        "start": 43.68,
+        "duration": 6.6
+    },
+    {
+        "text": "all uh especially Jason and Veronica",
+        "start": 46.86,
+        "duration": 6.42
+    },
+    {
+        "text": "um I guess by now as Jason mentioned you",
+        "start": 50.28,
+        "duration": 5.279
+    },
+    {
+        "text": "would be aware that we are going to talk",
+        "start": 53.28,
+        "duration": 5.52
+    },
+    {
+        "text": "about running kubernetes in Azure or in",
+        "start": 55.559,
+        "duration": 4.921
+    },
+    {
+        "text": "short we are going to look at the",
+        "start": 58.8,
+        "duration": 4.2
+    },
+    {
+        "text": "managed as kubernetes service in Azure",
+        "start": 60.48,
+        "duration": 5.52
+    },
+    {
+        "text": "which is known as AKs and before we jump",
+        "start": 63.0,
+        "duration": 4.86
+    },
+    {
+        "text": "onto that I generally go ahead and",
+        "start": 66.0,
+        "duration": 4.86
+    },
+    {
+        "text": "introduce myself but Jason has done a",
+        "start": 67.86,
+        "duration": 4.74
+    },
+    {
+        "text": "great job about that he did covered",
+        "start": 70.86,
+        "duration": 3.119
+    },
+    {
+        "text": "everything that I wanted to talk about",
+        "start": 72.6,
+        "duration": 4.62
+    },
+    {
+        "text": "yes I work at capgemini I'm based out of",
+        "start": 73.979,
+        "duration": 5.901
+    },
+    {
+        "text": "Omaha Nebraska",
+        "start": 77.22,
+        "duration": 2.66
+    },
+    {
+        "text": "Azure MVP",
+        "start": 80.34,
+        "duration": 5.279
+    },
+    {
+        "text": "and yeah I I keep myself up to date on",
+        "start": 81.979,
+        "duration": 6.041
+    },
+    {
+        "text": "certifications",
+        "start": 85.619,
+        "duration": 5.461
+    },
+    {
+        "text": "and with that let's get jumped into",
+        "start": 88.02,
+        "duration": 5.34
+    },
+    {
+        "text": "kubernetes for which everyone is here",
+        "start": 91.08,
+        "duration": 4.92
+    },
+    {
+        "text": "today so to start with uh I would like",
+        "start": 93.36,
+        "duration": 4.74
+    },
+    {
+        "text": "to start with the very basics for the",
+        "start": 96.0,
+        "duration": 4.7
+    },
+    {
+        "text": "benefit of people who have not walked on",
+        "start": 98.1,
+        "duration": 6.479
+    },
+    {
+        "text": "kubernetes in the past uh then we'll see",
+        "start": 100.7,
+        "duration": 6.04
+    },
+    {
+        "text": "how you can run kubernetes in Azure",
+        "start": 104.579,
+        "duration": 4.981
+    },
+    {
+        "text": "using a managed offering so to start",
+        "start": 106.74,
+        "duration": 5.879
+    },
+    {
+        "text": "with kubernetes is defined as a portable",
+        "start": 109.56,
+        "duration": 5.58
+    },
+    {
+        "text": "extensible open source platform for",
+        "start": 112.619,
+        "duration": 4.621
+    },
+    {
+        "text": "automating the deployment scaling and",
+        "start": 115.14,
+        "duration": 5.28
+    },
+    {
+        "text": "management of containerized workloads if",
+        "start": 117.24,
+        "duration": 5.76
+    },
+    {
+        "text": "you are aware of a term called container",
+        "start": 120.42,
+        "duration": 5.339
+    },
+    {
+        "text": "orchestration so essentially kubernetes",
+        "start": 123.0,
+        "duration": 5.88
+    },
+    {
+        "text": "is a container orchestrator it",
+        "start": 125.759,
+        "duration": 6.001
+    },
+    {
+        "text": "essentially helps you manage bunch of",
+        "start": 128.88,
+        "duration": 5.52
+    },
+    {
+        "text": "containers running in parallel you can",
+        "start": 131.76,
+        "duration": 5.4
+    },
+    {
+        "text": "do things like service Discovery you can",
+        "start": 134.4,
+        "duration": 4.559
+    },
+    {
+        "text": "maintain the health of the containers",
+        "start": 137.16,
+        "duration": 4.14
+    },
+    {
+        "text": "you can spin up scale up scale down",
+        "start": 138.959,
+        "duration": 5.28
+    },
+    {
+        "text": "those containers you can do all that uh",
+        "start": 141.3,
+        "duration": 5.34
+    },
+    {
+        "text": "work using kubernetes some of the other",
+        "start": 144.239,
+        "duration": 4.561
+    },
+    {
+        "text": "container orchestration orchestrators",
+        "start": 146.64,
+        "duration": 4.679
+    },
+    {
+        "text": "you might have heard of includes uh",
+        "start": 148.8,
+        "duration": 5.46
+    },
+    {
+        "text": "Docker swamp which is a comparative tool",
+        "start": 151.319,
+        "duration": 5.221
+    },
+    {
+        "text": "so that might give you some perspective",
+        "start": 154.26,
+        "duration": 5.16
+    },
+    {
+        "text": "very basic uh how kubernetes came up",
+        "start": 156.54,
+        "duration": 5.64
+    },
+    {
+        "text": "with uh it's essentially is a Greek term",
+        "start": 159.42,
+        "duration": 6.179
+    },
+    {
+        "text": "it uh in Greek it means healthmen of a",
+        "start": 162.18,
+        "duration": 7.44
+    },
+    {
+        "text": "ship uh and one of the clue you can get",
+        "start": 165.599,
+        "duration": 6.961
+    },
+    {
+        "text": "even out of the logos or kubernetes as",
+        "start": 169.62,
+        "duration": 4.68
+    },
+    {
+        "text": "well if you will see the logo of our",
+        "start": 172.56,
+        "duration": 3.539
+    },
+    {
+        "text": "kubernetes it has that steering wheel",
+        "start": 174.3,
+        "duration": 2.7
+    },
+    {
+        "text": "for",
+        "start": 176.099,
+        "duration": 6.681
+    },
+    {
+        "text": "a ship which is controlled by the uh",
+        "start": 177.0,
+        "duration": 5.78
+    },
+    {
+        "text": "by the captain of the ship that's why uh",
+        "start": 183.54,
+        "duration": 6.72
+    },
+    {
+        "text": "kubernetes and again if you will see a",
+        "start": 186.78,
+        "duration": 6.599
+    },
+    {
+        "text": "ship is meant to uh",
+        "start": 190.26,
+        "duration": 5.399
+    },
+    {
+        "text": "move containers from one port to the",
+        "start": 193.379,
+        "duration": 6.301
+    },
+    {
+        "text": "another that's why kubernetes",
+        "start": 195.659,
+        "duration": 7.141
+    },
+    {
+        "text": "a little brief history of it it was",
+        "start": 199.68,
+        "duration": 6.779
+    },
+    {
+        "text": "announced by Google in 2014 before that",
+        "start": 202.8,
+        "duration": 8.0
+    },
+    {
+        "text": "it was uh used in tunneli by Google it's",
+        "start": 206.459,
+        "duration": 7.441
+    },
+    {
+        "text": "heavily influenced by Google's barf",
+        "start": 210.8,
+        "duration": 5.26
+    },
+    {
+        "text": "system which is a project they used to",
+        "start": 213.9,
+        "duration": 3.96
+    },
+    {
+        "text": "use internally before coming up with",
+        "start": 216.06,
+        "duration": 5.58
+    },
+    {
+        "text": "kubernetes original code name for it was",
+        "start": 217.86,
+        "duration": 6.18
+    },
+    {
+        "text": "Project seven so if there are any Star",
+        "start": 221.64,
+        "duration": 6.3
+    },
+    {
+        "text": "Trek uh fans in the group here today",
+        "start": 224.04,
+        "duration": 6.839
+    },
+    {
+        "text": "they would remember export director",
+        "start": 227.94,
+        "duration": 5.28
+    },
+    {
+        "text": "called as seven of nine so project seven",
+        "start": 230.879,
+        "duration": 4.741
+    },
+    {
+        "text": "was derived from that and even if you",
+        "start": 233.22,
+        "duration": 6.239
+    },
+    {
+        "text": "will see the kubernetes logo those in",
+        "start": 235.62,
+        "duration": 6.3
+    },
+    {
+        "text": "the handle and the staying of that ship",
+        "start": 239.459,
+        "duration": 5.161
+    },
+    {
+        "text": "there are seven knobs so that also",
+        "start": 241.92,
+        "duration": 6.06
+    },
+    {
+        "text": "indicates the project seven uh well uh",
+        "start": 244.62,
+        "duration": 6.179
+    },
+    {
+        "text": "coming back to history the first version",
+        "start": 247.98,
+        "duration": 6.179
+    },
+    {
+        "text": "of kubernetes was released on July 21st",
+        "start": 250.799,
+        "duration": 7.861
+    },
+    {
+        "text": "2015 the current version is 1.26.1 which",
+        "start": 254.159,
+        "duration": 7.621
+    },
+    {
+        "text": "was released earlier last month I have",
+        "start": 258.66,
+        "duration": 4.56
+    },
+    {
+        "text": "provided a link to the release history",
+        "start": 261.78,
+        "duration": 4.08
+    },
+    {
+        "text": "there so you once you get slides you can",
+        "start": 263.22,
+        "duration": 4.14
+    },
+    {
+        "text": "go and uh",
+        "start": 265.86,
+        "duration": 3.8
+    },
+    {
+        "text": "keep yourself up to date on the current",
+        "start": 267.36,
+        "duration": 5.58
+    },
+    {
+        "text": "version which is released and also",
+        "start": 269.66,
+        "duration": 6.759
+    },
+    {
+        "text": "version 1.27 is related to be released",
+        "start": 272.94,
+        "duration": 6.539
+    },
+    {
+        "text": "in April and I have provided a link to",
+        "start": 276.419,
+        "duration": 4.681
+    },
+    {
+        "text": "the schedule so that if you would like",
+        "start": 279.479,
+        "duration": 3.361
+    },
+    {
+        "text": "to go ahead and keep yourself up to date",
+        "start": 281.1,
+        "duration": 4.34
+    },
+    {
+        "text": "on that you can check that out",
+        "start": 282.84,
+        "duration": 5.34
+    },
+    {
+        "text": "it was originally written in C plus plus",
+        "start": 285.44,
+        "duration": 5.199
+    },
+    {
+        "text": "but I believe",
+        "start": 288.18,
+        "duration": 6.239
+    },
+    {
+        "text": "a few years back it was Rewritten in go",
+        "start": 290.639,
+        "duration": 6.081
+    },
+    {
+        "text": "language",
+        "start": 294.419,
+        "duration": 2.301
+    },
+    {
+        "text": "looking at kubernetes architecture from",
+        "start": 297.18,
+        "duration": 6.54
+    },
+    {
+        "text": "30 000 feet view essentially when we",
+        "start": 300.66,
+        "duration": 4.86
+    },
+    {
+        "text": "when you talk about kubernetes",
+        "start": 303.72,
+        "duration": 3.539
+    },
+    {
+        "text": "essentially you are going to create a",
+        "start": 305.52,
+        "duration": 4.26
+    },
+    {
+        "text": "kubernetes cluster and that cluster",
+        "start": 307.259,
+        "duration": 5.041
+    },
+    {
+        "text": "contains two different components one is",
+        "start": 309.78,
+        "duration": 4.26
+    },
+    {
+        "text": "known as control plane and the other is",
+        "start": 312.3,
+        "duration": 4.26
+    },
+    {
+        "text": "known as workers plane in the control",
+        "start": 314.04,
+        "duration": 6.36
+    },
+    {
+        "text": "plane uh you create your master nodes in",
+        "start": 316.56,
+        "duration": 5.82
+    },
+    {
+        "text": "the workers plane you create your worker",
+        "start": 320.4,
+        "duration": 5.22
+    },
+    {
+        "text": "nodes your master notes essentially run",
+        "start": 322.38,
+        "duration": 5.46
+    },
+    {
+        "text": "your kubernetes core Services the",
+        "start": 325.62,
+        "duration": 3.9
+    },
+    {
+        "text": "services which make kubernetes",
+        "start": 327.84,
+        "duration": 4.74
+    },
+    {
+        "text": "kubernetes which does all the magic and",
+        "start": 329.52,
+        "duration": 6.84
+    },
+    {
+        "text": "then you as a developer deploy your",
+        "start": 332.58,
+        "duration": 6.119
+    },
+    {
+        "text": "applications and workloads on the worker",
+        "start": 336.36,
+        "duration": 4.08
+    },
+    {
+        "text": "nodes",
+        "start": 338.699,
+        "duration": 4.261
+    },
+    {
+        "text": "in a control plane and Vector plane have",
+        "start": 340.44,
+        "duration": 5.699
+    },
+    {
+        "text": "their own concept of components to make",
+        "start": 342.96,
+        "duration": 6.36
+    },
+    {
+        "text": "kubernetes work the way it works on the",
+        "start": 346.139,
+        "duration": 4.921
+    },
+    {
+        "text": "control plane there are four main",
+        "start": 349.32,
+        "duration": 4.08
+    },
+    {
+        "text": "components starting from API server",
+        "start": 351.06,
+        "duration": 3.78
+    },
+    {
+        "text": "scheduler",
+        "start": 353.4,
+        "duration": 2.82
+    },
+    {
+        "text": "uh",
+        "start": 354.84,
+        "duration": 4.62
+    },
+    {
+        "text": "hcd and control and manager API server",
+        "start": 356.22,
+        "duration": 5.819
+    },
+    {
+        "text": "is essentially the front front end of",
+        "start": 359.46,
+        "duration": 6.66
+    },
+    {
+        "text": "the kubernetes control plane it exposes",
+        "start": 362.039,
+        "duration": 6.6
+    },
+    {
+        "text": "kubernetes API that you can make calls",
+        "start": 366.12,
+        "duration": 4.98
+    },
+    {
+        "text": "to to perform any kind of operation on",
+        "start": 368.639,
+        "duration": 4.381
+    },
+    {
+        "text": "your kubernetes cluster",
+        "start": 371.1,
+        "duration": 3.96
+    },
+    {
+        "text": "uh controller manager runs the",
+        "start": 373.02,
+        "duration": 4.38
+    },
+    {
+        "text": "controller processes controlling the",
+        "start": 375.06,
+        "duration": 4.26
+    },
+    {
+        "text": "different kinds of objects that you can",
+        "start": 377.4,
+        "duration": 4.019
+    },
+    {
+        "text": "create and manage within kubernetes like",
+        "start": 379.32,
+        "duration": 5.42
+    },
+    {
+        "text": "deployments jobs replica sets and so on",
+        "start": 381.419,
+        "duration": 5.881
+    },
+    {
+        "text": "uh once you are ready to run your",
+        "start": 384.74,
+        "duration": 5.679
+    },
+    {
+        "text": "schedule and run your parts and your",
+        "start": 387.3,
+        "duration": 5.28
+    },
+    {
+        "text": "working nodes you utilize a service",
+        "start": 390.419,
+        "duration": 4.141
+    },
+    {
+        "text": "known as scheduler which tracks the",
+        "start": 392.58,
+        "duration": 3.839
+    },
+    {
+        "text": "newly created Parts as well as it",
+        "start": 394.56,
+        "duration": 4.44
+    },
+    {
+        "text": "selects the worker nodes on which the",
+        "start": 396.419,
+        "duration": 5.881
+    },
+    {
+        "text": "newly uh newly New Ports have to be",
+        "start": 399.0,
+        "duration": 7.919
+    },
+    {
+        "text": "created on and then SCD is the uh brain",
+        "start": 402.3,
+        "duration": 8.16
+    },
+    {
+        "text": "or the memory of your kubernetes cluster",
+        "start": 406.919,
+        "duration": 6.661
+    },
+    {
+        "text": "it's a persisted store in which whenever",
+        "start": 410.46,
+        "duration": 5.64
+    },
+    {
+        "text": "the API server is called the very first",
+        "start": 413.58,
+        "duration": 5.339
+    },
+    {
+        "text": "activity that it does is it goes ahead",
+        "start": 416.1,
+        "duration": 4.86
+    },
+    {
+        "text": "and stores the state of your kubernetes",
+        "start": 418.919,
+        "duration": 4.681
+    },
+    {
+        "text": "cluster in that persistent store called",
+        "start": 420.96,
+        "duration": 4.739
+    },
+    {
+        "text": "as hcd",
+        "start": 423.6,
+        "duration": 4.319
+    },
+    {
+        "text": "it is in other words it's your system of",
+        "start": 425.699,
+        "duration": 3.901
+    },
+    {
+        "text": "record which tracks each and every",
+        "start": 427.919,
+        "duration": 4.201
+    },
+    {
+        "text": "activity that's happening inside your",
+        "start": 429.6,
+        "duration": 4.92
+    },
+    {
+        "text": "kubernetes cluster uh looking at the",
+        "start": 432.12,
+        "duration": 4.74
+    },
+    {
+        "text": "worker nodes uh for",
+        "start": 434.52,
+        "duration": 5.7
+    },
+    {
+        "text": "components are installed on every worker",
+        "start": 436.86,
+        "duration": 6.959
+    },
+    {
+        "text": "node starting with uh cubelet which is",
+        "start": 440.22,
+        "duration": 6.539
+    },
+    {
+        "text": "an agent that runs on each node in a",
+        "start": 443.819,
+        "duration": 5.761
+    },
+    {
+        "text": "cluster it ensures that all the",
+        "start": 446.759,
+        "duration": 5.06
+    },
+    {
+        "text": "containers that are",
+        "start": 449.58,
+        "duration": 4.559
+    },
+    {
+        "text": "scheduled by the scheduler to run on",
+        "start": 451.819,
+        "duration": 5.621
+    },
+    {
+        "text": "your node are running in a healthy state",
+        "start": 454.139,
+        "duration": 7.141
+    },
+    {
+        "text": "uh the other component is Q proxy which",
+        "start": 457.44,
+        "duration": 5.819
+    },
+    {
+        "text": "essentially provides the networking",
+        "start": 461.28,
+        "duration": 4.44
+    },
+    {
+        "text": "features between your working nodes",
+        "start": 463.259,
+        "duration": 4.321
+    },
+    {
+        "text": "between your thoughts and between your",
+        "start": 465.72,
+        "duration": 5.4
+    },
+    {
+        "text": "control plane and the worker node uh and",
+        "start": 467.58,
+        "duration": 6.42
+    },
+    {
+        "text": "the parts uh or the con are the actual",
+        "start": 471.12,
+        "duration": 4.919
+    },
+    {
+        "text": "workloads that run on your container",
+        "start": 474.0,
+        "duration": 4.62
+    },
+    {
+        "text": "runtime and container runtime by default",
+        "start": 476.039,
+        "duration": 5.521
+    },
+    {
+        "text": "used to be Docker before but now if they",
+        "start": 478.62,
+        "duration": 5.22
+    },
+    {
+        "text": "have switched to uh container a few",
+        "start": 481.56,
+        "duration": 4.88
+    },
+    {
+        "text": "years ago",
+        "start": 483.84,
+        "duration": 2.6
+    },
+    {
+        "text": "a few Concepts uh you should be aware of",
+        "start": 486.479,
+        "duration": 5.821
+    },
+    {
+        "text": "in kubernetes starting with parts which",
+        "start": 489.539,
+        "duration": 4.921
+    },
+    {
+        "text": "are the smallest units of q in",
+        "start": 492.3,
+        "duration": 4.799
+    },
+    {
+        "text": "kubernetes it provides a con an",
+        "start": 494.46,
+        "duration": 5.28
+    },
+    {
+        "text": "abstraction over containers they are",
+        "start": 497.099,
+        "duration": 4.681
+    },
+    {
+        "text": "ephemeral and that's a key point there",
+        "start": 499.74,
+        "duration": 4.139
+    },
+    {
+        "text": "and they get their own IP address within",
+        "start": 501.78,
+        "duration": 5.4
+    },
+    {
+        "text": "q and arrays Services a level above",
+        "start": 503.879,
+        "duration": 5.401
+    },
+    {
+        "text": "Parts what they do is they provide a",
+        "start": 507.18,
+        "duration": 4.32
+    },
+    {
+        "text": "persistent IP addresses for a set of",
+        "start": 509.28,
+        "duration": 4.98
+    },
+    {
+        "text": "Parts running your workload and they",
+        "start": 511.5,
+        "duration": 7.56
+    },
+    {
+        "text": "it's like like a load balancer and the",
+        "start": 514.26,
+        "duration": 7.62
+    },
+    {
+        "text": "life cycle office service is not linked",
+        "start": 519.06,
+        "duration": 5.76
+    },
+    {
+        "text": "to the life cycle of a pot so the",
+        "start": 521.88,
+        "duration": 4.44
+    },
+    {
+        "text": "disadvantage that you get out of",
+        "start": 524.82,
+        "duration": 3.42
+    },
+    {
+        "text": "managing Parts which are familiar is",
+        "start": 526.32,
+        "duration": 4.079
+    },
+    {
+        "text": "basically taken care in Services because",
+        "start": 528.24,
+        "duration": 4.02
+    },
+    {
+        "text": "services are not ephemeral and they are",
+        "start": 530.399,
+        "duration": 5.821
+    },
+    {
+        "text": "not linked to a pod Parts life cycle but",
+        "start": 532.26,
+        "duration": 5.16
+    },
+    {
+        "text": "Services comes with their own",
+        "start": 536.22,
+        "duration": 4.02
+    },
+    {
+        "text": "limitations sometimes we want to expose",
+        "start": 537.42,
+        "duration": 6.419
+    },
+    {
+        "text": "your services running inside the cluster",
+        "start": 540.24,
+        "duration": 7.44
+    },
+    {
+        "text": "to the outside world over HTTP and https",
+        "start": 543.839,
+        "duration": 6.12
+    },
+    {
+        "text": "so for that you essentially utilize a",
+        "start": 547.68,
+        "duration": 4.08
+    },
+    {
+        "text": "component known as Ingress",
+        "start": 549.959,
+        "duration": 5.041
+    },
+    {
+        "text": "uh when you're running your workloads in",
+        "start": 551.76,
+        "duration": 5.1
+    },
+    {
+        "text": "kubernetes you also need to store your",
+        "start": 555.0,
+        "duration": 3.839
+    },
+    {
+        "text": "configuration somewhere and for that",
+        "start": 556.86,
+        "duration": 4.86
+    },
+    {
+        "text": "purpose you use uh config Maps which",
+        "start": 558.839,
+        "duration": 7.201
+    },
+    {
+        "text": "lets you store text based key value pair",
+        "start": 561.72,
+        "duration": 6.84
+    },
+    {
+        "text": "but you cannot as with any other system",
+        "start": 566.04,
+        "duration": 4.34
+    },
+    {
+        "text": "you cannot store",
+        "start": 568.56,
+        "duration": 5.88
+    },
+    {
+        "text": "plain text based uh config play I mean",
+        "start": 570.38,
+        "duration": 6.22
+    },
+    {
+        "text": "you cannot store your secrets in plain",
+        "start": 574.44,
+        "duration": 5.459
+    },
+    {
+        "text": "text based key value stores you need a",
+        "start": 576.6,
+        "duration": 5.34
+    },
+    {
+        "text": "place to store your secret somewhere",
+        "start": 579.899,
+        "duration": 4.861
+    },
+    {
+        "text": "like passwords and connection strings uh",
+        "start": 581.94,
+        "duration": 4.92
+    },
+    {
+        "text": "for that purpose you can utilize Secrets",
+        "start": 584.76,
+        "duration": 4.56
+    },
+    {
+        "text": "which provides your base64 encoded store",
+        "start": 586.86,
+        "duration": 5.84
+    },
+    {
+        "text": "for storing the secure information",
+        "start": 589.32,
+        "duration": 6.36
+    },
+    {
+        "text": "volumes uh help you store your",
+        "start": 592.7,
+        "duration": 6.04
+    },
+    {
+        "text": "persistent data in Azure it could you",
+        "start": 595.68,
+        "duration": 5.099
+    },
+    {
+        "text": "can utilize things like Azure storage as",
+        "start": 598.74,
+        "duration": 4.74
+    },
+    {
+        "text": "a persistent volume",
+        "start": 600.779,
+        "duration": 5.881
+    },
+    {
+        "text": "a replica set is uh",
+        "start": 603.48,
+        "duration": 5.34
+    },
+    {
+        "text": "is utilized to maintain a stable state",
+        "start": 606.66,
+        "duration": 5.46
+    },
+    {
+        "text": "of your parts uh I mean you can create",
+        "start": 608.82,
+        "duration": 5.459
+    },
+    {
+        "text": "as many replicas of your parts within",
+        "start": 612.12,
+        "duration": 5.219
+    },
+    {
+        "text": "kubernetes so that your incoming request",
+        "start": 614.279,
+        "duration": 5.101
+    },
+    {
+        "text": "to the kubernetes cluster can be handled",
+        "start": 617.339,
+        "duration": 5.821
+    },
+    {
+        "text": "uh deployment is the next abstraction of",
+        "start": 619.38,
+        "duration": 5.399
+    },
+    {
+        "text": "our replica set which provides",
+        "start": 623.16,
+        "duration": 4.02
+    },
+    {
+        "text": "declarative updates for your replica",
+        "start": 624.779,
+        "duration": 5.041
+    },
+    {
+        "text": "sets and parts meaning how many replicas",
+        "start": 627.18,
+        "duration": 4.62
+    },
+    {
+        "text": "needs to run how many parts needs to run",
+        "start": 629.82,
+        "duration": 3.9
+    },
+    {
+        "text": "you can Define all that in deployment",
+        "start": 631.8,
+        "duration": 4.2
+    },
+    {
+        "text": "the challenge with deployment object is",
+        "start": 633.72,
+        "duration": 4.44
+    },
+    {
+        "text": "that it doesn't comes with a state if",
+        "start": 636.0,
+        "duration": 7.019
+    },
+    {
+        "text": "you are looking for uh a sticky uh",
+        "start": 638.16,
+        "duration": 6.84
+    },
+    {
+        "text": "deployment so that you can maintain the",
+        "start": 643.019,
+        "duration": 3.841
+    },
+    {
+        "text": "state for your parts for that purpose",
+        "start": 645.0,
+        "duration": 3.62
+    },
+    {
+        "text": "you can use something known as stateful",
+        "start": 646.86,
+        "duration": 4.62
+    },
+    {
+        "text": "set for example if you have a stateless",
+        "start": 648.62,
+        "duration": 4.779
+    },
+    {
+        "text": "application you can utilize deployment",
+        "start": 651.48,
+        "duration": 4.02
+    },
+    {
+        "text": "to run in your kubernetes cluster but if",
+        "start": 653.399,
+        "duration": 4.921
+    },
+    {
+        "text": "you have a stateful workload like a",
+        "start": 655.5,
+        "duration": 5.04
+    },
+    {
+        "text": "database that you want to run in your",
+        "start": 658.32,
+        "duration": 3.959
+    },
+    {
+        "text": "kubernetes cluster you can utilize",
+        "start": 660.54,
+        "duration": 3.299
+    },
+    {
+        "text": "stateful set",
+        "start": 662.279,
+        "duration": 3.541
+    },
+    {
+        "text": "our demon set is utilized for running",
+        "start": 663.839,
+        "duration": 4.201
+    },
+    {
+        "text": "any of the on any of the background",
+        "start": 665.82,
+        "duration": 3.9
+    },
+    {
+        "text": "tasks that you want to run in your",
+        "start": 668.04,
+        "duration": 3.299
+    },
+    {
+        "text": "kubernetes cluster",
+        "start": 669.72,
+        "duration": 5.22
+    },
+    {
+        "text": "uh job uh is when you want to continue",
+        "start": 671.339,
+        "duration": 6.18
+    },
+    {
+        "text": "to retry the execution of your parts",
+        "start": 674.94,
+        "duration": 5.82
+    },
+    {
+        "text": "until a certain specified number of them",
+        "start": 677.519,
+        "duration": 4.981
+    },
+    {
+        "text": "successfully terminate you can utilize",
+        "start": 680.76,
+        "duration": 4.86
+    },
+    {
+        "text": "jobs and extension on jobs is a crown",
+        "start": 682.5,
+        "duration": 4.68
+    },
+    {
+        "text": "job that you can run on a repeated",
+        "start": 685.62,
+        "duration": 2.58
+    },
+    {
+        "text": "schedule",
+        "start": 687.18,
+        "duration": 2.7
+    },
+    {
+        "text": "so these are some of the concepts you",
+        "start": 688.2,
+        "duration": 3.12
+    },
+    {
+        "text": "should be aware of if you are using",
+        "start": 689.88,
+        "duration": 4.34
+    },
+    {
+        "text": "containers uh on kubernetes",
+        "start": 691.32,
+        "duration": 4.92
+    },
+    {
+        "text": "in uh",
+        "start": 694.22,
+        "duration": 5.26
+    },
+    {
+        "text": "in a real world in a 34 000 feet view",
+        "start": 696.24,
+        "duration": 5.46
+    },
+    {
+        "text": "this is how it looks like I did Cover",
+        "start": 699.48,
+        "duration": 5.039
+    },
+    {
+        "text": "the control Pane and worker nodes the",
+        "start": 701.7,
+        "duration": 4.62
+    },
+    {
+        "text": "different components that run in those",
+        "start": 704.519,
+        "duration": 4.981
+    },
+    {
+        "text": "uh planes on top of it kubernetes",
+        "start": 706.32,
+        "duration": 5.459
+    },
+    {
+        "text": "cluster also provides three different",
+        "start": 709.5,
+        "duration": 5.279
+    },
+    {
+        "text": "ways so that users can interact you can",
+        "start": 711.779,
+        "duration": 6.0
+    },
+    {
+        "text": "interact using an API you can interact",
+        "start": 714.779,
+        "duration": 5.101
+    },
+    {
+        "text": "with a kubernetes UI dashboard or you",
+        "start": 717.779,
+        "duration": 3.661
+    },
+    {
+        "text": "can also interact using kubernetes",
+        "start": 719.88,
+        "duration": 3.44
+    },
+    {
+        "text": "command line called",
+        "start": 721.44,
+        "duration": 5.579
+    },
+    {
+        "text": "kubernetes Cube CTL",
+        "start": 723.32,
+        "duration": 6.459
+    },
+    {
+        "text": "and either regardless of whichever",
+        "start": 727.019,
+        "duration": 5.701
+    },
+    {
+        "text": "option you opt for you need to provide a",
+        "start": 729.779,
+        "duration": 6.3
+    },
+    {
+        "text": "declarative template in EML format which",
+        "start": 732.72,
+        "duration": 5.16
+    },
+    {
+        "text": "defines the state of your kubernetes",
+        "start": 736.079,
+        "duration": 4.981
+    },
+    {
+        "text": "cluster defining uh how many parts how",
+        "start": 737.88,
+        "duration": 5.82
+    },
+    {
+        "text": "many replicas what container image",
+        "start": 741.06,
+        "duration": 6.12
+    },
+    {
+        "text": "should be run on and so on and you can",
+        "start": 743.7,
+        "duration": 6.36
+    },
+    {
+        "text": "provide that ml based declaration uh",
+        "start": 747.18,
+        "duration": 6.96
+    },
+    {
+        "text": "template to any of the uh any of the",
+        "start": 750.06,
+        "duration": 7.86
+    },
+    {
+        "text": "options like API UI or cube CTL and",
+        "start": 754.14,
+        "duration": 5.939
+    },
+    {
+        "text": "which in under the hood goes ahead and",
+        "start": 757.92,
+        "duration": 4.62
+    },
+    {
+        "text": "passes it to API server",
+        "start": 760.079,
+        "duration": 5.281
+    },
+    {
+        "text": "and then APA server takes care of the",
+        "start": 762.54,
+        "duration": 4.979
+    },
+    {
+        "text": "state of your kubernetes cluster it",
+        "start": 765.36,
+        "duration": 4.74
+    },
+    {
+        "text": "ensures that your kubernetes cluster",
+        "start": 767.519,
+        "duration": 5.161
+    },
+    {
+        "text": "always uh matches the state that you",
+        "start": 770.1,
+        "duration": 6.239
+    },
+    {
+        "text": "have declared in your ml file now uh at",
+        "start": 772.68,
+        "duration": 4.98
+    },
+    {
+        "text": "a very high level it looks very simple",
+        "start": 776.339,
+        "duration": 3.781
+    },
+    {
+        "text": "but when you start implementing and",
+        "start": 777.66,
+        "duration": 6.179
+    },
+    {
+        "text": "deploying your kubernetes cluster on a",
+        "start": 780.12,
+        "duration": 7.56
+    },
+    {
+        "text": "bare metal machines it really gets uh",
+        "start": 783.839,
+        "duration": 6.3
+    },
+    {
+        "text": "tricky and difficult to manage each of",
+        "start": 787.68,
+        "duration": 4.2
+    },
+    {
+        "text": "these components and make them work",
+        "start": 790.139,
+        "duration": 5.521
+    },
+    {
+        "text": "together it's a it's a really difficult",
+        "start": 791.88,
+        "duration": 7.519
+    },
+    {
+        "text": "thing to uh maintain you need a specific",
+        "start": 795.66,
+        "duration": 7.44
+    },
+    {
+        "text": "uh Team to handle that if you are not",
+        "start": 799.399,
+        "duration": 5.68
+    },
+    {
+        "text": "aware of that I suggest you to go ahead",
+        "start": 803.1,
+        "duration": 4.2
+    },
+    {
+        "text": "and look at a GitHub repo that I have",
+        "start": 805.079,
+        "duration": 5.7
+    },
+    {
+        "text": "given a link to uh it's uh it's a",
+        "start": 807.3,
+        "duration": 7.8
+    },
+    {
+        "text": "repository that Kelsey Hightower has uh",
+        "start": 810.779,
+        "duration": 6.721
+    },
+    {
+        "text": "created he has given all these steps",
+        "start": 815.1,
+        "duration": 4.739
+    },
+    {
+        "text": "that you need to set up a kubernetes",
+        "start": 817.5,
+        "duration": 5.76
+    },
+    {
+        "text": "cluster from scratch he has given an",
+        "start": 819.839,
+        "duration": 6.381
+    },
+    {
+        "text": "example using Google Cloud platform but",
+        "start": 823.26,
+        "duration": 6.0
+    },
+    {
+        "text": "uh it really doesn't matter because it's",
+        "start": 826.22,
+        "duration": 5.739
+    },
+    {
+        "text": "he has provided these steps to configure",
+        "start": 829.26,
+        "duration": 4.8
+    },
+    {
+        "text": "your kubernetes cluster from",
+        "start": 831.959,
+        "duration": 3.56
+    },
+    {
+        "text": "uh",
+        "start": 834.06,
+        "duration": 4.019
+    },
+    {
+        "text": "scratch which you can replicate very",
+        "start": 835.519,
+        "duration": 5.88
+    },
+    {
+        "text": "well in Azure or in AWS or in any other",
+        "start": 838.079,
+        "duration": 5.82
+    },
+    {
+        "text": "environment but the idea there is if we",
+        "start": 841.399,
+        "duration": 4.18
+    },
+    {
+        "text": "will go through those steps you will",
+        "start": 843.899,
+        "duration": 4.5
+    },
+    {
+        "text": "realize that it's not easy to manage a",
+        "start": 845.579,
+        "duration": 6.181
+    },
+    {
+        "text": "kubernetes cluster it's not easy to set",
+        "start": 848.399,
+        "duration": 5.341
+    },
+    {
+        "text": "up all these components and make them",
+        "start": 851.76,
+        "duration": 4.68
+    },
+    {
+        "text": "work the way you would like them to and",
+        "start": 853.74,
+        "duration": 4.92
+    },
+    {
+        "text": "for that very purpose each of the cloud",
+        "start": 856.44,
+        "duration": 4.56
+    },
+    {
+        "text": "providers hyperscalers have come up with",
+        "start": 858.66,
+        "duration": 4.76
+    },
+    {
+        "text": "their own managed kubernetes Services",
+        "start": 861.0,
+        "duration": 4.76
+    },
+    {
+        "text": "which are kind of platform Services",
+        "start": 863.42,
+        "duration": 5.919
+    },
+    {
+        "text": "likewise Azure have their own managed",
+        "start": 865.76,
+        "duration": 5.5
+    },
+    {
+        "text": "kubernetes service known as Azure",
+        "start": 869.339,
+        "duration": 5.521
+    },
+    {
+        "text": "kubernetes service it essentially is uh",
+        "start": 871.26,
+        "duration": 6.3
+    },
+    {
+        "text": "hosted kubernetes service in Azure it",
+        "start": 874.86,
+        "duration": 6.479
+    },
+    {
+        "text": "reduces overall complexity and overhead",
+        "start": 877.56,
+        "duration": 6.66
+    },
+    {
+        "text": "of managing your kubernetes cluster in",
+        "start": 881.339,
+        "duration": 4.981
+    },
+    {
+        "text": "next few slides we'll look into how what",
+        "start": 884.22,
+        "duration": 4.26
+    },
+    {
+        "text": "uh what are the aspects that Microsoft",
+        "start": 886.32,
+        "duration": 4.62
+    },
+    {
+        "text": "takes care for you when you create an",
+        "start": 888.48,
+        "duration": 6.12
+    },
+    {
+        "text": "AKs cluster uh in a nutshell the control",
+        "start": 890.94,
+        "duration": 5.639
+    },
+    {
+        "text": "plane that I was showing you in one of",
+        "start": 894.6,
+        "duration": 5.88
+    },
+    {
+        "text": "the earlier slides is provided uh",
+        "start": 896.579,
+        "duration": 7.26
+    },
+    {
+        "text": "is managed by Microsoft completely and",
+        "start": 900.48,
+        "duration": 5.58
+    },
+    {
+        "text": "you as a developer or an administrator",
+        "start": 903.839,
+        "duration": 5.881
+    },
+    {
+        "text": "are only responsible for your worker",
+        "start": 906.06,
+        "duration": 6.24
+    },
+    {
+        "text": "nodes the advantage is since the control",
+        "start": 909.72,
+        "duration": 4.94
+    },
+    {
+        "text": "plane is totally managed by Microsoft",
+        "start": 912.3,
+        "duration": 5.94
+    },
+    {
+        "text": "and you get it all free of course you",
+        "start": 914.66,
+        "duration": 5.679
+    },
+    {
+        "text": "have don't have to pay anything for",
+        "start": 918.24,
+        "duration": 4.86
+    },
+    {
+        "text": "utilizing a control plane but what you",
+        "start": 920.339,
+        "duration": 5.701
+    },
+    {
+        "text": "essentially end up paying is for the",
+        "start": 923.1,
+        "duration": 4.679
+    },
+    {
+        "text": "workout nodes that you set up in your",
+        "start": 926.04,
+        "duration": 4.88
+    },
+    {
+        "text": "kubernetes cluster",
+        "start": 927.779,
+        "duration": 3.141
+    },
+    {
+        "text": "uh to give you a screen a very high",
+        "start": 931.199,
+        "duration": 5.461
+    },
+    {
+        "text": "level idea on",
+        "start": 934.68,
+        "duration": 4.2
+    },
+    {
+        "text": "what I've been mentioning on the left",
+        "start": 936.66,
+        "duration": 4.979
+    },
+    {
+        "text": "side is what is managed by Microsoft on",
+        "start": 938.88,
+        "duration": 5.639
+    },
+    {
+        "text": "your behalf and on the right side in the",
+        "start": 941.639,
+        "duration": 4.801
+    },
+    {
+        "text": "worker plane is what is managed by you",
+        "start": 944.519,
+        "duration": 3.841
+    },
+    {
+        "text": "as a customer",
+        "start": 946.44,
+        "duration": 5.699
+    },
+    {
+        "text": "so like any other uh managed service in",
+        "start": 948.36,
+        "duration": 7.159
+    },
+    {
+        "text": "Azure or in any other Cloud platform uh",
+        "start": 952.139,
+        "duration": 6.0
+    },
+    {
+        "text": "it works it operates on a shared",
+        "start": 955.519,
+        "duration": 5.62
+    },
+    {
+        "text": "responsibility model so sense control",
+        "start": 958.139,
+        "duration": 6.801
+    },
+    {
+        "text": "plane is totally managed by Microsoft",
+        "start": 961.139,
+        "duration": 7.021
+    },
+    {
+        "text": "some of the responsibilities are owned",
+        "start": 964.94,
+        "duration": 6.519
+    },
+    {
+        "text": "by Microsoft for example Microsoft",
+        "start": 968.16,
+        "duration": 6.179
+    },
+    {
+        "text": "ensures the scalability and reliability",
+        "start": 971.459,
+        "duration": 5.82
+    },
+    {
+        "text": "aspects of your control plane it does",
+        "start": 974.339,
+        "duration": 5.161
+    },
+    {
+        "text": "ensures that monitoring and logging is",
+        "start": 977.279,
+        "duration": 4.68
+    },
+    {
+        "text": "implemented in your control plane but",
+        "start": 979.5,
+        "duration": 3.66
+    },
+    {
+        "text": "when it comes to running your",
+        "start": 981.959,
+        "duration": 3.721
+    },
+    {
+        "text": "application workloads in your worker",
+        "start": 983.16,
+        "duration": 4.76
+    },
+    {
+        "text": "nodes",
+        "start": 985.68,
+        "duration": 4.92
+    },
+    {
+        "text": "designing your work and node strategy is",
+        "start": 987.92,
+        "duration": 5.08
+    },
+    {
+        "text": "all on your own",
+        "start": 990.6,
+        "duration": 4.679
+    },
+    {
+        "text": "it's your own responsibility to handle",
+        "start": 993.0,
+        "duration": 4.44
+    },
+    {
+        "text": "that some of the benefits you get out of",
+        "start": 995.279,
+        "duration": 5.701
+    },
+    {
+        "text": "using a managed service like AKs over",
+        "start": 997.44,
+        "duration": 5.899
+    },
+    {
+        "text": "running your own kubernetes cluster and",
+        "start": 1000.98,
+        "duration": 5.82
+    },
+    {
+        "text": "setting it up the hard way as kills the",
+        "start": 1003.339,
+        "duration": 4.721
+    },
+    {
+        "text": "high tower asset",
+        "start": 1006.8,
+        "duration": 4.26
+    },
+    {
+        "text": "suggested is certainly like any other",
+        "start": 1008.06,
+        "duration": 5.519
+    },
+    {
+        "text": "pass service you get automated upgrades",
+        "start": 1011.06,
+        "duration": 4.5
+    },
+    {
+        "text": "and patches it supports highly High",
+        "start": 1013.579,
+        "duration": 4.801
+    },
+    {
+        "text": "reliability and availability uh itself",
+        "start": 1015.56,
+        "duration": 5.459
+    },
+    {
+        "text": "feeling if anything happens in your uh",
+        "start": 1018.38,
+        "duration": 4.8
+    },
+    {
+        "text": "control plane or if any of your node",
+        "start": 1021.019,
+        "duration": 3.78
+    },
+    {
+        "text": "goes down in worker node you can",
+        "start": 1023.18,
+        "duration": 3.899
+    },
+    {
+        "text": "configure it for self-healing and",
+        "start": 1024.799,
+        "duration": 4.321
+    },
+    {
+        "text": "control plane is totally at no charge",
+        "start": 1027.079,
+        "duration": 4.321
+    },
+    {
+        "text": "you still pay for the Computing compute",
+        "start": 1029.12,
+        "duration": 4.079
+    },
+    {
+        "text": "storage and networking resources for",
+        "start": 1031.4,
+        "duration": 4.919
+    },
+    {
+        "text": "your worker node and your API server",
+        "start": 1033.199,
+        "duration": 5.161
+    },
+    {
+        "text": "which is a component in your control",
+        "start": 1036.319,
+        "duration": 5.281
+    },
+    {
+        "text": "plane is monitored by Microsoft at no",
+        "start": 1038.36,
+        "duration": 6.079
+    },
+    {
+        "text": "cost for you",
+        "start": 1041.6,
+        "duration": 2.839
+    },
+    {
+        "text": "yeah and it is very easy also to get",
+        "start": 1044.6,
+        "duration": 6.84
+    },
+    {
+        "text": "started uh I I believe everyone on this",
+        "start": 1047.24,
+        "duration": 6.3
+    },
+    {
+        "text": "call would have used one of these",
+        "start": 1051.44,
+        "duration": 4.38
+    },
+    {
+        "text": "different methods to provision any of",
+        "start": 1053.54,
+        "duration": 5.519
+    },
+    {
+        "text": "the other Azure resources similarly for",
+        "start": 1055.82,
+        "duration": 5.28
+    },
+    {
+        "text": "AKs if you are looking to create or",
+        "start": 1059.059,
+        "duration": 4.801
+    },
+    {
+        "text": "configure an AKs cluster you can utilize",
+        "start": 1061.1,
+        "duration": 6.12
+    },
+    {
+        "text": "Azure CLI and use azaks create command",
+        "start": 1063.86,
+        "duration": 5.28
+    },
+    {
+        "text": "if you are using Azure Powershell you",
+        "start": 1067.22,
+        "duration": 5.16
+    },
+    {
+        "text": "can use new azaks cluster command you",
+        "start": 1069.14,
+        "duration": 5.7
+    },
+    {
+        "text": "can certainly go ahead and create a new",
+        "start": 1072.38,
+        "duration": 4.32
+    },
+    {
+        "text": "Azure kubernetes service cluster",
+        "start": 1074.84,
+        "duration": 4.44
+    },
+    {
+        "text": "directly in Azure portal you can utilize",
+        "start": 1076.7,
+        "duration": 4.68
+    },
+    {
+        "text": "Azure arm templates or the newly",
+        "start": 1079.28,
+        "duration": 5.82
+    },
+    {
+        "text": "announced bicep language and you can",
+        "start": 1081.38,
+        "duration": 6.06
+    },
+    {
+        "text": "also utilize Azure rest based management",
+        "start": 1085.1,
+        "duration": 5.52
+    },
+    {
+        "text": "API you can make a put call to their API",
+        "start": 1087.44,
+        "duration": 6.9
+    },
+    {
+        "text": "to create a new AKs cluster for you uh",
+        "start": 1090.62,
+        "duration": 5.7
+    },
+    {
+        "text": "the advantage you get out of an offering",
+        "start": 1094.34,
+        "duration": 5.64
+    },
+    {
+        "text": "like AKs is if you any one of you have",
+        "start": 1096.32,
+        "duration": 6.479
+    },
+    {
+        "text": "worked on humanities in the past or if",
+        "start": 1099.98,
+        "duration": 4.439
+    },
+    {
+        "text": "you will go through the steps that",
+        "start": 1102.799,
+        "duration": 4.801
+    },
+    {
+        "text": "Kelsey has listed in his GitHub repo you",
+        "start": 1104.419,
+        "duration": 5.161
+    },
+    {
+        "text": "will see the old way was if you have to",
+        "start": 1107.6,
+        "duration": 4.86
+    },
+    {
+        "text": "set up your kubernetes cluster just to",
+        "start": 1109.58,
+        "duration": 4.86
+    },
+    {
+        "text": "create it you have to provision your",
+        "start": 1112.46,
+        "duration": 3.599
+    },
+    {
+        "text": "network you have to provision virtual",
+        "start": 1114.44,
+        "duration": 6.119
+    },
+    {
+        "text": "machines to host both your uh control as",
+        "start": 1116.059,
+        "duration": 6.181
+    },
+    {
+        "text": "well as the worker plane you have to",
+        "start": 1120.559,
+        "duration": 4.201
+    },
+    {
+        "text": "install all these system components",
+        "start": 1122.24,
+        "duration": 5.88
+    },
+    {
+        "text": "including hcd database API server",
+        "start": 1124.76,
+        "duration": 5.88
+    },
+    {
+        "text": "cubelets and so on you have to create",
+        "start": 1128.12,
+        "duration": 4.5
+    },
+    {
+        "text": "and install and manage certificates",
+        "start": 1130.64,
+        "duration": 4.62
+    },
+    {
+        "text": "across all these servers you have to",
+        "start": 1132.62,
+        "duration": 5.4
+    },
+    {
+        "text": "register your worker agent notes with",
+        "start": 1135.26,
+        "duration": 5.159
+    },
+    {
+        "text": "the control plane so that scheduler can",
+        "start": 1138.02,
+        "duration": 5.519
+    },
+    {
+        "text": "work with them so it was a hectic thing",
+        "start": 1140.419,
+        "duration": 5.101
+    },
+    {
+        "text": "if you want to start with creating a",
+        "start": 1143.539,
+        "duration": 4.441
+    },
+    {
+        "text": "kubernetes cluster from scratch but when",
+        "start": 1145.52,
+        "duration": 4.86
+    },
+    {
+        "text": "you move to Azure using Azure kubernetes",
+        "start": 1147.98,
+        "duration": 5.579
+    },
+    {
+        "text": "service it's as simple as using azaks",
+        "start": 1150.38,
+        "duration": 5.4
+    },
+    {
+        "text": "read command in CLI or any other",
+        "start": 1153.559,
+        "duration": 4.381
+    },
+    {
+        "text": "competitive command using Powershell or",
+        "start": 1155.78,
+        "duration": 3.66
+    },
+    {
+        "text": "using rest API",
+        "start": 1157.94,
+        "duration": 3.239
+    },
+    {
+        "text": "likewise if you have to upgrade your",
+        "start": 1159.44,
+        "duration": 4.32
+    },
+    {
+        "text": "cluster it you it used to be a set of",
+        "start": 1161.179,
+        "duration": 5.101
+    },
+    {
+        "text": "steps that you had to perform before you",
+        "start": 1163.76,
+        "duration": 5.46
+    },
+    {
+        "text": "can upgrade your cluster whereas if you",
+        "start": 1166.28,
+        "duration": 5.16
+    },
+    {
+        "text": "utilize a service like AKs it is as",
+        "start": 1169.22,
+        "duration": 4.339
+    },
+    {
+        "text": "simple as using a single command like",
+        "start": 1171.44,
+        "duration": 4.26
+    },
+    {
+        "text": "azks upgrade",
+        "start": 1173.559,
+        "duration": 4.301
+    },
+    {
+        "text": "stealing is another aspect of managing",
+        "start": 1175.7,
+        "duration": 3.54
+    },
+    {
+        "text": "your kubernetes cluster because",
+        "start": 1177.86,
+        "duration": 3.54
+    },
+    {
+        "text": "depending upon your workloads you have",
+        "start": 1179.24,
+        "duration": 5.299
+    },
+    {
+        "text": "to scale up or scale out your",
+        "start": 1181.4,
+        "duration": 7.2
+    },
+    {
+        "text": "kubernetes worker nodes it used to take",
+        "start": 1184.539,
+        "duration": 5.981
+    },
+    {
+        "text": "time to provision your new virtual",
+        "start": 1188.6,
+        "duration": 4.68
+    },
+    {
+        "text": "machines install the worker plane",
+        "start": 1190.52,
+        "duration": 4.74
+    },
+    {
+        "text": "components to it register those with the",
+        "start": 1193.28,
+        "duration": 4.8
+    },
+    {
+        "text": "API servers and so on whereas with a",
+        "start": 1195.26,
+        "duration": 5.039
+    },
+    {
+        "text": "service like AKs it is as simple as",
+        "start": 1198.08,
+        "duration": 6.06
+    },
+    {
+        "text": "calling easy AKs scale command",
+        "start": 1200.299,
+        "duration": 7.081
+    },
+    {
+        "text": "uh with that let me quickly showcase to",
+        "start": 1204.14,
+        "duration": 5.539
+    },
+    {
+        "text": "you",
+        "start": 1207.38,
+        "duration": 2.299
+    },
+    {
+        "text": "uh a quick demo",
+        "start": 1210.039,
+        "duration": 3.781
+    },
+    {
+        "text": "so what I have done is uh I have already",
+        "start": 1214.16,
+        "duration": 4.56
+    },
+    {
+        "text": "gone into Azure portal and I have",
+        "start": 1216.559,
+        "duration": 4.021
+    },
+    {
+        "text": "created a resource group called RG",
+        "start": 1218.72,
+        "duration": 5.459
+    },
+    {
+        "text": "Boston Azure for this particular demo I",
+        "start": 1220.58,
+        "duration": 8.219
+    },
+    {
+        "text": "went ahead and I created uh",
+        "start": 1224.179,
+        "duration": 7.801
+    },
+    {
+        "text": "I logged in into my Azure subscription I",
+        "start": 1228.799,
+        "duration": 4.921
+    },
+    {
+        "text": "went ahead and I created a resource",
+        "start": 1231.98,
+        "duration": 4.559
+    },
+    {
+        "text": "Group here which is this RG Boston Azure",
+        "start": 1233.72,
+        "duration": 6.12
+    },
+    {
+        "text": "then I went ahead and I utilized a zaks",
+        "start": 1236.539,
+        "duration": 5.161
+    },
+    {
+        "text": "create command I have provided my",
+        "start": 1239.84,
+        "duration": 4.68
+    },
+    {
+        "text": "Resource Group name there I provided the",
+        "start": 1241.7,
+        "duration": 5.4
+    },
+    {
+        "text": "name of my kubernetes cluster there I",
+        "start": 1244.52,
+        "duration": 4.38
+    },
+    {
+        "text": "have provided the node count which is",
+        "start": 1247.1,
+        "duration": 5.22
+    },
+    {
+        "text": "one I only want one worker node then I",
+        "start": 1248.9,
+        "duration": 5.88
+    },
+    {
+        "text": "have enabled monitoring add-on for now I",
+        "start": 1252.32,
+        "duration": 4.68
+    },
+    {
+        "text": "want my AKs cluster to be monitored and",
+        "start": 1254.78,
+        "duration": 4.86
+    },
+    {
+        "text": "I also want to generate SSH keys so that",
+        "start": 1257.0,
+        "duration": 5.72
+    },
+    {
+        "text": "I can connect my Azure CLI instance to",
+        "start": 1259.64,
+        "duration": 7.08
+    },
+    {
+        "text": "manage my AKs cluster and unlike a",
+        "start": 1262.72,
+        "duration": 6.16
+    },
+    {
+        "text": "kubernetes cluster if I have to do from",
+        "start": 1266.72,
+        "duration": 4.5
+    },
+    {
+        "text": "scratch it would have taken hours for me",
+        "start": 1268.88,
+        "duration": 4.679
+    },
+    {
+        "text": "this particular command took less than",
+        "start": 1271.22,
+        "duration": 4.56
+    },
+    {
+        "text": "three minutes for me to create",
+        "start": 1273.559,
+        "duration": 4.441
+    },
+    {
+        "text": "everything for me",
+        "start": 1275.78,
+        "duration": 4.139
+    },
+    {
+        "text": "and what you are seeing on the right",
+        "start": 1278.0,
+        "duration": 5.88
+    },
+    {
+        "text": "side is a q a race cluster uh that just",
+        "start": 1279.919,
+        "duration": 6.961
+    },
+    {
+        "text": "got created is it's",
+        "start": 1283.88,
+        "duration": 5.94
+    },
+    {
+        "text": "it is an AKs cluster what I have also",
+        "start": 1286.88,
+        "duration": 5.1
+    },
+    {
+        "text": "done is I've linked this particular",
+        "start": 1289.82,
+        "duration": 5.219
+    },
+    {
+        "text": "kubernetes cluster 2 and Azure container",
+        "start": 1291.98,
+        "duration": 6.6
+    },
+    {
+        "text": "registry uh I can host my images in the",
+        "start": 1295.039,
+        "duration": 6.661
+    },
+    {
+        "text": "is ACR in this particular ACR as of now",
+        "start": 1298.58,
+        "duration": 4.92
+    },
+    {
+        "text": "I don't have any image in there but I",
+        "start": 1301.7,
+        "duration": 4.62
+    },
+    {
+        "text": "can I've already linked this ACR to my",
+        "start": 1303.5,
+        "duration": 5.7
+    },
+    {
+        "text": "kubernetes instance here in eks so that",
+        "start": 1306.32,
+        "duration": 5.28
+    },
+    {
+        "text": "I can deploy my images directly from",
+        "start": 1309.2,
+        "duration": 4.74
+    },
+    {
+        "text": "that particular ACR rather than from any",
+        "start": 1311.6,
+        "duration": 4.98
+    },
+    {
+        "text": "other external repository and as you can",
+        "start": 1313.94,
+        "duration": 4.68
+    },
+    {
+        "text": "see it is pretty straightforward it is",
+        "start": 1316.58,
+        "duration": 5.099
+    },
+    {
+        "text": "running on version 1.2 24.9 you will",
+        "start": 1318.62,
+        "duration": 4.98
+    },
+    {
+        "text": "notice that I did mention in one of the",
+        "start": 1321.679,
+        "duration": 3.901
+    },
+    {
+        "text": "slides on kubernetes the latest version",
+        "start": 1323.6,
+        "duration": 6.12
+    },
+    {
+        "text": "is 1.26.1 but the kubernetes version on",
+        "start": 1325.58,
+        "duration": 7.32
+    },
+    {
+        "text": "which AKs is running its older one and",
+        "start": 1329.72,
+        "duration": 4.8
+    },
+    {
+        "text": "there is a specific reason for that",
+        "start": 1332.9,
+        "duration": 5.84
+    },
+    {
+        "text": "because kubernetes releases versions",
+        "start": 1334.52,
+        "duration": 6.72
+    },
+    {
+        "text": "earlier stage than when these Cloud",
+        "start": 1338.74,
+        "duration": 4.48
+    },
+    {
+        "text": "providers release those versions because",
+        "start": 1341.24,
+        "duration": 3.84
+    },
+    {
+        "text": "whenever a version of kubernetes is",
+        "start": 1343.22,
+        "duration": 4.5
+    },
+    {
+        "text": "released hyperscalers like Microsoft",
+        "start": 1345.08,
+        "duration": 6.36
+    },
+    {
+        "text": "Amazon and Google go back and they make",
+        "start": 1347.72,
+        "duration": 5.339
+    },
+    {
+        "text": "the appropriate changes in the version",
+        "start": 1351.44,
+        "duration": 3.9
+    },
+    {
+        "text": "so that they can support their managed",
+        "start": 1353.059,
+        "duration": 5.341
+    },
+    {
+        "text": "offering based on kubernetes before they",
+        "start": 1355.34,
+        "duration": 5.28
+    },
+    {
+        "text": "can release the updated version so if",
+        "start": 1358.4,
+        "duration": 6.3
+    },
+    {
+        "text": "it'll go here under the configuration",
+        "start": 1360.62,
+        "duration": 4.08
+    },
+    {
+        "text": "not here",
+        "start": 1371.24,
+        "duration": 2.9
+    },
+    {
+        "text": "cluster configuration here you can go",
+        "start": 1374.539,
+        "duration": 4.081
+    },
+    {
+        "text": "ahead and you can see the main version",
+        "start": 1376.64,
+        "duration": 4.019
+    },
+    {
+        "text": "that it is there it is currently set to",
+        "start": 1378.62,
+        "duration": 4.08
+    },
+    {
+        "text": "manual upgrade but you can certainly go",
+        "start": 1380.659,
+        "duration": 5.281
+    },
+    {
+        "text": "ahead and get it updated upgraded to our",
+        "start": 1382.7,
+        "duration": 5.16
+    },
+    {
+        "text": "highest version that is supported by",
+        "start": 1385.94,
+        "duration": 4.859
+    },
+    {
+        "text": "microsoftware which is 1.25.5 you can",
+        "start": 1387.86,
+        "duration": 5.34
+    },
+    {
+        "text": "change it to automatic upgrade currently",
+        "start": 1390.799,
+        "duration": 4.981
+    },
+    {
+        "text": "it is disabled and if you will go and",
+        "start": 1393.2,
+        "duration": 4.74
+    },
+    {
+        "text": "look into node pools as I said I have",
+        "start": 1395.78,
+        "duration": 4.139
+    },
+    {
+        "text": "provided it I've asked only to create",
+        "start": 1397.94,
+        "duration": 4.2
+    },
+    {
+        "text": "one node inside my worker node that's",
+        "start": 1399.919,
+        "duration": 5.101
+    },
+    {
+        "text": "why you see here under node count if I",
+        "start": 1402.14,
+        "duration": 5.3
+    },
+    {
+        "text": "go ahead and click here under node tools",
+        "start": 1405.02,
+        "duration": 5.639
+    },
+    {
+        "text": "node pool one you can see I only have",
+        "start": 1407.44,
+        "duration": 5.5
+    },
+    {
+        "text": "one node which is running in here",
+        "start": 1410.659,
+        "duration": 5.161
+    },
+    {
+        "text": "uh another thing you will have to be",
+        "start": 1412.94,
+        "duration": 6.9
+    },
+    {
+        "text": "aware of that if I go here in this AKs",
+        "start": 1415.82,
+        "duration": 6.96
+    },
+    {
+        "text": "resource it's just a single resource but",
+        "start": 1419.84,
+        "duration": 5.16
+    },
+    {
+        "text": "under the hood what Microsoft does is it",
+        "start": 1422.78,
+        "duration": 4.92
+    },
+    {
+        "text": "has also created one more",
+        "start": 1425.0,
+        "duration": 5.46
+    },
+    {
+        "text": "uh managed Resource Group for me for",
+        "start": 1427.7,
+        "duration": 6.359
+    },
+    {
+        "text": "that kubernetes cluster which has which",
+        "start": 1430.46,
+        "duration": 5.699
+    },
+    {
+        "text": "holds all the supporting infrastructure",
+        "start": 1434.059,
+        "duration": 6.061
+    },
+    {
+        "text": "to run my AKs service it has a network",
+        "start": 1436.159,
+        "duration": 5.64
+    },
+    {
+        "text": "security group it has the virtual",
+        "start": 1440.12,
+        "duration": 4.62
+    },
+    {
+        "text": "machine scale set which includes the",
+        "start": 1441.799,
+        "duration": 4.921
+    },
+    {
+        "text": "same node that I created the node count",
+        "start": 1444.74,
+        "duration": 4.679
+    },
+    {
+        "text": "one and if you'll see it is the same",
+        "start": 1446.72,
+        "duration": 4.8
+    },
+    {
+        "text": "node that I was showing you inside the",
+        "start": 1449.419,
+        "duration": 6.181
+    },
+    {
+        "text": "node pool in the AKs cluster it has its",
+        "start": 1451.52,
+        "duration": 6.539
+    },
+    {
+        "text": "own managed identity load balancer it",
+        "start": 1455.6,
+        "duration": 4.62
+    },
+    {
+        "text": "has its own route table to maintain the",
+        "start": 1458.059,
+        "duration": 5.401
+    },
+    {
+        "text": "routes of a bit for communication",
+        "start": 1460.22,
+        "duration": 6.3
+    },
+    {
+        "text": "between your pods",
+        "start": 1463.46,
+        "duration": 6.12
+    },
+    {
+        "text": "going back to that AKs cluster",
+        "start": 1466.52,
+        "duration": 5.88
+    },
+    {
+        "text": "you can go ahead and you can pretty much",
+        "start": 1469.58,
+        "duration": 5.64
+    },
+    {
+        "text": "what you can do using Cube CTL or cube",
+        "start": 1472.4,
+        "duration": 5.46
+    },
+    {
+        "text": "uh kubernetes dashboard or kubernetes",
+        "start": 1475.22,
+        "duration": 6.66
+    },
+    {
+        "text": "API are also exposed through API AKs",
+        "start": 1477.86,
+        "duration": 6.0
+    },
+    {
+        "text": "dashboard here you can maintain",
+        "start": 1481.88,
+        "duration": 3.72
+    },
+    {
+        "text": "everything here and we'll again go",
+        "start": 1483.86,
+        "duration": 3.66
+    },
+    {
+        "text": "through these again once we deploy",
+        "start": 1485.6,
+        "duration": 4.38
+    },
+    {
+        "text": "something to this",
+        "start": 1487.52,
+        "duration": 6.0
+    },
+    {
+        "text": "jumping onto my",
+        "start": 1489.98,
+        "duration": 6.36
+    },
+    {
+        "text": "terminal what I have done is I have",
+        "start": 1493.52,
+        "duration": 4.98
+    },
+    {
+        "text": "switched my",
+        "start": 1496.34,
+        "duration": 6.42
+    },
+    {
+        "text": "context for Local Q a it is Cube CTL to",
+        "start": 1498.5,
+        "duration": 5.52
+    },
+    {
+        "text": "use",
+        "start": 1502.76,
+        "duration": 5.039
+    },
+    {
+        "text": "my k8s Boston Azure kubernetes instance",
+        "start": 1504.02,
+        "duration": 6.539
+    },
+    {
+        "text": "earlier as you would see I only had",
+        "start": 1507.799,
+        "duration": 4.5
+    },
+    {
+        "text": "Docker desktop since I have been using",
+        "start": 1510.559,
+        "duration": 4.021
+    },
+    {
+        "text": "Docker desktop as a container runtime on",
+        "start": 1512.299,
+        "duration": 3.421
+    },
+    {
+        "text": "my laptop",
+        "start": 1514.58,
+        "duration": 3.959
+    },
+    {
+        "text": "but then I went ahead and I have created",
+        "start": 1515.72,
+        "duration": 6.36
+    },
+    {
+        "text": "a context to connect to my AKs",
+        "start": 1518.539,
+        "duration": 7.581
+    },
+    {
+        "text": "cluster using the command",
+        "start": 1522.08,
+        "duration": 4.04
+    },
+    {
+        "text": "credentials as soon as I execute that",
+        "start": 1527.44,
+        "duration": 4.599
+    },
+    {
+        "text": "command remember I have you generate SSH",
+        "start": 1530.12,
+        "duration": 5.46
+    },
+    {
+        "text": "keys in my azaks create command this",
+        "start": 1532.039,
+        "duration": 6.0
+    },
+    {
+        "text": "after that when I execute this command",
+        "start": 1535.58,
+        "duration": 5.28
+    },
+    {
+        "text": "it essentially helps me connect you my",
+        "start": 1538.039,
+        "duration": 7.26
+    },
+    {
+        "text": "AKs cluster and I can then manage my AKs",
+        "start": 1540.86,
+        "duration": 6.78
+    },
+    {
+        "text": "cluster using cubectl online top and",
+        "start": 1545.299,
+        "duration": 4.701
+    },
+    {
+        "text": "desktop",
+        "start": 1547.64,
+        "duration": 2.36
+    },
+    {
+        "text": "so let me go ahead and",
+        "start": 1550.039,
+        "duration": 5.041
+    },
+    {
+        "text": "clear this I'll go ahead and",
+        "start": 1557.84,
+        "duration": 5.6
+    },
+    {
+        "text": "uh let's say let's start with",
+        "start": 1563.659,
+        "duration": 7.081
+    },
+    {
+        "text": "q c here",
+        "start": 1567.98,
+        "duration": 6.059
+    },
+    {
+        "text": "create deployment",
+        "start": 1570.74,
+        "duration": 6.439
+    },
+    {
+        "text": "and Gen X",
+        "start": 1574.039,
+        "duration": 3.14
+    },
+    {
+        "text": "essentially this is a plain Cube CTL",
+        "start": 1580.34,
+        "duration": 4.38
+    },
+    {
+        "text": "command that we will execute it against",
+        "start": 1582.98,
+        "duration": 4.319
+    },
+    {
+        "text": "any kubernetes instance in this case",
+        "start": 1584.72,
+        "duration": 4.559
+    },
+    {
+        "text": "since our set the context to connect to",
+        "start": 1587.299,
+        "duration": 5.101
+    },
+    {
+        "text": "my uks instance I'm going to create a",
+        "start": 1589.279,
+        "duration": 5.4
+    },
+    {
+        "text": "deployment Engineers deployment",
+        "start": 1592.4,
+        "duration": 4.379
+    },
+    {
+        "text": "on my uh",
+        "start": 1594.679,
+        "duration": 5.421
+    },
+    {
+        "text": "eks cluster",
+        "start": 1596.779,
+        "duration": 3.321
+    },
+    {
+        "text": "let me get my",
+        "start": 1600.62,
+        "duration": 4.679
+    },
+    {
+        "text": "as you can see there is one nginx",
+        "start": 1603.2,
+        "duration": 6.38
+    },
+    {
+        "text": "deployment running there let me see",
+        "start": 1605.299,
+        "duration": 4.281
+    },
+    {
+        "text": "there is only single part let me go back",
+        "start": 1610.22,
+        "duration": 6.12
+    },
+    {
+        "text": "to Azure portal and refresh this and",
+        "start": 1612.919,
+        "duration": 5.821
+    },
+    {
+        "text": "here's the nginx deployment that I just",
+        "start": 1616.34,
+        "duration": 4.74
+    },
+    {
+        "text": "created as you can see it's only running",
+        "start": 1618.74,
+        "duration": 4.799
+    },
+    {
+        "text": "one single instance to ensure that I'm",
+        "start": 1621.08,
+        "duration": 5.099
+    },
+    {
+        "text": "connected to the correct instance let me",
+        "start": 1623.539,
+        "duration": 8.221
+    },
+    {
+        "text": "go ahead and edit my deployment",
+        "start": 1626.179,
+        "duration": 5.581
+    },
+    {
+        "text": "so this is my yaml deployment file which",
+        "start": 1636.14,
+        "duration": 5.399
+    },
+    {
+        "text": "when I have executed the command using",
+        "start": 1638.96,
+        "duration": 5.28
+    },
+    {
+        "text": "cubectl to create a deployment for nginx",
+        "start": 1641.539,
+        "duration": 4.941
+    },
+    {
+        "text": "it has downloaded an image",
+        "start": 1644.24,
+        "duration": 5.34
+    },
+    {
+        "text": "and it has created a yaml for my",
+        "start": 1646.48,
+        "duration": 4.84
+    },
+    {
+        "text": "kubernetes",
+        "start": 1649.58,
+        "duration": 4.32
+    },
+    {
+        "text": "Lester and this is where it is saying",
+        "start": 1651.32,
+        "duration": 4.2
+    },
+    {
+        "text": "that it should be creating one replica",
+        "start": 1653.9,
+        "duration": 4.8
+    },
+    {
+        "text": "I'm going to make it two and I'm going",
+        "start": 1655.52,
+        "duration": 6.0
+    },
+    {
+        "text": "to exit and Save",
+        "start": 1658.7,
+        "duration": 7.02
+    },
+    {
+        "text": "so I'll go back and pull kubernetes Cube",
+        "start": 1661.52,
+        "duration": 6.48
+    },
+    {
+        "text": "CDL get deployment as we will see now",
+        "start": 1665.72,
+        "duration": 5.939
+    },
+    {
+        "text": "I'm running to dip two in replicas let",
+        "start": 1668.0,
+        "duration": 6.059
+    },
+    {
+        "text": "me go ahead and see Cube Ctrl get parts",
+        "start": 1671.659,
+        "duration": 4.5
+    },
+    {
+        "text": "as you will see there are not two parts",
+        "start": 1674.059,
+        "duration": 4.86
+    },
+    {
+        "text": "running for my deployment and you go",
+        "start": 1676.159,
+        "duration": 4.5
+    },
+    {
+        "text": "ahead to in Azure portal and go ahead",
+        "start": 1678.919,
+        "duration": 4.5
+    },
+    {
+        "text": "and refresh and as you will see I have",
+        "start": 1680.659,
+        "duration": 4.321
+    },
+    {
+        "text": "one more part running",
+        "start": 1683.419,
+        "duration": 4.441
+    },
+    {
+        "text": "earlier it was only one",
+        "start": 1684.98,
+        "duration": 5.579
+    },
+    {
+        "text": "likewise I mean I can execute any of the",
+        "start": 1687.86,
+        "duration": 6.059
+    },
+    {
+        "text": "kubernetes uh Cube CTL commands on eks",
+        "start": 1690.559,
+        "duration": 5.821
+    },
+    {
+        "text": "like it would be for any other uh",
+        "start": 1693.919,
+        "duration": 6.12
+    },
+    {
+        "text": "kubernetes implementation I can go ahead",
+        "start": 1696.38,
+        "duration": 5.159
+    },
+    {
+        "text": "and",
+        "start": 1700.039,
+        "duration": 4.26
+    },
+    {
+        "text": "get services",
+        "start": 1701.539,
+        "duration": 4.681
+    },
+    {
+        "text": "as you can see right now I don't have",
+        "start": 1704.299,
+        "duration": 4.98
+    },
+    {
+        "text": "any uh load balancer service hence I",
+        "start": 1706.22,
+        "duration": 6.12
+    },
+    {
+        "text": "cannot really connect to uh the nginx",
+        "start": 1709.279,
+        "duration": 5.4
+    },
+    {
+        "text": "deployment just that I just had in",
+        "start": 1712.34,
+        "duration": 5.219
+    },
+    {
+        "text": "kubernetes in my AKs instance I'm going",
+        "start": 1714.679,
+        "duration": 4.86
+    },
+    {
+        "text": "to go ahead and create a load balance of",
+        "start": 1717.559,
+        "duration": 4.261
+    },
+    {
+        "text": "service there using Cube CTL exposed",
+        "start": 1719.539,
+        "duration": 4.38
+    },
+    {
+        "text": "deployment command so essentially what",
+        "start": 1721.82,
+        "duration": 4.44
+    },
+    {
+        "text": "I'm doing here is in my nginx deployment",
+        "start": 1723.919,
+        "duration": 4.201
+    },
+    {
+        "text": "that I just had",
+        "start": 1726.26,
+        "duration": 4.86
+    },
+    {
+        "text": "I'm creating a new service of type load",
+        "start": 1728.12,
+        "duration": 4.38
+    },
+    {
+        "text": "balancer",
+        "start": 1731.12,
+        "duration": 4.38
+    },
+    {
+        "text": "which will expose my nginx server on",
+        "start": 1732.5,
+        "duration": 7.559
+    },
+    {
+        "text": "Port 80 to on Port 8765 I'll go ahead",
+        "start": 1735.5,
+        "duration": 7.32
+    },
+    {
+        "text": "and create that let me go ahead and do",
+        "start": 1740.059,
+        "duration": 5.821
+    },
+    {
+        "text": "cubesatel cap Services again as I will",
+        "start": 1742.82,
+        "duration": 4.68
+    },
+    {
+        "text": "see you will see my load balancer",
+        "start": 1745.88,
+        "duration": 4.14
+    },
+    {
+        "text": "service is created but it is still",
+        "start": 1747.5,
+        "duration": 5.52
+    },
+    {
+        "text": "pending I'll wait for it to be ready as",
+        "start": 1750.02,
+        "duration": 5.519
+    },
+    {
+        "text": "soon as it gets ready you will see that",
+        "start": 1753.02,
+        "duration": 4.44
+    },
+    {
+        "text": "it has already assigned a public IP",
+        "start": 1755.539,
+        "duration": 4.74
+    },
+    {
+        "text": "address and as you will see that public",
+        "start": 1757.46,
+        "duration": 5.52
+    },
+    {
+        "text": "IP address in Cube CTL you can see the",
+        "start": 1760.279,
+        "duration": 5.041
+    },
+    {
+        "text": "same information inside service and",
+        "start": 1762.98,
+        "duration": 5.88
+    },
+    {
+        "text": "increases section in AKs portal if I go",
+        "start": 1765.32,
+        "duration": 5.76
+    },
+    {
+        "text": "ahead and look here you will see nginx",
+        "start": 1768.86,
+        "duration": 5.28
+    },
+    {
+        "text": "service that just got created that is in",
+        "start": 1771.08,
+        "duration": 6.06
+    },
+    {
+        "text": "Cube CTL and it is the same IP address",
+        "start": 1774.14,
+        "duration": 5.7
+    },
+    {
+        "text": "if I go ahead and click on that it won't",
+        "start": 1777.14,
+        "duration": 4.98
+    },
+    {
+        "text": "go to anywhere because it's listening on",
+        "start": 1779.84,
+        "duration": 5.66
+    },
+    {
+        "text": "Port 80 but instead I want to go and",
+        "start": 1782.12,
+        "duration": 7.74
+    },
+    {
+        "text": "see access it on Port 8765 where my",
+        "start": 1785.5,
+        "duration": 7.799
+    },
+    {
+        "text": "engine X is listening",
+        "start": 1789.86,
+        "duration": 3.439
+    },
+    {
+        "text": "and here is my engine x uh deployment",
+        "start": 1801.98,
+        "duration": 6.919
+    },
+    {
+        "text": "responding within AKs",
+        "start": 1804.98,
+        "duration": 8.76
+    },
+    {
+        "text": "so with that let me jump on to my slides",
+        "start": 1808.899,
+        "duration": 7.721
+    },
+    {
+        "text": "but the idea here was to Showcase that",
+        "start": 1813.74,
+        "duration": 5.34
+    },
+    {
+        "text": "how easy it is to get started to get",
+        "start": 1816.62,
+        "duration": 4.799
+    },
+    {
+        "text": "this particular nginx deployment",
+        "start": 1819.08,
+        "duration": 5.699
+    },
+    {
+        "text": "working uh including the creation of the",
+        "start": 1821.419,
+        "duration": 5.88
+    },
+    {
+        "text": "AKs cluster then took me more than five",
+        "start": 1824.779,
+        "duration": 5.301
+    },
+    {
+        "text": "to seven minutes",
+        "start": 1827.299,
+        "duration": 2.781
+    },
+    {
+        "text": "moving on I wanted to touch upon some of",
+        "start": 1831.02,
+        "duration": 4.62
+    },
+    {
+        "text": "the concepts around AKs when you are",
+        "start": 1833.48,
+        "duration": 4.439
+    },
+    {
+        "text": "creating your AKs cluster there are two",
+        "start": 1835.64,
+        "duration": 4.56
+    },
+    {
+        "text": "different options you can create you can",
+        "start": 1837.919,
+        "duration": 4.921
+    },
+    {
+        "text": "set up networking inside your Azure",
+        "start": 1840.2,
+        "duration": 5.52
+    },
+    {
+        "text": "kubernetes service cluster the first uh",
+        "start": 1842.84,
+        "duration": 5.819
+    },
+    {
+        "text": "option is to utilize cubenet networking",
+        "start": 1845.72,
+        "duration": 5.459
+    },
+    {
+        "text": "in which typically the network resources",
+        "start": 1848.659,
+        "duration": 4.861
+    },
+    {
+        "text": "are created and configured as the AKs",
+        "start": 1851.179,
+        "duration": 5.281
+    },
+    {
+        "text": "cluster is deployed meaning uh you",
+        "start": 1853.52,
+        "duration": 5.759
+    },
+    {
+        "text": "create a node you create your pots each",
+        "start": 1856.46,
+        "duration": 4.62
+    },
+    {
+        "text": "of the Pod gets its own IP address",
+        "start": 1859.279,
+        "duration": 3.961
+    },
+    {
+        "text": "likewise the node gets its own IP",
+        "start": 1861.08,
+        "duration": 4.319
+    },
+    {
+        "text": "address then when you create an AKs",
+        "start": 1863.24,
+        "duration": 3.78
+    },
+    {
+        "text": "cluster it also creates a virtual",
+        "start": 1865.399,
+        "duration": 4.14
+    },
+    {
+        "text": "Network and creates a subnet so what",
+        "start": 1867.02,
+        "duration": 4.259
+    },
+    {
+        "text": "happens is in",
+        "start": 1869.539,
+        "duration": 5.101
+    },
+    {
+        "text": "your node gets the IP address from the",
+        "start": 1871.279,
+        "duration": 5.64
+    },
+    {
+        "text": "subnet within the virtual Network that",
+        "start": 1874.64,
+        "duration": 5.519
+    },
+    {
+        "text": "you created whereas inside each node it",
+        "start": 1876.919,
+        "duration": 6.48
+    },
+    {
+        "text": "meant kubernetes maintains its own cider",
+        "start": 1880.159,
+        "duration": 5.88
+    },
+    {
+        "text": "range for the IP addresses that can be",
+        "start": 1883.399,
+        "duration": 4.921
+    },
+    {
+        "text": "used for assigning IP addresses to your",
+        "start": 1886.039,
+        "duration": 4.62
+    },
+    {
+        "text": "Port foreign for your pods for example",
+        "start": 1888.32,
+        "duration": 5.339
+    },
+    {
+        "text": "in this particular example in this node",
+        "start": 1890.659,
+        "duration": 7.4
+    },
+    {
+        "text": "uh it has assigned aside a range of",
+        "start": 1893.659,
+        "duration": 8.341
+    },
+    {
+        "text": "10.10.0.16 so any parts that gets pinned",
+        "start": 1898.059,
+        "duration": 6.521
+    },
+    {
+        "text": "up in in this node gets IP address from",
+        "start": 1902.0,
+        "duration": 5.52
+    },
+    {
+        "text": "this particular range whereas the node",
+        "start": 1904.58,
+        "duration": 4.44
+    },
+    {
+        "text": "on which all these parts were running",
+        "start": 1907.52,
+        "duration": 3.84
+    },
+    {
+        "text": "get their IP address from the subnet",
+        "start": 1909.02,
+        "duration": 5.46
+    },
+    {
+        "text": "range so if there are multiple nodes the",
+        "start": 1911.36,
+        "duration": 6.059
+    },
+    {
+        "text": "nodes as soon as you get a new node",
+        "start": 1914.48,
+        "duration": 5.34
+    },
+    {
+        "text": "created in your AKs cluster it gets an",
+        "start": 1917.419,
+        "duration": 5.101
+    },
+    {
+        "text": "IP address from the subnet whereas each",
+        "start": 1919.82,
+        "duration": 4.859
+    },
+    {
+        "text": "node then comes up with its own cider",
+        "start": 1922.52,
+        "duration": 5.519
+    },
+    {
+        "text": "range and it creates those spots the",
+        "start": 1924.679,
+        "duration": 6.36
+    },
+    {
+        "text": "challenge here is that your uh",
+        "start": 1928.039,
+        "duration": 5.76
+    },
+    {
+        "text": "Bots running in one node cannot talk to",
+        "start": 1931.039,
+        "duration": 4.38
+    },
+    {
+        "text": "the ports running in the other not",
+        "start": 1933.799,
+        "duration": 4.201
+    },
+    {
+        "text": "because they are running on different",
+        "start": 1935.419,
+        "duration": 5.101
+    },
+    {
+        "text": "cider range and there is no mechanism to",
+        "start": 1938.0,
+        "duration": 4.5
+    },
+    {
+        "text": "between them so that they can talk to",
+        "start": 1940.52,
+        "duration": 4.98
+    },
+    {
+        "text": "each other uh to enable the",
+        "start": 1942.5,
+        "duration": 5.64
+    },
+    {
+        "text": "communication between those parts uh",
+        "start": 1945.5,
+        "duration": 5.82
+    },
+    {
+        "text": "What uh the solution uh",
+        "start": 1948.14,
+        "duration": 7.38
+    },
+    {
+        "text": "is or a solution that is workable is to",
+        "start": 1951.32,
+        "duration": 5.82
+    },
+    {
+        "text": "create a route table which gets",
+        "start": 1955.52,
+        "duration": 3.0
+    },
+    {
+        "text": "automatically created if you remember",
+        "start": 1957.14,
+        "duration": 3.36
+    },
+    {
+        "text": "the managed Resource Group I was showing",
+        "start": 1958.52,
+        "duration": 4.259
+    },
+    {
+        "text": "you for AKs it also has a has a route",
+        "start": 1960.5,
+        "duration": 4.94
+    },
+    {
+        "text": "table that route table essentially",
+        "start": 1962.779,
+        "duration": 8.4
+    },
+    {
+        "text": "maintains uh uh entry for all the cider",
+        "start": 1965.44,
+        "duration": 7.959
+    },
+    {
+        "text": "ranges for each of the node to highlight",
+        "start": 1971.179,
+        "duration": 4.921
+    },
+    {
+        "text": "which cider range belongs to which node",
+        "start": 1973.399,
+        "duration": 4.921
+    },
+    {
+        "text": "and using that route table the",
+        "start": 1976.1,
+        "duration": 3.959
+    },
+    {
+        "text": "interaction between the communication",
+        "start": 1978.32,
+        "duration": 4.02
+    },
+    {
+        "text": "between the parts on different nodes",
+        "start": 1980.059,
+        "duration": 4.081
+    },
+    {
+        "text": "becomes possible",
+        "start": 1982.34,
+        "duration": 4.38
+    },
+    {
+        "text": "the other option to implement networking",
+        "start": 1984.14,
+        "duration": 4.98
+    },
+    {
+        "text": "within Azure uh kubernetes services",
+        "start": 1986.72,
+        "duration": 4.319
+    },
+    {
+        "text": "using Azure container networking",
+        "start": 1989.12,
+        "duration": 4.439
+    },
+    {
+        "text": "instance or cni networking",
+        "start": 1991.039,
+        "duration": 5.821
+    },
+    {
+        "text": "so unlike the previous option in this",
+        "start": 1993.559,
+        "duration": 5.34
+    },
+    {
+        "text": "the AKs cluster is connected to the",
+        "start": 1996.86,
+        "duration": 4.08
+    },
+    {
+        "text": "existing virtual network resources and",
+        "start": 1998.899,
+        "duration": 4.201
+    },
+    {
+        "text": "configuration meaning just not the nodes",
+        "start": 2000.94,
+        "duration": 5.04
+    },
+    {
+        "text": "but the underlying pods also get IP",
+        "start": 2003.1,
+        "duration": 5.16
+    },
+    {
+        "text": "addresses from the virtual Network for",
+        "start": 2005.98,
+        "duration": 6.199
+    },
+    {
+        "text": "example if the subnet range was",
+        "start": 2008.26,
+        "duration": 3.919
+    },
+    {
+        "text": "192.168.0.020 your node gets IP address",
+        "start": 2013.98,
+        "duration": 6.16
+    },
+    {
+        "text": "from that but your ports also running",
+        "start": 2017.62,
+        "duration": 5.279
+    },
+    {
+        "text": "inside your node gets virtual IP",
+        "start": 2020.14,
+        "duration": 6.019
+    },
+    {
+        "text": "addresses from that subnet",
+        "start": 2022.899,
+        "duration": 3.26
+    },
+    {
+        "text": "now uh security is another important",
+        "start": 2026.279,
+        "duration": 5.321
+    },
+    {
+        "text": "aspect when you are creating your",
+        "start": 2029.86,
+        "duration": 4.28
+    },
+    {
+        "text": "kubernetes cluster or your AKs cluster",
+        "start": 2031.6,
+        "duration": 4.62
+    },
+    {
+        "text": "AKs comes with different Security",
+        "start": 2034.14,
+        "duration": 4.539
+    },
+    {
+        "text": "Options that you can utilize to start",
+        "start": 2036.22,
+        "duration": 4.74
+    },
+    {
+        "text": "with you can utilize things like Azure",
+        "start": 2038.679,
+        "duration": 4.561
+    },
+    {
+        "text": "policies to enforce compliance on your",
+        "start": 2040.96,
+        "duration": 5.28
+    },
+    {
+        "text": "AKs clusters similar to how you will use",
+        "start": 2043.24,
+        "duration": 5.34
+    },
+    {
+        "text": "Azure policies with any other resource",
+        "start": 2046.24,
+        "duration": 3.24
+    },
+    {
+        "text": "type",
+        "start": 2048.58,
+        "duration": 3.72
+    },
+    {
+        "text": "though kubernetes comes with its own uh",
+        "start": 2049.48,
+        "duration": 5.159
+    },
+    {
+        "text": "rbac you can also utilize Azure active",
+        "start": 2052.3,
+        "duration": 3.839
+    },
+    {
+        "text": "directory for identity and access",
+        "start": 2054.639,
+        "duration": 5.52
+    },
+    {
+        "text": "control for your access AKs clusters AKs",
+        "start": 2056.139,
+        "duration": 7.02
+    },
+    {
+        "text": "supports encryption at rest for all the",
+        "start": 2060.159,
+        "duration": 5.881
+    },
+    {
+        "text": "persisted data by default the data is",
+        "start": 2063.159,
+        "duration": 6.061
+    },
+    {
+        "text": "encrypted using a Microsoft provided key",
+        "start": 2066.04,
+        "duration": 5.76
+    },
+    {
+        "text": "but you can also bring your own key for",
+        "start": 2069.22,
+        "duration": 3.84
+    },
+    {
+        "text": "encryption",
+        "start": 2071.8,
+        "duration": 4.2
+    },
+    {
+        "text": "you can utilize Azure security Center",
+        "start": 2073.06,
+        "duration": 5.22
+    },
+    {
+        "text": "which is a tool for security posture",
+        "start": 2076.0,
+        "duration": 4.56
+    },
+    {
+        "text": "management across your Azure environment",
+        "start": 2078.28,
+        "duration": 5.819
+    },
+    {
+        "text": "and that includes our AKs cluster Azure",
+        "start": 2080.56,
+        "duration": 6.0
+    },
+    {
+        "text": "security Center and Azure Defender has",
+        "start": 2084.099,
+        "duration": 4.08
+    },
+    {
+        "text": "been combined now to be known as",
+        "start": 2086.56,
+        "duration": 3.359
+    },
+    {
+        "text": "Microsoft Defender",
+        "start": 2088.179,
+        "duration": 4.2
+    },
+    {
+        "text": "which offers protection not just for",
+        "start": 2089.919,
+        "duration": 4.44
+    },
+    {
+        "text": "your AKs cluster but rather any",
+        "start": 2092.379,
+        "duration": 3.901
+    },
+    {
+        "text": "kubernetes clusters running anywhere",
+        "start": 2094.359,
+        "duration": 5.521
+    },
+    {
+        "text": "using Azure art and in some situations",
+        "start": 2096.28,
+        "duration": 6.42
+    },
+    {
+        "text": "you would also like to uh your",
+        "start": 2099.88,
+        "duration": 4.979
+    },
+    {
+        "text": "kubernetes API server to be truly",
+        "start": 2102.7,
+        "duration": 5.22
+    },
+    {
+        "text": "private and you will not like it to be",
+        "start": 2104.859,
+        "duration": 6.121
+    },
+    {
+        "text": "accessible from public internet you can",
+        "start": 2107.92,
+        "duration": 5.58
+    },
+    {
+        "text": "achieve that by using a service called",
+        "start": 2110.98,
+        "duration": 5.04
+    },
+    {
+        "text": "as Azure private link which only allows",
+        "start": 2113.5,
+        "duration": 4.26
+    },
+    {
+        "text": "incoming traffic from your private",
+        "start": 2116.02,
+        "duration": 5.4
+    },
+    {
+        "text": "Network and returns 403 forbid an error",
+        "start": 2117.76,
+        "duration": 5.76
+    },
+    {
+        "text": "from everywhere else and again this",
+        "start": 2121.42,
+        "duration": 3.78
+    },
+    {
+        "text": "private link service is just not",
+        "start": 2123.52,
+        "duration": 4.86
+    },
+    {
+        "text": "specific to eks but and you can utilize",
+        "start": 2125.2,
+        "duration": 5.52
+    },
+    {
+        "text": "it with many other services in Azure the",
+        "start": 2128.38,
+        "duration": 4.38
+    },
+    {
+        "text": "idea here is that Azure private link",
+        "start": 2130.72,
+        "duration": 4.98
+    },
+    {
+        "text": "works with AKs and you can utilize that",
+        "start": 2132.76,
+        "duration": 6.06
+    },
+    {
+        "text": "to have truly private AKs clusters",
+        "start": 2135.7,
+        "duration": 5.7
+    },
+    {
+        "text": "lastly you can also use Azure",
+        "start": 2138.82,
+        "duration": 4.74
+    },
+    {
+        "text": "application Gateway along with your web",
+        "start": 2141.4,
+        "duration": 4.679
+    },
+    {
+        "text": "application Fair firewall as an Ingress",
+        "start": 2143.56,
+        "duration": 5.279
+    },
+    {
+        "text": "controller for your eks cluster to",
+        "start": 2146.079,
+        "duration": 4.801
+    },
+    {
+        "text": "improve your overall security posture",
+        "start": 2148.839,
+        "duration": 3.961
+    },
+    {
+        "text": "because then in your application Gateway",
+        "start": 2150.88,
+        "duration": 4.32
+    },
+    {
+        "text": "you can handle and take care take",
+        "start": 2152.8,
+        "duration": 4.62
+    },
+    {
+        "text": "benefit of all the feature sets that are",
+        "start": 2155.2,
+        "duration": 5.46
+    },
+    {
+        "text": "available as part of that Gateway",
+        "start": 2157.42,
+        "duration": 5.34
+    },
+    {
+        "text": "I did touch upon the Azure policies in",
+        "start": 2160.66,
+        "duration": 3.84
+    },
+    {
+        "text": "the last slide but this is just to",
+        "start": 2162.76,
+        "duration": 4.5
+    },
+    {
+        "text": "depict uh how it all looks like at a",
+        "start": 2164.5,
+        "duration": 5.22
+    },
+    {
+        "text": "high level essentially a cloud architect",
+        "start": 2167.26,
+        "duration": 4.62
+    },
+    {
+        "text": "or a cloud engineer assigns a deployment",
+        "start": 2169.72,
+        "duration": 5.52
+    },
+    {
+        "text": "policy across your clusters and then the",
+        "start": 2171.88,
+        "duration": 6.84
+    },
+    {
+        "text": "developer uses a standard kubernetes API",
+        "start": 2175.24,
+        "duration": 6.18
+    },
+    {
+        "text": "it could be Cube CTL it could be at",
+        "start": 2178.72,
+        "duration": 5.58
+    },
+    {
+        "text": "through dashboard developer deploys the",
+        "start": 2181.42,
+        "duration": 7.26
+    },
+    {
+        "text": "cluster and as soon as uh the cluster",
+        "start": 2184.3,
+        "duration": 6.0
+    },
+    {
+        "text": "gets deployed and there is something",
+        "start": 2188.68,
+        "duration": 3.96
+    },
+    {
+        "text": "which is not correct it is detected by",
+        "start": 2190.3,
+        "duration": 5.22
+    },
+    {
+        "text": "the Azure policy and Cloud architect who",
+        "start": 2192.64,
+        "duration": 5.219
+    },
+    {
+        "text": "has created the original policy obtains",
+        "start": 2195.52,
+        "duration": 5.76
+    },
+    {
+        "text": "Cloud compliance report in Azure",
+        "start": 2197.859,
+        "duration": 5.401
+    },
+    {
+        "text": "policies dashboard which shows what's",
+        "start": 2201.28,
+        "duration": 3.54
+    },
+    {
+        "text": "wrong with your clusters that was",
+        "start": 2203.26,
+        "duration": 4.319
+    },
+    {
+        "text": "created now again Azure policies as a",
+        "start": 2204.82,
+        "duration": 4.86
+    },
+    {
+        "text": "concept as our topic can have its own",
+        "start": 2207.579,
+        "duration": 5.04
+    },
+    {
+        "text": "one hour session but in Azure policies",
+        "start": 2209.68,
+        "duration": 4.98
+    },
+    {
+        "text": "you can actually have different levels",
+        "start": 2212.619,
+        "duration": 3.801
+    },
+    {
+        "text": "of uh",
+        "start": 2214.66,
+        "duration": 4.86
+    },
+    {
+        "text": "actions you can or it is called as",
+        "start": 2216.42,
+        "duration": 5.98
+    },
+    {
+        "text": "Effects by default I prefer using audit",
+        "start": 2219.52,
+        "duration": 4.62
+    },
+    {
+        "text": "which doesn't blocks users from doing",
+        "start": 2222.4,
+        "duration": 4.8
+    },
+    {
+        "text": "anything in Azure environment but as an",
+        "start": 2224.14,
+        "duration": 5.34
+    },
+    {
+        "text": "architect I do get a compliance report",
+        "start": 2227.2,
+        "duration": 6.419
+    },
+    {
+        "text": "of what is not uh matching my policy",
+        "start": 2229.48,
+        "duration": 5.82
+    },
+    {
+        "text": "requirement but there are situations",
+        "start": 2233.619,
+        "duration": 3.661
+    },
+    {
+        "text": "where I want to block people from doing",
+        "start": 2235.3,
+        "duration": 4.62
+    },
+    {
+        "text": "certain things for that I can also use",
+        "start": 2237.28,
+        "duration": 5.46
+    },
+    {
+        "text": "uh deny effects in my Azure policy which",
+        "start": 2239.92,
+        "duration": 5.28
+    },
+    {
+        "text": "will block the users from creating let's",
+        "start": 2242.74,
+        "duration": 4.879
+    },
+    {
+        "text": "say KS plus which don't have specific",
+        "start": 2245.2,
+        "duration": 5.76
+    },
+    {
+        "text": "properties assigned",
+        "start": 2247.619,
+        "duration": 6.22
+    },
+    {
+        "text": "now I did test upon eks identity and",
+        "start": 2250.96,
+        "duration": 4.619
+    },
+    {
+        "text": "management in one of the previous slides",
+        "start": 2253.839,
+        "duration": 3.661
+    },
+    {
+        "text": "I was mentioning that apart from",
+        "start": 2255.579,
+        "duration": 4.381
+    },
+    {
+        "text": "kubernetes are back which is then built",
+        "start": 2257.5,
+        "duration": 4.5
+    },
+    {
+        "text": "to any kubernetes cluster we can also",
+        "start": 2259.96,
+        "duration": 5.28
+    },
+    {
+        "text": "utilize tool like Azure active directory",
+        "start": 2262.0,
+        "duration": 6.48
+    },
+    {
+        "text": "for identity and access management",
+        "start": 2265.24,
+        "duration": 5.28
+    },
+    {
+        "text": "uh and if you are using kubernetes",
+        "start": 2268.48,
+        "duration": 3.78
+    },
+    {
+        "text": "role-based access control you can",
+        "start": 2270.52,
+        "duration": 3.72
+    },
+    {
+        "text": "actually Grant users groups and service",
+        "start": 2272.26,
+        "duration": 4.56
+    },
+    {
+        "text": "accounts access only to the uh",
+        "start": 2274.24,
+        "duration": 4.619
+    },
+    {
+        "text": "kubernetes resources that they need you",
+        "start": 2276.82,
+        "duration": 4.08
+    },
+    {
+        "text": "can create things like roles and cluster",
+        "start": 2278.859,
+        "duration": 4.381
+    },
+    {
+        "text": "roles inside your kubernetes cluster and",
+        "start": 2280.9,
+        "duration": 6.179
+    },
+    {
+        "text": "assign them to role bindings and based",
+        "start": 2283.24,
+        "duration": 5.76
+    },
+    {
+        "text": "on that your users and groups can get",
+        "start": 2287.079,
+        "duration": 3.601
+    },
+    {
+        "text": "access to the resources within your",
+        "start": 2289.0,
+        "duration": 4.5
+    },
+    {
+        "text": "cluster now you can provision access",
+        "start": 2290.68,
+        "duration": 5.159
+    },
+    {
+        "text": "only to specific parts or notes or you",
+        "start": 2293.5,
+        "duration": 4.14
+    },
+    {
+        "text": "can also provision access to your whole",
+        "start": 2295.839,
+        "duration": 5.401
+    },
+    {
+        "text": "cluster using kubernetes are back with",
+        "start": 2297.64,
+        "duration": 6.78
+    },
+    {
+        "text": "Azure kubernetes service you can enhance",
+        "start": 2301.24,
+        "duration": 4.74
+    },
+    {
+        "text": "the overall identity and management",
+        "start": 2304.42,
+        "duration": 4.86
+    },
+    {
+        "text": "posture in your cluster using Azure",
+        "start": 2305.98,
+        "duration": 5.04
+    },
+    {
+        "text": "active directory and Azure role-based",
+        "start": 2309.28,
+        "duration": 3.6
+    },
+    {
+        "text": "Access Control if you are aware of azure",
+        "start": 2311.02,
+        "duration": 4.38
+    },
+    {
+        "text": "rule based access control it comes with",
+        "start": 2312.88,
+        "duration": 4.68
+    },
+    {
+        "text": "a set of built-in roles that you can",
+        "start": 2315.4,
+        "duration": 4.98
+    },
+    {
+        "text": "utilize to provide access to your users",
+        "start": 2317.56,
+        "duration": 4.74
+    },
+    {
+        "text": "to your kubernetes cluster for at least",
+        "start": 2320.38,
+        "duration": 4.08
+    },
+    {
+        "text": "for administration so there are",
+        "start": 2322.3,
+        "duration": 4.26
+    },
+    {
+        "text": "available roles in Azure rbac like Azure",
+        "start": 2324.46,
+        "duration": 4.22
+    },
+    {
+        "text": "kubernetes service our back reader",
+        "start": 2326.56,
+        "duration": 5.4
+    },
+    {
+        "text": "service our back writer and so on which",
+        "start": 2328.68,
+        "duration": 5.5
+    },
+    {
+        "text": "you can utilize to control the access to",
+        "start": 2331.96,
+        "duration": 5.28
+    },
+    {
+        "text": "your AKs cluster now one thing that you",
+        "start": 2334.18,
+        "duration": 5.46
+    },
+    {
+        "text": "are seeing there is azure active",
+        "start": 2337.24,
+        "duration": 5.099
+    },
+    {
+        "text": "directory pod identity",
+        "start": 2339.64,
+        "duration": 6.24
+    },
+    {
+        "text": "uh which is uh very common today which",
+        "start": 2342.339,
+        "duration": 5.341
+    },
+    {
+        "text": "where you can assign the manager",
+        "start": 2345.88,
+        "duration": 5.4
+    },
+    {
+        "text": "entities at the Pod level uh this poor",
+        "start": 2347.68,
+        "duration": 6.179
+    },
+    {
+        "text": "managed identity allows the workload or",
+        "start": 2351.28,
+        "duration": 4.62
+    },
+    {
+        "text": "your application access the resources",
+        "start": 2353.859,
+        "duration": 4.681
+    },
+    {
+        "text": "through Azure active directory but this",
+        "start": 2355.9,
+        "duration": 5.459
+    },
+    {
+        "text": "has been replaced last year with a",
+        "start": 2358.54,
+        "duration": 5.16
+    },
+    {
+        "text": "different identity called as workload",
+        "start": 2361.359,
+        "duration": 4.381
+    },
+    {
+        "text": "identity which integrates with the",
+        "start": 2363.7,
+        "duration": 4.02
+    },
+    {
+        "text": "kubernetes native capabilities to",
+        "start": 2365.74,
+        "duration": 4.379
+    },
+    {
+        "text": "Federate with other external identity",
+        "start": 2367.72,
+        "duration": 5.76
+    },
+    {
+        "text": "providers now if you will pull up or",
+        "start": 2370.119,
+        "duration": 6.141
+    },
+    {
+        "text": "research on what a workload identity is",
+        "start": 2373.48,
+        "duration": 6.5
+    },
+    {
+        "text": "different uh Technologies different",
+        "start": 2376.26,
+        "duration": 6.64
+    },
+    {
+        "text": "organizations Define workload identities",
+        "start": 2379.98,
+        "duration": 5.68
+    },
+    {
+        "text": "in a different way but essentially in",
+        "start": 2382.9,
+        "duration": 6.179
+    },
+    {
+        "text": "Azure active directory it could be uh it",
+        "start": 2385.66,
+        "duration": 5.939
+    },
+    {
+        "text": "it means something very unique to Azure",
+        "start": 2389.079,
+        "duration": 4.02
+    },
+    {
+        "text": "active directory which I will touch upon",
+        "start": 2391.599,
+        "duration": 5.061
+    },
+    {
+        "text": "in one of the following slides",
+        "start": 2393.099,
+        "duration": 3.561
+    },
+    {
+        "text": "with uh if you if you go ahead and",
+        "start": 2397.42,
+        "duration": 5.58
+    },
+    {
+        "text": "integrate your Azure kubernetes service",
+        "start": 2400.72,
+        "duration": 6.18
+    },
+    {
+        "text": "clusters AKs clusters with Azure ad uh",
+        "start": 2403.0,
+        "duration": 5.82
+    },
+    {
+        "text": "you can grant your users or groups",
+        "start": 2406.9,
+        "duration": 4.199
+    },
+    {
+        "text": "access to kubernetes resources within a",
+        "start": 2408.82,
+        "duration": 4.759
+    },
+    {
+        "text": "namespace or inside your whole cluster",
+        "start": 2411.099,
+        "duration": 5.721
+    },
+    {
+        "text": "essentially you remember I was using uh",
+        "start": 2413.579,
+        "duration": 7.5
+    },
+    {
+        "text": "azaks get credentials command in my AZ",
+        "start": 2416.82,
+        "duration": 7.72
+    },
+    {
+        "text": "Azure CLI that you can utilize the same",
+        "start": 2421.079,
+        "duration": 5.441
+    },
+    {
+        "text": "command to obtain a cube cutter",
+        "start": 2424.54,
+        "duration": 5.12
+    },
+    {
+        "text": "configuration context and then you can",
+        "start": 2426.52,
+        "duration": 5.04
+    },
+    {
+        "text": "essentially interact with your",
+        "start": 2429.66,
+        "duration": 6.04
+    },
+    {
+        "text": "kubernetes cluster using Cube CTL now",
+        "start": 2431.56,
+        "duration": 6.779
+    },
+    {
+        "text": "this approach provides a single source",
+        "start": 2435.7,
+        "duration": 4.44
+    },
+    {
+        "text": "for your user account management and",
+        "start": 2438.339,
+        "duration": 4.381
+    },
+    {
+        "text": "password credentials user can only",
+        "start": 2440.14,
+        "duration": 5.1
+    },
+    {
+        "text": "access the resources defined by your",
+        "start": 2442.72,
+        "duration": 5.18
+    },
+    {
+        "text": "cluster administrator through this means",
+        "start": 2445.24,
+        "duration": 6.0
+    },
+    {
+        "text": "uh under the hood if you are utilizing",
+        "start": 2447.9,
+        "duration": 5.679
+    },
+    {
+        "text": "Azure radio authentication to connect",
+        "start": 2451.24,
+        "duration": 4.56
+    },
+    {
+        "text": "your AKs cluster what it essentially",
+        "start": 2453.579,
+        "duration": 5.101
+    },
+    {
+        "text": "uses under the word a is open ID connect",
+        "start": 2455.8,
+        "duration": 5.4
+    },
+    {
+        "text": "which is an identity layer built on top",
+        "start": 2458.68,
+        "duration": 5.88
+    },
+    {
+        "text": "of oauth 2.0",
+        "start": 2461.2,
+        "duration": 5.7
+    },
+    {
+        "text": "and within the kubernetes cluster it",
+        "start": 2464.56,
+        "duration": 4.019
+    },
+    {
+        "text": "comes with its own token authentication",
+        "start": 2466.9,
+        "duration": 3.719
+    },
+    {
+        "text": "mechanism through which it verifies the",
+        "start": 2468.579,
+        "duration": 3.841
+    },
+    {
+        "text": "authentication tokens that comes from",
+        "start": 2470.619,
+        "duration": 4.441
+    },
+    {
+        "text": "Azure ad I have provided a link down",
+        "start": 2472.42,
+        "duration": 4.5
+    },
+    {
+        "text": "there which details everything around",
+        "start": 2475.06,
+        "duration": 4.26
+    },
+    {
+        "text": "how you can integrate Azure ID with your",
+        "start": 2476.92,
+        "duration": 6.419
+    },
+    {
+        "text": "kubernetes AKs clusters quickly to touch",
+        "start": 2479.32,
+        "duration": 7.259
+    },
+    {
+        "text": "upon workload identity uh it's as I was",
+        "start": 2483.339,
+        "duration": 5.221
+    },
+    {
+        "text": "saying different organizations different",
+        "start": 2486.579,
+        "duration": 3.901
+    },
+    {
+        "text": "Technologies mean different things by",
+        "start": 2488.56,
+        "duration": 4.74
+    },
+    {
+        "text": "workload identity but strictly speaking",
+        "start": 2490.48,
+        "duration": 5.16
+    },
+    {
+        "text": "from Azure ad point of view it's an",
+        "start": 2493.3,
+        "duration": 4.319
+    },
+    {
+        "text": "identity that is used by a software",
+        "start": 2495.64,
+        "duration": 4.08
+    },
+    {
+        "text": "workload or an application to",
+        "start": 2497.619,
+        "duration": 3.781
+    },
+    {
+        "text": "authenticate and access other services",
+        "start": 2499.72,
+        "duration": 3.24
+    },
+    {
+        "text": "and resources",
+        "start": 2501.4,
+        "duration": 3.9
+    },
+    {
+        "text": "and Azure uh",
+        "start": 2502.96,
+        "duration": 4.5
+    },
+    {
+        "text": "before we think about Azure active",
+        "start": 2505.3,
+        "duration": 4.5
+    },
+    {
+        "text": "directly uh consider there could be only",
+        "start": 2507.46,
+        "duration": 4.8
+    },
+    {
+        "text": "two kinds of identities it could be",
+        "start": 2509.8,
+        "duration": 4.14
+    },
+    {
+        "text": "human identities or it could be",
+        "start": 2512.26,
+        "duration": 3.18
+    },
+    {
+        "text": "non-human identities or machine",
+        "start": 2513.94,
+        "duration": 4.2
+    },
+    {
+        "text": "identities human identities as the names",
+        "start": 2515.44,
+        "duration": 4.98
+    },
+    {
+        "text": "of the study identities which are used",
+        "start": 2518.14,
+        "duration": 4.5
+    },
+    {
+        "text": "by actual humans it could be employees",
+        "start": 2520.42,
+        "duration": 4.62
+    },
+    {
+        "text": "Partners customers and so on",
+        "start": 2522.64,
+        "duration": 5.04
+    },
+    {
+        "text": "whereas the non-human identities could",
+        "start": 2525.04,
+        "duration": 4.86
+    },
+    {
+        "text": "be either workload identities which are",
+        "start": 2527.68,
+        "duration": 5.52
+    },
+    {
+        "text": "utilized by a service or a software",
+        "start": 2529.9,
+        "duration": 5.82
+    },
+    {
+        "text": "whereas the device identities are",
+        "start": 2533.2,
+        "duration": 4.44
+    },
+    {
+        "text": "assigned to individual devices like",
+        "start": 2535.72,
+        "duration": 5.04
+    },
+    {
+        "text": "mobile devices or iot devices now",
+        "start": 2537.64,
+        "duration": 5.0
+    },
+    {
+        "text": "strictly speaking about Azure ad",
+        "start": 2540.76,
+        "duration": 5.339
+    },
+    {
+        "text": "workload identities could be of three",
+        "start": 2542.64,
+        "duration": 5.92
+    },
+    {
+        "text": "types it could be an application it",
+        "start": 2546.099,
+        "duration": 4.621
+    },
+    {
+        "text": "could be a service principle or it could",
+        "start": 2548.56,
+        "duration": 3.96
+    },
+    {
+        "text": "be a managed identity",
+        "start": 2550.72,
+        "duration": 3.06
+    },
+    {
+        "text": "so",
+        "start": 2552.52,
+        "duration": 3.839
+    },
+    {
+        "text": "just for the context be aware of what",
+        "start": 2553.78,
+        "duration": 4.62
+    },
+    {
+        "text": "workload and entities are and workload",
+        "start": 2556.359,
+        "duration": 4.021
+    },
+    {
+        "text": "identities replaces the Border entities",
+        "start": 2558.4,
+        "duration": 4.439
+    },
+    {
+        "text": "in eks",
+        "start": 2560.38,
+        "duration": 4.14
+    },
+    {
+        "text": "when you are deploying your kubernetes",
+        "start": 2562.839,
+        "duration": 5.161
+    },
+    {
+        "text": "cluster in AKs scaling is a key aspect",
+        "start": 2564.52,
+        "duration": 7.44
+    },
+    {
+        "text": "to it because uh you as you will deploy",
+        "start": 2568.0,
+        "duration": 6.24
+    },
+    {
+        "text": "your workloads as your workloads will be",
+        "start": 2571.96,
+        "duration": 5.28
+    },
+    {
+        "text": "made accessible you will need to scale",
+        "start": 2574.24,
+        "duration": 6.0
+    },
+    {
+        "text": "in or out your underlying kubernetes",
+        "start": 2577.24,
+        "duration": 5.64
+    },
+    {
+        "text": "nodes and parts for that there are two",
+        "start": 2580.24,
+        "duration": 5.879
+    },
+    {
+        "text": "different uh types of Auto scalers that",
+        "start": 2582.88,
+        "duration": 6.3
+    },
+    {
+        "text": "that are available within AKs cluster on",
+        "start": 2586.119,
+        "duration": 5.821
+    },
+    {
+        "text": "the uh at the cluster level is a cluster",
+        "start": 2589.18,
+        "duration": 5.939
+    },
+    {
+        "text": "Auto scaler which watches your pods that",
+        "start": 2591.94,
+        "duration": 5.82
+    },
+    {
+        "text": "cannot be scheduled on the existing",
+        "start": 2595.119,
+        "duration": 5.521
+    },
+    {
+        "text": "nodes because those nodes are out of",
+        "start": 2597.76,
+        "duration": 6.359
+    },
+    {
+        "text": "resources again those nodes that we are",
+        "start": 2600.64,
+        "duration": 5.52
+    },
+    {
+        "text": "referring here are defined by the",
+        "start": 2604.119,
+        "duration": 3.96
+    },
+    {
+        "text": "virtual machine sizes that you define",
+        "start": 2606.16,
+        "duration": 4.38
+    },
+    {
+        "text": "inside your VM scale set",
+        "start": 2608.079,
+        "duration": 5.641
+    },
+    {
+        "text": "and once those nodes are occupy other",
+        "start": 2610.54,
+        "duration": 4.799
+    },
+    {
+        "text": "resources of those nodes are already",
+        "start": 2613.72,
+        "duration": 4.56
+    },
+    {
+        "text": "occupied in running existing parts uh",
+        "start": 2615.339,
+        "duration": 4.98
+    },
+    {
+        "text": "the cluster Auto scaler goes ahead and",
+        "start": 2618.28,
+        "duration": 4.26
+    },
+    {
+        "text": "Spins up new number of nodes to",
+        "start": 2620.319,
+        "duration": 5.341
+    },
+    {
+        "text": "provision the new incoming Parts whereas",
+        "start": 2622.54,
+        "duration": 5.52
+    },
+    {
+        "text": "the horizontal Part auto scalar uses the",
+        "start": 2625.66,
+        "duration": 4.679
+    },
+    {
+        "text": "metric server in kubernetes cluster to",
+        "start": 2628.06,
+        "duration": 4.98
+    },
+    {
+        "text": "monitor the resource demand of",
+        "start": 2630.339,
+        "duration": 5.221
+    },
+    {
+        "text": "individual parts and if a single",
+        "start": 2633.04,
+        "duration": 4.319
+    },
+    {
+        "text": "application or workload that you are",
+        "start": 2635.56,
+        "duration": 4.98
+    },
+    {
+        "text": "deploying in AKs requires more resources",
+        "start": 2637.359,
+        "duration": 5.101
+    },
+    {
+        "text": "the number of parts are automatically",
+        "start": 2640.54,
+        "duration": 4.14
+    },
+    {
+        "text": "scaled up or down depending upon the",
+        "start": 2642.46,
+        "duration": 6.139
+    },
+    {
+        "text": "need by its application",
+        "start": 2644.68,
+        "duration": 3.919
+    },
+    {
+        "text": "uh there is a new event Driven Auto",
+        "start": 2650.92,
+        "duration": 6.36
+    },
+    {
+        "text": "scaling uh known as Keda which is a",
+        "start": 2653.8,
+        "duration": 6.18
+    },
+    {
+        "text": "joint effort by Microsoft and red hat it",
+        "start": 2657.28,
+        "duration": 5.22
+    },
+    {
+        "text": "is essentially Auto scales your cluster",
+        "start": 2659.98,
+        "duration": 4.619
+    },
+    {
+        "text": "based on the underlying events whenever",
+        "start": 2662.5,
+        "duration": 4.38
+    },
+    {
+        "text": "those events get triggered uh your",
+        "start": 2664.599,
+        "duration": 4.441
+    },
+    {
+        "text": "cluster is automatically scaled out or",
+        "start": 2666.88,
+        "duration": 4.08
+    },
+    {
+        "text": "up and down",
+        "start": 2669.04,
+        "duration": 3.779
+    },
+    {
+        "text": "and I have provided a link down there",
+        "start": 2670.96,
+        "duration": 5.1
+    },
+    {
+        "text": "for more information but Akira is just",
+        "start": 2672.819,
+        "duration": 6.121
+    },
+    {
+        "text": "not a unique concept within eks it is",
+        "start": 2676.06,
+        "duration": 5.519
+    },
+    {
+        "text": "actually uh supported for many other",
+        "start": 2678.94,
+        "duration": 6.12
+    },
+    {
+        "text": "kubernetes implementations including uh",
+        "start": 2681.579,
+        "duration": 6.78
+    },
+    {
+        "text": "on AWS and Google",
+        "start": 2685.06,
+        "duration": 6.48
+    },
+    {
+        "text": "uh someone asked about go ahead sir we",
+        "start": 2688.359,
+        "duration": 5.401
+    },
+    {
+        "text": "had a uh we had a couple questions but",
+        "start": 2691.54,
+        "duration": 4.62
+    },
+    {
+        "text": "um one of them was a relatively recent",
+        "start": 2693.76,
+        "duration": 5.22
+    },
+    {
+        "text": "has to do with the the identities",
+        "start": 2696.16,
+        "duration": 6.24
+    },
+    {
+        "text": "uh James was asking",
+        "start": 2698.98,
+        "duration": 7.879
+    },
+    {
+        "text": "um if pods have identities",
+        "start": 2702.4,
+        "duration": 4.459
+    },
+    {
+        "text": "that's right that was what the bordered",
+        "start": 2710.4,
+        "duration": 5.679
+    },
+    {
+        "text": "entities are for because when the",
+        "start": 2713.5,
+        "duration": 4.68
+    },
+    {
+        "text": "original concept was for those spotter",
+        "start": 2716.079,
+        "duration": 3.78
+    },
+    {
+        "text": "entities where each spot can have its",
+        "start": 2718.18,
+        "duration": 3.96
+    },
+    {
+        "text": "own identity that can be used to connect",
+        "start": 2719.859,
+        "duration": 4.921
+    },
+    {
+        "text": "to other resources but that is that is",
+        "start": 2722.14,
+        "duration": 4.86
+    },
+    {
+        "text": "being replaced now with workload",
+        "start": 2724.78,
+        "duration": 4.76
+    },
+    {
+        "text": "identities",
+        "start": 2727.0,
+        "duration": 2.54
+    },
+    {
+        "text": "cool does that answer your question",
+        "start": 2732.46,
+        "duration": 3.68
+    },
+    {
+        "text": "James",
+        "start": 2733.9,
+        "duration": 2.24
+    },
+    {
+        "text": "and",
+        "start": 2737.319,
+        "duration": 3.78
+    },
+    {
+        "text": "there was another question but we can",
+        "start": 2738.88,
+        "duration": 4.62
+    },
+    {
+        "text": "cover it later since you uh I'm trying",
+        "start": 2741.099,
+        "duration": 4.141
+    },
+    {
+        "text": "to go through",
+        "start": 2743.5,
+        "duration": 3.9
+    },
+    {
+        "text": "uh or we can take the questions at the",
+        "start": 2745.24,
+        "duration": 3.72
+    },
+    {
+        "text": "end that's fine yeah yeah we can clear",
+        "start": 2747.4,
+        "duration": 3.66
+    },
+    {
+        "text": "the others up at the end cool carry on",
+        "start": 2748.96,
+        "duration": 3.72
+    },
+    {
+        "text": "man",
+        "start": 2751.06,
+        "duration": 4.1
+    },
+    {
+        "text": "okay",
+        "start": 2752.68,
+        "duration": 2.48
+    },
+    {
+        "text": "yeah uh someone asked earlier around",
+        "start": 2759.579,
+        "duration": 4.861
+    },
+    {
+        "text": "Azure monitor how we can get it",
+        "start": 2762.46,
+        "duration": 4.5
+    },
+    {
+        "text": "integrated with eks and how how that",
+        "start": 2764.44,
+        "duration": 5.34
+    },
+    {
+        "text": "works uh I just have a single slide",
+        "start": 2766.96,
+        "duration": 5.1
+    },
+    {
+        "text": "today but essentially you can integrate",
+        "start": 2769.78,
+        "duration": 5.16
+    },
+    {
+        "text": "your Azure monitor with AKs to get",
+        "start": 2772.06,
+        "duration": 4.98
+    },
+    {
+        "text": "detailed insights about your workloads",
+        "start": 2774.94,
+        "duration": 4.139
+    },
+    {
+        "text": "that you are running inside AKs cluster",
+        "start": 2777.04,
+        "duration": 4.98
+    },
+    {
+        "text": "you can filter for details about your",
+        "start": 2779.079,
+        "duration": 5.04
+    },
+    {
+        "text": "notes your controllers your containers",
+        "start": 2782.02,
+        "duration": 5.52
+    },
+    {
+        "text": "running in AKs cluster you can uh see",
+        "start": 2784.119,
+        "duration": 5.821
+    },
+    {
+        "text": "graphical visualizations about your",
+        "start": 2787.54,
+        "duration": 5.22
+    },
+    {
+        "text": "cluster the cluster health and so on you",
+        "start": 2789.94,
+        "duration": 4.98
+    },
+    {
+        "text": "can pull events and loss for detailed",
+        "start": 2792.76,
+        "duration": 4.38
+    },
+    {
+        "text": "activity analysis within your AKs",
+        "start": 2794.92,
+        "duration": 3.38
+    },
+    {
+        "text": "cluster",
+        "start": 2797.14,
+        "duration": 3.84
+    },
+    {
+        "text": "I've missed to add a link here probably",
+        "start": 2798.3,
+        "duration": 5.2
+    },
+    {
+        "text": "that would be have been helpful for",
+        "start": 2800.98,
+        "duration": 4.44
+    },
+    {
+        "text": "folks to go and check it out how to get",
+        "start": 2803.5,
+        "duration": 4.8
+    },
+    {
+        "text": "started with it but it's it's the",
+        "start": 2805.42,
+        "duration": 4.74
+    },
+    {
+        "text": "integration between Azure Monitor and",
+        "start": 2808.3,
+        "duration": 5.94
+    },
+    {
+        "text": "AKs is very seamless and it provides a",
+        "start": 2810.16,
+        "duration": 7.439
+    },
+    {
+        "text": "way uh easy it provides a very easy way",
+        "start": 2814.24,
+        "duration": 5.64
+    },
+    {
+        "text": "to get insights into what's happening in",
+        "start": 2817.599,
+        "duration": 5.361
+    },
+    {
+        "text": "your AKs cluster",
+        "start": 2819.88,
+        "duration": 3.08
+    },
+    {
+        "text": "similar to monitoring you can also",
+        "start": 2823.24,
+        "duration": 4.859
+    },
+    {
+        "text": "utilize Diagnostics within your AKs",
+        "start": 2825.579,
+        "duration": 6.601
+    },
+    {
+        "text": "cluster which helps you find resolution",
+        "start": 2828.099,
+        "duration": 7.98
+    },
+    {
+        "text": "for common issues faster it essentially",
+        "start": 2832.18,
+        "duration": 6.919
+    },
+    {
+        "text": "a case Diagnostics offers an",
+        "start": 2836.079,
+        "duration": 5.701
+    },
+    {
+        "text": "intelligentenna what you should say is a",
+        "start": 2839.099,
+        "duration": 4.961
+    },
+    {
+        "text": "seller diagnostic experience you can",
+        "start": 2841.78,
+        "duration": 5.4
+    },
+    {
+        "text": "help it you can easily identify and",
+        "start": 2844.06,
+        "duration": 5.7
+    },
+    {
+        "text": "resolve the issues that are happening in",
+        "start": 2847.18,
+        "duration": 5.639
+    },
+    {
+        "text": "your cluster it is completely Cloud",
+        "start": 2849.76,
+        "duration": 5.339
+    },
+    {
+        "text": "native it's part of your AKs",
+        "start": 2852.819,
+        "duration": 4.981
+    },
+    {
+        "text": "implementation and it the best part is",
+        "start": 2855.099,
+        "duration": 4.861
+    },
+    {
+        "text": "Microsoft doesn't charges anything for",
+        "start": 2857.8,
+        "duration": 4.14
+    },
+    {
+        "text": "that and you don't and you don't need to",
+        "start": 2859.96,
+        "duration": 4.619
+    },
+    {
+        "text": "do any extra configuration to set up AKs",
+        "start": 2861.94,
+        "duration": 4.5
+    },
+    {
+        "text": "diagnostic it's all done when you are",
+        "start": 2864.579,
+        "duration": 6.081
+    },
+    {
+        "text": "creating your AKs cluster",
+        "start": 2866.44,
+        "duration": 4.22
+    },
+    {
+        "text": "uh",
+        "start": 2875.859,
+        "duration": 4.021
+    },
+    {
+        "text": "Azure AKs storage options when you are",
+        "start": 2877.18,
+        "duration": 5.58
+    },
+    {
+        "text": "creating your AKs cluster you also might",
+        "start": 2879.88,
+        "duration": 4.92
+    },
+    {
+        "text": "have requirements to create persistent",
+        "start": 2882.76,
+        "duration": 6.599
+    },
+    {
+        "text": "volumes uh for your uh notes or for",
+        "start": 2884.8,
+        "duration": 7.319
+    },
+    {
+        "text": "reports for that purpose you can utilize",
+        "start": 2889.359,
+        "duration": 5.22
+    },
+    {
+        "text": "other supporting services like Azure",
+        "start": 2892.119,
+        "duration": 5.46
+    },
+    {
+        "text": "storage Azure managedies Azure files as",
+        "start": 2894.579,
+        "duration": 5.401
+    },
+    {
+        "text": "persistent volumes and you can utilize",
+        "start": 2897.579,
+        "duration": 5.04
+    },
+    {
+        "text": "persistent volume claims to ensure that",
+        "start": 2899.98,
+        "duration": 4.08
+    },
+    {
+        "text": "you are you can hook up to those",
+        "start": 2902.619,
+        "duration": 4.521
+    },
+    {
+        "text": "persistent volumes",
+        "start": 2904.06,
+        "duration": 3.08
+    },
+    {
+        "text": "Azure container registry or ACR in short",
+        "start": 2907.359,
+        "duration": 6.48
+    },
+    {
+        "text": "is a first class Azure resource which is",
+        "start": 2911.26,
+        "duration": 5.16
+    },
+    {
+        "text": "a managed private Docker registry",
+        "start": 2913.839,
+        "duration": 4.5
+    },
+    {
+        "text": "service based on the open source Docker",
+        "start": 2916.42,
+        "duration": 4.56
+    },
+    {
+        "text": "registry 2.0 you can use ACR with",
+        "start": 2918.339,
+        "duration": 4.381
+    },
+    {
+        "text": "existing container development and",
+        "start": 2920.98,
+        "duration": 3.42
+    },
+    {
+        "text": "deployment Pipelines",
+        "start": 2922.72,
+        "duration": 4.5
+    },
+    {
+        "text": "you can use ACR tasks to build your",
+        "start": 2924.4,
+        "duration": 5.1
+    },
+    {
+        "text": "container images in Azure you can use",
+        "start": 2927.22,
+        "duration": 5.54
+    },
+    {
+        "text": "Docker CLI as well to push images to ACR",
+        "start": 2929.5,
+        "duration": 5.579
+    },
+    {
+        "text": "just like how you will push it to any",
+        "start": 2932.76,
+        "duration": 4.079
+    },
+    {
+        "text": "other Docker registry",
+        "start": 2935.079,
+        "duration": 5.221
+    },
+    {
+        "text": "ACR does comes with three service tiers",
+        "start": 2936.839,
+        "duration": 6.101
+    },
+    {
+        "text": "basic standard and Premier premium what",
+        "start": 2940.3,
+        "duration": 5.819
+    },
+    {
+        "text": "really differs is the storage space that",
+        "start": 2942.94,
+        "duration": 5.639
+    },
+    {
+        "text": "you get get with each of these uh",
+        "start": 2946.119,
+        "duration": 4.261
+    },
+    {
+        "text": "service tiers",
+        "start": 2948.579,
+        "duration": 5.04
+    },
+    {
+        "text": "but unlike basic and standard with the",
+        "start": 2950.38,
+        "duration": 7.26
+    },
+    {
+        "text": "premium here you also get uh things like",
+        "start": 2953.619,
+        "duration": 7.441
+    },
+    {
+        "text": "uh Geo replication support for private",
+        "start": 2957.64,
+        "duration": 6.179
+    },
+    {
+        "text": "link and uh you can bring your own",
+        "start": 2961.06,
+        "duration": 6.42
+    },
+    {
+        "text": "managed keys and so on I provided a link",
+        "start": 2963.819,
+        "duration": 6.961
+    },
+    {
+        "text": "there for uh ACR pricing in the",
+        "start": 2967.48,
+        "duration": 4.619
+    },
+    {
+        "text": "difference between the three pricing",
+        "start": 2970.78,
+        "duration": 4.26
+    },
+    {
+        "text": "tiers in case you are interested",
+        "start": 2972.099,
+        "duration": 6.121
+    },
+    {
+        "text": "moving on Azure container instances uh",
+        "start": 2975.04,
+        "duration": 5.819
+    },
+    {
+        "text": "offer the fastest and simplest ways to",
+        "start": 2978.22,
+        "duration": 5.16
+    },
+    {
+        "text": "run a single container in Azure without",
+        "start": 2980.859,
+        "duration": 5.041
+    },
+    {
+        "text": "having to manage any underlying",
+        "start": 2983.38,
+        "duration": 4.56
+    },
+    {
+        "text": "infrastructure like virtual machine and",
+        "start": 2985.9,
+        "duration": 4.32
+    },
+    {
+        "text": "so on essentially it's a serverless way",
+        "start": 2987.94,
+        "duration": 5.58
+    },
+    {
+        "text": "to run it Azure container instances are",
+        "start": 2990.22,
+        "duration": 6.0
+    },
+    {
+        "text": "best suited for any scenario where you",
+        "start": 2993.52,
+        "duration": 5.28
+    },
+    {
+        "text": "can run your workloads in isolated",
+        "start": 2996.22,
+        "duration": 4.92
+    },
+    {
+        "text": "containers for example smaller",
+        "start": 2998.8,
+        "duration": 4.62
+    },
+    {
+        "text": "applications task Automation and build",
+        "start": 3001.14,
+        "duration": 3.8
+    },
+    {
+        "text": "jobs etc",
+        "start": 3003.42,
+        "duration": 4.8
+    },
+    {
+        "text": "for running your containers the flow is",
+        "start": 3004.94,
+        "duration": 4.78
+    },
+    {
+        "text": "straightforward as I've shown in that",
+        "start": 3008.22,
+        "duration": 4.139
+    },
+    {
+        "text": "picture there you create a Docker image",
+        "start": 3009.72,
+        "duration": 4.26
+    },
+    {
+        "text": "you push it into Azure container",
+        "start": 3012.359,
+        "duration": 3.781
+    },
+    {
+        "text": "registry or any other container registry",
+        "start": 3013.98,
+        "duration": 4.5
+    },
+    {
+        "text": "for that purpose and then your Azure",
+        "start": 3016.14,
+        "duration": 4.5
+    },
+    {
+        "text": "container instances run containers based",
+        "start": 3018.48,
+        "duration": 5.04
+    },
+    {
+        "text": "on those images the reason why I have",
+        "start": 3020.64,
+        "duration": 6.42
+    },
+    {
+        "text": "touched upon acis is to briefly",
+        "start": 3023.52,
+        "duration": 6.92
+    },
+    {
+        "text": "highlight the option of",
+        "start": 3027.06,
+        "duration": 5.64
+    },
+    {
+        "text": "utilizing those Azure container",
+        "start": 3030.44,
+        "duration": 4.54
+    },
+    {
+        "text": "instances as virtual nodes along with",
+        "start": 3032.7,
+        "duration": 4.86
+    },
+    {
+        "text": "your AKs cluster so that you can",
+        "start": 3034.98,
+        "duration": 5.099
+    },
+    {
+        "text": "elastically provision compute capacity",
+        "start": 3037.56,
+        "duration": 5.72
+    },
+    {
+        "text": "in for our AKs cluster in seconds",
+        "start": 3040.079,
+        "duration": 6.061
+    },
+    {
+        "text": "since ACI is serverless there is no",
+        "start": 3043.28,
+        "duration": 4.6
+    },
+    {
+        "text": "underlying infrastructure you have to",
+        "start": 3046.14,
+        "duration": 5.959
+    },
+    {
+        "text": "manage that is built on top of Virtual",
+        "start": 3047.88,
+        "duration": 7.56
+    },
+    {
+        "text": "cubelet Technology which is donated to",
+        "start": 3052.099,
+        "duration": 6.341
+    },
+    {
+        "text": "cncf it's an open source technology you",
+        "start": 3055.44,
+        "duration": 4.8
+    },
+    {
+        "text": "can go and check it out but essentially",
+        "start": 3058.44,
+        "duration": 4.56
+    },
+    {
+        "text": "you can hook up your ACI instances as",
+        "start": 3060.24,
+        "duration": 7.76
+    },
+    {
+        "text": "virtual nodes to your AKs clusters",
+        "start": 3063.0,
+        "duration": 5.0
+    },
+    {
+        "text": "Azure container apps the most recent",
+        "start": 3071.16,
+        "duration": 6.6
+    },
+    {
+        "text": "entrant to the ecosystem uh are the",
+        "start": 3074.16,
+        "duration": 5.88
+    },
+    {
+        "text": "Apple app Services which can enable you",
+        "start": 3077.76,
+        "duration": 3.96
+    },
+    {
+        "text": "to run your micro services and",
+        "start": 3080.04,
+        "duration": 3.66
+    },
+    {
+        "text": "containerized applications on a",
+        "start": 3081.72,
+        "duration": 4.379
+    },
+    {
+        "text": "serverless platform I haven't got a",
+        "start": 3083.7,
+        "duration": 4.5
+    },
+    {
+        "text": "chance to play around with it a lot but",
+        "start": 3086.099,
+        "duration": 4.561
+    },
+    {
+        "text": "with the minimum understanding the basic",
+        "start": 3088.2,
+        "duration": 5.28
+    },
+    {
+        "text": "understanding I have got so far is it's",
+        "start": 3090.66,
+        "duration": 5.159
+    },
+    {
+        "text": "kind of a serverless offering built on",
+        "start": 3093.48,
+        "duration": 5.04
+    },
+    {
+        "text": "top of Cuban area so instead of kks it's",
+        "start": 3095.819,
+        "duration": 4.621
+    },
+    {
+        "text": "a Cuban it's a serverless cube and it is",
+        "start": 3098.52,
+        "duration": 3.86
+    },
+    {
+        "text": "based offering where you can",
+        "start": 3100.44,
+        "duration": 6.619
+    },
+    {
+        "text": "deploy your use cases like microservices",
+        "start": 3102.38,
+        "duration": 8.5
+    },
+    {
+        "text": "public API endpoints using container",
+        "start": 3107.059,
+        "duration": 5.381
+    },
+    {
+        "text": "apps without have to",
+        "start": 3110.88,
+        "duration": 4.08
+    },
+    {
+        "text": "worry about maintaining underlying AKs",
+        "start": 3112.44,
+        "duration": 4.879
+    },
+    {
+        "text": "cluster",
+        "start": 3114.96,
+        "duration": 2.359
+    },
+    {
+        "text": "going back to my terminal here if I go",
+        "start": 3120.9,
+        "duration": 7.26
+    },
+    {
+        "text": "ahead and let's say uh",
+        "start": 3124.92,
+        "duration": 6.899
+    },
+    {
+        "text": "and I'll pick up a demo I we can create",
+        "start": 3128.16,
+        "duration": 7.679
+    },
+    {
+        "text": "an application on our local system as",
+        "start": 3131.819,
+        "duration": 6.121
+    },
+    {
+        "text": "well but on for the demo purpose I'm",
+        "start": 3135.839,
+        "duration": 3.841
+    },
+    {
+        "text": "going to utilize a sample that is",
+        "start": 3137.94,
+        "duration": 4.2
+    },
+    {
+        "text": "provided by Microsoft it's a.net sample",
+        "start": 3139.68,
+        "duration": 6.0
+    },
+    {
+        "text": "which runs a asp.net application the so",
+        "start": 3142.14,
+        "duration": 5.34
+    },
+    {
+        "text": "the first thing that I'm gonna do to",
+        "start": 3145.68,
+        "duration": 4.32
+    },
+    {
+        "text": "Showcase what it does is I'm going to",
+        "start": 3147.48,
+        "duration": 5.76
+    },
+    {
+        "text": "run the uh container locally in my",
+        "start": 3150.0,
+        "duration": 4.98
+    },
+    {
+        "text": "Docker instance",
+        "start": 3153.24,
+        "duration": 5.099
+    },
+    {
+        "text": "to show what it worked what it does",
+        "start": 3154.98,
+        "duration": 5.7
+    },
+    {
+        "text": "so since this is for the first time it",
+        "start": 3158.339,
+        "duration": 4.5
+    },
+    {
+        "text": "goes to the Microsoft's registry and",
+        "start": 3160.68,
+        "duration": 6.36
+    },
+    {
+        "text": "downloads uh the image now as it says",
+        "start": 3162.839,
+        "duration": 6.841
+    },
+    {
+        "text": "it's lit it's downloaded and it's",
+        "start": 3167.04,
+        "duration": 6.0
+    },
+    {
+        "text": "deployed in my Docker instance and it's",
+        "start": 3169.68,
+        "duration": 6.48
+    },
+    {
+        "text": "it's not listening on Port 80 let me go",
+        "start": 3173.04,
+        "duration": 6.44
+    },
+    {
+        "text": "ahead and see what it does",
+        "start": 3176.16,
+        "duration": 3.32
+    },
+    {
+        "text": "and it's listening on Port 80.",
+        "start": 3179.579,
+        "duration": 4.76
+    },
+    {
+        "text": "I export 8 000 sorry",
+        "start": 3196.38,
+        "duration": 3.92
+    },
+    {
+        "text": "as you can see I've mentioned here and I",
+        "start": 3202.26,
+        "duration": 5.4
+    },
+    {
+        "text": "didn't check I overlooked that but 1.8",
+        "start": 3204.66,
+        "duration": 5.58
+    },
+    {
+        "text": "000 it's mapped to Port 80 on my local",
+        "start": 3207.66,
+        "duration": 5.459
+    },
+    {
+        "text": "host and as you can see it downloaded",
+        "start": 3210.24,
+        "duration": 4.619
+    },
+    {
+        "text": "that image and it is very plain",
+        "start": 3213.119,
+        "duration": 4.74
+    },
+    {
+        "text": "simple.net asp.net application what it",
+        "start": 3214.859,
+        "duration": 5.581
+    },
+    {
+        "text": "essentially does is goes to my system",
+        "start": 3217.859,
+        "duration": 4.861
+    },
+    {
+        "text": "and fetches the system configuration and",
+        "start": 3220.44,
+        "duration": 5.1
+    },
+    {
+        "text": "displays it here is my host name",
+        "start": 3222.72,
+        "duration": 6.74
+    },
+    {
+        "text": "uh let me cancel this and show you",
+        "start": 3225.54,
+        "duration": 6.9
+    },
+    {
+        "text": "Docker to yes",
+        "start": 3229.46,
+        "duration": 7.96
+    },
+    {
+        "text": "oh it's because I have shut it down the",
+        "start": 3232.44,
+        "duration": 7.2
+    },
+    {
+        "text": "let me run that again",
+        "start": 3237.42,
+        "duration": 6.199
+    },
+    {
+        "text": "I'd probably create a new",
+        "start": 3239.64,
+        "duration": 3.979
+    },
+    {
+        "text": "go here I will see Dr PS as you will see",
+        "start": 3244.859,
+        "duration": 7.98
+    },
+    {
+        "text": "p303 FF is the container that's running",
+        "start": 3249.5,
+        "duration": 7.78
+    },
+    {
+        "text": "and if I go ahead and I refresh it",
+        "start": 3252.839,
+        "duration": 6.361
+    },
+    {
+        "text": "you'll see this is running in my local",
+        "start": 3257.28,
+        "duration": 3.779
+    },
+    {
+        "text": "Docker instance",
+        "start": 3259.2,
+        "duration": 5.34
+    },
+    {
+        "text": "so the next thing I'm gonna do I'm going",
+        "start": 3261.059,
+        "duration": 6.661
+    },
+    {
+        "text": "to verify my Docker images right now",
+        "start": 3264.54,
+        "duration": 7.039
+    },
+    {
+        "text": "this is running in my",
+        "start": 3267.72,
+        "duration": 3.859
+    },
+    {
+        "text": "local Docker but I want to get this",
+        "start": 3271.92,
+        "duration": 4.32
+    },
+    {
+        "text": "deployed to my AKs cluster that I",
+        "start": 3274.02,
+        "duration": 4.74
+    },
+    {
+        "text": "created so what I'm gonna do I already",
+        "start": 3276.24,
+        "duration": 5.46
+    },
+    {
+        "text": "created an ACR I'm going to push this",
+        "start": 3278.76,
+        "duration": 5.22
+    },
+    {
+        "text": "image to my ACR",
+        "start": 3281.7,
+        "duration": 4.98
+    },
+    {
+        "text": "since my ACR is",
+        "start": 3283.98,
+        "duration": 4.98
+    },
+    {
+        "text": "connected to my AKs instance I'm gonna",
+        "start": 3286.68,
+        "duration": 4.86
+    },
+    {
+        "text": "login into my ACR",
+        "start": 3288.96,
+        "duration": 5.94
+    },
+    {
+        "text": "using my credentials once it lets me log",
+        "start": 3291.54,
+        "duration": 6.84
+    },
+    {
+        "text": "in I'm going to go ahead and fetch the",
+        "start": 3294.9,
+        "duration": 6.74
+    },
+    {
+        "text": "name of my",
+        "start": 3298.38,
+        "duration": 3.26
+    },
+    {
+        "text": "unable to login I'm going to fetch the",
+        "start": 3303.24,
+        "duration": 4.8
+    },
+    {
+        "text": "full name of my",
+        "start": 3305.76,
+        "duration": 5.4
+    },
+    {
+        "text": "ACR that I can use in my command in this",
+        "start": 3308.04,
+        "duration": 6.38
+    },
+    {
+        "text": "example it is ACR Boston Azure dot Azure",
+        "start": 3311.16,
+        "duration": 8.52
+    },
+    {
+        "text": "cr.io I go ahead and I'll go change my",
+        "start": 3314.42,
+        "duration": 10.38
+    },
+    {
+        "text": "tag for the docker image which was",
+        "start": 3319.68,
+        "duration": 5.12
+    },
+    {
+        "text": "asp.net app I'm going to change the its",
+        "start": 3326.48,
+        "duration": 9.9
+    },
+    {
+        "text": "stat to later to my ACR",
+        "start": 3331.8,
+        "duration": 4.58
+    },
+    {
+        "text": "[Music]",
+        "start": 3338.45,
+        "duration": 3.11
+    },
+    {
+        "text": "ity",
+        "start": 3341.819,
+        "duration": 2.961
+    },
+    {
+        "text": "oops",
+        "start": 3374.099,
+        "duration": 2.661
+    },
+    {
+        "text": "ah",
+        "start": 3386.22,
+        "duration": 2.48
+    },
+    {
+        "text": "look at that the final mistake",
+        "start": 3397.859,
+        "duration": 4.101
+    },
+    {
+        "text": "as you can see I created a copy of that",
+        "start": 3410.4,
+        "duration": 4.199
+    },
+    {
+        "text": "image with",
+        "start": 3413.04,
+        "duration": 4.14
+    },
+    {
+        "text": "my repository name and the appropriate",
+        "start": 3414.599,
+        "duration": 5.161
+    },
+    {
+        "text": "tag I'll go ahead and post it into my",
+        "start": 3417.18,
+        "duration": 5.58
+    },
+    {
+        "text": "ACR registry there",
+        "start": 3419.76,
+        "duration": 6.74
+    },
+    {
+        "text": "using Docker push command",
+        "start": 3422.76,
+        "duration": 3.74
+    },
+    {
+        "text": "I'll go back to my Azure portal inside",
+        "start": 3433.98,
+        "duration": 5.52
+    },
+    {
+        "text": "my Resource Group let me go back inside",
+        "start": 3436.92,
+        "duration": 7.26
+    },
+    {
+        "text": "this and pull up repositories",
+        "start": 3439.5,
+        "duration": 6.599
+    },
+    {
+        "text": "you'll see that here is the image that",
+        "start": 3444.18,
+        "duration": 4.74
+    },
+    {
+        "text": "just got pushed and it has completely",
+        "start": 3446.099,
+        "duration": 8.061
+    },
+    {
+        "text": "test let me go ahead and",
+        "start": 3448.92,
+        "duration": 5.24
+    },
+    {
+        "text": "let me open up my ml5",
+        "start": 3464.059,
+        "duration": 4.921
+    },
+    {
+        "text": "[Music]",
+        "start": 3469.39,
+        "duration": 3.34
+    },
+    {
+        "text": "let me update my EML file Mark for my",
+        "start": 3475.099,
+        "duration": 7.561
+    },
+    {
+        "text": "instance and deploy it",
+        "start": 3479.22,
+        "duration": 3.44
+    },
+    {
+        "text": "that's my ml file that deploys the same",
+        "start": 3487.8,
+        "duration": 5.819
+    },
+    {
+        "text": "image to the kubernetes cluster and go",
+        "start": 3490.14,
+        "duration": 5.0
+    },
+    {
+        "text": "ahead and",
+        "start": 3493.619,
+        "duration": 7.821
+    },
+    {
+        "text": "run Cube CDL apply command",
+        "start": 3495.14,
+        "duration": 6.3
+    },
+    {
+        "text": "let me go back to my",
+        "start": 3507.54,
+        "duration": 4.1
+    },
+    {
+        "text": "it's not ready let me see if it's a",
+        "start": 3524.099,
+        "duration": 5.601
+    },
+    {
+        "text": "failing",
+        "start": 3527.16,
+        "duration": 2.54
+    },
+    {
+        "text": "looks like it's not able to access my",
+        "start": 3530.099,
+        "duration": 7.081
+    },
+    {
+        "text": "let's go and see what's happening in my",
+        "start": 3534.48,
+        "duration": 5.839
+    },
+    {
+        "text": "uks cluster",
+        "start": 3537.18,
+        "duration": 3.139
+    },
+    {
+        "text": "and just got deployed but it is failing",
+        "start": 3541.2,
+        "duration": 6.359
+    },
+    {
+        "text": "it is raining on Clash Loop that looks",
+        "start": 3544.92,
+        "duration": 5.82
+    },
+    {
+        "text": "like I messed up with configuring my ACR",
+        "start": 3547.559,
+        "duration": 4.821
+    },
+    {
+        "text": "with",
+        "start": 3550.74,
+        "duration": 5.819
+    },
+    {
+        "text": "AKs but the idea was to get it deployed",
+        "start": 3552.38,
+        "duration": 7.06
+    },
+    {
+        "text": "and then access it using AKs which is",
+        "start": 3556.559,
+        "duration": 5.821
+    },
+    {
+        "text": "where again a straightforward uh thanks",
+        "start": 3559.44,
+        "duration": 6.379
+    },
+    {
+        "text": "to demo God my demo stopped working",
+        "start": 3562.38,
+        "duration": 6.6
+    },
+    {
+        "text": "but uh essentially what I have us",
+        "start": 3565.819,
+        "duration": 5.201
+    },
+    {
+        "text": "showing you so far was doing everything",
+        "start": 3568.98,
+        "duration": 4.04
+    },
+    {
+        "text": "manually where I can",
+        "start": 3571.02,
+        "duration": 5.279
+    },
+    {
+        "text": "diploma EML files to my AKs cluster",
+        "start": 3573.02,
+        "duration": 5.92
+    },
+    {
+        "text": "using tools like Docker and Cube CDL",
+        "start": 3576.299,
+        "duration": 5.401
+    },
+    {
+        "text": "just like how I will do it for any of",
+        "start": 3578.94,
+        "duration": 5.04
+    },
+    {
+        "text": "the other kubernetes implementations be",
+        "start": 3581.7,
+        "duration": 4.98
+    },
+    {
+        "text": "it on time or any other hyperscaler it",
+        "start": 3583.98,
+        "duration": 4.379
+    },
+    {
+        "text": "is very straightforward doing it with",
+        "start": 3586.68,
+        "duration": 4.56
+    },
+    {
+        "text": "Azure kubernetes service and it supports",
+        "start": 3588.359,
+        "duration": 5.46
+    },
+    {
+        "text": "all the uh benefits I've shown you",
+        "start": 3591.24,
+        "duration": 5.46
+    },
+    {
+        "text": "before you can take it further you can",
+        "start": 3593.819,
+        "duration": 5.641
+    },
+    {
+        "text": "also integrate Azure kubernetes service",
+        "start": 3596.7,
+        "duration": 6.119
+    },
+    {
+        "text": "with your CI CD pipelines if you are a",
+        "start": 3599.46,
+        "duration": 6.98
+    },
+    {
+        "text": "work for an organization where you use",
+        "start": 3602.819,
+        "duration": 6.601
+    },
+    {
+        "text": "a tool like Azure devops and you use",
+        "start": 3606.44,
+        "duration": 5.32
+    },
+    {
+        "text": "Azure repo and Azure pipelines to deploy",
+        "start": 3609.42,
+        "duration": 5.22
+    },
+    {
+        "text": "your workloads you can integrate it with",
+        "start": 3611.76,
+        "duration": 4.62
+    },
+    {
+        "text": "Azure kubernetes service and you can",
+        "start": 3614.64,
+        "duration": 5.699
+    },
+    {
+        "text": "deploy your workloads directly uh from",
+        "start": 3616.38,
+        "duration": 6.54
+    },
+    {
+        "text": "Azure devops to AKs what essentially you",
+        "start": 3620.339,
+        "duration": 4.26
+    },
+    {
+        "text": "are seeing in this particular workflow",
+        "start": 3622.92,
+        "duration": 4.02
+    },
+    {
+        "text": "is as soon as a developer make changes",
+        "start": 3624.599,
+        "duration": 5.281
+    },
+    {
+        "text": "to your application source code the code",
+        "start": 3626.94,
+        "duration": 7.08
+    },
+    {
+        "text": "change is committed to uh Azure repo and",
+        "start": 3629.88,
+        "duration": 7.01
+    },
+    {
+        "text": "then to start the CI process",
+        "start": 3634.02,
+        "duration": 5.599
+    },
+    {
+        "text": "[Music]",
+        "start": 3636.89,
+        "duration": 5.469
+    },
+    {
+        "text": "Azure pipeline gets triggered and pushes",
+        "start": 3639.619,
+        "duration": 4.96
+    },
+    {
+        "text": "the image to contain a registry and then",
+        "start": 3642.359,
+        "duration": 4.26
+    },
+    {
+        "text": "deploys that to Azure kubernetes service",
+        "start": 3644.579,
+        "duration": 5.28
+    },
+    {
+        "text": "which gets also hooked up to Azure SQL",
+        "start": 3646.619,
+        "duration": 7.44
+    },
+    {
+        "text": "database Azure monitor for monitoring",
+        "start": 3649.859,
+        "duration": 6.72
+    },
+    {
+        "text": "if you are an organization who is using",
+        "start": 3654.059,
+        "duration": 5.701
+    },
+    {
+        "text": "another tool like GitHub and Jenkins you",
+        "start": 3656.579,
+        "duration": 7.401
+    },
+    {
+        "text": "can integrate that as well with AKs",
+        "start": 3659.76,
+        "duration": 4.22
+    },
+    {
+        "text": "uh for",
+        "start": 3664.04,
+        "duration": 4.36
+    },
+    {
+        "text": "package management within your Azure",
+        "start": 3665.96,
+        "duration": 4.42
+    },
+    {
+        "text": "within your kubernetes you can utilize",
+        "start": 3668.4,
+        "duration": 4.86
+    },
+    {
+        "text": "Helen which is a package manager and you",
+        "start": 3670.38,
+        "duration": 6.12
+    },
+    {
+        "text": "can use the same with your installations",
+        "start": 3673.26,
+        "duration": 6.319
+    },
+    {
+        "text": "on AKs",
+        "start": 3676.5,
+        "duration": 3.079
+    },
+    {
+        "text": "some of the best practices for AKs plan",
+        "start": 3679.859,
+        "duration": 7.921
+    },
+    {
+        "text": "your IP addresses correctly plan for",
+        "start": 3684.24,
+        "duration": 6.66
+    },
+    {
+        "text": "that I always follow the methodology",
+        "start": 3687.78,
+        "duration": 6.839
+    },
+    {
+        "text": "measure twice cut one so plan your IP",
+        "start": 3690.9,
+        "duration": 6.48
+    },
+    {
+        "text": "addresses strategy up front before",
+        "start": 3694.619,
+        "duration": 6.121
+    },
+    {
+        "text": "creating your AKs cluster always keep",
+        "start": 3697.38,
+        "duration": 5.76
+    },
+    {
+        "text": "your AKs cluster to the latest version",
+        "start": 3700.74,
+        "duration": 6.02
+    },
+    {
+        "text": "or whatever is supported by Microsoft",
+        "start": 3703.14,
+        "duration": 6.12
+    },
+    {
+        "text": "utilize Azure ID for an entity",
+        "start": 3706.76,
+        "duration": 5.38
+    },
+    {
+        "text": "management as much as possible secure",
+        "start": 3709.26,
+        "duration": 4.92
+    },
+    {
+        "text": "the network flow the data flow to your",
+        "start": 3712.14,
+        "duration": 4.26
+    },
+    {
+        "text": "AKs",
+        "start": 3714.18,
+        "duration": 5.52
+    },
+    {
+        "text": "and compute for your base cluster policy",
+        "start": 3716.4,
+        "duration": 5.58
+    },
+    {
+        "text": "management utilize things like Azure",
+        "start": 3719.7,
+        "duration": 4.919
+    },
+    {
+        "text": "policies",
+        "start": 3721.98,
+        "duration": 6.839
+    },
+    {
+        "text": "always try to utilize things like cicd",
+        "start": 3724.619,
+        "duration": 6.0
+    },
+    {
+        "text": "pipelines Azure devops are some of the",
+        "start": 3728.819,
+        "duration": 3.841
+    },
+    {
+        "text": "workflows that I was showing you before",
+        "start": 3730.619,
+        "duration": 5.581
+    },
+    {
+        "text": "and avoid managing your AKs clusters",
+        "start": 3732.66,
+        "duration": 5.639
+    },
+    {
+        "text": "manually using Azure portals some of",
+        "start": 3736.2,
+        "duration": 3.659
+    },
+    {
+        "text": "these best practices are listed on the",
+        "start": 3738.299,
+        "duration": 4.141
+    },
+    {
+        "text": "dial link down below there feel free to",
+        "start": 3739.859,
+        "duration": 4.801
+    },
+    {
+        "text": "check it out",
+        "start": 3742.44,
+        "duration": 3.96
+    },
+    {
+        "text": "if you are interested more about",
+        "start": 3744.66,
+        "duration": 5.22
+    },
+    {
+        "text": "learning on AKs there are handful of",
+        "start": 3746.4,
+        "duration": 5.84
+    },
+    {
+        "text": "resources that you can refer to",
+        "start": 3749.88,
+        "duration": 4.919
+    },
+    {
+        "text": "there is this book Hands-On kubernetes",
+        "start": 3752.24,
+        "duration": 4.839
+    },
+    {
+        "text": "on Azure its Third Edition is out now",
+        "start": 3754.799,
+        "duration": 4.981
+    },
+    {
+        "text": "it's it's a pretty great book the book",
+        "start": 3757.079,
+        "duration": 4.381
+    },
+    {
+        "text": "that I read initially to get an",
+        "start": 3759.78,
+        "duration": 4.079
+    },
+    {
+        "text": "understanding of how AKs works but apart",
+        "start": 3761.46,
+        "duration": 5.099
+    },
+    {
+        "text": "from that Microsoft learn also offers",
+        "start": 3763.859,
+        "duration": 5.821
+    },
+    {
+        "text": "say a learning path to learn kubernetes",
+        "start": 3766.559,
+        "duration": 5.76
+    },
+    {
+        "text": "and AKs there are several case studies",
+        "start": 3769.68,
+        "duration": 6.119
+    },
+    {
+        "text": "that are available for AKs that you can",
+        "start": 3772.319,
+        "duration": 5.341
+    },
+    {
+        "text": "go through even if you will go to Azure",
+        "start": 3775.799,
+        "duration": 3.54
+    },
+    {
+        "text": "architecture Center there are several",
+        "start": 3777.66,
+        "duration": 4.5
+    },
+    {
+        "text": "reference architectures that you can",
+        "start": 3779.339,
+        "duration": 5.341
+    },
+    {
+        "text": "refer to which might match as use case",
+        "start": 3782.16,
+        "duration": 4.74
+    },
+    {
+        "text": "and it will help it get started",
+        "start": 3784.68,
+        "duration": 5.159
+    },
+    {
+        "text": "if you are if you want to stay up to",
+        "start": 3786.9,
+        "duration": 4.98
+    },
+    {
+        "text": "date on what's coming up",
+        "start": 3789.839,
+        "duration": 4.861
+    },
+    {
+        "text": "in AKs in terms of feature sets then you",
+        "start": 3791.88,
+        "duration": 6.239
+    },
+    {
+        "text": "can go and uh track that on uh AKs",
+        "start": 3794.7,
+        "duration": 5.879
+    },
+    {
+        "text": "roadmap map and then again you can start",
+        "start": 3798.119,
+        "duration": 5.641
+    },
+    {
+        "text": "with a for free recently Microsoft",
+        "start": 3800.579,
+        "duration": 5.581
+    },
+    {
+        "text": "announced the free tier in eks which",
+        "start": 3803.76,
+        "duration": 4.68
+    },
+    {
+        "text": "essentially just not free you will still",
+        "start": 3806.16,
+        "duration": 4.86
+    },
+    {
+        "text": "have to pay for the working nodes but",
+        "start": 3808.44,
+        "duration": 5.04
+    },
+    {
+        "text": "still it doesn't it's it's a very less",
+        "start": 3811.02,
+        "duration": 5.64
+    },
+    {
+        "text": "expensive than the premium one that",
+        "start": 3813.48,
+        "duration": 5.579
+    },
+    {
+        "text": "being said uh",
+        "start": 3816.66,
+        "duration": 4.08
+    },
+    {
+        "text": "uh",
+        "start": 3819.059,
+        "duration": 3.481
+    },
+    {
+        "text": "and this is a time for crucial and",
+        "start": 3820.74,
+        "duration": 4.02
+    },
+    {
+        "text": "answer and if you would like to connect",
+        "start": 3822.54,
+        "duration": 4.44
+    },
+    {
+        "text": "to me you can connect to me as John was",
+        "start": 3824.76,
+        "duration": 4.079
+    },
+    {
+        "text": "uh Jason was saying you can connect to",
+        "start": 3826.98,
+        "duration": 4.379
+    },
+    {
+        "text": "me where on social media you can send me",
+        "start": 3828.839,
+        "duration": 5.041
+    },
+    {
+        "text": "email you can uh connect me on LinkedIn",
+        "start": 3831.359,
+        "duration": 5.161
+    },
+    {
+        "text": "Twitter whatever works for you if you",
+        "start": 3833.88,
+        "duration": 4.5
+    },
+    {
+        "text": "are looking for slides you can scan this",
+        "start": 3836.52,
+        "duration": 4.559
+    },
+    {
+        "text": "QR code and you can download the slides",
+        "start": 3838.38,
+        "duration": 5.82
+    },
+    {
+        "text": "and if there are any questions I think I",
+        "start": 3841.079,
+        "duration": 6.121
+    },
+    {
+        "text": "would love to answer them",
+        "start": 3844.2,
+        "duration": 5.22
+    },
+    {
+        "text": "and we've got one question from Nathan",
+        "start": 3847.2,
+        "duration": 4.5
+    },
+    {
+        "text": "weeks and feel free to come off mute if",
+        "start": 3849.42,
+        "duration": 4.379
+    },
+    {
+        "text": "you want Nathan he was he was saying",
+        "start": 3851.7,
+        "duration": 3.659
+    },
+    {
+        "text": "it's been a while since he's played with",
+        "start": 3853.799,
+        "duration": 4.861
+    },
+    {
+        "text": "AKs but he was wondering if they've made",
+        "start": 3855.359,
+        "duration": 5.881
+    },
+    {
+        "text": "uh setting up an Ingress or load",
+        "start": 3858.66,
+        "duration": 5.58
+    },
+    {
+        "text": "balancer with TLS termination any easier",
+        "start": 3861.24,
+        "duration": 4.319
+    },
+    {
+        "text": "than it used to be",
+        "start": 3864.24,
+        "duration": 5.28
+    },
+    {
+        "text": "uh I don't know when he has done that",
+        "start": 3865.559,
+        "duration": 7.26
+    },
+    {
+        "text": "but if you go inside the networking tab",
+        "start": 3869.52,
+        "duration": 6.18
+    },
+    {
+        "text": "here this is where it gives this the",
+        "start": 3872.819,
+        "duration": 4.681
+    },
+    {
+        "text": "only condition here is you should have",
+        "start": 3875.7,
+        "duration": 4.619
+    },
+    {
+        "text": "either an app Gateway already created in",
+        "start": 3877.5,
+        "duration": 4.319
+    },
+    {
+        "text": "the past or you can go ahead and create",
+        "start": 3880.319,
+        "duration": 3.3
+    },
+    {
+        "text": "a new form here and provide the",
+        "start": 3881.819,
+        "duration": 3.661
+    },
+    {
+        "text": "configuration and get it set up so it is",
+        "start": 3883.619,
+        "duration": 5.161
+    },
+    {
+        "text": "as easy it is it is here",
+        "start": 3885.48,
+        "duration": 6.359
+    },
+    {
+        "text": "yeah it definitely seems like it closer",
+        "start": 3888.78,
+        "duration": 4.2
+    },
+    {
+        "text": "than it used to be when I was playing",
+        "start": 3891.839,
+        "duration": 3.74
+    },
+    {
+        "text": "with it last",
+        "start": 3892.98,
+        "duration": 2.599
+    },
+    {
+        "text": "yeah and likewise I mean you can set up",
+        "start": 3895.799,
+        "duration": 4.921
+    },
+    {
+        "text": "other things as well in inside this what",
+        "start": 3898.079,
+        "duration": 5.101
+    },
+    {
+        "text": "you are seeing here I mean if you have",
+        "start": 3900.72,
+        "duration": 4.8
+    },
+    {
+        "text": "your applications that needs to be",
+        "start": 3903.18,
+        "duration": 6.78
+    },
+    {
+        "text": "exposed uh to internet on HTTP you need",
+        "start": 3905.52,
+        "duration": 6.42
+    },
+    {
+        "text": "to have your application routing enabled",
+        "start": 3909.96,
+        "duration": 4.98
+    },
+    {
+        "text": "uh it's just a check box here you can",
+        "start": 3911.94,
+        "duration": 5.34
+    },
+    {
+        "text": "you can if you as I was saying in my",
+        "start": 3914.94,
+        "duration": 5.1
+    },
+    {
+        "text": "slides you can utilize private link to",
+        "start": 3917.28,
+        "duration": 6.42
+    },
+    {
+        "text": "keep your AKs cluster truly private in",
+        "start": 3920.04,
+        "duration": 5.64
+    },
+    {
+        "text": "that case if you're you have a private",
+        "start": 3923.7,
+        "duration": 4.399
+    },
+    {
+        "text": "cluster you might still like your",
+        "start": 3925.68,
+        "duration": 6.48
+    },
+    {
+        "text": "uh API server to be accessible only",
+        "start": 3928.099,
+        "duration": 5.921
+    },
+    {
+        "text": "through authorized IP addresses and you",
+        "start": 3932.16,
+        "duration": 4.08
+    },
+    {
+        "text": "can provide that IP address changes",
+        "start": 3934.02,
+        "duration": 4.2
+    },
+    {
+        "text": "here and it will restrict access to your",
+        "start": 3936.24,
+        "duration": 5.52
+    },
+    {
+        "text": "API server from only those authorized",
+        "start": 3938.22,
+        "duration": 6.72
+    },
+    {
+        "text": "IP ranges and I generally recommend this",
+        "start": 3941.76,
+        "duration": 6.42
+    },
+    {
+        "text": "as a best practice to limit access to",
+        "start": 3944.94,
+        "duration": 4.379
+    },
+    {
+        "text": "your",
+        "start": 3948.18,
+        "duration": 3.48
+    },
+    {
+        "text": "API server",
+        "start": 3949.319,
+        "duration": 5.461
+    },
+    {
+        "text": "using IP ranges",
+        "start": 3951.66,
+        "duration": 6.32
+    },
+    {
+        "text": "yeah that makes sense",
+        "start": 3954.78,
+        "duration": 3.2
+    },
+    {
+        "text": "that they have been improvising on this",
+        "start": 3958.92,
+        "duration": 3.74
+    },
+    {
+        "text": "a lot",
+        "start": 3961.26,
+        "duration": 5.16
+    },
+    {
+        "text": "this is from a long way",
+        "start": 3962.66,
+        "duration": 7.84
+    },
+    {
+        "text": "I still when when I look at gke gke is",
+        "start": 3966.42,
+        "duration": 7.02
+    },
+    {
+        "text": "still little Advanced uh probably one",
+        "start": 3970.5,
+        "duration": 6.9
+    },
+    {
+        "text": "step ahead of AKs and eks for AWS the",
+        "start": 3973.44,
+        "duration": 6.419
+    },
+    {
+        "text": "primary reason is because kubernetes is",
+        "start": 3977.4,
+        "duration": 5.28
+    },
+    {
+        "text": "was a Google's Project",
+        "start": 3979.859,
+        "duration": 5.521
+    },
+    {
+        "text": "so they somehow have that",
+        "start": 3982.68,
+        "duration": 5.06
+    },
+    {
+        "text": "uh",
+        "start": 3985.38,
+        "duration": 4.679
+    },
+    {
+        "text": "advantaged for them so that they can",
+        "start": 3987.74,
+        "duration": 3.4
+    },
+    {
+        "text": "actually",
+        "start": 3990.059,
+        "duration": 4.02
+    },
+    {
+        "text": "be one step ahead but I have seen AKs",
+        "start": 3991.14,
+        "duration": 5.399
+    },
+    {
+        "text": "has come up really well and it's a great",
+        "start": 3994.079,
+        "duration": 4.801
+    },
+    {
+        "text": "offering and with Azure R coming up now",
+        "start": 3996.539,
+        "duration": 4.381
+    },
+    {
+        "text": "you can connect to different other",
+        "start": 3998.88,
+        "duration": 4.199
+    },
+    {
+        "text": "kubernetes instances and manage them",
+        "start": 4000.92,
+        "duration": 4.679
+    },
+    {
+        "text": "similar to how AKs is managed I haven't",
+        "start": 4003.079,
+        "duration": 5.22
+    },
+    {
+        "text": "played with them a lot but that also",
+        "start": 4005.599,
+        "duration": 5.041
+    },
+    {
+        "text": "looks very promising",
+        "start": 4008.299,
+        "duration": 4.74
+    },
+    {
+        "text": "that's cool it also probably helps to",
+        "start": 4010.64,
+        "duration": 5.159
+    },
+    {
+        "text": "have Brendan Burns part of the",
+        "start": 4013.039,
+        "duration": 4.8
+    },
+    {
+        "text": "team",
+        "start": 4015.799,
+        "duration": 4.441
+    },
+    {
+        "text": "yeah and and I have published my slides",
+        "start": 4017.839,
+        "duration": 4.621
+    },
+    {
+        "text": "if anyone needs slides they can scan",
+        "start": 4020.24,
+        "duration": 6.78
+    },
+    {
+        "text": "this QR code and you can download it",
+        "start": 4022.46,
+        "duration": 6.96
+    },
+    {
+        "text": "and I know Jason you have been recording",
+        "start": 4027.02,
+        "duration": 4.14
+    },
+    {
+        "text": "this and we will be uploading it in",
+        "start": 4029.42,
+        "duration": 3.54
+    },
+    {
+        "text": "YouTube as well",
+        "start": 4031.16,
+        "duration": 5.459
+    },
+    {
+        "text": "yep I will uh mention it in the Meetup",
+        "start": 4032.96,
+        "duration": 8.119
+    },
+    {
+        "text": "whenever I get it published on YouTube",
+        "start": 4036.619,
+        "duration": 4.46
+    },
+    {
+        "text": "awesome but I uh asked does not like we",
+        "start": 4042.38,
+        "duration": 5.459
+    },
+    {
+        "text": "have any other questions out there lots",
+        "start": 4045.26,
+        "duration": 5.299
+    },
+    {
+        "text": "of positive feedback",
+        "start": 4047.839,
+        "duration": 2.72
+    },
+    {
+        "text": "Nathan said I answered his question uh",
+        "start": 4050.599,
+        "duration": 3.96
+    },
+    {
+        "text": "he wasn't he wasn't aware of the app",
+        "start": 4052.76,
+        "duration": 3.539
+    },
+    {
+        "text": "Gateway Ingress so I'm just gonna look",
+        "start": 4054.559,
+        "duration": 3.3
+    },
+    {
+        "text": "into that",
+        "start": 4056.299,
+        "duration": 4.04
+    },
+    {
+        "text": "awesome",
+        "start": 4057.859,
+        "duration": 2.48
+    },
+    {
+        "text": "someone's typing that here",
+        "start": 4063.619,
+        "duration": 4.821
+    },
+    {
+        "text": "all right I think that's pretty much I",
+        "start": 4068.48,
+        "duration": 4.02
+    },
+    {
+        "text": "had Jason uh awesome well thank you very",
+        "start": 4070.16,
+        "duration": 4.02
+    },
+    {
+        "text": "much",
+        "start": 4072.5,
+        "duration": 5.88
+    },
+    {
+        "text": "and um yeah we'll touch base",
+        "start": 4074.18,
+        "duration": 5.58
+    },
+    {
+        "text": "um later on if we get any other",
+        "start": 4078.38,
+        "duration": 3.78
+    },
+    {
+        "text": "questions uh we'll make sure we get",
+        "start": 4079.76,
+        "duration": 4.559
+    },
+    {
+        "text": "those answers too everybody send my very",
+        "start": 4082.16,
+        "duration": 4.56
+    },
+    {
+        "text": "end and if anyone wants to connect with",
+        "start": 4084.319,
+        "duration": 4.441
+    },
+    {
+        "text": "me feel free to connect on Twitter or",
+        "start": 4086.72,
+        "duration": 4.68
+    },
+    {
+        "text": "LinkedIn and I'll I'd certainly love to",
+        "start": 4088.76,
+        "duration": 4.559
+    },
+    {
+        "text": "help you and answer any queries you",
+        "start": 4091.4,
+        "duration": 3.48
+    },
+    {
+        "text": "might have",
+        "start": 4093.319,
+        "duration": 3.601
+    },
+    {
+        "text": "awesome thanks everybody and have a good",
+        "start": 4094.88,
+        "duration": 3.66
+    },
+    {
+        "text": "night thanks for joining us",
+        "start": 4096.92,
+        "duration": 4.08
+    },
+    {
+        "text": "thanks all have a good night thanks",
+        "start": 4098.54,
+        "duration": 4.739
+    },
+    {
+        "text": "everyone bye everybody thank you that",
+        "start": 4101.0,
+        "duration": 3.839
+    },
+    {
+        "text": "was a great presentation thank you very",
+        "start": 4103.279,
+        "duration": 2.701
+    },
+    {
+        "text": "much",
+        "start": 4104.839,
+        "duration": 3.36
+    },
+    {
+        "text": "yeah thank you",
+        "start": 4105.98,
+        "duration": 5.299
+    },
+    {
+        "text": "thank you thank you",
+        "start": 4108.199,
+        "duration": 3.08
+    }
+]
