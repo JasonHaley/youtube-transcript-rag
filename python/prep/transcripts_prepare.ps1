@@ -13,5 +13,6 @@ Write-Output $env:TRANSCRIPT_FOLDER
 New-Item -ItemType Directory -Force -Path $env:TRANSCRIPT_FOLDER
 
 python transcript_download.py -f $env:TRANSCRIPT_FOLDER
+python transcript_bucket.py -f $env:TRANSCRIPT_FOLDER
 python transcript_enrich_bucket.py -f $env:TRANSCRIPT_FOLDER
 python transcript_enrich_embeddings.py
