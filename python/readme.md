@@ -19,13 +19,15 @@ The labs are broken into multiple notebooks:
 * [VS Code Polyglot Notebooks Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
 
 ## Setup
+1. Create a directory on you machine
+1. Open a command prompt on that directory
 1. Clone this repo
 
 ```code
-$ git command here
+git clone https://github.com/JasonHaley/youtube-transcript-rag.git
 ```
 
-2. Create a virtual environment and install the required packages:
+4. Create a virtual environment and install the required packages:
 
 ```code
 # macOS/Linux
@@ -42,7 +44,7 @@ pip install -r requirements.txt
 
 ```
 
-3. Create a `.env` file with the following variables:
+5. Create a `.env` file with the following variables:
 
 ```code
 # macOS/Linux
