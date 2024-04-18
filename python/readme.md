@@ -16,7 +16,8 @@ The labs are broken into multiple notebooks:
   * **Important**: Ensure you can run `python --version` from console. On Ubuntu, you might need to run `sudo apt install python-is-python3` to link `python` to `python3`.
 * [Git](https://git-scm.com/downloads)
 * [VS Code](https://code.visualstudio.com/download)
-* [VS Code Polyglot Notebooks Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
+* [VS Code Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+* [VS Code Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 ## Setup
 1. Create a directory on you machine
@@ -33,7 +34,7 @@ cd youtube-transcript-rag
 cd python
 ``` 
 
-1. Create a virtual environment and install the required packages:
+5. Create a virtual environment and install the required packages:
 
 ```code
 # macOS/Linux
@@ -50,7 +51,11 @@ pip install -r requirements.txt
 
 ```
 
-5. Create a `.env` file with the following variables:
+6. Open VS Code in the current directory by running the following command:
+```code
+code .
+```
+7. Create a `.env` file in teh python directory with the following variables:
 
 ```code
 # macOS/Linux
