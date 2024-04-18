@@ -27,7 +27,13 @@ The labs are broken into multiple notebooks:
 git clone https://github.com/JasonHaley/youtube-transcript-rag.git
 ```
 
-4. Create a virtual environment and install the required packages:
+4. On the command prompt change to the python directory
+```code
+cd youtube-transcript-rag
+cd python
+``` 
+
+1. Create a virtual environment and install the required packages:
 
 ```code
 # macOS/Linux
