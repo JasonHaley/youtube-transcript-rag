@@ -52,7 +52,7 @@ Select your python path from the interpreter list
 
 ![Interpreter](./images/interpreter.jpg)
 
-Select the **python\requirements.txt** from the list of dependencies to install
+Select the **python\requirements.txt** from the list of dependencies to install and click **OK**
 
 ![Requirements](./images/requirement-txt.jpg)
 
