@@ -6,3 +6,5 @@ pydantic==1.10.8
 pandas
 python-dotenv
 scikit-learn
+azure-search-documents
+azure-identity

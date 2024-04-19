@@ -7,7 +7,7 @@ The labs are broken into multiple notebooks:
 1. [Lab 1: Build a Similarity Search for YouTube Transcripts](./1_search.ipynb)
 1. [Lab 2: Build a RAG Application with LangChain, Part 1](./2_rag.ipynb)
 1. [Lab 3: Build a RAG Application with LangChain, Part 2](./3_rag-with-chunking.ipynb)
-1. [Lab 4: Under Construction](./4_rag-with-azure-search.ipynb)
+1. [Lab 4: Build a RAG Application with LangChain, Part 3](./4_rag-with-azure-search.ipynb)
 
 ## Prerequisites
 
