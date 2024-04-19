@@ -8,6 +8,7 @@ The labs are broken into multiple notebooks:
 1. [Lab 2: Build a RAG Application with LangChain, Part 1](./2_rag.ipynb)
 1. [Lab 3: Build a RAG Application with LangChain, Part 2](./3_rag-with-chunking.ipynb)
 1. [Lab 4: Build a RAG Application with LangChain, Part 3](./4_rag-with-azure-search.ipynb)
+1. [Lab 5: Tie it all together](./5_rag-final.ipynb.ipynb)
 
 ## Prerequisites
 
