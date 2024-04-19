@@ -22,39 +22,42 @@ The labs are broken into multiple notebooks:
 ## Setup
 1. Create a directory on you machine
 1. Open a command prompt on that directory
-1. Clone this repo
+1. Clone this repo 
 
 ```code
 git clone https://github.com/JasonHaley/youtube-transcript-rag.git
 ```
 
-4. On the command prompt change to the python directory
+4. On the command prompt change the directory and open VS Code by running these commands:
 ```code
 cd youtube-transcript-rag
-cd python
+code .
 ``` 
 
-5. Create a virtual environment and install the required packages:
+This will open the directory in VS Code. 
 
-```code
-# macOS/Linux
-# You may need to run `sudo apt-get install python3-venv` first on Debian-based OSs
-python3 -m venv .venv
-source .venv/bin/activate
-pip3 install -r requirements.txt
+5. Open the 1_search.ipynb file
 
-# Windows
-# You can also use `py -3 -m venv .venv`
-python -m venv .venv
-.\.venv\Scripts\activate
-pip install -r requirements.txt
+6. Create a virtual environment by following these steps. If you need more detail on have problems take a look at [the section on Creating environments](https://code.visualstudio.com/docs/python/environments)
 
-```
+* Open the Command Palette (Ctrl+Shft+P), search for **Python: Create Environment** and select it
 
-6. Open VS Code in the current directory by running the following command:
-```code
-code .
-```
+![Create Environment](./images/create-environment.jpg)
+
+Choose **Venv** from the environment type choices
+
+![Venv](./images/venv.jpg)
+
+Select your python path from the interpreter list
+
+![Interpreter](./images/interpreter.jpg)
+
+Select the **python\requirements.txt** from the list of dependencies to install
+
+![Requirements](./images/requirement-txt.jpg)
+
+> NOTE: the python\prep\requirements.txt is only if you have a google dev api account and want to use some other youtube channel for transcripts
+
 7. Create a `.env` file in teh python directory with the following variables:
 
 ```code
