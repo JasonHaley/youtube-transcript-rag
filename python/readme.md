@@ -56,6 +56,8 @@ Select the **python\requirements.txt** from the list of dependencies to install 
 
 ![Requirements](./images/requirement-txt.jpg)
 
+This will take a *few minutes* to complete.
+
 > NOTE: the python\prep\requirements.txt is only if you have a google dev api account and want to use some other youtube channel for transcripts
 
 7. Create a `.env` file in teh python directory with the following variables:
